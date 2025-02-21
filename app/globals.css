@@ -1,21 +1,37 @@
+/* styles/globals.css */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Global Styles */
+html,
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "EB Garamond", serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Headings use the same font with bold weight */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
+
+/* Increase paragraph size */
+p {
+  font-size: 1.125rem; /* This sets paragraphs to text-lg */
+  margin-bottom: 1.5rem;
+}
+
+/* Optionally adjust spacing for the prose class if needed */
+.prose p {
+  margin-bottom: 1.5rem;
 }
