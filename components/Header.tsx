@@ -1,21 +1,14 @@
-interface HeaderProps {
-  title: string;
-  author: string;
-  description?: string;
-}
+import React from "react";
+import Link from "next/link";
 
-export const Header: React.FC<HeaderProps> = ({
-  title,
-  author,
-  description,
-}) => {
+export const Header = () => {
   return (
     <header className="bg-white shadow">
-      <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row md:items-center md:justify-between">
-        <div>
-          <h1 className="text-3xl font-bold text-gray-900">{title}</h1>
-          <p className="text-gray-600">By {author}</p>
-        </div>
+      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-center ">
+        <Link href="/" className="text-3xl font-bold">
+          English Department
+        </Link>
+        <div></div>
       </div>
     </header>
   );

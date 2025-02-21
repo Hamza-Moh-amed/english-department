@@ -12,7 +12,7 @@ export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({
 }) => {
   return (
     <nav className="hidden md:block">
-      <ul className="flex space-x-6">
+      <ul className="flex flex-col">
         {links.map((link, index) => (
           <li key={index}>
             <a href={link.href} className="text-blue-500 hover:underline">

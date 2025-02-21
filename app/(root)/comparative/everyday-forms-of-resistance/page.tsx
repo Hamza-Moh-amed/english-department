@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
+import { PageTitle } from "@/components/PageTitle";
 
 export const metadata = {
   title: "Everyday Forms of Resistance",
@@ -17,16 +18,33 @@ export default function EverydayFormsOfResistance() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Header */}
-      <Header
-        title="Everyday Forms of Resistance"
-        author="James C. Scott"
-        description="A detailed analysis of everyday resistance."
-      />
-
-      {/* Navigation */}
-      <Navigation links={navLinks} />
-
+      <Header />
+      <div className="max-w-7xl mx-auto px-4 py-4">
+        {/* For medium screens and up: show Navigation on the left and PageTitle centered */}
+        <div className="hidden md:flex items-center justify-between">
+          {/* Left: Navigation */}
+          <div className="flex-none">
+            <Navigation links={navLinks} />
+          </div>
+          {/* Center: PageTitle */}
+          <div className="flex-grow text-center">
+            <PageTitle
+              title="Everyday Forms of Resistance"
+              author="James C. Scott"
+            />
+          </div>
+          {/* Right: Empty div to balance the left column */}
+          <div className="flex-none w-24" />
+        </div>
+        {/* For mobile: stack Navigation and PageTitle */}
+        <div className="md:hidden space-y-4">
+          <Navigation links={navLinks} />
+          <PageTitle
+            title="Everyday Forms of Resistance"
+            author="James C. Scott"
+          />
+        </div>
+      </div>
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
         {/* Article Section */}
