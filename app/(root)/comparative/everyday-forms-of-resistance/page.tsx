@@ -28,11 +28,11 @@ export default function EverydayFormsOfResistance() {
       <Navigation links={navLinks} />
 
       {/* Body Content */}
-      <div className="container mx-auto text-justify px-4 py-8 space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
+      <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
         {/* Article Section */}
         <section id="article" className="space-y-8">
           <h2 className="text-2xl font-semibold">Article</h2>
-          <article className="">
+          <article className="prose max-w-none text-left md:text-justify">
             <p className="text-lg italic">
               A pestilent pernicious people . . . such as take the oaths to the
               Government, but underhand ... labor its subversion.
