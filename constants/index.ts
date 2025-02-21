@@ -18,12 +18,12 @@ export const subjects = [
     subjectLink: "/linguistics",
     lessons: [
       {
-        title: "Phonetics and Phonology",
-        link: "/linguistics/phonetics",
+        title: "Chapter One",
+        link: "/linguistics/chapter-one",
       },
       {
-        title: "Syntax and Semantics",
-        link: "/linguistics/syntax",
+        title: "Chapter Two",
+        link: "/linguistics/chapter-two",
       },
     ],
   },
