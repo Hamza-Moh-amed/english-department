@@ -4,12 +4,24 @@ export const subjects = [
     subjectLink: "/american",
     lessons: [
       {
-        title: "Introduction to American Literature",
-        link: "/american/introduction",
+        title: "Let America be America Again",
+        link: "/american/let-america-be-america-again",
       },
       {
-        title: "American Cultural Movements",
-        link: "/american/cultural-movements",
+        title: "Race",
+        link: "/american/race",
+      },
+      {
+        title: "Mic Check",
+        link: "/american/mic-check",
+      },
+      {
+        title: "Ethnicity",
+        link: "/american/ethnicity",
+      },
+      {
+        title: "The Immigrant’s Fate is Everyone’s",
+        link: "/american/the-immigrants-fate-is-everyones",
       },
     ],
   },
@@ -51,12 +63,16 @@ export const subjects = [
     subjectLink: "/comparative",
     lessons: [
       {
-        title: "Everyday Forms of Resistance",
-        link: "/comparative/everyday-forms-of-resistance",
+        title: "The Main & The Margin",
+        link: "/comparative/the-main-and-the-margin",
       },
       {
-        title: "Cultural Comparisons",
-        link: "/comparative/culture",
+        title: "Marginality: Curse or Cure?",
+        link: "/comparative/marginality-curse-or-cure",
+      },
+      {
+        title: "Everyday Forms of Resistance",
+        link: "/comparative/everyday-forms-of-resistance",
       },
     ],
   },
