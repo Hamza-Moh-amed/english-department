@@ -26,39 +26,6 @@ export const subjects = [
     ],
   },
   {
-    name: "Linguistics",
-    subjectLink: "/linguistics",
-    lessons: [
-      {
-        title: "Chapter One",
-        link: "/linguistics/chapter-one",
-      },
-      {
-        title: "Chapter Two",
-        link: "/linguistics/chapter-two",
-      },
-    ],
-  },
-  {
-    name: "Drama",
-    subjectLink: "/drama",
-    lessons: [
-      { title: "History of Drama", link: "/drama/history" },
-      {
-        title: "Modern Theatre",
-        link: "/drama/modern-theatre",
-      },
-    ],
-  },
-  {
-    name: "Poetry",
-    subjectLink: "/poetry",
-    lessons: [
-      { title: "Romantic Poetry", link: "/poetry/romantic" },
-      { title: "Modern Poetry", link: "/poetry/modern" },
-    ],
-  },
-  {
     name: "Comparative",
     subjectLink: "/comparative",
     lessons: [
@@ -77,16 +44,59 @@ export const subjects = [
     ],
   },
   {
+    name: "Docility",
+    subjectLink: "/docility",
+    lessons: [
+      {
+        title: "Docility And Disciplinary Power",
+        link: "/docility/docility-and-disciplinary-power",
+      },
+      {
+        title: "Asian-American",
+        link: "/docility/asian-american",
+      },
+      {
+        title: "And The Soul Shall Dance: Play",
+        link: "/docility/and-the-soul-shall-dance-play",
+      },
+      {
+        title: "And The Soul Shall Dance: Analysis",
+        link: "/docility/and-the-soul-shall-dance-analysis",
+      },
+    ],
+  },
+  {
+    name: "Linguistics",
+    subjectLink: "/linguistics",
+    lessons: [
+      {
+        title: "Chapter One",
+        link: "/linguistics/chapter-one",
+      },
+      {
+        title: "Chapter Two",
+        link: "/linguistics/chapter-two",
+      },
+    ],
+  },
+  {
+    name: "Trauma",
+    subjectLink: "/trauma",
+    lessons: [
+      {
+        title: "The Body Keeps The Score",
+        link: "/trauma/the-body-keeps-the-score",
+      },
+    ],
+  },
+
+  {
     name: "Translation",
     subjectLink: "/translation",
     lessons: [
       {
-        title: "Theory of Translation",
-        link: "/translation/theory",
-      },
-      {
-        title: "Practical Translation",
-        link: "/translation/practice",
+        title: "No Avalible Content",
+        link: "/",
       },
     ],
   },

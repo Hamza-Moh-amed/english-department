@@ -13,7 +13,6 @@ export const metadata = {
 export default function ChapterTwo() {
   const navLinks: NavLink[] = [
     { href: "#overview", label: "Overview" },
-
     { href: "#chapter-questions", label: "Chapter Questions" },
     { href: "#assessment", label: "Assessment Is…" },
     { href: "#vwrap", label: "Key Principles (VWRAP)" },
@@ -54,12 +53,12 @@ export default function ChapterTwo() {
         <section id="overview" className="space-y-4">
           <h2 className="text-2xl font-semibold">Overview</h2>
           <p className="text-lg">
-            This chapter focuses on the core principles that underpin effective
-            language assessment. It discusses the importance of balancing
-            various components—such as practicality, validity, reliability,
-            authenticity, and washback—to design tests that accurately reflect
-            student abilities while also informing teaching and learning
-            practices.
+            Chapter 2 of "Principles of Language Assessment" delves into the
+            core principles that underpin effective language assessment. It
+            emphasizes the importance of balancing practicality, validity,
+            reliability, authenticity, and washback to design tests that
+            accurately reflect student abilities while also informing teaching
+            and learning practices.
           </p>
         </section>
 
@@ -162,7 +161,7 @@ export default function ChapterTwo() {
           <p className="text-lg">
             Definition: Practicality refers to the relationship between the
             available resources (human, material, time, etc.) and those required
-            for designing, developing, and using the test (Bachman &amp; Palmer,
+            for designing, developing, and using the test (Bachman & Palmer,
             1996:35–36).
           </p>
           <p className="text-lg">
