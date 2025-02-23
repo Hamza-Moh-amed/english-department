@@ -14,6 +14,7 @@ export default function TheMainAndTheMargin() {
     { href: "#overview", label: "Overview" },
     { href: "#analysis", label: "Analysis" },
     { href: "#qna", label: "Q&A" },
+    { href: "#pdf", label: "Article PDF" },
   ];
 
   return (
@@ -706,6 +707,18 @@ export default function TheMainAndTheMargin() {
                 </p>
               </li>
             </ol>
+          </div>
+        </section>
+
+        <section id="pdf" className="space-y-8">
+          <h2 className="text-2xl font-semibold">Article</h2>
+          <div className="w-full min-h-screen bg-gray-100">
+            <iframe
+              src="https://drive.google.com/file/d/130aFeY54-7fS0ZuQ8HmyPfz6JN16-zT1/preview"
+              frameBorder="0"
+              allow="autoplay"
+              className="w-full h-screen"
+            ></iframe>
           </div>
         </section>
       </div>
