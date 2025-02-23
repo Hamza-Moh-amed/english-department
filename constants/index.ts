@@ -88,12 +88,12 @@ export const subjects = [
         link: "/trauma/psychological-trauma",
       },
       {
-        title: "Nine Types of Violence and Abuse",
-        link: "/trauma/nine-types-of-violence",
-      },
-      {
         title: "The Body Keeps The Score",
         link: "/trauma/the-body-keeps-the-score",
+      },
+      {
+        title: "Creating a Trauma Informed Analysis?",
+        link: "/trauma/trauma-informed-analysis",
       },
       {
         title: "Trauma And Recovery: Text",
@@ -102,6 +102,10 @@ export const subjects = [
       {
         title: "Trauma And Recovery: Analysis",
         link: "/trauma/trauma-and-recovery-analysis",
+      },
+      {
+        title: "What Is Intergenerational Trauma?",
+        link: "/trauma/intergenerational-trauma",
       },
     ],
   },

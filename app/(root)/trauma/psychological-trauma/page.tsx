@@ -11,6 +11,7 @@ export const metadata = {
 
 export default function PsychologicalTrauma() {
   const navLinks: NavLink[] = [
+    { href: "#youtube", label: "Trauma and the Brain" },
     { href: "#authors", label: "Authors" },
     { href: "#paradigm-change", label: "Paradigm Change" },
     { href: "#first-world-war", label: "First World War" },
@@ -21,6 +22,7 @@ export default function PsychologicalTrauma() {
     { href: "#ptsd-culture", label: "PTSD and Culture" },
     { href: "#ptsd-gulf", label: "PTSD and Gulf War" },
     { href: "#additional-info", label: "Additional Information" },
+    { href: "#types-of-violence", label: "Types of Violence & Abuse" },
   ];
 
   return (
@@ -48,6 +50,23 @@ export default function PsychologicalTrauma() {
       </div>
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-8 max-w-full sm:max-w-[600px] md:max-w-[800px]">
+        {/* YouTube Embed Section */}
+        <section id="youtube" className="space-y-8">
+          <h2 className="text-2xl font-semibold text-center md:text-left">
+            Trauma and the Brain
+          </h2>
+          <div className="flex justify-center">
+            <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
+              <iframe
+                src="https://www.youtube.com/embed/4-tcKYx24aA?si=CrutjdLuAz71P5dy"
+                title="Mic Check by Suheir Hammad"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-lg"
+              ></iframe>
+            </div>
+          </div>
+        </section>
         {/* Authors Section */}
         <section id="authors" className="space-y-4">
           <h2 className="text-2xl font-semibold">Authors</h2>
@@ -533,6 +552,72 @@ export default function PsychologicalTrauma() {
             </div>
             <p className="text-lg italic">Source: Jones, 2006.7</p>
           </section>
+        </section>
+
+        {/* Nine Types of Violence and Abuse */}
+        <section id="types-of-violence" className="space-y-4">
+          <h3 className="text-xl font-semibold">
+            Nine Types of Violence and Abuse
+          </h3>
+          <h4 className="text-lg font-semibold">Physical Violence</h4>
+          <p className="text-lg">
+            Physical violence occurs when someone uses a part of their body or
+            an object to control a person’s actions.
+          </p>
+
+          <h4 className="text-lg font-semibold">Sexual Violence</h4>
+          <p className="text-lg">
+            Sexual violence occurs when a person is forced to unwillingly take
+            part in sexual activity.
+          </p>
+
+          <h4 className="text-lg font-semibold">Emotional Violence</h4>
+          <p className="text-lg">
+            Emotional violence occurs when someone says or does something to
+            make a person feel stupid or worthless.
+          </p>
+
+          <h4 className="text-lg font-semibold">Psychological Violence</h4>
+          <p className="text-lg">
+            Psychological violence occurs when someone uses threats and causes
+            fear in an individual to gain control.
+          </p>
+
+          <h4 className="text-lg font-semibold">Spiritual Violence</h4>
+          <p className="text-lg">
+            Spiritual (or religious) violence occurs when someone uses an
+            individual’s spiritual beliefs to manipulate, dominate or control
+            that person.
+          </p>
+
+          <h4 className="text-lg font-semibold">Cultural Violence</h4>
+          <p className="text-lg">
+            Cultural violence occurs when an individual is harmed as a result of
+            practices that are part of their culture, religion or tradition.
+          </p>
+
+          <h4 className="text-lg font-semibold">Verbal Abuse</h4>
+          <p className="text-lg">
+            Verbal abuse occurs when someone uses language, whether spoken or
+            written, to cause harm to an individual.
+          </p>
+
+          <h4 className="text-lg font-semibold">Financial Abuse</h4>
+          <p className="text-lg">
+            Financial abuse occurs when someone controls an individual’s
+            financial resources without the person’s consent or misuses those
+            resources.
+          </p>
+
+          <h4 className="text-lg font-semibold">Neglect</h4>
+          <p className="text-lg">
+            Neglect occurs when someone has the responsibility to provide care
+            or assistance for an individual but does not.
+          </p>
+
+          <p className="text-lg italic">
+            Source: Violence Prevention Initiative (2014)
+          </p>
         </section>
       </div>
     </main>

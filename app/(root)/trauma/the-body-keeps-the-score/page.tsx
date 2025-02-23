@@ -11,6 +11,7 @@ export const metadata = {
 
 export default function TheBodyKeepsTheScore() {
   const navLinks: NavLink[] = [
+    { href: "#youtube", label: "What is Trauma?" },
     { href: "#article", label: "Article" },
     { href: "#analysis", label: "Analysis" },
     { href: "#qna", label: "Q&A" },
@@ -47,6 +48,24 @@ export default function TheBodyKeepsTheScore() {
       </div>
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
+        {/* YouTube Embed Section */}
+        <section id="youtube" className="space-y-8">
+          <h2 className="text-2xl font-semibold text-center md:text-left">
+            What is trauma?
+          </h2>
+          <div className="flex justify-center">
+            <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
+              <iframe
+                src="https://www.youtube.com/embed/BJfmfkDQb14?si=f7EYPJS8CgquEXLe"
+                title="Mic Check by Suheir Hammad"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-lg"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
         {/* Article Section */}
         <section id="article" className="space-y-8">
           <h2 className="text-2xl font-semibold">Article</h2>
