@@ -8,9 +8,9 @@ const planner = [
   {
     day: "Monday",
     events: [
-      "Linguistics 12-2 pm - class 65",
-      "Comparative 2-4 pm - class 65",
-      "Docility 4-6 pm - class 13",
+      "Linguistics 12-2 pm - room 65",
+      "Comparative 2-4 pm - room 65",
+      "Docility 4-6 pm - room 13",
     ],
   },
   {
@@ -20,9 +20,9 @@ const planner = [
   {
     day: "Wednesday",
     events: [
-      "Translation 12-2 pm - class 65",
-      "American 2-4 pm - class 62",
-      "Trauma 4-6 pm - class 62",
+      "Translation 12-2 pm - room 65",
+      "American 2-4 pm - room 62",
+      "Trauma 4-6 pm - room 62",
     ],
   },
   {

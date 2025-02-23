@@ -111,8 +111,8 @@ export const subjects = [
     subjectLink: "/translation",
     lessons: [
       {
-        title: "No Avalible Content",
-        link: "/",
+        title: "Suggested Passages",
+        link: "/translation/suggested-passages",
       },
     ],
   },
