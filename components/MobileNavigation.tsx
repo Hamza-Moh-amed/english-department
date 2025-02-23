@@ -1,5 +1,4 @@
-// components/MobileNavigation.tsx
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "./DesktopNavigation";
 
 interface MobileNavigationProps {
@@ -11,14 +10,34 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({
   links,
   onClose,
 }) => {
+  // Close menu on Escape key press
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    };
+    document.addEventListener("keydown", handleEscape);
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+    };
+  }, [onClose]);
+
   return (
-    <div className="fixed inset-0 z-50">
+    <div className="fixed inset-0 z-50 flex">
+      {/* Backdrop */}
       <div
         className="absolute inset-0 bg-black opacity-50"
         onClick={onClose}
+        aria-hidden="true"
       ></div>
-      <div className="absolute top-0 left-0 w-64 h-full bg-white p-4">
-        <button className="mb-4 focus:outline-none" onClick={onClose}>
+      {/* Navigation Panel */}
+      <div className="relative w-64 h-full bg-white p-4 overflow-y-auto transition-transform duration-300 transform translate-x-0">
+        <button
+          className="mb-4 focus:outline-none"
+          onClick={onClose}
+          aria-label="Close navigation"
+        >
           <svg
             className="w-6 h-6"
             fill="none"
@@ -33,19 +52,21 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({
             />
           </svg>
         </button>
-        <ul className="space-y-4">
-          {links.map((link, index) => (
-            <li key={index}>
-              <a
-                href={link.href}
-                className="text-blue-500 hover:underline"
-                onClick={onClose}
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <nav aria-label="Mobile Navigation">
+          <ul className="space-y-4">
+            {links.map((link, index) => (
+              <li key={index}>
+                <a
+                  href={link.href}
+                  className="text-blue-500 hover:underline block"
+                  onClick={onClose}
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
     </div>
   );

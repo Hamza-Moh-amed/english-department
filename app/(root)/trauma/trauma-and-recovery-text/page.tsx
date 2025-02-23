@@ -9,11 +9,12 @@ export const metadata = {
     "A page based on Judith Herman's Trauma and Recovery (New York: Basic Books, 1992), exploring the dynamics of psychological trauma and the pathway to recovery.",
 };
 
-export default function TraumaAndRecovery() {
+export default function TraumaAndRecoveryText() {
   const navLinks: NavLink[] = [
-    { href: "#article", label: "Article" },
-    { href: "#analysis", label: "Analysis" },
-    { href: "#qna", label: "Q&A" },
+    { href: "#introduction", label: "Introduction" },
+    { href: "#forgotten", label: "A Forgotten History" },
+    { href: "#hysteria", label: "Hysteria" },
+    { href: "#neurosis", label: "Neurosis" },
   ];
 
   return (
@@ -48,16 +49,8 @@ export default function TraumaAndRecovery() {
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
         {/* Article Section */}
-        <section id="article" className="space-y-8">
-          <h2 className="text-2xl font-semibold">Article</h2>
+        <section id="introduction" className="space-y-8">
           <article className="prose max-w-none text-left md:text-justify">
-            <p className="text-lg">
-              <strong>Trauma and Recovery</strong>
-              <br />
-              Judith Herman, M. D.
-              <br />
-              New York: Basic Books, 1992
-            </p>
             <p className="text-lg">
               <strong>INTRODUCTION</strong>
             </p>
@@ -69,7 +62,9 @@ export default function TraumaAndRecovery() {
               powerful as the desire to deny atrocities is the conviction that
               denial does not work. Folk wisdom is filled with ghosts who refuse
               to rest in their graves until their stories are told. Murder will
-              out.
+              out. Remembering and telling the truth about terrible events are
+              prerequisites both for the restoration of the social order and for
+              the healing of individual victims.
             </p>
             <p className="text-lg">
               Remembering and telling the truth about terrible events are
@@ -228,7 +223,7 @@ export default function TraumaAndRecovery() {
               of doublethink and allows all of us to come a little closer to
               facing the unspeakable.
             </p>
-            <p className="text-lg">
+            <p className="text-lg" id="forgotten">
               <strong>CHAPTER 1: A Forgotten History</strong>
             </p>
             <p className="text-lg">
@@ -373,7 +368,7 @@ export default function TraumaAndRecovery() {
               of psychological trauma is built upon a synthesis of these three
               separate lines of investigation.
             </p>
-            <p className="text-lg">
+            <p className="text-lg" id="hysteria">
               <strong>THE HEROIC AGE OF HYSTERIA</strong>
             </p>
             <p className="text-lg">
@@ -1360,7 +1355,7 @@ export default function TraumaAndRecovery() {
               A poem of this era captures the exhilaration that women felt in
               speaking aloud and being heard:
             </p>
-            <p className="text-lg">
+            <p className="text-lg" id="neurosis">
               <strong>THE COMBAT NEUROSIS OF THE SEX WAR</strong>
               <br />
               Today
@@ -1550,7 +1545,21 @@ export default function TraumaAndRecovery() {
               legitimate field of inquiry. With the creative energy that
               accompanies the return of repressed ideas, the field has expanded
               dramatically. Twenty years ago, the literature consisted of a few
-              out-of-print volumes moldering in neglected
+              out-of-print volumes moldering in neglected corners of the
+              library. Now each month brings forth the publication of new books,
+              new research findings, new discussions in the public media.
+            </p>
+            <p className="text-lg">
+              But history teaches us that this knowledge could also disappear.
+              Without the context of a political movement, it has never been
+              possible to advance the study of psychological trauma. The fate of
+              this field of knowledge depends upon the fate of the same
+              political movement that has inspired and sustained it over the
+              last century. In the late nineteenth century the goal of that
+              movement was the establishment of secular democracy. In the early
+              twentieth century its goal was the abolition of war. In the late
+              twentieth century its goal was the liberation of women. All of
+              these goals remain. All are, in the end, inseparably connected.
             </p>
           </article>
         </section>

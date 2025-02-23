@@ -32,11 +32,11 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
           <p className="text-lg">
             <strong>Hana:</strong> (To Masako) How many times have I told you...
           </p>
-
           <p className="text-lg">Masako moves nervously.</p>
           <p className="text-lg">
-            <strong>Murata:</strong> No use crying about it now. Shikata ga nai.
-            It's gone now. No more bathhouse. That's all there is to it.
+            <strong>Murata:</strong> No use crying about it now.{" "}
+            <em>Shikata ga nai.</em> It's gone now. No more bathhouse. That's
+            all there is to it.
           </p>
           <p className="text-lg">
             <strong>Hana:</strong> But you've got to tell her. Otherwise she'll
@@ -47,14 +47,14 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             on a chair and sits at the table.
           </p>
           <p className="text-lg">
-            <strong>Murata:</strong> Bakal Ridiculous!
+            <strong>Murata:</strong> <em>Bakal</em> Ridiculous!
           </p>
           <p className="text-lg">
             <strong>Masako:</strong> I didn't do it on purpose. (She goes to the
             bed, opens a book)
           </p>
           <p className="text-lg">
-            <strong>Hana:</strong> (Follows Masako) I know that but you know
+            <strong>Hana:</strong> (Follows Masako) I know that, but you know
             what this means? It means we bathe in a bucket... inside the house.
             Carry water in from the pond, heat it on the stove... We'll use more
             kerosene.
@@ -75,20 +75,21 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             us.
           </p>
           <p className="text-lg">
-            <strong>Murata:</strong> Angh! Who? Who'll see us? You think
-            everyone in the country waits to watch us take a bath? Hunh! You
-            know how stupid you sound? Ridiculous!
+            <strong>Murata:</strong> <em>Angh!</em> Who? Who'll see us? You
+            think everyone in the country waits to watch us take a bath?{" "}
+            <em>Hunh!</em> You know how stupid you sound? Ridiculous!
           </p>
           <p className="text-lg">
             <strong>Hana:</strong> (Defensively) It'll be inconvenient.
           </p>
           <p className="text-lg">
-            Hana is saved by a rap on the door. Oka, Issei neighbor, forty-five,
-            enters. He is short and stout, dressed in faded work clothes.
+            Hana is saved by a rap on the door. Oka, an Issei neighbor,
+            forty-five, enters. He is short and stout, dressed in faded work
+            clothes.
           </p>
           <p className="text-lg">
-            <strong>Oka:</strong> Hello! Hello! Oi! What's going on here? Hey!
-            Was there some kind of fire?
+            <strong>Oka:</strong> Hello! Hello! <em>Oi!</em> What's going on
+            here? Hey! Was there some kind of fire?
           </p>
           <p className="text-lg">
             Hana rushes to the door to let Oka in. He stamps the dust from his
@@ -106,20 +107,19 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             Murata half rises and sits back again. He's exhausted.
           </p>
           <p className="text-lg">
-            <strong>Murata:</strong> (Gesturing) Oi, oi. Come in... sit down. No
-            big problem. It was just our bathhouse.
+            <strong>Murata:</strong> (Gesturing) <em>Oi, oi.</em> Come in... sit
+            down. No big problem. It was just our bathhouse.
           </p>
           <p className="text-lg">
-            <strong>Oka:</strong> Just the furoba, eh?
+            <strong>Oka:</strong> Just the <em>furoba</em>, eh?
           </p>
           <p className="text-lg">
             <strong>Murata:</strong> Just the bath.
           </p>
           <p className="text-lg">
-            <strong>Hana:</strong> Our Masako was careless and the furoba caught
-            fire. There's nothing left of it but the tub.
+            <strong>Hana:</strong> Our Masako was careless, and the{" "}
+            <em>furoba</em> caught fire. There's nothing left of it but the tub.
           </p>
-
           <p className="text-lg">
             <strong>Masako:</strong> (Looking up from her book, pained) I didn't
             mean to...
@@ -141,12 +141,12 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
           <p className="text-lg">
             <strong>Murata:</strong> (To Hana) Hell, we can't work on it now.
             The ashes are still hot. I just now put the damned fire out. Let me
-            rest awhile. (To Oka) Oi, how about a little sake? (Gesturing to
-            Hana) Make sake for Oka-san.
+            rest awhile. (To Oka) <em>Oi</em>, how about a little sake?
+            (Gesturing to Hana) Make sake for Oka-san.
           </p>
           <p className="text-lg">
             Oka sits at the table. Hana goes to prepare the sake. She heats it,
-            gets out the cups and pours it for the men.
+            gets out the cups, and pours it for the men.
           </p>
           <p className="text-lg">
             <strong>Murata:</strong> I'm tired... I am tired.
@@ -173,7 +173,7 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
           </p>
           <p className="text-lg">Masako makes a small moan.</p>
           <p className="text-lg">
-            <strong>Murata:</strong> Drink Oka-san.
+            <strong>Murata:</strong> Drink, Oka-san.
           </p>
           <p className="text-lg">
             <strong>Oka:</strong> (Swallowing) Ahhh, that's good.
@@ -570,6 +570,8 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             <strong>Hana:</strong> (To Masako) Help me clear the table.
           </p>
         </div>
+        {/*Divider */}
+        <div className="border-t my-4 border-gray-500" />
 
         {/* Act 1, Scene 2 */}
         <div id="act1-scene2">
@@ -578,24 +580,25 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
           </p>
           <p className="text-lg">
             That evening. We see the exterior wall of the Okas' weathered house.
-            There is a workable screen door and a large screened window. Outside
-            there is a wide wooden bench that can accommodate three or four
-            people. There is one separate chair and a lantern stands against the
-            house. The last rays of the sun light the area in a soft golden
-            glow. This light grows gray as the scene progresses and it is quite
-            dark at the end of the scene. Through the screened window, Emiko
-            Oka, Issei woman, thirty, can be seen walking erratically back and
-            forth. She wears a drab cotton dress but her grace and femininity
-            come through. Her hair is in a bun, in the style of Issei women of
-            the era.
+            There is a workable screen door and a large screened window.
+            Outside, there is a wide wooden bench that can accommodate three or
+            four people. There is one separate chair, and a lantern stands
+            against the house. The last rays of the sun light the area in a soft
+            golden glow. This light grows gray as the scene progresses, and it
+            is quite dark at the end of the scene. Through the screened window,
+            Emiko Oka, an Issei woman, thirty, can be seen walking erratically
+            back and forth. She wears a drab cotton dress, but her grace and
+            femininity come through. Her hair is in a bun, in the style of Issei
+            women of the era.
           </p>
           <p className="text-lg">
-            Oka sits cross-legged on the bench. He wears a yukata [summer robe]
-            and fans himself with a round Japanese fan.
+            Oka sits cross-legged on the bench. He wears a <em>yukata</em>{" "}
+            (summer robe) and fans himself with a round Japanese fan.
           </p>
           <p className="text-lg">
             The Muratas enter. Murata carries towels and a bottle of sake. Hana
-            carries the Victrola, and Masako a package containing their yukatas.
+            carries the Victrola, and Masako carries a package containing their{" "}
+            <em>yukatas</em>.
           </p>
           <p className="text-lg">
             <strong>Oka:</strong> (Standing to receive the Muratas) Oh, you’ve
@@ -618,8 +621,8 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             <strong>Masako:</strong> Thank you.
           </p>
           <p className="text-lg">
-            Oka makes motion of protest. Emiko stops her pacing and watches from
-            the window.
+            Oka makes a motion of protest. Emiko stops her pacing and watches
+            from the window.
           </p>
           <p className="text-lg">
             <strong>Hana:</strong> (Glancing briefly at the window) And how is
@@ -639,12 +642,12 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             Emiko comes to the door. Hana starts a deep bow toward the door.
           </p>
           <p className="text-lg">
-            <strong>Murata:</strong> Konbanwa [Good evening!]
+            <strong>Murata:</strong> <em>Konbanwa</em> [Good evening!]
           </p>
           <p className="text-lg">
-            <strong>Hana:</strong> Konbanwa, Emiko-san. I feel so bad about this
-            intrusion. Your husband has told you, our bathhouse was destroyed by
-            fire and he graciously invited us to come use yours.
+            <strong>Hana:</strong> <em>Konbanwa</em>, Emiko-san. I feel so bad
+            about this intrusion. Your husband has told you, our bathhouse was
+            destroyed by fire, and he graciously invited us to come use yours.
           </p>
           <p className="text-lg">Emiko shakes her head.</p>
           <p className="text-lg">
@@ -677,7 +680,7 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             Emiko, bring out the cups.
           </p>
           <p className="text-lg">
-            He waves at his wife, but she doesn’t move. He starts to ask again,
+            He waves at his wife, but she doesn’t move. He starts to ask again
             but decides to get them himself. He enters the house and returns
             with two cups. Emiko seats herself on the single chair. The Muratas
             unload their paraphernalia; Oka pours the wine, the men drink, Hana
@@ -786,21 +789,24 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
           </p>
         </div>
 
+        {/*Divider */}
+        <div className="border-t my-4 border-gray-500" />
+
         {/* Act 1, Scene 3 */}
         <div id="act1-scene3">
           <p className="text-lg">
             <strong>Act 1, Scene 3</strong>
           </p>
           <p className="text-lg">
-            Same evening. Lights cross-fade to the exterior of the Oka house.
-            The Muratas have just left. Emiko sits on the bench. Her back is to
-            Oka. Oka, still standing, looks at her contemptuously as she takes
-            the bottle and one of the cups to pour herself a drink.
+            Same evening. The exterior of the Oka house. The Muratas have just
+            left. Emiko sits on the bench. Her back is to Oka. Oka, still
+            standing, looks at her contemptuously as she takes the bottle and
+            one of the cups to pour herself a drink.
           </p>
           <p className="text-lg">
             <strong>Oka:</strong> Nothing more disgusting than a drunk woman.
-            (Emiko ignores him) You made a fool of yourself. Washi baka ni
-            shite! You made a fool of me!
+            (Emiko ignores him) You made a fool of yourself.{" "}
+            <em>Washi baka ni shite!</em> You made a fool of me!
           </p>
           <p className="text-lg">Emiko doesn’t move.</p>
           <p className="text-lg">
@@ -860,6 +866,9 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             Emiko pours another drink and feels warm and good. Fade-out.
           </p>
         </div>
+
+        {/*Divider */}
+        <div className="border-t my-4 border-gray-500" />
 
         {/* Act 2, Scene 1 */}
         <div id="act2-scene1">
@@ -1057,7 +1066,8 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             They sit in silence for a moment, then Hana gets up to make tea.
           </p>
         </div>
-
+        {/*Divider */}
+        <div className="border-t my-4 border-gray-500" />
         {/* Act 2, Scene 2 */}
         <div id="act2-scene2">
           <p className="text-lg">
@@ -1117,57 +1127,6 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             <strong>Kiyoko:</strong> Thank you.
           </p>
           <p className="text-lg">
-            <strong>Hana:</strong> Dinner will be ready soon. I hope you’re
-            hungry.
-          </p>
-          <p className="text-lg">
-            <strong>Kiyoko:</strong> I am.
-          </p>
-          <p className="text-lg">
-            <strong>Oka:</strong> Good. Hana’s cooking is the best.
-          </p>
-          <p className="text-lg">
-            <strong>Hana:</strong> Oh, stop it. It’s just simple food.
-          </p>
-          <p className="text-lg">
-            <strong>Oka:</strong> Simple, but delicious.
-          </p>
-          <p className="text-lg">
-            <strong>Hana:</strong> You’re too kind.
-          </p>
-          <p className="text-lg">
-            <strong>Masako:</strong> Mama, can I help with anything?
-          </p>
-          <p className="text-lg">
-            <strong>Hana:</strong> No, just sit and keep Kiyoko-san company.
-          </p>
-          <p className="text-lg">
-            <strong>Masako:</strong> Okay.
-          </p>
-          <p className="text-lg">
-            <strong>Kiyoko:</strong> Masako-chan, do you like school?
-          </p>
-          <p className="text-lg">
-            <strong>Masako:</strong> Yes, I do. I like reading and learning new
-            things.
-          </p>
-          <p className="text-lg">
-            <strong>Kiyoko:</strong> That’s good. I like reading too.
-          </p>
-          <p className="text-lg">
-            <strong>Masako:</strong> What kind of books do you like?
-          </p>
-          <p className="text-lg">
-            <strong>Kiyoko:</strong> I like stories about adventures and faraway
-            places.
-          </p>
-          <p className="text-lg">
-            <strong>Masako:</strong> Me too! We should read together sometime.
-          </p>
-          <p className="text-lg">
-            <strong>Kiyoko:</strong> I’d like that.
-          </p>
-          <p className="text-lg">
             <strong>Hana:</strong> Dinner’s ready. Let’s eat.
           </p>
           <p className="text-lg">
@@ -1193,6 +1152,8 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             They continue eating in comfortable silence.
           </p>
         </div>
+        {/*Divider */}
+        <div className="border-t my-4 border-gray-500" />
 
         {/* Act 2, Scene 3 */}
         <div id="act2-scene3">
@@ -1289,7 +1250,8 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             They sit in silence for a moment, each lost in their own thoughts.
           </p>
         </div>
-
+        {/*Divider */}
+        <div className="border-t my-4 border-gray-500" />
         {/* Act 2, Scene 4 */}
         <div id="act2-scene4">
           <p className="text-lg">
@@ -1348,49 +1310,6 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             <strong>Oka:</strong> Emiko, please. Don’t give up.
           </p>
           <p className="text-lg">
-            <strong>Emiko:</strong> It’s too late for that. I’ve already given
-            up.
-          </p>
-          <p className="text-lg">
-            <strong>Oka:</strong> No, you haven’t. You’re stronger than this.
-          </p>
-          <p className="text-lg">
-            <strong>Emiko:</strong> You don’t know me. You don’t know what I’ve
-            been through.
-          </p>
-          <p className="text-lg">
-            <strong>Oka:</strong> I know it’s been hard, but we can get through
-            this together.
-          </p>
-          <p className="text-lg">
-            <strong>Emiko:</strong> Together? We’re not together. We’re just two
-            people living in the same place, miserable and alone.
-          </p>
-          <p className="text-lg">
-            <strong>Oka:</strong> That’s not true. We have each other.
-          </p>
-          <p className="text-lg">
-            <strong>Emiko:</strong> Do we? Do we really have each other?
-          </p>
-          <p className="text-lg">
-            <strong>Oka:</strong> Yes, we do. And we have Kiyoko. She needs us.
-          </p>
-          <p className="text-lg">
-            <strong>Emiko:</strong> Kiyoko... she’s better off without me.
-          </p>
-          <p className="text-lg">
-            <strong>Oka:</strong> That’s not true. She needs you. She needs both
-            of us.
-          </p>
-          <p className="text-lg">
-            <strong>Emiko:</strong> I can’t be what she needs. I can’t even be
-            what I need.
-          </p>
-          <p className="text-lg">
-            <strong>Oka:</strong> Emiko, please. Don’t give up on us. Don’t give
-            up on yourself.
-          </p>
-          <p className="text-lg">
             <strong>Emiko:</strong> It’s too late, Oka. It’s too late.
           </p>
           <p className="text-lg">
@@ -1435,8 +1354,8 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             <strong>Masako:</strong> I understand, Mama.
           </p>
           <p className="text-lg">
-            <strong>Hana:</strong> Wasn’t it nice of Kiyoko-san to give us the
-            furin?
+            <strong>Hana:</strong> Wasn’t it nice of Kiyoko-san to give us the{" "}
+            <em>furin</em>?
           </p>
           <p className="text-lg">
             <strong>Masako:</strong> I love it. I don’t know anything about
@@ -1451,13 +1370,14 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             <strong>Masako:</strong> That’s kind of scary.
           </p>
           <p className="text-lg">
-            Emiko enters unsteadily. She carries a bundle wrapped in a furoshiki
-            (colorful scarf). In the package are two beautiful kimonos.
+            Emiko enters unsteadily. She carries a bundle wrapped in a{" "}
+            <em>furoshiki</em> (colorful scarf). In the package are two
+            beautiful kimonos.
           </p>
           <p className="text-lg">
             <strong>Hana:</strong> Emiko-san! What a pleasant surprise! Please
-            sit down. We were just hanging the furin. It was so sweet of
-            Kiyoko-san to give it to Masako. She loves it.
+            sit down. We were just hanging the <em>furin</em>. It was so sweet
+            of Kiyoko-san to give it to Masako. She loves it.
           </p>
           <p className="text-lg">
             Emiko looks mildly interested. She acts as normal as she can
@@ -1573,12 +1493,6 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             inside. It’s not good for you.
           </p>
           <p className="text-lg">
-            <strong>Emiko:</strong> I know... but there’s nothing to say.
-          </p>
-          <p className="text-lg">
-            <strong>Hana:</strong> Sometimes just talking helps.
-          </p>
-          <p className="text-lg">
             <strong>Emiko:</strong> Maybe... but not now.
           </p>
           <p className="text-lg">
@@ -1593,6 +1507,8 @@ export default function PlayText({ navLinks }: { navLinks: NavLink[] }) {
             moment, then turns and walks away. Hana watches her go, concerned.
           </p>
         </div>
+        {/*Divider */}
+        <div className="border-t my-4 border-gray-500" />
 
         {/* Act 2, Scene 6 */}
         <div id="act2-scene6">

@@ -54,7 +54,7 @@ export default function TheMainAndTheMargin() {
             <p className="text-lg">
               The text titled{" "}
               <strong>
-                "The Text and the Margin: Testimonies from Lebanese Women
+                "The Main and the Margin: Testimonies from Lebanese Women
                 Researchers"
               </strong>{" "}
               by <strong>Fadia Hoteit and Azza Charara Baydoun</strong> explores
