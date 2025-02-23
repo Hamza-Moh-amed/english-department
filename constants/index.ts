@@ -92,8 +92,12 @@ export const subjects = [
         link: "/trauma/the-body-keeps-the-score",
       },
       {
-        title: "Creating a Trauma Informed Analysis?",
+        title: "Creating a Trauma Informed Analysis",
         link: "/trauma/trauma-informed-analysis",
+      },
+      {
+        title: "Dulce Et Decorum Est",
+        link: "/trauma/dulce-et-decorum-est",
       },
       {
         title: "Trauma And Recovery: Text",

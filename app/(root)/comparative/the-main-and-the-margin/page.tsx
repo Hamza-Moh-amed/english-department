@@ -40,7 +40,7 @@ export default function TheMainAndTheMargin() {
         <div className="md:hidden space-y-4">
           <Navigation links={navLinks} />
           <PageTitle
-            title="The Text and the Margin: Testimonies from Lebanese Women Researchers"
+            title="The Main and the Margin: Testimonies from Lebanese Women Researchers"
             author="Fadia Hoteit and Azza Charara Baydoun"
           />
         </div>
