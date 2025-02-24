@@ -1,3 +1,30 @@
+Tasks: 
+
+
+Linguistics: 
+-Chapter 3
+-Chapter 4
+  
+
+American: 
+-parsing
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
    <section id="qna" className="space-y-8" dir="rtl">
           <article className="prose max-w-none text-right md:text-justify">
             <p className="text-lg">املئن والفاسش</p>
@@ -862,3 +889,31 @@
             </p>
           </article>
         </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        import { Header } from "@/components/Header";
+import { Navigation } from "@/components/Navigation";
+import { PageTitle } from "@/components/PageTitle";
+
+export const metadata = {
+  title: "Principles of Language Assessment: Chapter 3",
+  description:
+    "A page based on Chapter 3 of Principles of Language Assessment.",
+};
+
+
