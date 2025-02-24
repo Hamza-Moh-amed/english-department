@@ -403,225 +403,318 @@ export default function ChapterOne() {
         </section>
 
         {/* Chapter Questions */}
-        <section id="chapter-questions" className="space-y-4">
+        <section id="chapter-questions" className="space-y-8">
           <h2 className="text-2xl font-semibold">Chapter Questions</h2>
-          <ol className="list-decimal ml-6 text-lg">
-            <li>
-              <strong>Q:</strong> What is the difference between testing,
-              assessment, and teaching?
-              <br />
-              <strong>A:</strong> Testing is a specific instrument designed to
-              measure a learner’s ability or knowledge, assessment is the
-              broader process of gathering and interpreting information to
-              inform teaching, and teaching is the practice of facilitating
-              learning.
-            </li>
-            <li>
-              <strong>Q:</strong> What is the difference between informal and
-              formal assessment?
-              <br />
-              <strong>A:</strong> Informal assessment occurs naturally during
-              classroom activities and is unstructured, while formal assessment
-              is planned, structured, and often used for high-stakes decisions.
-            </li>
-            <li>
-              <strong>Q:</strong> What is the difference between formative and
-              summative assessment?
-              <br />
-              <strong>A:</strong> Formative assessment provides ongoing feedback
-              during instruction, whereas summative assessment evaluates
-              learning at the end of an instructional period.
-            </li>
-            <li>
-              <strong>Q:</strong> What is the difference between norm-referenced
-              and criterion-referenced tests?
-              <br />
-              <strong>A:</strong> Norm-referenced tests compare performance to a
-              larger group, while criterion-referenced tests measure performance
-              against predetermined standards.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the key differences between
-              discrete-point and integrative testing?
-              <br />
-              <strong>A:</strong> Discrete-point testing evaluates individual
-              language elements separately, whereas integrative testing assesses
-              the ability to use language holistically in realistic contexts.
-            </li>
-            <li>
-              <strong>Q:</strong> What are two examples of integrative tests,
-              and why are they considered integrative?
-              <br />
-              <strong>A:</strong> Examples include cloze tests and oral
-              proficiency interviews; they are integrative because they require
-              the simultaneous use of multiple language skills, reflecting
-              real-life communication.
-            </li>
-            <li>
-              <strong>Q:</strong> What is the unitary trait hypothesis? What are
-              the key arguments for and against it?
-              <br />
-              <strong>A:</strong> It suggests language ability is a single,
-              unified construct. Proponents argue all language skills are
-              interrelated, while critics contend distinct skills may require
-              separate assessment.
-            </li>
-            <li>
-              <strong>Q:</strong> What are some key features of communicative
-              language testing?
-              <br />
-              <strong>A:</strong> It focuses on real-world language use,
-              interactive communication, and evaluating the ability to convey
-              meaning rather than mere grammatical accuracy.
-            </li>
-            <li>
-              <strong>Q:</strong> How is performance-based assessment related to
-              communicative language testing?
-              <br />
-              <strong>A:</strong> Performance-based assessments require learners
-              to complete tasks that simulate authentic communication, aligning
-              closely with communicative language testing.
-            </li>
-            <li>
-              <strong>Q:</strong> What does the statement “80% = achievement;
-              80% (percentile) Test is by 20,000 overseas highest mark (90%–60%)
-              A+ … D” imply?
-              <br />
-              <strong>A:</strong> It highlights the distinction between
-              achievement scores and percentile rankings, indicating that
-              large-scale testing can yield a range of grades.
-            </li>
-          </ol>
+          <div className="prose max-w-none">
+            <ol className="list-decimal ml-6 space-y-4 text-lg">
+              <li>
+                <strong>
+                  What is the difference between testing, assessment, and
+                  teaching?
+                </strong>
+                <p>
+                  Testing is a specific instrument designed to measure a
+                  learner’s ability or knowledge, assessment is the broader
+                  process of gathering and interpreting information to inform
+                  teaching, and teaching is the practice of facilitating
+                  learning.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the difference between informal and formal assessment?
+                </strong>
+                <p>
+                  Informal assessment occurs naturally during classroom
+                  activities and is unstructured, while formal assessment is
+                  planned, structured, and often used for high-stakes decisions.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the difference between formative and summative
+                  assessment?
+                </strong>
+                <p>
+                  Formative assessment provides ongoing feedback during
+                  instruction, whereas summative assessment evaluates learning
+                  at the end of an instructional period.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the difference between norm-referenced and
+                  criterion-referenced tests?
+                </strong>
+                <p>
+                  Norm-referenced tests compare performance to a larger group,
+                  while criterion-referenced tests measure performance against
+                  predetermined standards.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What are the key differences between discrete-point and
+                  integrative testing?
+                </strong>
+                <p>
+                  Discrete-point testing evaluates individual language elements
+                  separately, whereas integrative testing assesses the ability
+                  to use language holistically in realistic contexts.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What are two examples of integrative tests, and why are they
+                  considered integrative?
+                </strong>
+                <p>
+                  Examples include cloze tests and oral proficiency interviews;
+                  they are integrative because they require the simultaneous use
+                  of multiple language skills, reflecting real-life
+                  communication.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the unitary trait hypothesis? What are the key
+                  arguments for and against it?
+                </strong>
+                <p>
+                  It suggests language ability is a single, unified construct.
+                  Proponents argue all language skills are interrelated, while
+                  critics contend distinct skills may require separate
+                  assessment.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What are some key features of communicative language testing?
+                </strong>
+                <p>
+                  It focuses on real-world language use, interactive
+                  communication, and evaluating the ability to convey meaning
+                  rather than mere grammatical accuracy.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How is performance-based assessment related to communicative
+                  language testing?
+                </strong>
+                <p>
+                  Performance-based assessments require learners to complete
+                  tasks that simulate authentic communication, aligning closely
+                  with communicative language testing.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What does the statement “80% = achievement; 80% (percentile)
+                  Test is by 20,000 overseas highest mark (90%–60%) A+ … D”
+                  imply?
+                </strong>
+                <p>
+                  It highlights the distinction between achievement scores and
+                  percentile rankings, indicating that large-scale testing can
+                  yield a range of grades.
+                </p>
+              </li>
+            </ol>
+          </div>
         </section>
 
         {/* Additional Questions */}
-        <section id="additional-questions" className="space-y-4">
+        <section id="additional-questions" className="space-y-8">
           <h2 className="text-2xl font-semibold">Additional Questions</h2>
-          <ol className="list-decimal ml-6 text-lg">
-            <li>
-              <strong>Q:</strong> What distinguishes a test from a broader
-              assessment?
-              <br />
-              <strong>A:</strong> A test is a specific tool used to measure a
-              learner’s ability or knowledge, while assessment is an ongoing
-              process involving multiple methods to evaluate and enhance
-              learning.
-            </li>
-            <li>
-              <strong>Q:</strong> How does formative assessment support learning
-              compared to summative assessment?
-              <br />
-              <strong>A:</strong> Formative assessment provides continuous
-              feedback to guide learning, while summative assessment evaluates
-              learning at the end of an instructional period.
-            </li>
-            <li>
-              <strong>Q:</strong> Why is it important to balance traditional and
-              alternative assessments?
-              <br />
-              <strong>A:</strong> Balancing both ensures that standardized
-              measures and authentic, context-based evaluations are considered
-              for a comprehensive view of student learning.
-            </li>
-            <li>
-              <strong>Q:</strong> What role does technology play in modern
-              language assessment?
-              <br />
-              <strong>A:</strong> Technology enables computer-based,
-              internet-based, and adaptive testing methods that offer immediate
-              feedback and personalized difficulty, though challenges like
-              accessibility and security remain.
-            </li>
-            <li>
-              <strong>Q:</strong> Can a test be authentic but not valid? Provide
-              an example.
-              <br />
-              <strong>A:</strong> Yes; for example, a test using real-life tasks
-              might inadvertently assess extraneous knowledge, thus lacking
-              validity.
-            </li>
-            <li>
-              <strong>Q:</strong> What is the primary difference between
-              norm-referenced and criterion-referenced tests?
-              <br />
-              <strong>A:</strong> Norm-referenced tests compare a student’s
-              performance to a larger group, whereas criterion-referenced tests
-              evaluate performance against specific objectives.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the advantages and limitations of
-              computer-adaptive testing (CAT)?
-              <br />
-              <strong>A:</strong> CAT tailors difficulty based on performance,
-              offering efficient, personalized assessment but requires
-              sophisticated technology and raises concerns about access and
-              security.
-            </li>
-            <li>
-              <strong>Q:</strong> How can teachers effectively integrate
-              informal assessment into classroom practices?
-              <br />
-              <strong>A:</strong> By using classroom discussions, quick quizzes,
-              peer assessments, and observational techniques to provide ongoing,
-              low-pressure feedback.
-            </li>
-            <li>
-              <strong>Q:</strong> What challenges are associated with scoring
-              performance-based assessments?
-              <br />
-              <strong>A:</strong> They can be subjective and variable; clear
-              rubrics and rater training are essential to ensure consistency and
-              fairness.
-            </li>
-            <li>
-              <strong>Q:</strong> How does the unitary trait hypothesis
-              influence language assessment design?
-              <br />
-              <strong>A:</strong> It supports the development of integrative
-              assessments that evaluate overall communicative competence rather
-              than isolated skills.
-            </li>
-            <li>
-              <strong>Q:</strong> What is washback, and why is it significant in
-              language assessment?
-              <br />
-              <strong>A:</strong> Washback refers to the influence of testing on
-              teaching and learning; positive washback can promote effective
-              practices, whereas negative washback can restrict curriculum.
-            </li>
-            <li>
-              <strong>Q:</strong> Why is authenticity important in language
-              tests?
-              <br />
-              <strong>A:</strong> Authentic tests mirror real-world language
-              use, making assessments more relevant and effective at measuring
-              communicative competence.
-            </li>
-            <li>
-              <strong>Q:</strong> How might new views on intelligence impact
-              language assessment?
-              <br />
-              <strong>A:</strong> Broader conceptions of intelligence encourage
-              assessments that capture a wider range of skills beyond
-              traditional linguistic abilities.
-            </li>
-            <li>
-              <strong>Q:</strong> In what ways can formative assessments be
-              designed to promote student autonomy?
-              <br />
-              <strong>A:</strong> By incorporating self-assessment, reflective
-              practices, and regular feedback that empower students to monitor
-              and guide their own learning.
-            </li>
-            <li>
-              <strong>Q:</strong> What are some potential consequences of
-              relying solely on summative assessments?
-              <br />
-              <strong>A:</strong> Sole reliance on summative assessments can
-              narrow the focus to final outcomes, increase student anxiety, and
-              reduce opportunities for timely instructional adjustments.
-            </li>
-          </ol>
+          <div className="prose max-w-none">
+            <ol className="list-decimal ml-6 space-y-4 text-lg">
+              <li>
+                <strong>
+                  What distinguishes a test from a broader assessment?
+                </strong>
+                <p>
+                  A test is a specific tool used to measure a learner’s ability
+                  or knowledge, while assessment is an ongoing process involving
+                  multiple methods to evaluate and enhance learning.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How does formative assessment support learning compared to
+                  summative assessment?
+                </strong>
+                <p>
+                  Formative assessment provides continuous feedback to guide
+                  learning, while summative assessment evaluates learning at the
+                  end of an instructional period.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  Why is it important to balance traditional and alternative
+                  assessments?
+                </strong>
+                <p>
+                  Balancing both ensures that standardized measures and
+                  authentic, context-based evaluations are considered for a
+                  comprehensive view of student learning.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What role does technology play in modern language assessment?
+                </strong>
+                <p>
+                  Technology enables computer-based, internet-based, and
+                  adaptive testing methods that offer immediate feedback and
+                  personalized difficulty, though challenges like accessibility
+                  and security remain.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  Can a test be authentic but not valid? Provide an example.
+                </strong>
+                <p>
+                  Yes; for example, a test using real-life tasks might
+                  inadvertently assess extraneous knowledge, thus lacking
+                  validity.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the primary difference between norm-referenced and
+                  criterion-referenced tests?
+                </strong>
+                <p>
+                  Norm-referenced tests compare a student’s performance to a
+                  larger group, whereas criterion-referenced tests evaluate
+                  performance against specific objectives.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What are the advantages and limitations of computer-adaptive
+                  testing (CAT)?
+                </strong>
+                <p>
+                  CAT tailors difficulty based on performance, offering
+                  efficient, personalized assessment but requires sophisticated
+                  technology and raises concerns about access and security.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How can teachers effectively integrate informal assessment
+                  into classroom practices?
+                </strong>
+                <p>
+                  By using classroom discussions, quick quizzes, peer
+                  assessments, and observational techniques to provide ongoing,
+                  low-pressure feedback.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What challenges are associated with scoring performance-based
+                  assessments?
+                </strong>
+                <p>
+                  They can be subjective and variable; clear rubrics and rater
+                  training are essential to ensure consistency and fairness.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How does the unitary trait hypothesis influence language
+                  assessment design?
+                </strong>
+                <p>
+                  It supports the development of integrative assessments that
+                  evaluate overall communicative competence rather than isolated
+                  skills.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is washback, and why is it significant in language
+                  assessment?
+                </strong>
+                <p>
+                  Washback refers to the influence of testing on teaching and
+                  learning; positive washback can promote effective practices,
+                  whereas negative washback can restrict curriculum.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  Why is authenticity important in language tests?
+                </strong>
+                <p>
+                  Authentic tests mirror real-world language use, making
+                  assessments more relevant and effective at measuring
+                  communicative competence.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How might new views on intelligence impact language
+                  assessment?
+                </strong>
+                <p>
+                  Broader conceptions of intelligence encourage assessments that
+                  capture a wider range of skills beyond traditional linguistic
+                  abilities.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  In what ways can formative assessments be designed to promote
+                  student autonomy?
+                </strong>
+                <p>
+                  By incorporating self-assessment, reflective practices, and
+                  regular feedback that empower students to monitor and guide
+                  their own learning.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What are some potential consequences of relying solely on
+                  summative assessments?
+                </strong>
+                <p>
+                  Sole reliance on summative assessments can narrow the focus to
+                  final outcomes, increase student anxiety, and reduce
+                  opportunities for timely instructional adjustments.
+                </p>
+              </li>
+            </ol>
+          </div>
         </section>
       </div>
     </main>

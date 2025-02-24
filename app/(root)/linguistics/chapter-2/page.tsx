@@ -486,193 +486,195 @@ export default function ChapterTwo() {
           </ul>
         </section>
 
-        {/* Chapter Questions (Part 2) */}
-        <section id="chapter-questions2" className="space-y-4">
+        {/* Chapter Questions */}
+        <section id="chapter-questions" className="space-y-8">
           <h2 className="text-2xl font-semibold">Chapter Questions</h2>
-          <ol className="list-decimal ml-6 text-lg space-y-2">
-            <li>
-              <strong>Q:</strong> The chapter emphasizes that “a practical test
-              is not necessarily valid, nor is a reliable test necessarily
-              practical.” Explain this statement with examples.
-              <br />
-              <strong>A:</strong> This means a test can be easy to administer
-              and cost-effective (practical) but may not accurately measure the
-              intended language skill (valid), and vice versa.
-            </li>
-            <li>
-              <strong>Q:</strong> Discuss the different facets of reliability in
-              language assessment. Why is it challenging to achieve perfect
-              rater reliability, even with well-defined scoring criteria?
-              <br />
-              <strong>A:</strong> Reliability includes consistency across raters
-              (inter-rater reliability), consistency by the same rater over time
-              (intra-rater reliability), and stability of test results under
-              similar conditions. Achieving perfect reliability is challenging
-              because human scorers can be influenced by subjective biases,
-              fatigue, or differing interpretations of scoring criteria.
-            </li>
-            <li>
-              <strong>Q:</strong> What is the relationship between authenticity
-              and validity in language assessment? Can an assessment be
-              authentic but not valid? Explain.
-              <br />
-              <strong>A:</strong> Authenticity reflects how well a test mirrors
-              real-world language use, while validity indicates whether it
-              measures what it is intended to. A test might be authentic yet
-              lack validity if extraneous factors interfere.
-            </li>
-            <li>
-              <strong>Q:</strong> How can a teacher ensure that classroom
-              assessments have positive washback on student learning?
-              <br />
-              <strong>A:</strong> Teachers can design assessments that align
-              with instructional objectives, provide constructive feedback, and
-              use test results to inform teaching practices.
-            </li>
-            <li>
-              <strong>Q:</strong> To evaluate the effectiveness of classroom
-              tests, the chapter enlisted specific criteria. Choose one (e.g.,
-              practicality, reliability, validity, authenticity, or washback)
-              and explain why it is important for language teachers.
-              <br />
-              <strong>A:</strong> For example, reliability is important because
-              it ensures that test scores are consistent and dependable,
-              providing a stable basis for decisions about student progress.
-            </li>
-          </ol>
+          <div className="prose max-w-none">
+            <ol className="list-decimal ml-6 space-y-4 text-lg">
+              <li>
+                <strong>
+                  The chapter emphasizes that “a practical test is not
+                  necessarily valid, nor is a reliable test necessarily
+                  practical.” Explain this statement with examples.
+                </strong>
+                <p>
+                  This means a test can be easy to administer and cost-effective
+                  (practical) but may not accurately measure the intended
+                  language skill (valid), and vice versa.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  Discuss the different facets of reliability in language
+                  assessment. Why is it challenging to achieve perfect rater
+                  reliability, even with well-defined scoring criteria?
+                </strong>
+                <p>
+                  Reliability includes consistency across raters (inter-rater
+                  reliability), consistency by the same rater over time
+                  (intra-rater reliability), and stability of test results under
+                  similar conditions. Achieving perfect reliability is
+                  challenging because human scorers can be influenced by
+                  subjective biases, fatigue, or differing interpretations of
+                  scoring criteria.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What is the relationship between authenticity and validity in
+                  language assessment? Can an assessment be authentic but not
+                  valid? Explain.
+                </strong>
+                <p>
+                  Authenticity reflects how well a test mirrors real-world
+                  language use, while validity indicates whether it measures
+                  what it is intended to. A test might be authentic yet lack
+                  validity if extraneous factors interfere.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How can a teacher ensure that classroom assessments have
+                  positive washback on student learning?
+                </strong>
+                <p>
+                  Teachers can design assessments that align with instructional
+                  objectives, provide constructive feedback, and use test
+                  results to inform teaching practices.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  To evaluate the effectiveness of classroom tests, the chapter
+                  enlisted specific criteria. Choose one (e.g., practicality,
+                  reliability, validity, authenticity, or washback) and explain
+                  why it is important for language teachers.
+                </strong>
+                <p>
+                  For example, reliability is important because it ensures that
+                  test scores are consistent and dependable, providing a stable
+                  basis for decisions about student progress.
+                </p>
+              </li>
+            </ol>
+          </div>
         </section>
 
-        {/* Additional Questions */}
-        <section id="additional-questions" className="space-y-4">
+        {/* Chapter Questions */}
+        <section id="additional-questions" className="space-y-8">
           <h2 className="text-2xl font-semibold">Additional Questions</h2>
-          <ol className="list-decimal ml-6 text-lg space-y-2">
-            <li>
-              <strong>Q:</strong> How does test administration reliability
-              affect overall test outcomes?
-              <br />
-              <strong>A:</strong> It ensures that external conditions, such as
-              the testing environment and equipment, do not negatively impact
-              student performance.
-            </li>
-            <li>
-              <strong>Q:</strong> What measures can be taken to enhance
-              authenticity in language assessments?
-              <br />
-              <strong>A:</strong> Test items should use natural language,
-              incorporate real-life contexts, and focus on tasks students are
-              likely to encounter outside the classroom.
-            </li>
-            <li>
-              <strong>Q:</strong> Why is criterion validity critical in
-              predictive assessments?
-              <br />
-              <strong>A:</strong> It ensures that test scores accurately
-              forecast future performance, making it a reliable predictor of
-              student success.
-            </li>
-            <li>
-              <strong>Q:</strong> How might negative washback influence
-              curriculum design?
-              <br />
-              <strong>A:</strong> Negative washback can narrow the curriculum to
-              focus solely on test-related content, reducing opportunities for
-              comprehensive learning.
-            </li>
-            <li>
-              <strong>Q:</strong> Why is it essential to continuously
-              re-evaluate assessment practices in light of new educational
-              research?
-              <br />
-              <strong>A:</strong> Continuous re-evaluation ensures that
-              assessment practices remain relevant, fair, and effective in
-              measuring student learning.
-            </li>
-            <li>
-              <strong>Q:</strong> What is the significance of VWRAP in language
-              assessment?
-              <br />
-              <strong>A:</strong> VWRAP stands for Validity, Washback,
-              Reliability, Authenticity, and Practicality, encapsulating the
-              core principles for effective assessment.
-            </li>
-            <li>
-              <strong>Q:</strong> How can the integration of VWRAP principles
-              improve the design of language assessments?
-              <br />
-              <strong>A:</strong> By focusing on multiple aspects such as
-              validity, authenticity, reliability, and practicality, assessments
-              become more balanced and effective.
-            </li>
-            <li>
-              <strong>Q:</strong> What challenges might arise when trying to
-              balance all elements of VWRAP in a single assessment?
-              <br />
-              <strong>A:</strong> Enhancing one aspect may compromise another;
-              for instance, increasing authenticity might affect practicality.
-              Finding an optimal balance requires careful planning and iterative
-              testing.
-            </li>
-            <li>
-              <strong>Q:</strong> How can teacher feedback contribute to the
-              effectiveness of assessments designed with VWRAP principles?
-              <br />
-              <strong>A:</strong> Teacher feedback provides insights into how
-              well assessments align with classroom needs, allowing adjustments
-              to improve validity, reliability, and overall balance.
-            </li>
-            <li>
-              <strong>Q:</strong> What role does ongoing professional
-              development play in maintaining the effectiveness of language
-              assessments?
-              <br />
-              <strong>A:</strong> It keeps educators updated on best practices,
-              new research, and emerging technologies, which helps refine
-              assessment strategies in line with VWRAP principles.
-            </li>
-            <li>
-              <strong>Q:</strong> How can collaborative efforts among educators
-              improve the reliability of test scoring?
-              <br />
-              <strong>A:</strong> Joint scoring sessions and calibration
-              meetings help ensure consistent application of scoring criteria,
-              reducing subjectivity.
-            </li>
-            <li>
-              <strong>Q:</strong> What are some potential long-term benefits of
-              integrating VWRAP principles into language assessment?
-              <br />
-              <strong>A:</strong> It can lead to more balanced, fair, and
-              comprehensive assessments, which improve instructional practices
-              and student learning outcomes in the long term.
-            </li>
-            <li>
-              <strong>Q:</strong> How does the concept of washback influence
-              both teaching practices and student study habits?
-              <br />
-              <strong>A:</strong> Positive washback motivates deeper curriculum
-              engagement, while negative washback can cause teaching to focus
-              excessively on test preparation.
-            </li>
-            <li>
-              <strong>Q:</strong> In what ways can integrating technology into
-              assessments support the VWRAP framework?
-              <br />
-              <strong>A:</strong> Technology can enable adaptive testing,
-              provide immediate feedback, and facilitate innovative task designs
-              that mirror real-life language use, enhancing validity,
-              authenticity, and reliability.
-            </li>
-            <li>
-              <strong>Q:</strong> How can emerging technologies be leveraged to
-              improve both the authenticity and practicality of language
-              assessments?
-              <br />
-              <strong>A:</strong> Emerging technologies, such as AI-based
-              adaptive testing and interactive digital platforms, can simulate
-              authentic communication scenarios, provide real-time feedback, and
-              streamline test administration.
-            </li>
-          </ol>
+          <div className="prose max-w-none">
+            <ol className="list-decimal ml-6 space-y-4 text-lg">
+              <li>
+                <strong>
+                  How does test administration reliability affect overall test
+                  outcomes?
+                </strong>
+                <p>
+                  It ensures that external conditions, such as the testing
+                  environment and equipment, do not negatively impact student
+                  performance.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What measures can be taken to enhance authenticity in language
+                  assessments?
+                </strong>
+                <p>
+                  Test items should use natural language, incorporate real-life
+                  contexts, and focus on tasks students are likely to encounter
+                  outside the classroom.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  Why is criterion validity critical in predictive assessments?
+                </strong>
+                <p>
+                  It ensures that test scores accurately forecast future
+                  performance, making it a reliable predictor of student
+                  success.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How might negative washback influence curriculum design?
+                </strong>
+                <p>
+                  Negative washback can narrow the curriculum to focus solely on
+                  test-related content, reducing opportunities for comprehensive
+                  learning.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  Why is it essential to continuously re-evaluate assessment
+                  practices in light of new educational research?
+                </strong>
+                <p>
+                  Continuous re-evaluation ensures that assessment practices
+                  remain relevant, fair, and effective in measuring student
+                  learning.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What is the significance of VWRAP in language assessment?
+                </strong>
+                <p>
+                  VWRAP stands for Validity, Washback, Reliability,
+                  Authenticity, and Practicality, encapsulating the core
+                  principles for effective assessment.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How can the integration of VWRAP principles improve the design
+                  of language assessments?
+                </strong>
+                <p>
+                  By focusing on multiple aspects such as validity,
+                  authenticity, reliability, and practicality, assessments
+                  become more balanced and effective.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What challenges might arise when trying to balance all
+                  elements of VWRAP in a single assessment?
+                </strong>
+                <p>
+                  Enhancing one aspect may compromise another; for instance,
+                  increasing authenticity might affect practicality. Finding an
+                  optimal balance requires careful planning and iterative
+                  testing.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How can teacher feedback contribute to the effectiveness of
+                  assessments designed with VWRAP principles?
+                </strong>
+                <p>
+                  Teacher feedback provides insights into how well assessments
+                  align with classroom needs, allowing adjustments to improve
+                  validity, reliability, and overall balance.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What role does ongoing professional development play in
+                  maintaining the effectiveness of language assessments?
+                </strong>
+                <p>
+                  It keeps educators updated on best practices, new research,
+                  and emerging technologies, which helps refine assessment
+                  strategies in line with VWRAP principles.
+                </p>
+              </li>
+            </ol>
+          </div>
         </section>
       </div>
     </main>

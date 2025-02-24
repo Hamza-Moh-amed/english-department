@@ -70,12 +70,28 @@ export const subjects = [
     subjectLink: "/linguistics",
     lessons: [
       {
-        title: "Chapter One",
-        link: "/linguistics/chapter-one",
+        title: "Chapter 1",
+        link: "/linguistics/chapter-1",
       },
       {
-        title: "Chapter Two",
-        link: "/linguistics/chapter-two",
+        title: "Chapter 2",
+        link: "/linguistics/chapter-2",
+      },
+      {
+        title: "Chapter 3",
+        link: "/linguistics/chapter-3",
+      },
+      {
+        title: "Chapter 4",
+        link: "/linguistics/chapter-4",
+      },
+      {
+        title: "Chapter 5",
+        link: "/linguistics/chapter-5",
+      },
+      {
+        title: "Source PDF Files",
+        link: "/linguistics/assets",
       },
     ],
   },

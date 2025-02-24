@@ -46,6 +46,7 @@ export default function ChapterThree() {
     { href: "#designing-items", label: "Designing Test Items" },
     { href: "#checklist", label: "Checklist for Test Design" },
     { href: "#scoring-grading", label: "Scoring, Grading, and Feedback" },
+    { href: "#qna", label: "Q&A" },
   ];
 
   return (
@@ -181,7 +182,7 @@ export default function ChapterThree() {
                 <tr className="border-b border-gray-200 last:border-b-0">
                   <th
                     scope="row"
-                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-top text-gray-800 font-medium text-sm sm:text-base w-20 sm:w-32"
+                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-center text-gray-800 font-medium text-sm sm:text-base w-20 sm:w-32"
                   >
                     A1
                   </th>
@@ -197,7 +198,7 @@ export default function ChapterThree() {
                 <tr className="border-b border-gray-200 last:border-b-0">
                   <th
                     scope="row"
-                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-top text-gray-800 font-medium text-sm sm:text-base"
+                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-center text-gray-800 font-medium text-sm sm:text-base"
                   >
                     A2
                   </th>
@@ -213,7 +214,7 @@ export default function ChapterThree() {
                 <tr className="border-b border-gray-200 last:border-b-0">
                   <th
                     scope="row"
-                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-top text-gray-800 font-medium text-sm sm:text-base"
+                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-center text-gray-800 font-medium text-sm sm:text-base"
                   >
                     B1
                   </th>
@@ -229,7 +230,7 @@ export default function ChapterThree() {
                 <tr className="border-b border-gray-200 last:border-b-0">
                   <th
                     scope="row"
-                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-top text-gray-800 font-medium text-sm sm:text-base"
+                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-center text-gray-800 font-medium text-sm sm:text-base"
                   >
                     B2
                   </th>
@@ -245,7 +246,7 @@ export default function ChapterThree() {
                 <tr className="border-b border-gray-200 last:border-b-0">
                   <th
                     scope="row"
-                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-top text-gray-800 font-medium text-sm sm:text-base"
+                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-center text-gray-800 font-medium text-sm sm:text-base"
                   >
                     C1
                   </th>
@@ -261,7 +262,7 @@ export default function ChapterThree() {
                 <tr>
                   <th
                     scope="row"
-                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-top text-gray-800 font-medium text-sm sm:text-base"
+                    className="bg-gray-50 px-4 py-2 sm:px-6 sm:py-4 align-center text-gray-800 font-medium text-sm sm:text-base"
                   >
                     C2
                   </th>
@@ -591,165 +592,373 @@ export default function ChapterThree() {
             of scoring and grading tests.
           </p>
         </section>
-        {/* Questions and answers */}
-        <section id="additional-questions" className="space-y-4">
-          <h2 className="text-2xl font-semibold">Additional Questions</h2>
-          <ol className="list-decimal ml-6 text-lg space-y-2">
-            <li>
-              <strong>Q:</strong> Why is it important to align classroom
-              language tests with teaching objectives?
-              <br />
-              <strong>A:</strong> Aligning tests with teaching objectives
-              ensures that assessments accurately measure what students have
-              learned and provide meaningful feedback.
-            </li>
-            <li>
-              <strong>Q:</strong> How can educators minimize bias in
-              standardized tests?
-              <br />
-              <strong>A:</strong> Educators can minimize bias by ensuring test
-              content is culturally neutral, using diverse test formats, and
-              regularly reviewing test items for fairness.
-            </li>
-            <li>
-              <strong>Q:</strong> What steps can teachers take to make language
-              tests more authentic?
-              <br />
-              <strong>A:</strong> Teachers can use real-world tasks, incorporate
-              natural language, and focus on communicative skills rather than
-              rote memorization.
-            </li>
-            <li>
-              <strong>Q:</strong> How can the CEFR framework help teachers
-              identify students' language levels?
-              <br />
-              <strong>A:</strong> The CEFR provides standardized descriptors for
-              language proficiency, helping teachers assess and place students
-              accurately.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the key considerations when designing
-              classroom language tests?
-              <br />
-              <strong>A:</strong> Key considerations include aligning tests with
-              learning objectives, ensuring fairness, and creating authentic and
-              practical tasks.
-            </li>
-            <li>
-              <strong>Q:</strong> Why is it important to define the purpose of a
-              test before designing it?
-              <br />
-              <strong>A:</strong> Defining the purpose ensures the test meets
-              its intended goals, whether for placement, diagnosis, or measuring
-              achievement.
-            </li>
-            <li>
-              <strong>Q:</strong> How can teachers ensure test tasks reflect
-              real-world language use?
-              <br />
-              <strong>A:</strong> Teachers can design tasks that mimic real-life
-              communication scenarios, such as role-playing or writing emails.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the ethical considerations in
-              designing classroom language tests?
-              <br />
-              <strong>A:</strong> Ethical considerations include avoiding bias,
-              ensuring fairness, and providing clear instructions and feedback.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the advantages of using
-              multiple-choice questions in language tests?
-              <br />
-              <strong>A:</strong> Multiple-choice questions are easy to score,
-              cost-effective, and can assess a wide range of knowledge quickly.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the limitations of multiple-choice
-              questions?
-              <br />
-              <strong>A:</strong> Limitations include encouraging guessing,
-              limited assessment of higher-order thinking, and potential
-              cultural bias.
-            </li>
-            <li>
-              <strong>Q:</strong> How can teachers use diagnostic tests to
-              improve instruction?
-              <br />
-              <strong>A:</strong> Diagnostic tests identify students' strengths
-              and weaknesses, allowing teachers to tailor instruction to address
-              specific needs.
-            </li>
-            <li>
-              <strong>Q:</strong> What is the difference between proficiency
-              tests and achievement tests?
-              <br />
-              <strong>A:</strong> Proficiency tests measure general language
-              ability, while achievement tests assess how well students have
-              mastered specific course content.
-            </li>
-            <li>
-              <strong>Q:</strong> How can teachers ensure test specifications
-              align with course objectives?
-              <br />
-              <strong>A:</strong> Teachers can map test tasks to course
-              objectives, ensuring the test reflects what was taught and
-              learned.
-            </li>
-            <li>
-              <strong>Q:</strong> What role does feedback play in language
-              assessments?
-              <br />
-              <strong>A:</strong> Feedback helps students understand their
-              performance, identify areas for improvement, and stay motivated.
-            </li>
-            <li>
-              <strong>Q:</strong> How can teachers design effective test items?
-              <br />
-              <strong>A:</strong> Teachers should design items that measure
-              specific objectives, use clear language, and avoid ambiguous
-              distractors.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the characteristics of a
-              well-designed placement test?
-              <br />
-              <strong>A:</strong> A well-designed placement test accurately
-              assesses students' proficiency levels and assigns them to
-              appropriate courses.
-            </li>
-            <li>
-              <strong>Q:</strong> How can teachers balance practicality and
-              authenticity in test design?
-              <br />
-              <strong>A:</strong> Teachers can use tasks that are both realistic
-              and feasible to administer, ensuring the test remains practical
-              without sacrificing authenticity.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the benefits of using a checklist for
-              test design?
-              <br />
-              <strong>A:</strong> A checklist ensures the test is aligned with
-              objectives, fair, and effective in measuring student learning.
-            </li>
-            <li>
-              <strong>Q:</strong> How can teachers use achievement tests to
-              evaluate course success?
-              <br />
-              <strong>A:</strong> Achievement tests measure whether students
-              have met course objectives, providing insights into the
-              effectiveness of instruction.
-            </li>
-            <li>
-              <strong>Q:</strong> What are the challenges of constructing
-              diagnostic tests?
-              <br />
-              <strong>A:</strong> Diagnostic tests are difficult to construct
-              due to the need for detailed, skill-specific items and a lack of
-              standardized models.
-            </li>
-          </ol>
+
+        {/* Questions and Answers */}
+        <section id="qna" className="space-y-8">
+          <h2 className="text-2xl font-semibold">Questions and Answers</h2>
+          <div className="prose max-w-none">
+            <ol className="list-decimal ml-6 space-y-4 text-lg">
+              <li>
+                <strong>
+                  What is the significance of aligning classroom language tests
+                  with teaching objectives?
+                </strong>
+                <p>
+                  Aligning tests with teaching objectives is essential because
+                  it ensures that assessments accurately reflect what has been
+                  taught. This alignment helps in measuring the intended
+                  learning outcomes, provides meaningful feedback to students,
+                  and maintains the validity and reliability of the test by
+                  ensuring that it directly measures the targeted skills and
+                  knowledge.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How do fairness and authenticity contribute to the
+                  effectiveness of language assessments?
+                </strong>
+                <p>
+                  Fairness guarantees that all students are evaluated without
+                  bias, while authenticity ensures that test tasks mirror
+                  real-world language use. Together, they create assessments
+                  that are both equitable and relevant, thereby enabling a true
+                  measure of a student's language competence and practical
+                  communication skills.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What are the key considerations in designing effective
+                  classroom language tests?
+                </strong>
+                <p>
+                  Effective test design requires a clear reflection of learning
+                  objectives, selection of authentic tasks, logical sequencing
+                  of items, diversity in test formats, and ensuring that each
+                  task is practical and evaluable. These considerations help in
+                  constructing tests that are both reliable and aligned with
+                  course content.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How can educators ethically administer standardized tests to
+                  minimize bias?
+                </strong>
+                <p>
+                  Educators can use standardized tests ethically by carefully
+                  reviewing test content for cultural and linguistic bias,
+                  ensuring the tasks reflect real-world language use, and
+                  applying the tests responsibly. Ongoing validation,
+                  transparent scoring practices, and regular reviews help in
+                  mitigating potential negative consequences.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  In what ways can standardized test performance be linked to
+                  real-world language use?
+                </strong>
+                <p>
+                  Bridging the gap involves incorporating authentic,
+                  communicative tasks into standardized tests. This might
+                  include integrating performance-based items or scenario-based
+                  questions that require practical language application, thus
+                  ensuring that test results better predict a student's ability
+                  to function in real-life language environments.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What strategies can be used to create test tasks that move
+                  beyond rote memorization?
+                </strong>
+                <p>
+                  Teachers can employ strategies such as using open-ended
+                  questions, performance tasks, role-playing, and
+                  problem-solving exercises that require students to apply
+                  language skills in realistic contexts. This approach
+                  encourages critical thinking and practical language use rather
+                  than simple recall of information.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How does utilizing various test formats enhance language
+                  assessment?
+                </strong>
+                <p>
+                  Incorporating multiple test formats—such as multiple-choice
+                  for quick recall, essays for expressive ability, and
+                  performance-based tasks for communicative competence—allows
+                  for a comprehensive evaluation of language skills. This
+                  variety ensures that both receptive and productive language
+                  abilities are assessed, providing a balanced picture of
+                  student proficiency.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What ethical considerations should be addressed when designing
+                  classroom language tests?
+                </strong>
+                <p>
+                  Ethical test design must address fairness, transparency, and
+                  the avoidance of bias. This involves ensuring that test items
+                  are free from cultural or linguistic prejudice, that all
+                  students have equal opportunity to demonstrate their skills,
+                  and that assessments are aligned with clearly communicated
+                  learning objectives.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How does the Common European Framework of Reference for
+                  Languages (CEFR) aid in assessing student language
+                  proficiency?
+                </strong>
+                <p>
+                  The CEFR provides standardized proficiency levels (A1 through
+                  C2) that describe what learners can do in a foreign language.
+                  Educators use these levels as benchmarks to determine
+                  students’ abilities, guide instruction, and develop tests that
+                  accurately assess language proficiency against internationally
+                  recognized criteria.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What defines a learner at the A1 level according to the CEFR?
+                </strong>
+                <p>
+                  A learner at the A1 level can understand and use basic
+                  phrases, engage in simple interactions, and perform essential
+                  functions like introductions and asking personal questions.
+                  This level represents the foundational stage of language
+                  learning.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How is the B2 level characterized within the CEFR framework?
+                </strong>
+                <p>
+                  At the B2 level, learners can understand the main ideas of
+                  complex texts on both concrete and abstract topics. They are
+                  able to interact fluently with native speakers and can
+                  participate in technical discussions in their area of
+                  specialization, reflecting a high degree of linguistic
+                  competence.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What is the primary purpose of diagnostic tests in language
+                  assessment?
+                </strong>
+                <p>
+                  Diagnostic tests are used to identify students’ specific
+                  strengths and weaknesses in language skills. They provide
+                  detailed insights that help teachers tailor instruction and
+                  provide targeted feedback, thereby addressing individual
+                  learning needs and guiding future teaching strategies.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How do proficiency tests differ from placement tests in
+                  language education?
+                </strong>
+                <p>
+                  Proficiency tests measure a learner’s overall ability in a
+                  language independent of prior training, often using
+                  standardized formats and norm-referenced scoring. In contrast,
+                  placement tests are designed to assign students to appropriate
+                  courses or levels by defining proficiency characteristics that
+                  align with the curriculum’s demands.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What role do achievement tests play in classroom language
+                  assessment?
+                </strong>
+                <p>
+                  Achievement tests serve as summative assessments that directly
+                  measure whether students have met the learning objectives of a
+                  lesson, course, or curriculum. They provide evidence of
+                  instructional effectiveness and student progress, often
+                  determining overall success in a particular educational
+                  context.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What are the disadvantages associated with using
+                  multiple-choice questions (MCQs) in language tests?
+                </strong>
+                <p>
+                  While MCQs offer ease of scoring and broad coverage, they tend
+                  to encourage guessing and may not effectively assess
+                  higher-order thinking skills or practical language use.
+                  Additionally, they can introduce bias by favoring students who
+                  excel at test-taking strategies over those with stronger
+                  practical language abilities.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How does the method of feedback influence student outcomes in
+                  language assessments?
+                </strong>
+                <p>
+                  Feedback plays a pivotal role in student development by
+                  clearly indicating areas of strength and aspects needing
+                  improvement. Constructive feedback, whether in the form of
+                  letter grades, scores, or detailed commentary, helps students
+                  understand their performance, guides future learning, and
+                  fosters a growth mindset.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What is the process for developing test specifications that
+                  ensure a test’s validity?
+                </strong>
+                <p>
+                  Developing test specifications involves first clarifying the
+                  learning objectives, then designing the test structure to
+                  logically reflect these objectives. This process includes
+                  determining task types, weighting different sections
+                  appropriately, and ensuring a coherent progression of tasks
+                  that mirrors the instructional content.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What practical steps are involved in the construction of a
+                  language test?
+                </strong>
+                <p>
+                  Practical test construction steps include:
+                  <br />
+                  <br />
+                  Assessing and articulating clear, unambiguous objectives.
+                  <br />
+                  Developing detailed test specifications that align with course
+                  content.
+                  <br />
+                  Devising tasks that accurately reflect the unit or lesson
+                  objectives.
+                  <br />
+                  Designing effective test items (including MCQs, essays, etc.)
+                  and using a checklist to confirm alignment with learning
+                  outcomes.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  Why is authenticity important in designing language test
+                  tasks?
+                </strong>
+                <p>
+                  Authentic tasks are important because they simulate real-world
+                  language situations, making the assessment more relevant and
+                  practical. By reflecting actual language use, these tasks
+                  better predict a student’s ability to perform outside the
+                  classroom and enhance engagement by linking academic
+                  assessment with everyday communication.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How does the logical arrangement of test items contribute to a
+                  test’s effectiveness?
+                </strong>
+                <p>
+                  A logical arrangement helps in structuring the test so that it
+                  flows naturally, builds on previously assessed skills, and
+                  minimizes confusion. This structure supports a clear
+                  understanding of the assessment process, enhances student
+                  confidence, and improves the accuracy of the evaluation by
+                  aligning with the natural progression of the learning
+                  material.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What factors must be considered when selecting and arranging
+                  test tasks?
+                </strong>
+                <p>
+                  When selecting and arranging tasks, educators must ensure that
+                  tasks are practical, authentic, and directly related to the
+                  course content. Additionally, tasks should be arranged in a
+                  coherent sequence that supports progressive difficulty and
+                  must be capable of being evaluated reliably, ensuring both
+                  validity and fairness.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How do performance-based tasks differ from traditional
+                  assessment methods in language testing?
+                </strong>
+                <p>
+                  Performance-based tasks require active demonstration of
+                  language skills in realistic contexts, such as through
+                  role-plays or interactive simulations. Unlike traditional
+                  formats like multiple-choice questions that focus on
+                  recognition or recall, performance tasks assess the practical
+                  application of language skills and provide a more holistic
+                  measure of communicative competence.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What is the purpose of using a checklist in test design?
+                </strong>
+                <p>
+                  A checklist in test design serves as a systematic tool to
+                  ensure that all elements of the test align with the defined
+                  learning objectives. It helps educators verify that the test
+                  is fair, authentic, logically structured, and comprehensive,
+                  reducing the likelihood of oversight and ensuring that the
+                  assessment accurately reflects student learning.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What should be considered when providing feedback following a
+                  language assessment?
+                </strong>
+                <p>
+                  Feedback should be tailored to the test’s purpose and the
+                  specific skills assessed. It must be clear, constructive, and
+                  actionable, highlighting both strengths and areas for
+                  improvement. Consideration of individual student needs and
+                  aligning feedback with instructional goals are critical for
+                  supporting ongoing learning and development.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How can teachers integrate both summative and formative
+                  assessment approaches in their language tests?
+                </strong>
+                <p>
+                  Teachers can integrate summative assessments, which evaluate
+                  overall achievement at the end of a unit, with formative
+                  assessments that provide ongoing feedback during the learning
+                  process. This balanced approach involves using progress tests,
+                  performance tasks, and detailed feedback sessions to not only
+                  measure final outcomes but also to support continuous
+                  improvement and instructional adjustment.
+                </p>
+              </li>
+            </ol>
+          </div>
         </section>
       </div>
     </main>

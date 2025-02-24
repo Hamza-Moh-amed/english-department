@@ -8,14 +8,17 @@ const planner = [
   {
     day: "Monday",
     events: [
-      "Linguistics 12-2 pm - room 65",
+      "Linguistics 12-2 pm - room 65 - (03 Mar - Moved Online on Tuesaday)",
       "Comparative 2-4 pm - room 65",
       "Docility 4-6 pm - room 13",
     ],
   },
   {
     day: "Tuesday",
-    events: ["Docility 10 am - online"],
+    events: [
+      "Docility 10 am - online",
+      "Linguistics 12 pm - online (Replacment for monday lecture)",
+    ],
   },
   {
     day: "Wednesday",
@@ -27,7 +30,10 @@ const planner = [
   },
   {
     day: "Thursday",
-    events: ["Trauma 10 am - online", "Comparative 1-3 pm - online"],
+    events: [
+      "Trauma 10 am - online",
+      "Comparative 1-3 pm - online (27 Feb 5-7 pm - online )",
+    ],
   },
 ];
 
