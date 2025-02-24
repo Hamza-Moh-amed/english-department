@@ -41,6 +41,10 @@ export const subjects = [
         title: "Everyday Forms of Resistance",
         link: "/comparative/everyday-forms-of-resistance",
       },
+      {
+        title: "Source PDF Files",
+        link: "/comparative/source",
+      },
     ],
   },
   {
@@ -62,6 +66,10 @@ export const subjects = [
       {
         title: "And The Soul Shall Dance: Analysis",
         link: "/docility/and-the-soul-shall-dance-analysis",
+      },
+      {
+        title: "Source PDF Files",
+        link: "/docility/source",
       },
     ],
   },
@@ -91,7 +99,7 @@ export const subjects = [
       },
       {
         title: "Source PDF Files",
-        link: "/linguistics/assets",
+        link: "/linguistics/source",
       },
     ],
   },
@@ -126,6 +134,10 @@ export const subjects = [
       {
         title: "What Is Intergenerational Trauma?",
         link: "/trauma/intergenerational-trauma",
+      },
+      {
+        title: "Source PDF Files",
+        link: "/trauma/source",
       },
     ],
   },
