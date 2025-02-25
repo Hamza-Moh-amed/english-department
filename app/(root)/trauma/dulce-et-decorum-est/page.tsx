@@ -13,6 +13,9 @@ export const metadata = {
 export default function DulceEtDecorumEst() {
   const navLinks: NavLink[] = [
     { href: "#poem", label: "Poem" },
+    { href: "#poem-video", label: "Poem Video" },
+    { href: "#analysis-video", label: "Analysis Video" },
+    { href: "#shell-shock", label: "Shell Shock" },
     { href: "#author", label: "Author Background" },
     { href: "#analysis", label: "Analysis" },
     { href: "#qna", label: "Q&A" },
@@ -78,6 +81,60 @@ export default function DulceEtDecorumEst() {
               Pro patria mori.
             </p>
           </article>
+        </section>
+
+        {/* YouTube Embed Section: Poem */}
+        <section id="poem-video" className="space-y-8">
+          <h2 className="text-2xl font-semibold text-center md:text-left">
+            Poem Video
+          </h2>
+          <div className="flex justify-center">
+            <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
+              <iframe
+                src="https://www.youtube.com/embed/SgQhH67oPgY?si=sRyw9gx6fqBYvX4l"
+                title="Mic Check by Suheir Hammad"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-lg"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        {/* YouTube Embed Section: Poem Analysis */}
+        <section id="analysis-video" className="space-y-8">
+          <h2 className="text-2xl font-semibold text-center md:text-left">
+            Poem Analysis
+          </h2>
+          <div className="flex justify-center">
+            <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
+              <iframe
+                src="https://www.youtube.com/embed/CmvRHDR2R70?si=kUqNRjv98uBz-mJA"
+                title="Mic Check by Suheir Hammad"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-lg"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        {/* YouTube Embed Section */}
+        <section id="shell-shock" className="space-y-8">
+          <h2 className="text-2xl font-semibold text-center md:text-left">
+            Shell Shock: The Psychological Scars of WW1
+          </h2>
+          <div className="flex justify-center">
+            <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
+              <iframe
+                src="https://www.youtube.com/embed/kvTRJZGWqF8?si=6TEnzhkBg6kkTfLx"
+                title="Mic Check by Suheir Hammad"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-lg"
+              ></iframe>
+            </div>
+          </div>
         </section>
 
         {/* Author Background Section */}
