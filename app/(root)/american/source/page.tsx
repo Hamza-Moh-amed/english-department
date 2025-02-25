@@ -11,7 +11,7 @@ export const metadata = {
 export default function AmericanAssetsPage() {
   const navLinks: NavLink[] = [
     { href: "#planner", label: "Weekly Planner" },
-    { href: "#course", label: "Course Reader" },
+    { href: "#reader", label: "Course Reader" },
   ];
 
   return (

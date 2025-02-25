@@ -66,11 +66,7 @@ export default function TraumaAndRecoveryText() {
               prerequisites both for the restoration of the social order and for
               the healing of individual victims.
             </p>
-            <p className="text-lg">
-              Remembering and telling the truth about terrible events are
-              prerequisites both for the restoration of the social order and for
-              the healing of individual victims.
-            </p>
+
             <p className="text-lg">
               The conflict between the will to deny horrible events and the will
               to proclaim them aloud is the central dialectic of psychological
