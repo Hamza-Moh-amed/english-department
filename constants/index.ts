@@ -158,6 +158,10 @@ export const subjects = [
         title: "Suggested Passages",
         link: "/translation/suggested-passages",
       },
+      {
+        title: "Source PDF Files",
+        link: "/translation/source",
+      },
     ],
   },
 ];

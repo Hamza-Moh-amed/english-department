@@ -4,15 +4,21 @@ import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
 
 export const metadata = {
-  title: "4th Year Suggested Passages",
+  title: "SelectedPassages",
   description:
-    "A collection of suggested passages for fourth-year students featuring both English and Arabic content.",
+    "SelectedPassages in Arabic and English with key words translations.",
 };
 
-export default function FourthYearPassages() {
+export default function SelectedPassages() {
   const navLinks: NavLink[] = [
-    { href: "#english", label: "English Passages" },
-    // { href: "#arabic", label: "المقاطع العربية" },
+    { href: "#egypt-malaysia-leaders", label: "Egypt-Malaysia" },
+    {
+      href: "#prosecutor-release-students",
+      label: "Prosecutor Release Students",
+    },
+    { href: "#al-azhar-visit", label: "Sheikh of Al-Azhar Arrives" },
+    { href: "#king-abdulaziz", label: "King Abdulaziz" },
+    { href: "#tawakkol-karman", label: "Tawakkol Karman" },
   ];
 
   return (
@@ -25,33 +31,28 @@ export default function FourthYearPassages() {
             <Navigation links={navLinks} />
           </div>
           <div className="flex-grow text-center">
-            <PageTitle
-              title="4th Year Suggested Passages"
-              author="Various Sources"
-            />
+            <PageTitle title="Selected Passages" />
           </div>
           <div className="flex-none w-24" />
         </div>
         {/* For mobile: stack Navigation and PageTitle */}
         <div className="md:hidden space-y-4">
           <Navigation links={navLinks} />
-          <PageTitle
-            title="4th Year Suggested Passages"
-            author="Various Sources"
-          />
+          <PageTitle title="Selected Passages" />
         </div>
       </div>
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-8 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
-        {/* English Passages Section */}
-        <section id="english" className="space-y-8">
-          <h2 className="text-2xl font-semibold">English Passages</h2>
-          <article className="prose max-w-none text-left md:text-justify">
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold">
-                1. Egypt, Malaysia leaders stress rejection of Palestinian
-                displacement
-              </h3>
+        {/* Passage Container */}
+
+        <section id="egypt-malaysia-leaders" className="space-y-12">
+          {/* English Passage */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold text-center">
+              Egypt, Malaysia leaders stress rejection of Palestinian
+              displacement
+            </h2>
+            <article className="prose max-w-none text-left md:text-justify">
               <p className="mt-2 text-lg">
                 President Abdel Fattah El-Sisi and Malaysian Prime Minister
                 Anwar Ibrahim have emphasized their firm rejection of the
@@ -73,176 +74,865 @@ export default function FourthYearPassages() {
                 relative calm under a ceasefire, brokered by Egypt, Qatar, and
                 the US.
               </p>
-            </div>
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold">
-                2. Former al Qaeda member named as Syria’s president for
-                transitional period
-              </h3>
+            </article>
+          </div>
+
+          {/* Arabic Translation */}
+          <div className="space-y-8" dir="rtl">
+            <h2 className="text-2xl font-semibold text-center">
+              قادة مصر وماليزيا يشددان على رفض تهجير الفلسطينيين
+            </h2>
+            <article className="prose max-w-none text-right">
               <p className="mt-2 text-lg">
-                Former al Qaeda member Ahmad al-Sharaa, also known as Abu
-                Mohammad al-Jolani, has been named as Syria’s president for a
-                transitional period. “We announce the appointment of Commander
-                Ahmad al-Sharaa as head of state during the transitional period.
-                He will assume the duties of the president of the Syrian Arab
-                Republic and represent the country in international forums,”
-                Commander Hassan Abdel Ghani, spokesman for the Syria Military
-                Operations Command, said in a statement. “The president is
-                authorized to form a temporary legislative council for the
-                transitional phase, which will carry out its duties until a
-                permanent constitution is enacted and put into effect,” Ghani
-                added. The command also announced several resolutions, including
-                the suspension of the country’s constitution, the dissolution of
-                the country’s parliament, and the dissolution of the former
-                regime’s army and its Baath party. Al-Sharaa was the leader of
-                the main militant group that spearheaded the lightning offensive
-                that led to the overthrow last year of Syrian dictator Bashar
-                al-Assad, whose regime had been in power for several decades.
+                أكد الرئيس عبد الفتاح السيسي ورئيس الوزراء الماليزي أنور إبراهيم
+                رفضهما القاطع لتهجير الفلسطينيين من أراضيهم، حتى لا يؤدي ذلك إلى
+                تصفية القضية الفلسطينية. وخلال مكالمة هاتفية يوم الجمعة، تناول
+                السيسي وإبراهيم جهود مصر لتنفيذ اتفاق وقف إطلاق النار في قطاع
+                غزة بالتعاون مع دولة قطر والولايات المتحدة. كما سلطت المكالمة
+                الضوء على مساعي مصر لتوصيل المساعدات الإنسانية إلى القطاع
+                لمواجهة الأزمة التي يعاني منها سكان غزة. وأشاد رئيس الوزراء
+                الماليزي بالجهود الدؤوبة التي تبذلها مصر لدعم الشعب الفلسطيني،
+                ووقف سفك الدماء، وإعادة الهدوء إلى المنطقة. وفي الوقت نفسه، أكد
+                الزعيمان ضرورة تكثيف الجهود الدولية لإقامة الدولة الفلسطينية على
+                حدود 4 يونيو عام 1967 وعاصمتها القدس الشرقية. وشددوا على أن هذا
+                الهدف هو الضمان الوحيد لتحقيق سلام دائم في المنطقة وضمان
+                الاستقرار والازدهار لشعوبها. وتشهد غزة حاليًا هدوءًا نسبيًا تحت
+                وقف إطلاق النار الذي تم التوسط فيه من قبل مصر وقطر والولايات
+                المتحدة.
               </p>
+            </article>
+          </div>
+
+          {/* Keywords Section */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold">
+              Keywords &amp; Translations / أهم المفردات والتعبيرات
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="px-4 py-2 border border-gray-300">
+                      English
+                    </th>
+                    <th
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      العربية
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      displacement
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      تهجير
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      ceasefire
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      وقف إطلاق النار
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      humanitarian aid
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      المساعدات الإنسانية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      bloodshed
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      سفك الدماء
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Palestinian state
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الدولة الفلسطينية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      East Jerusalem
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      القدس الشرقية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      rejection
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      رفض
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold">
-                3. IMF to unveil new loan package for Egypt
-              </h3>
-              <p className="mt-2 text-lg">
-                The IMF plans to unveil a new loan agreement with Egypt for
-                approval by its board, the global lender's communications chief
-                said Thursday, as the country looks to strengthen its economy.
-                “A policy package of reforms will be considered by the Fund's
-                executive board, along with the fourth review of Egypt's
-                program,” International Monetary Fund communications director
-                Julie Kozack told reporters in Washington. Kozack said the new
-                planned loan agreement would take the form of a Resilience and
-                Sustainability Facility (RSF), designed in part to help
-                countries tackle climate change, adding that she could not yet
-                confirm how large it will be. Last year, the IMF expanded its
-                existing loan package from $3 billion to $8 billion to help
-                Egypt manage its economic challenges amid regional instability
-                unleashed by the war in Gaza. A draft agreement was reached on a
-                review of Egypt's existing loan program back in December which
-                should unlock an additional $1.2 billion to help the Egyptian
-                economy as it battles a series of headwinds. Repeated attacks on
-                Red Sea shipping by Yemen's Huthi rebels in support of
-                Palestinians in Gaza caused Egypt's revenues from the Suez Canal
-                – a key foreign currency earner – to plummet.
-              </p>
-            </div>
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold">
-                4. Egypt Culture Ministry Designates 2025 Year of Um Kalthoum
-              </h3>
-              <p className="mt-2 text-lg">
-                The Ministry of Culture has designated 2025 as the Year of Um
-                Kalthoum, launching a year-long celebration to commemorate the
-                50th anniversary of the legendary Egyptian singer’s death. In an
-                official press release, the ministry announced its comprehensive
-                programme of events and activities to highlight Um Kalthoum’s
-                musical legacy and profound impact on the Arab world. The
-                ministry added that it will organize local, regional, and
-                international concerts featuring prominent Arab singers
-                performing Um Kalthoum's songs in contemporary styles while
-                preserving their authenticity. Moreover, the Cairo Opera House
-                will host several events commemorating the Star of the Orient in
-                Egypt and the Arab world. The opera will also present two
-                special concerts at the Arab Music Institute and a nationwide
-                talent competition, Discovering Um Kaulthoum 2025, which aims to
-                find young singers who resemble her. Furthermore, the Cairo
-                International Book Fair is dedicating a special segment to Um
-                Kalthoum, which includes musical performances and an exhibition
-                of rare documents and photographs at the National Library and
-                Archives.
-              </p>
-            </div>
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold">5. Finished fifth</h3>
-              <p className="mt-2 text-lg">
-                Egypt’s national handball team delivered a strong performance at
-                the 2025 Men’s World Championship, finishing in an impressive
-                fifth place. The result marks another solid showing for the
-                Pharaohs on the global stage, but reactions to their campaign
-                have been mixed, with both praise and criticism directed at the
-                team. The championship was ultimately won by Denmark who
-                defeated Croatia 32-26 in a commanding final to claim their
-                fourth consecutive world title. Spain claimed the bronze medal
-                after edging past France in a thrilling third-place match.
-                Despite falling short of a medal, Egypt’s strong performance in
-                the tournament, which was held jointly by Croatia, Denmark and
-                Norway against the world’s best teams, showed they are a growing
-                force in global handball. Egypt began their campaign with a
-                relatively easy 39-25 win over Argentina. Despite the
-                comfortable margin, Egypt showed resilience, with goalkeeper
-                Mohamed Ali making crucial saves, and key players stepping up in
-                pivotal moments. Their second match, against Bahrain, proved to
-                be a defining moment in their tournament. Egypt secured a 35-24
-                win in a thrilling encounter, with Ali again playing a pivotal
-                role, making several crucial saves. Omar Yahia’s six goals also
-                proved instrumental in securing the victory.
-              </p>
-            </div>
-          </article>
+          </div>
         </section>
-        {/* Arabic Passages Section */}
-        {/* <section id="arabic" className="space-y-8">
-          <h2 className="text-2xl font-semibold">المقاطع العربية</h2>
-          <article className="prose max-w-none" dir="rtl">
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold">
-                1. عمرو القاضي: مصر ستفتتح معالم سياحية مهمة خلال الفترة القادمة
-                -6
-              </h3>
+
+        <section id="prosecutor-release-students" className="space-y-12">
+          {/* English Passage */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold text-center">
+              Prosecutor orders release of 40 Cairo University students detained
+              for past 8 months
+            </h2>
+            <article className="prose max-w-none text-left md:text-justify">
               <p className="mt-2 text-lg">
-                أكد عمرو القاضي الرئيس التنفيذي للهيئة المصرية العامة للتنشيط
-                السياحي، التنوع السياحي الذي تتميز به مصر مستعرضاً إستراتيجية
-                ورؤية الوزارة الحالية التي تركز على إبراز تنوع الإمكانيات
-                والمقومات السياحية المتميزة بمصر لتكون المقصد. كما أشار خلال
-                مشاركته في بورصة Unmatched Diversity إلى أن مصر تشهد نمواً غير
-                مسبوق في أعداد السائحين خلال عام 2024، مما يعكس الأمان والتنوع
-                الذي تتمتع به البلاد في القطاع السياحي.
+                The public prosecution has ordered the release of 40 Cairo
+                University students held in custody for the past eight months on
+                suspicion of involvement in on-campus clashes with security
+                forces, the Freedom to the Brave campaign said in a statement
+                issued Thursday. The students were reportedly cleared of the
+                charges after the prosecution’s investigations showed they had
+                no relationship to the violent events that occurred on January
+                16, according to the campaign’s statement. The detained students
+                faced murder charges for the death of fellow student Sherif
+                al-Sawy and the attempted murder of 27 others, as well as
+                protesting without permission and vandalizing university
+                property. Since their arrest eight months ago, the students’
+                detention period was repeatedly extended, and their case was
+                never referred to trial.
               </p>
-            </div>
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold">
-                2. هل يكفي استقرار الجنيه وتراجع التضخم لدفع عجلة نمو الاقتصاد
-                المصري؟ -7
-              </h3>
+            </article>
+          </div>
+
+          {/* Arabic Translation */}
+          <div className="space-y-8" dir="rtl">
+            <h2 className="text-2xl font-semibold text-center">
+              أمرت النيابة العامة بالإفراج عن 40 طالباً من جامعة القاهرة
+              المحتجزين لمدة ثمانية أشهر
+            </h2>
+            <article className="prose max-w-none text-right">
               <p className="mt-2 text-lg">
-                بعد أزمة ميزان التجارة وتقلبات سوق الصرف، بدأ الاقتصاد المصري في
-                استعادة توازنه. رغم التفاؤل المدعوم من المساعدات الدولية، لا
-                تزال التحديات الهيكلية قائمة. يتساءل البعض عما إذا كان استقرار
-                الجنيه وتراجع التضخم كافيين لدفع عجلة النمو، أم أن الإصلاحات
-                المطلوبة لا تزال في منتصف الطريق.
+                أمرت النيابة العامة بالإفراج عن 40 طالباً من جامعة القاهرة الذين
+                احتُجزوا لمدة ثمانية أشهر بتهمة الاشتراك في صدامات داخل الحرم
+                الجامعي مع قوات الأمن، وذلك وفقاً لبيان أصدرته حملة "الحرية
+                للجدعان " يوم الخميس. وقد تم تبرئة الطلاب من التهم بعد أن أظهرت
+                تحقيقات النيابة أنهم لم يكونوا على صلة بالأحداث العنيفة التي
+                وقعت في 16 يناير، بحسب بيان الحملة. وكان الطلاب المحتجزون قد
+                وُجهت إليهم تهم القتل بعد وفاة الطالب شريف الصاوي ومحاولة قتل 27
+                آخرين، بالإضافة إلى اتهامات بالاحتجاج دون إذن وتخريب ممتلكات
+                الجامعة. ومنذ اعتقالهم قبل ثمانية أشهر، تم تمديد فترة احتجاز
+                الطلاب مراراً، ولم تُحال قضيتهم إلى المحاكمة.
               </p>
+            </article>
+          </div>
+
+          {/* Keywords Section */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold">
+              Keywords &amp; Translations / أهم المفردات والتعبيرات
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="px-4 py-2 border border-gray-300">
+                      English
+                    </th>
+                    <th
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      العربية
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      public prosecution
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      النيابة العامة
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Freedom to the Brave
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الحرية للجدعان
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      cleared of the charges
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      يتم تبرئته من الاتهامات
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      ordered the release
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      أمر بالإفراج
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      held in custody
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      محتجزين
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      detained
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      معتقل
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      vandalizing
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      تخريب الممتلكات العامة والخاصة
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      involvement
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      تورط
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      period detention
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      فترة الحبس الاحتياطي
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      on-campus clashes
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      صدامات داخل الحرم الجامعي
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div className="mb-6">
-              <h3 className="text-xl font-semibold">
-                3. المؤسسات الدولية تشيد بنجاح مصر فى تطبيق »التأمين الصحى
-                الشامل« وتدعم المراحل المقبلة -8
-              </h3>
+          </div>
+        </section>
+
+        <section id="al-azhar-visit" className="space-y-12">
+          {/* Arabic Passage */}
+          <div className="space-y-8" dir="rtl">
+            <h2 className="text-2xl font-semibold text-center">
+              شيخ الأزهر يصل للرياض في أول زيارة للسعودية
+            </h2>
+            <article className="prose max-w-none text-right">
               <p className="mt-2 text-lg">
-                كل به يتمتع واقعا تكون وأقرب لأن أكثر وضوحا أصبحت المواطنين،
-                لجميع الشامل الصحى التأمين تحقيق الدولة رؤية المصريين خلال سنوات
-                معدودة، من خلال تقديم الخدمات الصحية الكاملة وذلك مع قرب
-                الانتهاء من المرحلة الأولى لمنظومة. إلى المحليين والأجانب،
-                الشركاء العديد بالتعاون مع المالية، لتحقيق الاستدامة المبذولة
-                الشامل، والجهود التأمين الصحى الصحية من خلال نظم حديثة ومتطورة
-                الخدمات التعامل مع ثقافة تغيير البنك. جانب الدولية ومنها
-                المؤسسات إشادة وجاءت التجربة نجاح لتؤكد الشامل، الصحى التأمين
-                منظومة تطبيق فى الرائدة مصر بتجربة العالمية، الصحة ومنظمة الدولى
-                عام فى المشروع مراحل كافة من الانتهاء وتستهدف مصر الشامل الصحى
-                التأمين مجال فى كل 2032المصرية ليتمتع، والصحة العلاج على الإنفاق
-                نتيجة الفقر فى الوقوع إمكانية عنهم وتبعد الأمان لهم توفر شاملة
-                صحية بتغطية المصريين. الإرادة السياسية القوية، هى الدافع الحقيقى
-                كانت وتمكنهم من إدارة ميزانيتهم وتكاليف المعيشة بشكل أفضل كفاءة
-                وأمان لتبنى مشروع التأمين الصحى الشامل، ليكون بديلا عن نظام
-                التأمين الصحى التقليدى والذى لا يوفر التغطية الصحية الكاملة
-                المواطنين الانسان. لجميع تنمية المواطن وحرصها على الدولة لأهمية
-                تقدير شهادة على الشامل، الصحي التأمين نظام ويعد ودعمه، إيمانا
-                بأن الاستثمار فى البشر هو الاستثمار الحقيقى وأساس التنمية
-                الاقتصادية والاجتماعية.
+                الرياض- حازم الشرقاوي
+                <br />
+                <br />
+                وصل أمس الإمام الأكبر شيخ الأزهر د. أحمد الطيب إلى الرياض في أول
+                زيارة له إلى السعودية منذ أن أصبح شيخاً للأزهر. وكان في استقباله
+                بالصالة الملكية بمطار الملك خالد بالرياض وزير الشئون الإسلامية
+                والأوقاف الشيخ صالح آل الشيخ. وأكد السفير المصري بالسعودية عفيفي
+                عبدالوهاب أن شيخ الأزهر بدأ أمس زيارته للسعودية يلتقي خلالها مع
+                ولي العهد الأمير سلمان بن عبدالعزيز وعدد من كبار المسؤولين.
               </p>
+            </article>
+          </div>
+
+          {/* English Translation */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold text-center">
+              Sheikh of Al-Azhar Arrives in Riyadh on His First Visit to Saudi
+              Arabia
+            </h2>
+            <article className="prose max-w-none text-left md:text-justify">
+              <p className="mt-2 text-lg">
+                Riyadh – Hazem Al-Sharqawi
+                <br />
+                <br />
+                Yesterday, the Grand Imam, Sheikh of Al-Azhar, Dr. Ahmed
+                Al-Tayeb, arrived in Riyadh for his first visit to Saudi Arabia
+                since he assumed the position of Sheikh of Al-Azhar. He was
+                received at the royal hall of King Khalid Airport in Riyadh by
+                the Minister of Islamic Affairs and Endowments, Sheikh Saleh
+                Al-Al Sheikh. The Egyptian Ambassador to Saudi Arabia, Afifi
+                Abdelwahab, confirmed that the Sheikh of Al-Azhar began his
+                visit yesterday, during which he met with Crown Prince Salman
+                bin Abdulaziz and several senior officials.
+              </p>
+            </article>
+          </div>
+
+          {/* Keywords Section */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold">
+              Keywords &amp; Translations / أهم المفردات والتعبيرات
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="px-4 py-2 border border-gray-300">
+                      English
+                    </th>
+                    <th
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      العربية
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Minister of Islamic Affairs and Endowment
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      وزير الشئون الإسلامية والأوقاف
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Sheikh of Al-Azhar
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      شيخ الأزهر
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Egyptian Ambassador
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      السفير المصري
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">Riyadh</td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الرياض
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      during which he meets
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      يلتقي خلالها
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      his first visit to Saudi Arabia
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      أول زيارة له إلى السعودية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      since he assumed his position
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      منذ أن أصبح شيخاً للأزهر
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Crown Prince
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      ولي العهد
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      top (or senior) officials
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      كبار المسؤولين
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      He was received by...
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      وكان في استقباله
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-          </article>
-        </section> */}
+          </div>
+        </section>
+
+        <section id="king-abdulaziz" className="space-y-12">
+          {/* Arabic Passage */}
+          <div className="space-y-8" dir="rtl">
+            <h2 className="text-2xl font-semibold text-center">
+              وفاة الملك عبدالله بن عبدالعزيز
+            </h2>
+            <article className="prose max-w-none text-right">
+              <p className="mt-2 text-lg">
+                توفي خادم الحرمين الشريفين الملك عبد الله بن عبد العزيز عن عمر
+                يناهز واحدًا وتسعين عامًا. كان الملك عبد الله خامس ملوك المملكة
+                العربية السعودية من أبناء الملك عبد العزيز. عانى الملك الراحل من
+                بعض المتاعب الصحية، خاصةً خلال الخمسة أعوام الأخيرة من حياته.
+                بعد وفاة الملك عبد الله، تولى الملك سلمان بن عبد العزيز الحكم،
+                وتم تعيين الأمير مقرن بن عبد العزيز - وهو أصغر أبناء الملك عبد
+                العزيز الأحياء - وليًا للعهد. شغل الملك سلمان منصب أمير الرياض
+                لمدة خمسين عامًا، استطاع خلالها تحويل العاصمة إلى واحدة من أهم
+                العواصم العالمية.
+              </p>
+            </article>
+          </div>
+          {/* English Translation */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold text-center">
+              King Abdullah bin Abdulaziz Passes Away
+            </h2>
+            <article className="prose max-w-none text-left md:text-justify">
+              <p className="mt-2 text-lg">
+                King Abdullah bin Abdulaziz, Custodian of the Two Holy Mosques,
+                passed away at the age of 91. He was the fifth king of Saudi
+                Arabia and one of the sons of King Abdulaziz. The late king had
+                suffered from health complications, particularly during the past
+                five years. After his passing, King Salman bin Abdulaziz assumed
+                power and appointed Prince Muqrin bin Abdulaziz—the youngest
+                surviving son of King Abdulaziz—as Crown Prince. King Salman
+                served as the Emir of Riyadh for fifty years, during which he
+                managed to transform Riyadh into one of the world’s most
+                important capitals.
+              </p>
+            </article>
+          </div>
+          {/* Keywords Section */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold">
+              Keywords & Translations / أهم المفردات والتعبيرات
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="px-4 py-2 border border-gray-300">
+                      English Meaning
+                    </th>
+                    <th
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الكلمة/التعبير
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      assume/come to/rise to power
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      تولى الحكم
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      pass away
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      وفاة
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Custodian of the Two Holy Mosques
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      خادم الحرمين الشريفين
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Crown Prince
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      ولي العهد
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Prince/Emir of Riyadh
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      أميرا للرياض
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      ...of age / at the age of
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      عن عمر يناهز
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      one of the most important ...
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      إلى واحدة من أهم
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      late king
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الملك الراحل
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      world capitals
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      العواصم العالمية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      health problems
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      المتاعب الصحية
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section id="tawakkol-karman" className="space-y-12">
+          {/* Arabic Passage */}
+          <div className="space-y-8" dir="rtl">
+            <h2 className="text-2xl font-semibold text-center">
+              توكل كرمان: ثورة يناير سلمية يجب أن تظل سلمية
+            </h2>
+            <article className="prose max-w-none text-right">
+              <p className="mt-2 text-lg">
+                قالت توكل كرمان، الناشطة السياسية اليمنية التي حصلت على جائزة
+                نوبل للسلام، إنها تنصح المصريين بأن تظل ثورة يناير سليمة، وألا
+                يقابلوا العنف بعنف مثله، لأن الثورات تأتي دائماً للقضاء على
+                العنف ورفض الديكتاتورية المستبدة. وقالت كرمان إنه على الثوار أن
+                يناضلوا حتى تتحقق جميع مطالبهم العادلة، والتي تتمثل في الحصول
+                على الحرية والديمقراطية غير المنقوصة، مشيرة إلى أن الاعتصامات
+                السلمية هي البوابة للوصول إلى أهدافهم النبيلة. وأشارت كرمان إلى
+                أنها تنصح الأحزاب الإسلامية في مصر بأن تحافظ على أن يظل الدستور
+                مدنياً وعدم الانقلاب على مدنية الدولة فور حصولها على الأغلبية
+                النيابية. كما أشادت بالانتخابات البرلمانية التي تميزت بالحيادية
+                والشفافية.
+              </p>
+            </article>
+          </div>
+          {/* English Translation */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold text-center">
+              Tawakkol Karman: The January Revolution Must Remain Peaceful
+            </h2>
+            <article className="prose max-w-none text-left md:text-justify">
+              <p className="mt-2 text-lg">
+                Tawakkol Karman, the Yemeni political activist and Nobel Peace
+                Prize winner, stated that the January Revolution in Egypt must
+                remain peaceful, and urged citizens not to meet violence with
+                similar violence, as revolutions inherently seek to end violence
+                and reject despotic dictatorship. She added that the
+                revolutionaries must continue their struggle until all their
+                legitimate demands are met, which include the attainment of
+                complete freedom and democracy, noting that peaceful sit-ins are
+                the gateway to achieving their noble goals. Furthermore, Karman
+                advised the Islamist parties in Egypt to ensure that the
+                constitution remains civil and to refrain from undermining the
+                state’s civilian character once they secure a parliamentary
+                majority. She also praised the parliamentary elections for their
+                neutrality and transparency.
+              </p>
+            </article>
+          </div>
+          {/* Keywords Section */}
+          <div className="space-y-8">
+            <h2 className="text-2xl font-semibold">
+              Keywords & Translations / أهم المفردات والتعبيرات
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="min-w-full border border-gray-300">
+                <thead>
+                  <tr className="bg-gray-200">
+                    <th className="px-4 py-2 border border-gray-300">
+                      English Meaning
+                    </th>
+                    <th
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الكلمة/التعبير
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      January Revolution remains peaceful
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      تظل ثورة يناير سلمية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Political activist
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الناشطة السياسية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Nobel Peace Prize winner
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      حصلت على جائزة نوبل للسلام
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Meet violence with similar violence
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      يقابلوا العنف بعنف مثله
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      End violence and reject despotic dictatorship
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      للقضاء على العنف ورفض الديكتاتورية المستبدة
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Peaceful sit-ins
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الاعتصامات السلمية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Noble goals
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      أهدافهم النبيلة
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Islamist parties
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الأحزاب الإسلامية
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Civil constitution
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      دستور مدني
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2 border border-gray-300">
+                      Parliamentary majority
+                    </td>
+                    <td
+                      className="px-4 py-2 border border-gray-300 text-right"
+                      dir="rtl"
+                    >
+                      الأغلبية النيابية
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );
