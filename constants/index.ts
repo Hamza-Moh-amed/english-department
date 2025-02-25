@@ -4,6 +4,10 @@ export const subjects = [
     subjectLink: "/american",
     lessons: [
       {
+        title: "Whitness and How You See Me",
+        link: "/american/whitness-and-how-you-see-me",
+      },
+      {
         title: "Let America be America Again",
         link: "/american/let-america-be-america-again",
       },
@@ -22,6 +26,10 @@ export const subjects = [
       {
         title: "The Immigrant’s Fate is Everyone’s",
         link: "/american/the-immigrants-fate-is-everyones",
+      },
+      {
+        title: "Source PDF Files",
+        link: "/american/source",
       },
     ],
   },
