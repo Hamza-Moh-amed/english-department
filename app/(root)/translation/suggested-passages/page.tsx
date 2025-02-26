@@ -208,8 +208,8 @@ export default function SelectedPassages() {
           </div>
         </section>
 
-        <section id="prosecutor-release-students" className="space-y-12">
-          {/* English Passage */}
+        {/* <section id="prosecutor-release-students" className="space-y-12">
+         English Passage 
           <div className="space-y-8">
             <h2 className="text-2xl font-semibold text-center">
               Prosecutor orders release of 40 Cairo University students detained
@@ -235,7 +235,7 @@ export default function SelectedPassages() {
             </article>
           </div>
 
-          {/* Arabic Translation */}
+           Arabic Translation 
           <div className="space-y-8" dir="rtl">
             <h2 className="text-2xl font-semibold text-center">
               أمرت النيابة العامة بالإفراج عن 40 طالباً من جامعة القاهرة
@@ -257,7 +257,7 @@ export default function SelectedPassages() {
             </article>
           </div>
 
-          {/* Keywords Section */}
+           Keywords Section 
           <div className="space-y-8">
             <h2 className="text-2xl font-semibold">
               Keywords &amp; Translations / أهم المفردات والتعبيرات
@@ -392,7 +392,7 @@ export default function SelectedPassages() {
               </table>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="al-azhar-visit" className="space-y-12">
           {/* Arabic Passage */}
@@ -602,15 +602,15 @@ export default function SelectedPassages() {
             <article className="prose max-w-none text-left md:text-justify">
               <p className="mt-2 text-lg">
                 King Abdullah bin Abdulaziz, Custodian of the Two Holy Mosques,
-                passed away at the age of 91. He was the fifth king of Saudi
-                Arabia and one of the sons of King Abdulaziz. The late king had
-                suffered from health complications, particularly during the past
-                five years. After his passing, King Salman bin Abdulaziz assumed
-                power and appointed Prince Muqrin bin Abdulaziz—the youngest
-                surviving son of King Abdulaziz—as Crown Prince. King Salman
-                served as the Emir of Riyadh for fifty years, during which he
-                managed to transform Riyadh into one of the world’s most
-                important capitals.
+                passed away at the age of 91. He was the fifth king among King
+                Abdulaziz sons. The late king was suffering from health
+                complications, particularly during the past five years. After
+                his passing, King Salman bin Abdulaziz assumed power and
+                appointed Prince Muqrin bin Abdulaziz—the youngest surviving son
+                of King Abdulaziz—as Crown Prince. King Salman served as the
+                Emir of Riyadh for fifty years, during which he managed to
+                transform Riyadh into one of the world’s most important
+                capitals.
               </p>
             </article>
           </div>
@@ -751,8 +751,8 @@ export default function SelectedPassages() {
           </div>
         </section>
 
-        <section id="tawakkol-karman" className="space-y-12">
-          {/* Arabic Passage */}
+        {/* <section id="tawakkol-karman" className="space-y-12">
+           Arabic Passage 
           <div className="space-y-8" dir="rtl">
             <h2 className="text-2xl font-semibold text-center">
               توكل كرمان: ثورة يناير سلمية يجب أن تظل سلمية
@@ -773,7 +773,7 @@ export default function SelectedPassages() {
               </p>
             </article>
           </div>
-          {/* English Translation */}
+           English Translation 
           <div className="space-y-8">
             <h2 className="text-2xl font-semibold text-center">
               Tawakkol Karman: The January Revolution Must Remain Peaceful
@@ -797,7 +797,7 @@ export default function SelectedPassages() {
               </p>
             </article>
           </div>
-          {/* Keywords Section */}
+           Keywords Section 
           <div className="space-y-8">
             <h2 className="text-2xl font-semibold">
               Keywords & Translations / أهم المفردات والتعبيرات
@@ -932,7 +932,7 @@ export default function SelectedPassages() {
               </table>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </main>
   );

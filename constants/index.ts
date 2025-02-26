@@ -28,6 +28,14 @@ export const subjects = [
         link: "/american/the-immigrants-fate-is-everyones",
       },
       {
+        title: "Passing: Novel",
+        link: "/american/passing-novel",
+      },
+      {
+        title: "Passing: Analysis",
+        link: "/american/passing-analysis",
+      },
+      {
         title: "Source PDF Files",
         link: "/american/source",
       },
