@@ -163,8 +163,12 @@ export const subjects = [
     subjectLink: "/translation",
     lessons: [
       {
-        title: "Suggested Passages",
-        link: "/translation/suggested-passages",
+        title: "English to Arabic",
+        link: "/translation/english-to-arabic",
+      },
+      {
+        title: "Arabic to English",
+        link: "/translation/arabic-to-english",
       },
       {
         title: "Source PDF Files",

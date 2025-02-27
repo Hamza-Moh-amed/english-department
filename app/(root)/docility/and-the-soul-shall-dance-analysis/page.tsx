@@ -2,7 +2,6 @@ import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
-import Link from "next/link";
 
 export const metadata = {
   title: "And the Soul Shall Dance Analysis",
@@ -14,7 +13,6 @@ export default function AndTheSoulShallDanceAnalysis() {
   const navLinks: NavLink[] = [
     { href: "#author", label: "About the Author" },
     { href: "#background", label: "Background on the Play" },
-    { href: "#play-text", label: "Play" },
     { href: "#analysis", label: "Literary Analysis" },
     { href: "#qna", label: "Q&A" },
   ];
@@ -108,47 +106,6 @@ export default function AndTheSoulShallDanceAnalysis() {
               dreams of a better life, even as she is trapped in a loveless
               marriage and an unforgiving environment.
             </p>
-          </article>
-        </section>
-
-        <section id="play-text" className="space-y-8">
-          <h2 className="text-2xl font-semibold">Play</h2>
-          <article className="prose max-w-none text-left md:text-justify">
-            <div id="act1-scene1">
-              <p className="text-lg">
-                <strong>Act 1, Scene 1</strong>
-              </p>
-              <p className="text-lg">
-                The play opens on a small farm in Southern California's Imperial
-                Valley during the early 1930s. The Murata family—Murata, his
-                wife Hana, and their daughter Masako—are preparing for the day.
-                The stage is set with a simple farmhouse, a wooden bench, and a
-                few scattered tools. The atmosphere is one of quiet resilience,
-                as the family goes about their daily chores.
-              </p>
-              <p className="text-lg">
-                <strong>Murata:</strong> (Coughing) Shack went up like a
-                matchbox... This kind of weather dries everything... just takes
-                a spark to make a bonfire out of dry timber.
-              </p>
-              <p className="text-lg">
-                <strong>Hana:</strong> Did you save any of it?
-              </p>
-              <p className="text-lg">
-                <strong>Murata:</strong> No. Couldn't...
-              </p>
-              <p className="text-lg">
-                <strong>Hana:</strong> (To Masako) How many times have I told
-                you...
-              </p>
-            </div>
-            <Link
-              target="#_blank"
-              href="/docility/and-the-soul-shall-dance-play"
-              className="text-lg text-blue-500 hover:underline"
-            >
-              Read the full play...
-            </Link>
           </article>
         </section>
 

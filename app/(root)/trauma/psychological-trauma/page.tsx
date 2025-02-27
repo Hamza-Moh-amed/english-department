@@ -433,191 +433,243 @@ export default function PsychologicalTrauma() {
             regulars (14%) (see also pages 257–258).
           </p>
         </section>
-        {/* Additional Information Section */}
         <section id="additional-info" className="space-y-8">
-          <h2 className="text-2xl font-semibold">Additional Information</h2>
+          <h2 className="text-2xl font-semibold text-gray-900">
+            Additional Information
+          </h2>
+          <div className="overflow-x-auto bg-white rounded-md shadow-md p-4 sm:p-6">
+            <table className="w-full table-auto">
+              <tbody>
+                {/* Varieties of Post-Traumatic Illness */}
+                <tr className="bg-gray-200">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 font-semibold"
+                  >
+                    Some Varieties of Post-Traumatic Illness
+                  </th>
+                </tr>
+                <tr className="border-b">
+                  <td colSpan={2} className="px-4 py-2 text-gray-700">
+                    <ul className="list-disc ml-4 text-lg">
+                      <li>Accident neurosis</li>
+                      <li>Post-traumatic stress syndrome</li>
+                      <li>Accident victim syndrome</li>
+                      <li>Post-Vietnam syndrome</li>
+                      <li>Battleshock</li>
+                      <li>Profit neurosis</li>
+                      <li>Combat fatigue</li>
+                      <li>Railway spine</li>
+                      <li>Combat stress neurosis</li>
+                      <li>Shell shock</li>
+                      <li>Compensationitis</li>
+                      <li>Soldier’s heart</li>
+                      <li>Da Costa’s syndrome</li>
+                      <li>Traumatic neurasthenia</li>
+                      <li>Erichsen’s disease</li>
+                      <li>Vertebral neurasthenia</li>
+                      <li>Litigation neurosis</li>
+                      <li>War neuroses</li>
+                      <li>Nostalgia</li>
+                      <li>Whiplash neurosis</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan={2} className="px-4 py-2 text-gray-700 italic">
+                    Source: O’Brien, 1998.2
+                  </td>
+                </tr>
 
-          {/* Varieties of Post-Traumatic Illness */}
-          <section id="varieties-post-traumatic-illness" className="space-y-4">
-            <h3 className="text-xl font-semibold">
-              Some Varieties of Post-Traumatic Illness
-            </h3>
-            <ul className="list-disc ml-6 text-lg">
-              <li>Accident neurosis</li>
-              <li>Post-traumatic stress syndrome</li>
-              <li>Accident victim syndrome</li>
-              <li>Post-Vietnam syndrome</li>
-              <li>Battleshock</li>
-              <li>Profit neurosis</li>
-              <li>Combat fatigue</li>
-              <li>Railway spine</li>
-              <li>Combat stress neurosis</li>
-              <li>Shell shock</li>
-              <li>Compensationitis</li>
-              <li>Soldier’s heart</li>
-              <li>Da Costa’s syndrome</li>
-              <li>Traumatic neurasthenia</li>
-              <li>Erichsen’s disease</li>
-              <li>Vertebral neurasthenia</li>
-              <li>Litigation neurosis</li>
-              <li>War neuroses</li>
-              <li>Nostalgia</li>
-              <li>Whiplash neurosis</li>
-            </ul>
-            <p className="text-lg italic">Source: O’Brien, 1998.2</p>
-          </section>
+                {/* War Syndromes */}
+                <tr className="bg-gray-200">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 font-semibold"
+                  >
+                    War Syndromes Characterized by Unexplained Medical Symptoms
+                  </th>
+                </tr>
+                <tr className="border-b">
+                  <td colSpan={2} className="px-4 py-2 text-gray-700">
+                    <div className="space-y-2">
+                      <h4 className="text-lg font-semibold">Pre-1914</h4>
+                      <ul className="list-disc ml-4 text-lg">
+                        <li>Soldier’s heart</li>
+                        <li>irritable heart</li>
+                        <li>palpitation</li>
+                        <li>Da Costa’s syndrome</li>
+                        <li>disordered action of the heart</li>
+                        <li>nostalgia</li>
+                        <li>wind contusion</li>
+                      </ul>
+                    </div>
+                    <div className="space-y-2 mt-2">
+                      <h4 className="text-lg font-semibold">
+                        First World War (1914–18)
+                      </h4>
+                      <ul className="list-disc ml-4 text-lg">
+                        <li>Shell shock</li>
+                        <li>effort syndrome</li>
+                        <li>neurocirculatory asthenia</li>
+                        <li>war neurosis</li>
+                        <li>gas hysteria</li>
+                        <li>neurasthenia</li>
+                      </ul>
+                    </div>
+                    <div className="space-y-2 mt-2">
+                      <h4 className="text-lg font-semibold">
+                        Second World War (1939–45)
+                      </h4>
+                      <ul className="list-disc ml-4 text-lg">
+                        <li>Effort syndrome</li>
+                        <li>non-ulcer dyspepsia</li>
+                        <li>psychoneurosis</li>
+                        <li>battle exhaustion</li>
+                      </ul>
+                    </div>
+                    <div className="space-y-2 mt-2">
+                      <h4 className="text-lg font-semibold">
+                        Vietnam War (1965–74)
+                      </h4>
+                      <ul className="list-disc ml-4 text-lg">
+                        <li>Effects of Agent Orange</li>
+                      </ul>
+                    </div>
+                    <div className="space-y-2 mt-2">
+                      <h4 className="text-lg font-semibold">Gulf War (1991)</h4>
+                      <ul className="list-disc ml-4 text-lg">
+                        <li>Desert Storm syndrome</li>
+                        <li>Gulf War syndrome</li>
+                        <li>Gulf-related illness</li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan={2} className="px-4 py-2 text-gray-700 italic">
+                    Source: Jones and Wessely, 2005.4
+                  </td>
+                </tr>
 
-          {/* War Syndromes */}
-          <section id="war-syndromes" className="space-y-4">
-            <h3 className="text-xl font-semibold">
-              War Syndromes Characterized by Unexplained Medical Symptoms
-            </h3>
-            <div className="space-y-2">
-              <h4 className="text-lg font-semibold">Pre-1914</h4>
-              <ul className="list-disc ml-6 text-lg">
-                <li>Soldier’s heart</li>
-                <li>irritable heart</li>
-                <li>palpitation</li>
-                <li>Da Costa’s syndrome</li>
-                <li>disordered action of the heart</li>
-                <li>nostalgia</li>
-                <li>wind contusion</li>
-              </ul>
-            </div>
-            <div className="space-y-2">
-              <h4 className="text-lg font-semibold">
-                First World War (1914–18)
-              </h4>
-              <ul className="list-disc ml-6 text-lg">
-                <li>Shell shock</li>
-                <li>effort syndrome</li>
-                <li>neurocirculatory asthenia</li>
-                <li>war neurosis</li>
-                <li>gas hysteria</li>
-                <li>neurasthenia</li>
-              </ul>
-            </div>
-            <div className="space-y-2">
-              <h4 className="text-lg font-semibold">
-                Second World War (1939–45)
-              </h4>
-              <ul className="list-disc ml-6 text-lg">
-                <li>Effort syndrome</li>
-                <li>non-ulcer dyspepsia</li>
-                <li>psychoneurosis</li>
-                <li>battle exhaustion</li>
-              </ul>
-            </div>
-            <div className="space-y-2">
-              <h4 className="text-lg font-semibold">Vietnam War (1965–74)</h4>
-              <ul className="list-disc ml-6 text-lg">
-                <li>Effects of Agent Orange</li>
-              </ul>
-            </div>
-            <div className="space-y-2">
-              <h4 className="text-lg font-semibold">Gulf War (1991)</h4>
-              <ul className="list-disc ml-6 text-lg">
-                <li>Desert Storm syndrome</li>
-                <li>Gulf War syndrome</li>
-                <li>Gulf-related illness</li>
-              </ul>
-            </div>
-            <p className="text-lg italic">Source: Jones and Wessely, 2005.4</p>
-          </section>
-
-          {/* Immediate and Delayed Disorders of Trauma */}
-          <section id="immediate-delayed-disorders" className="space-y-4">
-            <h3 className="text-xl font-semibold">
-              Immediate and Delayed Disorders of Trauma
-            </h3>
-            <div className="space-y-2">
-              <h4 className="text-lg font-semibold">Immediate</h4>
-              <ul className="list-disc ml-6 text-lg">
-                <li>Shell shock</li>
-                <li>Battleshock</li>
-                <li>Battle exhaustion</li>
-                <li>Combat fatigue</li>
-                <li>Combat stress reaction</li>
-                <li>Acute stress reaction (ICD–10)</li>
-                <li>Acute stress disorder (DSM-IV)</li>
-              </ul>
-            </div>
-            <div className="space-y-2">
-              <h4 className="text-lg font-semibold">Delayed or Chronic</h4>
-              <ul className="list-disc ml-6 text-lg">
-                <li>Neurasthenia</li>
-                <li>War neuroses</li>
-                <li>PTSD</li>
-              </ul>
-            </div>
-            <p className="text-lg italic">Source: Jones, 2006.7</p>
-          </section>
+                {/* Immediate and Delayed Disorders of Trauma */}
+                <tr className="bg-gray-200">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 font-semibold"
+                  >
+                    Immediate and Delayed Disorders of Trauma
+                  </th>
+                </tr>
+                <tr className="border-b">
+                  <td colSpan={2} className="px-4 py-2 text-gray-700">
+                    <div className="space-y-2">
+                      <h4 className="text-lg font-semibold">Immediate</h4>
+                      <ul className="list-disc ml-4 text-lg">
+                        <li>Shell shock</li>
+                        <li>Battleshock</li>
+                        <li>Battle exhaustion</li>
+                        <li>Combat fatigue</li>
+                        <li>Combat stress reaction</li>
+                        <li>Acute stress reaction (ICD–10)</li>
+                        <li>Acute stress disorder (DSM-IV)</li>
+                      </ul>
+                    </div>
+                    <div className="space-y-2 mt-2">
+                      <h4 className="text-lg font-semibold">
+                        Delayed or Chronic
+                      </h4>
+                      <ul className="list-disc ml-4 text-lg">
+                        <li>Neurasthenia</li>
+                        <li>War neuroses</li>
+                        <li>PTSD</li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colSpan={2} className="px-4 py-2 text-gray-700 italic">
+                    Source: Jones, 2006.7
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
 
-        {/* Nine Types of Violence and Abuse */}
-        <section id="types-of-violence" className="space-y-4">
-          <h3 className="text-xl font-semibold">
+        <section id="types-of-violence" className="space-y-6">
+          <h3 className="text-2xl font-bold text-gray-900">
             Nine Types of Violence and Abuse
           </h3>
-          <h4 className="text-lg font-semibold">Physical Violence</h4>
-          <p className="text-lg">
-            Physical violence occurs when someone uses a part of their body or
-            an object to control a person’s actions.
-          </p>
-
-          <h4 className="text-lg font-semibold">Sexual Violence</h4>
-          <p className="text-lg">
-            Sexual violence occurs when a person is forced to unwillingly take
-            part in sexual activity.
-          </p>
-
-          <h4 className="text-lg font-semibold">Emotional Violence</h4>
-          <p className="text-lg">
-            Emotional violence occurs when someone says or does something to
-            make a person feel stupid or worthless.
-          </p>
-
-          <h4 className="text-lg font-semibold">Psychological Violence</h4>
-          <p className="text-lg">
-            Psychological violence occurs when someone uses threats and causes
-            fear in an individual to gain control.
-          </p>
-
-          <h4 className="text-lg font-semibold">Spiritual Violence</h4>
-          <p className="text-lg">
-            Spiritual (or religious) violence occurs when someone uses an
-            individual’s spiritual beliefs to manipulate, dominate or control
-            that person.
-          </p>
-
-          <h4 className="text-lg font-semibold">Cultural Violence</h4>
-          <p className="text-lg">
-            Cultural violence occurs when an individual is harmed as a result of
-            practices that are part of their culture, religion or tradition.
-          </p>
-
-          <h4 className="text-lg font-semibold">Verbal Abuse</h4>
-          <p className="text-lg">
-            Verbal abuse occurs when someone uses language, whether spoken or
-            written, to cause harm to an individual.
-          </p>
-
-          <h4 className="text-lg font-semibold">Financial Abuse</h4>
-          <p className="text-lg">
-            Financial abuse occurs when someone controls an individual’s
-            financial resources without the person’s consent or misuses those
-            resources.
-          </p>
-
-          <h4 className="text-lg font-semibold">Neglect</h4>
-          <p className="text-lg">
-            Neglect occurs when someone has the responsibility to provide care
-            or assistance for an individual but does not.
-          </p>
-
-          <p className="text-lg italic">
-            Source: Violence Prevention Initiative (2014)
-          </p>
+          <div className="overflow-x-auto bg-white rounded-lg shadow-lg p-6">
+            <table className="w-full table-auto border-collapse">
+              <thead>
+                <tr className="bg-gray-100 border-b">
+                  <th className="px-5 py-3 text-left text-lg font-semibold text-gray-800 w-1/3">
+                    Type
+                  </th>
+                  <th className="px-5 py-3 text-left text-lg font-semibold text-gray-800">
+                    Description
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  [
+                    "Physical Violence",
+                    "Physical violence occurs when someone uses a part of their body or an object to control a person’s actions.",
+                  ],
+                  [
+                    "Sexual Violence",
+                    "Sexual violence occurs when a person is forced to unwillingly take part in sexual activity.",
+                  ],
+                  [
+                    "Emotional Violence",
+                    "Emotional violence occurs when someone says or does something to make a person feel stupid or worthless.",
+                  ],
+                  [
+                    "Psychological Violence",
+                    "Psychological violence occurs when someone uses threats and causes fear in an individual to gain control.",
+                  ],
+                  [
+                    "Spiritual Violence",
+                    "Spiritual (or religious) violence occurs when someone uses an individual’s spiritual beliefs to manipulate, dominate, or control that person.",
+                  ],
+                  [
+                    "Cultural Violence",
+                    "Cultural violence occurs when an individual is harmed as a result of practices that are part of their culture, religion, or tradition.",
+                  ],
+                  [
+                    "Verbal Abuse",
+                    "Verbal abuse occurs when someone uses language, whether spoken or written, to cause harm to an individual.",
+                  ],
+                  [
+                    "Financial Abuse",
+                    "Financial abuse occurs when someone controls an individual’s financial resources without the person’s consent or misuses those resources.",
+                  ],
+                  [
+                    "Neglect",
+                    "Neglect occurs when someone has the responsibility to provide care or assistance for an individual but does not.",
+                  ],
+                ].map(([type, description], index) => (
+                  <tr key={type} className="border-b last:border-none">
+                    <td className="px-5 py-4 font-medium text-gray-900">
+                      {type}
+                    </td>
+                    <td className="px-5 py-4 text-gray-700">{description}</td>
+                  </tr>
+                ))}
+                <tr>
+                  <td
+                    colSpan={2}
+                    className="px-5 py-4 text-gray-600 italic text-sm"
+                  >
+                    Source: Violence Prevention Initiative (2014)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
       </div>
     </main>

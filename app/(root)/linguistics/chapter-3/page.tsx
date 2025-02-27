@@ -33,11 +33,6 @@ export default function ChapterThree() {
     },
     { href: "#scoring-feedback", label: "Scoring, Grading, Feedback" },
     { href: "#test-types", label: "Test Types" },
-    { href: "#aptitude-tests", label: "Aptitude Tests" },
-    { href: "#proficiency-tests", label: "Proficiency Tests" },
-    { href: "#placement-tests", label: "Placement Tests" },
-    { href: "#diagnostic-tests", label: "Diagnostic Tests" },
-    { href: "#achievement-tests", label: "Achievement Tests" },
     {
       href: "#test-construction",
       label: "Practical Steps to Test Construction",
@@ -389,142 +384,188 @@ export default function ChapterThree() {
           </ul>
         </section>
 
-        {/* Test Types */}
         <section id="test-types" className="space-y-4">
-          <h2 className="text-2xl font-semibold">Test Types</h2>
-          <p className="text-lg">
+          <h2 className="text-2xl font-semibold text-gray-900">Test Types</h2>
+          <p className="text-lg text-gray-700">
             This section provides an overview of different types of language
             tests, including aptitude tests, proficiency tests, placement tests,
             diagnostic tests, and achievement tests.
           </p>
-        </section>
+          <div className="overflow-x-auto bg-white rounded-md shadow-md p-4 sm:p-6">
+            <table className="w-full table-auto">
+              <tbody>
+                {/* Aptitude Tests */}
+                <tr className="bg-gray-200">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 font-semibold"
+                  >
+                    Aptitude Tests
+                  </th>
+                </tr>
+                <tr className="border-b">
+                  <td className="px-4 py-2 text-gray-700">
+                    <ul className="list-disc ml-4">
+                      <li>Not very common.</li>
+                      <li>
+                        Used to predict a person’s future success in learning a
+                        foreign language.
+                      </li>
+                      <li>Taken before actual learning.</li>
+                      <li>
+                        Often involve tasks such as learning new words, numbers,
+                        spelling, or guessing unfamiliar word meanings/types in
+                        context.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
 
-        {/* Aptitude Tests */}
-        <section id="aptitude-tests" className="space-y-4">
-          <h2 className="text-2xl font-semibold">Aptitude Tests</h2>
-          <ul className="list-disc ml-6 text-lg">
-            <li>Not very common.</li>
-            <li>
-              Used to predict a person’s future success in learning a (any)
-              foreign language.
-            </li>
-            <li>Taken before actual learning.</li>
-            <li>
-              They come in the form of learning new words from a language,
-              learning numbers, spelling, or guessing unfamiliar word
-              meanings/types in context.
-            </li>
-          </ul>
-        </section>
+                {/* Proficiency Tests */}
+                <tr className="bg-gray-200">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 font-semibold"
+                  >
+                    Proficiency Tests
+                  </th>
+                </tr>
+                <tr className="border-b">
+                  <td className="px-4 py-2 text-gray-700">
+                    <ul className="list-disc ml-4">
+                      <li>Measure general ability in a language.</li>
+                      <li>
+                        Independent of previous training or a specific course.
+                      </li>
+                      <li>
+                        Often presented as a multiple-choice standardized exam
+                        covering vocabulary, grammar, reading, and listening
+                        comprehension. A writing task is sometimes included.
+                      </li>
+                      <li>
+                        Always summative and norm-referenced (e.g., SAT, TOEFL).
+                      </li>
+                      <li>
+                        TOEFL is used by many universities worldwide to assess
+                        English proficiency and predict academic success.
+                      </li>
+                      <li>
+                        Typically machine-scored for cost-effectiveness and
+                        quick turnaround.
+                      </li>
+                      <li>
+                        No feedback is provided except section or total scores.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
 
-        {/* Proficiency Tests */}
-        <section id="proficiency-tests" className="space-y-4">
-          <h2 className="text-2xl font-semibold">Proficiency Tests</h2>
-          <ul className="list-disc ml-6 text-lg">
-            <li>Measure general ability in a language.</li>
-            <li>
-              Regardless of previous training or a specific course or textbook
-              since it tests general ability in a language.
-            </li>
-            <li>
-              It comes in the form of a multiple-choice standardized exam on
-              vocabulary, grammar, reading, and listening comprehension.
-              Sometimes a writing task is also required.
-            </li>
-            <li>
-              They are always summative and norm-referenced (e.g., SAT or
-              TOEFL).
-            </li>
-            <li>
-              TOEFL (the Test of English as a Foreign Language) is used by many
-              universities around the world to test students’ proficiency level
-              in English and predict their ability to take academic courses in
-              English at the university level.
-            </li>
-            <li>
-              The test is machine-scored for cost-effectiveness and quickness.
-            </li>
-            <li>
-              No feedback is provided to students except the score of each
-              section or the total score.
-            </li>
-          </ul>
-        </section>
+                {/* Placement Tests */}
+                <tr className="bg-gray-200">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 font-semibold"
+                  >
+                    Placement Tests
+                  </th>
+                </tr>
+                <tr className="border-b">
+                  <td className="px-4 py-2 text-gray-700">
+                    <ul className="list-disc ml-4">
+                      <li>
+                        Used to assign students to classes or programs
+                        appropriate to their proficiency level.
+                      </li>
+                      <li>
+                        Define the characteristics of each level of proficiency.
+                      </li>
+                      <li>
+                        Sections are designed based on the skills learners need
+                        to master, ensuring course materials are neither too
+                        easy nor too challenging.
+                      </li>
+                      <li>
+                        Example: The English as a Second Language Placement Test
+                        at San Francisco State University.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
 
-        {/* Placement Tests */}
-        <section id="placement-tests" className="space-y-4">
-          <h2 className="text-2xl font-semibold">Placement Tests</h2>
-          <ul className="list-disc ml-6 text-lg">
-            <li>
-              Some proficiency tests are used to assign students to
-              classes/programs appropriate to their level of proficiency.
-            </li>
-            <li>Define characteristics of each level of proficiency.</li>
-            <li>
-              Sections depend on what skills the learners need to master in a
-              program or a course so the course materials will not be too easy
-              or challenging for them.
-            </li>
-            <li>
-              An example of a placement test is the English as a Second Language
-              Placement Test used in San Francisco State University.
-            </li>
-          </ul>
-        </section>
+                {/* Diagnostic Tests */}
+                <tr className="bg-gray-200">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 font-semibold"
+                  >
+                    Diagnostic Tests
+                  </th>
+                </tr>
+                <tr className="border-b">
+                  <td className="px-4 py-2 text-gray-700">
+                    <ul className="list-disc ml-4">
+                      <li>
+                        Identify students’ strengths and weaknesses in a
+                        particular skill (e.g., pronunciation or writing).
+                      </li>
+                      <li>
+                        Provide specific feedback to help teachers address
+                        individual learning needs.
+                      </li>
+                      <li>
+                        Sometimes, placement tests serve a dual purpose for
+                        diagnostic evaluation.
+                      </li>
+                      <li>
+                        Often challenging to construct due to a lack of
+                        well-developed examples.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
 
-        {/* Diagnostic Tests */}
-        <section id="diagnostic-tests" className="space-y-4">
-          <h2 className="text-2xl font-semibold">Diagnostic Tests</h2>
-          <ul className="list-disc ml-6 text-lg">
-            <li>
-              Identify students’ strengths and weaknesses in a particular skill
-              (e.g., a diagnostic test in pronunciation will show what
-              speech/sound difficulty the learner faces).
-            </li>
-            <li>
-              A writing diagnostic test will show the teacher the specific
-              problems the learner faces in writing.
-            </li>
-            <li>
-              To benefit future instruction and give specific feedback on
-              students’ weaknesses and strengths to determine what to do next.
-            </li>
-            <li>
-              Sometimes placement tests are used for diagnostic purposes (e.g.,
-              the English as a Second Language Placement Test used in San
-              Francisco State University is used for both placement and
-              diagnostic purposes).
-            </li>
-            <li>Difficult to construct. Lack of good ones.</li>
-          </ul>
-        </section>
-
-        {/* Achievement Tests */}
-        <section id="achievement-tests" className="space-y-4">
-          <h2 className="text-2xl font-semibold">Achievement Tests</h2>
-          <ul className="list-disc ml-6 text-lg">
-            <li>
-              Are always summative and are directly related to classroom
-              instruction and students’ learning.
-            </li>
-            <li>
-              Determine whether the course objectives have been achieved or not.
-            </li>
-            <li>
-              Measure how successful students are in achieving objectives of a
-              lesson/course/curriculum.
-            </li>
-            <li>
-              Closely related to the content of a particular
-              lesson/course/curriculum.
-            </li>
-            <li>Syllabus content approach OR course objectives approach?</li>
-            <li>
-              Final achievement tests / progress achievement tests (formative
-              assessment).
-            </li>
-            <li>Frequency?</li>
-          </ul>
+                {/* Achievement Tests */}
+                <tr className="bg-gray-200">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 font-semibold"
+                  >
+                    Achievement Tests
+                  </th>
+                </tr>
+                <tr>
+                  <td className="px-4 py-2 text-gray-700">
+                    <ul className="list-disc ml-4">
+                      <li>
+                        Always summative and directly related to classroom
+                        instruction and student learning.
+                      </li>
+                      <li>
+                        Determine whether course objectives have been achieved.
+                      </li>
+                      <li>
+                        Measure student success in achieving the objectives of a
+                        lesson, course, or curriculum.
+                      </li>
+                      <li>
+                        Closely linked to the content of a specific lesson or
+                        course.
+                      </li>
+                      <li>
+                        May follow either a syllabus content approach or course
+                        objectives approach.
+                      </li>
+                      <li>
+                        Include final achievement tests or progress achievement
+                        tests (as part of formative assessment).
+                      </li>
+                      <li>Frequency of administration may vary.</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
 
         {/* Practical Steps to Test Construction */}

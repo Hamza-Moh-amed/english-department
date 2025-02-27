@@ -12,6 +12,7 @@ export default function AmericanAssetsPage() {
   const navLinks: NavLink[] = [
     { href: "#planner", label: "Weekly Planner" },
     { href: "#reader", label: "Course Reader" },
+    { href: "#passing", label: "Passing" },
   ];
 
   return (
@@ -55,6 +56,17 @@ export default function AmericanAssetsPage() {
           <div className="w-full min-h-screen bg-gray-100">
             <iframe
               src="https://drive.google.com/file/d/1OJCHabqKsFsd6mv3Xpoqk5__j9kWTEzh/preview"
+              frameBorder="0"
+              allow="autoplay"
+              className="w-full h-screen"
+            ></iframe>
+          </div>
+        </section>
+        <section id="passing" className="space-y-8">
+          <h2 className="text-2xl font-semibold">Passing: Nella Larsen</h2>
+          <div className="w-full min-h-screen bg-gray-100">
+            <iframe
+              src="https://drive.google.com/file/d/1odoGpqCzARInQO0BDHbD_hpO3ohkH_1C/preview"
               frameBorder="0"
               allow="autoplay"
               className="w-full h-screen"

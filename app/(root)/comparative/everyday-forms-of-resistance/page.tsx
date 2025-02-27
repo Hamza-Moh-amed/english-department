@@ -380,7 +380,7 @@ export default function EverydayFormsOfResistance() {
           <h2 className="text-2xl font-semibold">Analysis</h2>
           <div className="prose max-w-none">
             <p className="text-lg">
-              <strong>2.1 Introduction</strong>
+              <strong>Introduction</strong>
             </p>
             <p className="text-lg">
               In "Everyday Forms of Resistance," James C. Scott reorients our
@@ -399,9 +399,7 @@ export default function EverydayFormsOfResistance() {
             </p>
 
             <p className="text-lg">
-              <strong>
-                2.2 Conceptual Framework: Rethinking Political Action
-              </strong>
+              <strong>Conceptual Framework: Rethinking Political Action</strong>
             </p>
             <p className="text-lg">
               Conventional political analyses have long privileged overt,
@@ -452,7 +450,7 @@ export default function EverydayFormsOfResistance() {
             </p>
 
             <p className="text-lg">
-              <strong>2.3 Forms and Techniques of Everyday Resistance</strong>
+              <strong>Forms and Techniques of Everyday Resistance</strong>
             </p>
             <p className="text-lg">
               Scott’s exploration of everyday resistance is marked by its
@@ -503,7 +501,7 @@ export default function EverydayFormsOfResistance() {
 
             <p className="text-lg">
               <strong>
-                2.4 Case Study: Poaching and Hungarian Peasant Resistance
+                Case Study: Poaching and Hungarian Peasant Resistance
               </strong>
             </p>
             <p className="text-lg">
@@ -530,9 +528,7 @@ export default function EverydayFormsOfResistance() {
             </p>
 
             <p className="text-lg">
-              <strong>
-                2.5 Strategic Considerations and Collective Impact
-              </strong>
+              <strong>Strategic Considerations and Collective Impact</strong>
             </p>
             <p className="text-lg">
               A central tenet of Scott’s argument is the strategic rationality
@@ -558,7 +554,7 @@ export default function EverydayFormsOfResistance() {
             </p>
 
             <p className="text-lg">
-              <strong>2.6 Broader Implications for Political Analysis</strong>
+              <strong> Broader Implications for Political Analysis</strong>
             </p>
             <p className="text-lg">
               Scott’s insights into everyday resistance compel a reevaluation of
@@ -582,7 +578,7 @@ export default function EverydayFormsOfResistance() {
             </p>
 
             <p className="text-lg">
-              <strong>2.7 Conclusion</strong>
+              <strong>Conclusion</strong>
             </p>
             <p className="text-lg">
               In conclusion, James C. Scott's "Everyday Forms of Resistance"
@@ -611,32 +607,66 @@ export default function EverydayFormsOfResistance() {
                   resistance”?
                 </strong>
                 <p>
-                  Scott refers to the subtle, covert acts of defiance employed
-                  by subordinate groups that do not overtly challenge power but
-                  collectively undermine oppressive systems. These include
-                  actions like foot-dragging, poaching, and false compliance.
+                  Scott defines “everyday forms of resistance” as the subtle,
+                  often covert acts by subordinate groups that challenge
+                  dominant power structures without engaging in open,
+                  confrontational politics. He describes these practices—ranging
+                  from “foot-dragging” and “dissimulations” to “poaching” and
+                  “false compliance”—as a “vast realm of political action” that
+                  is “almost habitually overlooked.” Although each act may seem
+                  trivial, Scott argues that, collectively, they form a
+                  persistent and potent mode of defiance.
                 </p>
               </li>
               <li>
                 <strong>
-                  How does Scott differentiate between overt and covert forms of
+                  How does Scott contrast everyday resistance with conventional
                   political action?
                 </strong>
                 <p>
-                  Overt actions are public and organized—such as riots or
-                  revolutions—whereas covert actions are hidden and informal,
-                  allowing resistance without drawing direct state repression.
+                  Scott juxtaposes everyday resistance with conventional
+                  political action by emphasizing the difference in visibility
+                  and documentation. While overt actions such as riots,
+                  revolutions, and mass protests are public, organized, and
+                  widely recorded—through manifestos, minutes, and media
+                  reports—everyday resistance is intentionally hidden and
+                  uncoordinated. He critiques conventional accounts as
+                  “damagingly narrow and poverty-stricken” for failing to
+                  recognize the diffuse, continuous acts that undermine
+                  authority from below.
                 </p>
               </li>
               <li>
                 <strong>
-                  In what ways do everyday acts of resistance function as a form
-                  of collective action despite their covert nature?
+                  Why does Scott describe these acts as the “techniques of first
+                  resort” for oppressed groups?
                 </strong>
                 <p>
-                  Although each act may seem minor, collectively they create a
-                  form of solidarity that gradually erodes oppressive
-                  structures.
+                  Given the significant risks involved in overt political
+                  confrontation, subordinate groups often adopt subtle tactics
+                  as their “techniques of first resort.” Scott explains that
+                  when open defiance entails “mortal danger,” these groups turn
+                  to covert actions—such as underreporting harvests or feigning
+                  compliance—that allow them to resist while minimizing exposure
+                  to state repression. For example, rather than risking violent
+                  state retaliation, Hungarian peasants covertly underreported
+                  their acreage to evade forced deliveries.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What role does anonymity play in the practice of everyday
+                  resistance?
+                </strong>
+                <p>
+                  Anonymity is a central pillar of everyday resistance, as it
+                  protects individuals from the harsh reprisals of dominant
+                  powers. Scott notes that these acts are “quiet, disguised,
+                  anonymous, often undeclared,” ensuring that the resisters
+                  remain invisible to state apparatuses that are designed to
+                  monitor and punish dissent. This concealment not only secures
+                  individual safety but also complicates efforts to trace and
+                  counteract collective resistance.
                 </p>
               </li>
               <li>
@@ -645,138 +675,184 @@ export default function EverydayFormsOfResistance() {
                   of customary practices into acts of resistance?
                 </strong>
                 <p>
-                  Poaching was once a routine part of rural subsistence. When
-                  state laws redefined property rights, continuing the practice
-                  became a means of reclaiming customary rights and resisting
-                  new legal regimes.
+                  Poaching, originally a traditional means of subsistence,
+                  becomes a form of political defiance when state laws redefine
+                  customary rights. Scott explains that activities like
+                  poaching, once part of “the traditional subsistence routine,”
+                  were recast as criminal behavior when natural resources were
+                  declared state property. This reclassification forced peasants
+                  to view the continuation of their customary practices as an
+                  act of resistance—a way to reclaim ancestral rights in the
+                  face of an imposed legal order.
                 </p>
               </li>
               <li>
                 <strong>
-                  What role do hidden transcripts play in challenging official
-                  narratives?
+                  In what ways do numerous minor acts of resistance collectively
+                  undermine state authority?
                 </strong>
                 <p>
-                  Hidden transcripts—such as off-stage conversations and folk
-                  traditions—allow subordinate groups to express dissent without
-                  public confrontation, preserving true sentiments that may
-                  later influence overt actions.
+                  Scott argues that while each act of resistance might appear
+                  insignificant on its own, their cumulative effect is profound.
+                  He likens these “thousands upon thousands of petty acts of
+                  insubordination and evasion” to a “political and economic
+                  barrier reef” that gradually weakens the state’s control. This
+                  metaphor illustrates how the aggregate impact of dispersed
+                  acts—such as widespread noncompliance or subtle
+                  subversions—can erode administrative efficiency and
+                  destabilize oppressive regimes.
                 </p>
               </li>
               <li>
                 <strong>
-                  How does the Hungarian peasantry example demonstrate the
-                  cumulative impact of subtle resistance tactics?
+                  How does Scott differentiate between overt and covert forms of
+                  political action?
                 </strong>
                 <p>
-                  Hungarian peasants underreported land, forged documents, and
-                  evaded state controls—minor acts that, when aggregated,
-                  reduced enforced quotas and pressured the government to
-                  reform.
+                  Overt political action is public, organized, and visible,
+                  characterized by large-scale mobilizations like revolutions or
+                  protests, which leave a clear historical record through
+                  documents and media coverage. Covert political action,
+                  however, is marked by its hidden nature—actions deliberately
+                  executed to avoid detection. Scott underscores this by
+                  pointing out that while overt actions produce “manifestos,
+                  minutes, membership lists, journalists’ descriptions, and
+                  police reports,” covert resistance remains elusive, often only
+                  discernible through indirect evidence.
                 </p>
               </li>
               <li>
                 <strong>
-                  What tactical considerations might lead subordinate groups to
-                  prefer everyday resistance over open confrontation?
+                  What does Scott mean by the “venerable popular culture of
+                  resistance”?
                 </strong>
                 <p>
-                  The risks of violent repression, geographical dispersion, and
-                  limited resources make overt action dangerous, so subtle,
-                  everyday resistance minimizes exposure while still undermining
-                  oppressive systems.
+                  The “venerable popular culture of resistance” refers to the
+                  longstanding, culturally ingrained practices of subtle
+                  defiance that have been passed down through generations. Scott
+                  argues that these practices are not recent innovations; they
+                  are deeply rooted in the social and historical experiences of
+                  subordinate groups. This cultural repository provides
+                  individuals with a toolkit for navigating and undermining
+                  power, enabling resistance that is both strategically
+                  effective and culturally resonant.
                 </p>
               </li>
               <li>
                 <strong>
-                  In what ways can everyday resistance erode the legitimacy of
-                  state authority over time?
+                  How do hidden transcripts operate within the context of
+                  everyday resistance?
                 </strong>
                 <p>
-                  As countless small acts of defiance accumulate, they weaken
-                  the economic and administrative structures of the state,
-                  gradually eroding its legitimacy and capacity to enforce
-                  authority.
+                  Hidden transcripts are the off-stage expressions of
+                  dissent—found in private conversations, jokes, folktales, and
+                  other cultural expressions—that articulate the true grievances
+                  of oppressed groups. Scott explains that while the “public
+                  transcript” conforms to state-sanctioned behavior, the hidden
+                  transcript reveals what is truly felt and believed. These
+                  subtle exchanges “test the line of what is permissible” and
+                  gradually recalibrate the norms of acceptable behavior, paving
+                  the way for more overt challenges in the future.
                 </p>
               </li>
               <li>
                 <strong>
-                  How might historians uncover evidence of covert resistance in
+                  Why are everyday forms of resistance rarely captured in
                   official records?
                 </strong>
                 <p>
-                  Historians must look for anomalies—unexplained discrepancies
-                  in land records, forged documents, and oral histories—that
-                  hint at widespread evasion of state policies.
+                  Everyday resistance is designed to avoid detection, and as a
+                  result, it leaves few traces in official archives. Scott
+                  points out that these acts are “designed to avoid notice and
+                  detection” to minimize risk. Unlike overt political actions
+                  that are documented through official channels, these covert
+                  forms are often discernible only through anomalies in
+                  records—such as missing acreage or inconsistencies in
+                  administrative data—or through oral histories and subtle
+                  cultural cues.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How does the Hungarian peasantry example illustrate the
+                  cumulative impact of subtle resistance?
+                </strong>
+                <p>
+                  Scott’s case study of the Hungarian peasantry demonstrates how
+                  small, individually inconspicuous acts can aggregate into a
+                  powerful force of resistance. Facing forced crop deliveries,
+                  Hungarian peasants systematically underreported their
+                  cultivated land, so much so that “whenever land came under a
+                  new jurisdiction… a fraction of the land mysteriously
+                  disappeared.” By 1954, this practice resulted in the vanishing
+                  of 1.3 million acres of arable land, significantly weakening
+                  state control and prompting policy reforms.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  What tactical advantages does everyday resistance offer over
+                  overt political protest?
+                </strong>
+                <p>
+                  Everyday resistance offers a lower-risk alternative to overt
+                  protest. Because these actions are covert and require minimal
+                  formal coordination, they significantly reduce the chances of
+                  attracting violent repression. Scott notes that such methods
+                  are “relatively safe, they often promise vital material gains,
+                  and they require little or no formal coordination,” making
+                  them an attractive option for groups that are otherwise too
+                  vulnerable to engage in large-scale confrontation.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  How does the accumulation of minor resistance actions erode
+                  the legitimacy of state authority?
+                </strong>
+                <p>
+                  Scott contends that the persistent accumulation of minor acts
+                  of defiance—what he describes as “a thousand small cuts”—can
+                  eventually undermine the state’s legitimacy. These dispersed
+                  actions disrupt the normal functioning of bureaucratic systems
+                  and weaken the symbolic authority of the state. Over time, as
+                  the cumulative effect of these actions becomes apparent, even
+                  the most entrenched regimes may find their capacity to enforce
+                  authority severely diminished.
                 </p>
               </li>
               <li>
                 <strong>
                   How does Scott’s argument challenge traditional theories of
-                  political conflict and revolution?
+                  political conflict?
                 </strong>
                 <p>
-                  Traditional theories focus on mass mobilizations and overt
-                  conflicts, but Scott shows that even subtle, everyday acts of
-                  resistance can lead to significant political change over time.
+                  Scott challenges traditional theories by asserting that
+                  significant political change does not always result from
+                  dramatic, large-scale events. Instead, he argues that everyday
+                  resistance—although covert and dispersed—can produce
+                  transformative effects. By stating that “any account which
+                  ignores [everyday resistance] is often ignoring the most vital
+                  means by which lower classes manifest their political
+                  interests,” he calls for a broader analytical framework that
+                  includes both overt and covert forms of struggle.
                 </p>
               </li>
               <li>
                 <strong>
-                  What implications does the concept of everyday resistance have
-                  for our understanding of class struggle?
-                </strong>
-                <p>
-                  It highlights that class struggle is not fought solely on the
-                  battleground of public uprisings, but also through covert acts
-                  of defiance that gradually undermine elite power structures.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  How can the aggregate effect of minor acts of resistance lead
-                  to significant political or economic change?
-                </strong>
-                <p>
-                  While one small act may seem insignificant, the aggregation of
-                  many such actions can disrupt economic systems, weaken
-                  enforcement mechanisms, and eventually force policy reforms.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  In what ways does everyday resistance remain relevant to
+                  How can the concept of everyday resistance be applied to
                   contemporary forms of political dissent?
                 </strong>
                 <p>
-                  In modern societies, subtle forms of resistance—such as
-                  noncompliance, digital subversion, and symbolic
-                  protest—continue to challenge authority in environments where
-                  overt protest may be too risky.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  How might the strategies of everyday resistance vary across
-                  different cultural or historical contexts?
-                </strong>
-                <p>
-                  Everyday resistance is shaped by local customs, social norms,
-                  and historical experiences. For instance, poaching in rural
-                  England differs from the administrative evasions observed in
-                  mid‑20th century Hungary.
-                </p>
-              </li>
-              <li>
-                <strong>
-                  What methodological challenges arise when studying resistance
-                  that intentionally avoids documentation?
-                </strong>
-                <p>
-                  Since everyday resistance is designed to evade detection, its
-                  evidence is often fragmented and hidden—requiring historians
-                  to rely on oral histories, subtle archival clues, and
-                  interdisciplinary research methods.
+                  Scott’s framework is remarkably applicable to modern contexts,
+                  where digital activism, noncompliance with bureaucratic norms,
+                  and subtle forms of symbolic protest are common. For instance,
+                  online memes and viral social media posts often serve as
+                  covert means of expressing dissent in environments where open
+                  protest might be too risky. These contemporary practices
+                  mirror the historical covert tactics described by Scott,
+                  demonstrating that everyday resistance continues to challenge
+                  power structures in innovative ways.
                 </p>
               </li>
             </ol>

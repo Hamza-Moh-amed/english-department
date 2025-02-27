@@ -16,15 +16,11 @@ export default function ChapterOne() {
     { href: "#key-questions", label: "Key Questions" },
     { href: "#reflection", label: "Reflection" },
     { href: "#test-eval", label: "Test/Evaluation" },
-    { href: "#assessment-teaching", label: "Assessment & Teaching" },
-    { href: "#informal-formal", label: "Informal & Formal" },
-    { href: "#formative-summative", label: "Formative & Summative" },
-    { href: "#comparison", label: "Comparison: Formal vs Informal" },
+    { href: "#assessment-types", label: "Assessment Types" },
     { href: "#norm-criterion", label: "Norm & Criterion" },
     { href: "#history", label: "Testing History" },
     { href: "#communicative", label: "Communicative Testing" },
     { href: "#current-issues", label: "Current Issues" },
-    { href: "#traditional-alternative", label: "Traditional & Alternative" },
     { href: "#computer-based", label: "Computer-based Testing" },
     { href: "#basic-principles", label: "Basic Principles" },
     { href: "#application-tasks", label: "Application Tasks" },
@@ -193,50 +189,127 @@ export default function ChapterOne() {
           </p>
         </section>
 
-        {/* Informal & Formal Assessment */}
-        <section id="informal-formal" className="space-y-4">
-          <h2 className="text-2xl font-semibold">
-            Informal &amp; Formal Assessment
+        <section id="assessment-types" className="space-y-4">
+          <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
+            Assessment Types
           </h2>
-          <ul className="list-disc ml-6 text-lg">
-            <li>
-              <strong>Informal Assessment:</strong> Occurs naturally through
-              classroom activities such as discussions, feedback, and homework.
-            </li>
-            <li>
-              <strong>Formal Assessment:</strong> Planned, systematic, and
-              typically time-constrained evaluations like quizzes and exams.
-            </li>
-          </ul>
-        </section>
+          <div className="overflow-x-auto bg-white dark:bg-gray-800 rounded-md shadow-md p-4 sm:p-6">
+            <table className="w-full table-auto">
+              <tbody>
+                {/* Formal & Informal Assessment Group */}
+                <tr className="bg-gray-200 dark:bg-gray-700">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 dark:text-gray-200 font-semibold"
+                  >
+                    Formal &amp; Informal Assessment
+                  </th>
+                </tr>
+                <tr className="border-b-2 border-gray-300 dark:border-gray-600">
+                  <th
+                    scope="row"
+                    className="bg-gray-50 dark:bg-gray-900 px-4 py-2 sm:px-6 sm:py-4 text-gray-800 dark:text-gray-100 font-medium text-sm sm:text-base w-40"
+                  >
+                    Formal Assessment
+                  </th>
+                  <td className="px-4 py-2 sm:px-6 sm:py-4 text-gray-700 dark:text-gray-300 text-sm sm:text-base leading-relaxed">
+                    Planned, systematic, and typically time-constrained
+                    evaluations like quizzes and exams.
+                  </td>
+                </tr>
+                <tr className="border-b-2 border-gray-300 dark:border-gray-600">
+                  <th
+                    scope="row"
+                    className="bg-gray-50 dark:bg-gray-900 px-4 py-2 sm:px-6 sm:py-4 text-gray-800 dark:text-gray-100 font-medium text-sm sm:text-base w-40"
+                  >
+                    Informal Assessment
+                  </th>
+                  <td className="px-4 py-2 sm:px-6 sm:py-4 text-gray-700 dark:text-gray-300 text-sm sm:text-base leading-relaxed">
+                    Occurs naturally through classroom activities such as
+                    discussions, feedback, and homework.
+                  </td>
+                </tr>
+                <tr className="border-b-2 border-gray-300 dark:border-gray-600">
+                  <td
+                    colSpan={2}
+                    className="px-4 py-2 sm:px-6 sm:py-4 text-gray-700 dark:text-gray-300 text-sm sm:text-base leading-relaxed"
+                  >
+                    Formal assessments provide a snapshot of student
+                    achievement, whereas informal assessments reveal ongoing
+                    progress.
+                  </td>
+                </tr>
 
-        {/* Formative & Summative Assessment */}
-        <section id="formative-summative" className="space-y-4">
-          <h2 className="text-2xl font-semibold">
-            Formative &amp; Summative Assessment
-          </h2>
-          <ul className="list-disc ml-6 text-lg">
-            <li>
-              <strong>Formative Assessment:</strong> Integrated into the
-              learning process to provide ongoing feedback.
-            </li>
-            <li>
-              <strong>Summative Assessment:</strong> Evaluates student
-              achievement at the end of an instructional period.
-            </li>
-          </ul>
-        </section>
+                {/* Formative & Summative Assessment Group */}
+                <tr className="bg-gray-200 dark:bg-gray-700">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 dark:text-gray-200 font-semibold"
+                  >
+                    Formative &amp; Summative Assessment
+                  </th>
+                </tr>
+                <tr className="border-b-2 border-gray-300 dark:border-gray-600 ">
+                  <th
+                    scope="row"
+                    className="bg-gray-50 dark:bg-gray-900 px-4 py-2 sm:px-6 sm:py-4 text-gray-800 dark:text-gray-100 font-medium text-sm sm:text-base w-40"
+                  >
+                    Formative Assessment
+                  </th>
+                  <td className="px-4 py-2 sm:px-6 sm:py-4 text-gray-700 dark:text-gray-300 text-sm sm:text-base leading-relaxed">
+                    Integrated into the learning process to provide ongoing
+                    feedback.
+                  </td>
+                </tr>
+                <tr className="border-b-2 border-gray-300 dark:border-gray-600 ">
+                  <th
+                    scope="row"
+                    className="bg-gray-50 dark:bg-gray-900 px-4 py-2 sm:px-6 sm:py-4 text-gray-800 dark:text-gray-100 font-medium text-sm sm:text-base w-40"
+                  >
+                    Summative Assessment
+                  </th>
+                  <td className="px-4 py-2 sm:px-6 sm:py-4 text-gray-700 dark:text-gray-300 text-sm sm:text-base leading-relaxed">
+                    Evaluates student achievement at the end of an instructional
+                    period.
+                  </td>
+                </tr>
 
-        {/* Comparison: Formal vs. Informal Assessment */}
-        <section id="comparison" className="space-y-4">
-          <h2 className="text-2xl font-semibold">
-            Comparison: Formal vs. Informal Assessment
-          </h2>
-          <p className="text-lg">
-            Formal assessments provide a snapshot of student achievement,
-            whereas informal assessments reveal ongoing progress. Visual
-            comparisons in the chapter illustrate these differences.
-          </p>
+                {/* Traditional vs. Alternative Assessment Group */}
+                <tr className="bg-gray-200 dark:bg-gray-700">
+                  <th
+                    colSpan={2}
+                    className="px-4 py-2 text-gray-700 dark:text-gray-200 font-semibold"
+                  >
+                    Traditional vs. Alternative Assessment
+                  </th>
+                </tr>
+                <tr className="border-b-2 border-gray-300 dark:border-gray-600 ">
+                  <th
+                    scope="row"
+                    className="bg-gray-50 dark:bg-gray-900 px-4 py-2 sm:px-6 sm:py-4 text-gray-800 dark:text-gray-100 font-medium text-sm sm:text-base w-40"
+                  >
+                    Traditional Assessment
+                  </th>
+                  <td className="px-4 py-2 sm:px-6 sm:py-4 text-gray-700 dark:text-gray-300 text-sm sm:text-base leading-relaxed">
+                    One-shot, standardized tests that are timed,
+                    multiple-choice, and norm-referenced.
+                  </td>
+                </tr>
+                <tr>
+                  <th
+                    scope="row"
+                    className="bg-gray-50 dark:bg-gray-900 px-4 py-2 sm:px-6 sm:py-4 text-gray-800 dark:text-gray-100 font-medium text-sm sm:text-base w-40"
+                  >
+                    Alternative Assessment
+                  </th>
+                  <td className="px-4 py-2 sm:px-6 sm:py-4 text-gray-700 dark:text-gray-300 text-sm sm:text-base leading-relaxed">
+                    Continuous, long-term evaluations that are often untimed,
+                    free-response, and criterion-referenced.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
 
         {/* Norm-referenced & Criterion-referenced Tests */}
@@ -313,24 +386,6 @@ export default function ChapterOne() {
             <li>
               <strong>Implications:</strong> Modern assessments must consider a
               wider range of skills beyond traditional linguistic abilities.
-            </li>
-          </ul>
-        </section>
-
-        {/* Traditional vs. Alternative Assessment */}
-        <section id="traditional-alternative" className="space-y-4">
-          <h2 className="text-2xl font-semibold">
-            Traditional vs. Alternative Assessment
-          </h2>
-          <ul className="list-disc ml-6 text-lg">
-            <li>
-              <strong>Traditional Assessment:</strong> One-shot, standardized
-              tests that are timed, multiple-choice, and norm-referenced.
-            </li>
-            <li>
-              <strong>Alternative Assessment:</strong> Continuous, long-term
-              evaluations that are often untimed, free-response, and
-              criterion-referenced.
             </li>
           </ul>
         </section>
