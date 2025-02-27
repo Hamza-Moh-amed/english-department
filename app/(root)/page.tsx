@@ -31,7 +31,7 @@ export default function Home() {
           ))}
         </div>
         {/* Weekly Planner Section */}
-        <WeeklyPlanner />
+        {/* <WeeklyPlanner /> */}
       </main>
     </>
   );
