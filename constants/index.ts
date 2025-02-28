@@ -118,6 +118,10 @@ export const subjects = [
         link: "/linguistics/chapter-5",
       },
       {
+        title: "Questions and Answers",
+        link: "/linguistics/questions-and-answers",
+      },
+      {
         title: "Source PDF Files",
         link: "/linguistics/source",
       },
@@ -150,6 +154,10 @@ export const subjects = [
       {
         title: "Trauma and Recovery: Analysis",
         link: "/trauma/trauma-and-recovery-analysis",
+      },
+      {
+        title: "Discord in Childhood",
+        link: "/trauma/discord-in-childhood",
       },
       {
         title: "What is Intergenerational Trauma?",

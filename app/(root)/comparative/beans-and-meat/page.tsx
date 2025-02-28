@@ -29,7 +29,10 @@ export default function PoemPage() {
           </div>
           {/* Center: PageTitle */}
           <div className="flex-grow text-center">
-            <PageTitle title="عن موضوع الفول واللحمة" author="Unknown" />
+            <PageTitle
+              title="عن موضوع الفول واللحمة"
+              author="Ahmed Fouad Negm"
+            />
           </div>
           {/* Right: Empty div to balance the left column */}
           <div className="flex-none w-24" />
@@ -37,7 +40,7 @@ export default function PoemPage() {
         {/* For mobile: stack Navigation and PageTitle */}
         <div className="md:hidden space-y-4">
           <Navigation links={navLinks} />
-          <PageTitle title="عن موضوع الفول واللحمة" author="Unknown" />
+          <PageTitle title="عن موضوع الفول واللحمة" author="Ahmed Fouad Negm" />
         </div>
       </div>
       {/* Body Content */}

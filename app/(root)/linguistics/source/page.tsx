@@ -2,6 +2,8 @@ import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
+import AssessmentQuestions from "@/components/Questions";
+import { questions } from "@/constants";
 
 export const metadata = {
   title: "Files: PDFs and Drive Files",
@@ -15,6 +17,8 @@ export default function LinguisticsAssetsPage() {
     { href: "#chapter-3", label: "Chapter 3" },
     { href: "#chapter-4-5", label: "Chapter 4 & 5" },
   ];
+
+  const q = questions;
 
   return (
     <main className="min-h-screen bg-white">
@@ -42,7 +46,6 @@ export default function LinguisticsAssetsPage() {
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
         {/* Overview Section */}
-
         <section id="chapter-1" className="space-y-8">
           <h2 className="text-2xl font-semibold">Chapter 1</h2>
           <div className="w-full min-h-screen bg-gray-100">
@@ -54,7 +57,6 @@ export default function LinguisticsAssetsPage() {
             ></iframe>
           </div>
         </section>
-
         <section id="chapter-2" className="space-y-8">
           <h2 className="text-2xl font-semibold">Chapter 2</h2>
           <div className="w-full min-h-screen bg-gray-100">
@@ -66,7 +68,6 @@ export default function LinguisticsAssetsPage() {
             ></iframe>
           </div>
         </section>
-
         <section id="chapter-3" className="space-y-8">
           <h2 className="text-2xl font-semibold">Chapter 3</h2>
           <div className="w-full min-h-screen bg-gray-100">
@@ -78,7 +79,6 @@ export default function LinguisticsAssetsPage() {
             ></iframe>
           </div>
         </section>
-
         <section id="chapter-4-5" className="space-y-8">
           <h2 className="text-2xl font-semibold">Chapter 4-5</h2>
           <div className="w-full min-h-screen bg-gray-100">
@@ -90,6 +90,7 @@ export default function LinguisticsAssetsPage() {
             ></iframe>
           </div>
         </section>
+        <AssessmentQuestions questions={questions} />;
       </div>
     </main>
   );
