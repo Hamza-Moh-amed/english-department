@@ -4,9 +4,9 @@ import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
 
 export const metadata = {
-  title: "عن موضوع الفول واللحمة",
+  title: "Beans and Meat الفول واللحمة",
   description:
-    "A page dedicated to the poem 'عن موضوع الفول واللحمة,' exploring its themes, literary analysis, and a detailed Q&A section.",
+    "A page dedicated to the poem 'الفول واللحمة,' Ahmed Fouad Negm exploring its themes, literary analysis, and a detailed Q&A section.",
 };
 
 export default function PoemPage() {
@@ -29,10 +29,7 @@ export default function PoemPage() {
           </div>
           {/* Center: PageTitle */}
           <div className="flex-grow text-center">
-            <PageTitle
-              title="عن موضوع الفول واللحمة"
-              author="Ahmed Fouad Negm"
-            />
+            <PageTitle title="الفول واللحمة" author="Ahmed Fouad Negm" />
           </div>
           {/* Right: Empty div to balance the left column */}
           <div className="flex-none w-24" />
@@ -40,7 +37,7 @@ export default function PoemPage() {
         {/* For mobile: stack Navigation and PageTitle */}
         <div className="md:hidden space-y-4">
           <Navigation links={navLinks} />
-          <PageTitle title="عن موضوع الفول واللحمة" author="Ahmed Fouad Negm" />
+          <PageTitle title="الفول واللحمة" author="Ahmed Fouad Negm" />
         </div>
       </div>
       {/* Body Content */}

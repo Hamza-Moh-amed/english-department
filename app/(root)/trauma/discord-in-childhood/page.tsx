@@ -79,37 +79,6 @@ export default function DiscordInChildhood() {
           />
         </section>
 
-        {/* YouTube Embed Section */}
-        <section id="broke-silence" className="space-y-8">
-          <h2 className="text-2xl font-semibold text-left">
-            I Broke My Silence
-          </h2>
-
-          {/* Trigger Warning Section */}
-          <div className="bg-yellow-100 text-yellow-700 p-2 rounded-md mb-4">
-            <p className="text-base">
-              <strong>Viewer Advisory:</strong> This video contains sensitive
-              content related to domestic abuse, which may be upsetting for some
-              viewers. It will begin automatically at the 6-minute mark, but if
-              you’d prefer to watch the entire video from the start, you can do
-              so at your own discretion.
-            </p>
-          </div>
-
-          {/* YouTube Video Embed */}
-          <div className="flex justify-center">
-            <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
-              <iframe
-                src="https://www.youtube.com/embed/frFEdN7aMh8?start=360"
-                title="I Broke My Silence"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full rounded-lg shadow-lg"
-              ></iframe>
-            </div>
-          </div>
-        </section>
-
         {/* Author Background Section */}
         <section id="author" className="space-y-8">
           <h2 className="text-2xl font-semibold text-left">

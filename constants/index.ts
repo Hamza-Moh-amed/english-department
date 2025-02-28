@@ -160,6 +160,10 @@ export const subjects = [
         link: "/trauma/discord-in-childhood",
       },
       {
+        title: "With No Immediate Cause",
+        link: "/trauma/immediate-cause",
+      },
+      {
         title: "What is Intergenerational Trauma?",
         link: "/trauma/intergenerational-trauma",
       },
