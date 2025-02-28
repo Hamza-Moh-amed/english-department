@@ -2,8 +2,6 @@ import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
-import AssessmentQuestions from "@/components/Questions";
-import { questions } from "@/constants";
 
 export const metadata = {
   title: "Files: PDFs and Drive Files",
@@ -17,8 +15,6 @@ export default function LinguisticsAssetsPage() {
     { href: "#chapter-3", label: "Chapter 3" },
     { href: "#chapter-4-5", label: "Chapter 4 & 5" },
   ];
-
-  const q = questions;
 
   return (
     <main className="min-h-screen bg-white">
@@ -90,7 +86,6 @@ export default function LinguisticsAssetsPage() {
             ></iframe>
           </div>
         </section>
-        <AssessmentQuestions questions={questions} />;
       </div>
     </main>
   );
