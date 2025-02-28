@@ -130,26 +130,29 @@ export const questions: QuestionItemProps[] = [
 
   // True/False questions
   {
-    question: "The CEFR is a framework used only in European countries.",
+    question:
+      "True or False: The CEFR is a framework used only in European countries.",
     answer: "False (It is widely used internationally)",
   },
   {
     question:
-      "A placement test helps determine whether a student should pass or fail a course.",
+      "True or False: A placement test helps determine whether a student should pass or fail a course.",
     answer:
       "False (Placement tests determine a student's appropriate course level, not pass/fail status)",
   },
   {
     question:
-      "High-stakes testing can create pressure that affects student performance.",
+      "True or False: High-stakes testing can create pressure that affects student performance.",
     answer: "True",
   },
   {
-    question: "Reliability ensures that a test is free from bias.",
+    question:
+      "True or False: Reliability ensures that a test is free from bias.",
     answer: "False (A test can be reliable but still biased)",
   },
   {
-    question: "Proficiency tests are linked to a specific curriculum.",
+    question:
+      "True or False: Proficiency tests are linked to a specific curriculum.",
     answer:
       "False (They assess general language ability, not specific course content)",
   },
