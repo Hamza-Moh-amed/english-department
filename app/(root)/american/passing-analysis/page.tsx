@@ -47,7 +47,7 @@ export default function PassingAnalysis() {
 
         {/* YouTube Embed Section */}
         <section id="civil-rights" className="space-y-8">
-          <h2 className="text-2xl font-semibold text-center md:text-left">
+          <h2 className="text-2xl font-semibold text-left">
             Civil Rights Movement
           </h2>
           <div className="flex justify-center">

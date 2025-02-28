@@ -52,7 +52,7 @@ export default function PsychologicalTrauma() {
       <div className="container mx-auto px-4 py-8 space-y-8 max-w-full sm:max-w-[600px] md:max-w-[800px]">
         {/* YouTube Embed Section */}
         <section id="youtube" className="space-y-8">
-          <h2 className="text-2xl font-semibold text-center md:text-left">
+          <h2 className="text-2xl font-semibold text-left">
             Trauma and the Brain
           </h2>
           <div className="flex justify-center">

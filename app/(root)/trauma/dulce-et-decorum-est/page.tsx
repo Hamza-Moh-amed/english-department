@@ -85,9 +85,7 @@ export default function DulceEtDecorumEst() {
 
         {/* YouTube Embed Section: Poem */}
         <section id="poem-video" className="space-y-8">
-          <h2 className="text-2xl font-semibold text-center md:text-left">
-            Poem Video
-          </h2>
+          <h2 className="text-2xl font-semibold text-left">Poem Video</h2>
           <div className="flex justify-center">
             <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
               <iframe
@@ -103,9 +101,7 @@ export default function DulceEtDecorumEst() {
 
         {/* YouTube Embed Section: Poem Analysis */}
         <section id="analysis-video" className="space-y-8">
-          <h2 className="text-2xl font-semibold text-center md:text-left">
-            Poem Analysis
-          </h2>
+          <h2 className="text-2xl font-semibold text-left">Poem Analysis</h2>
           <div className="flex justify-center">
             <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
               <iframe
@@ -121,7 +117,7 @@ export default function DulceEtDecorumEst() {
 
         {/* YouTube Embed Section */}
         <section id="shell-shock" className="space-y-8">
-          <h2 className="text-2xl font-semibold text-center md:text-left">
+          <h2 className="text-2xl font-semibold text-left">
             Shell Shock: The Psychological Scars of WW1
           </h2>
           <div className="flex justify-center">

@@ -42,9 +42,7 @@ export default function PassingText() {
       <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
         {/* YouTube Embed Section */}
         <section id="audiobook" className="space-y-8">
-          <h2 className="text-2xl font-semibold text-center md:text-left">
-            Audiobook
-          </h2>
+          <h2 className="text-2xl font-semibold text-left">Audiobook</h2>
           <div className="flex justify-center">
             <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
               <iframe

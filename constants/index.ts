@@ -46,7 +46,7 @@ export const subjects = [
     subjectLink: "/comparative",
     lessons: [
       {
-        title: "The Main & The Margin",
+        title: "The Main and The Margin",
         link: "/comparative/the-main-and-the-margin",
       },
       {
@@ -56,6 +56,10 @@ export const subjects = [
       {
         title: "Everyday Forms of Resistance",
         link: "/comparative/everyday-forms-of-resistance",
+      },
+      {
+        title: "Beans and Meat",
+        link: "/comparative/beans-and-meat",
       },
       {
         title: "Source PDF Files",
@@ -68,7 +72,7 @@ export const subjects = [
     subjectLink: "/docility",
     lessons: [
       {
-        title: "Docility And Disciplinary Power",
+        title: "Docility and Disciplinary Power",
         link: "/docility/docility-and-disciplinary-power",
       },
       {
@@ -140,15 +144,15 @@ export const subjects = [
         link: "/trauma/dulce-et-decorum-est",
       },
       {
-        title: "Trauma And Recovery: Text",
+        title: "Trauma and Recovery: Text",
         link: "/trauma/trauma-and-recovery-text",
       },
       {
-        title: "Trauma And Recovery: Analysis",
+        title: "Trauma and Recovery: Analysis",
         link: "/trauma/trauma-and-recovery-analysis",
       },
       {
-        title: "What Is Intergenerational Trauma?",
+        title: "What is Intergenerational Trauma?",
         link: "/trauma/intergenerational-trauma",
       },
       {

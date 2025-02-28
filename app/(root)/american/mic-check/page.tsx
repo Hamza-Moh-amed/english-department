@@ -145,9 +145,7 @@ export default function MicCheck() {
 
         {/* YouTube Embed Section */}
         <section id="youtube" className="space-y-8">
-          <h2 className="text-2xl font-semibold text-center md:text-left">
-            Video
-          </h2>
+          <h2 className="text-2xl font-semibold text-left">Video</h2>
           <div className="flex justify-center">
             <div className="max-w-4xl w-[600px] h-[360px] lg:w-[800px] lg:h-[400px]">
               <iframe
