@@ -80,54 +80,6 @@ export const questions: QuestionItemProps[] = [
     answer: "Computerized",
   },
 
-  // Multiple-choice questions
-  {
-    question: "What is the primary goal of formative assessment?",
-    options: [
-      "To assign final grades",
-      "To provide ongoing feedback to improve learning",
-      "To compare students' performance nationally",
-      "To measure workplace communication skills",
-    ],
-    answer: "To provide ongoing feedback to improve learning",
-  },
-  {
-    question: "Which of the following tests is most likely norm-referenced?",
-    options: [
-      "Classroom quiz",
-      "Final exam",
-      "SAT",
-      "Teacher-designed reading test",
-    ],
-    answer: "SAT",
-  },
-  {
-    question:
-      "Which test is commonly used for university admissions in English-speaking countries?",
-    options: ["CASAS", "TOEIC", "TOEFL", "SCANS"],
-    answer: "TOEFL",
-  },
-  {
-    question: "What does SCANS assess?",
-    options: [
-      "Academic writing skills",
-      "Business communication skills",
-      "Language needed for workplace success",
-      "Teaching proficiency",
-    ],
-    answer: "Language needed for workplace success",
-  },
-  {
-    question: "What is a key disadvantage of standardized testing?",
-    options: [
-      "It provides quick results",
-      "It allows comparison between test-takers",
-      "It may not reflect real-world language skills",
-      "It is widely recognized internationally",
-    ],
-    answer: "It may not reflect real-world language skills",
-  },
-
   // True/False questions
   {
     question:
@@ -180,5 +132,52 @@ export const questions: QuestionItemProps[] = [
   {
     question: "What is a practical concern when designing classroom tests?",
     answer: "Time, resources, and ease of administration.",
+  },
+  // Multiple-choice questions
+  {
+    question: "What is the primary goal of formative assessment?",
+    options: [
+      "To assign final grades",
+      "To provide ongoing feedback to improve learning",
+      "To compare students' performance nationally",
+      "To measure workplace communication skills",
+    ],
+    answer: "To provide ongoing feedback to improve learning",
+  },
+  {
+    question: "Which of the following tests is most likely norm-referenced?",
+    options: [
+      "Classroom quiz",
+      "Final exam",
+      "SAT",
+      "Teacher-designed reading test",
+    ],
+    answer: "SAT",
+  },
+  {
+    question:
+      "Which test is commonly used for university admissions in English-speaking countries?",
+    options: ["CASAS", "TOEIC", "TOEFL", "SCANS"],
+    answer: "TOEFL",
+  },
+  {
+    question: "What does SCANS assess?",
+    options: [
+      "Academic writing skills",
+      "Business communication skills",
+      "Language needed for workplace success",
+      "Teaching proficiency",
+    ],
+    answer: "Language needed for workplace success",
+  },
+  {
+    question: "What is a key disadvantage of standardized testing?",
+    options: [
+      "It provides quick results",
+      "It allows comparison between test-takers",
+      "It may not reflect real-world language skills",
+      "It is widely recognized internationally",
+    ],
+    answer: "It may not reflect real-world language skills",
   },
 ];

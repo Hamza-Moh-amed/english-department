@@ -1,60 +1,61 @@
 "use client";
-import { useState } from "react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export interface QuestionItemProps {
   question: string;
   answer: string;
   options?: string[];
+  index?: number;
 }
 
 const QuestionItem: React.FC<QuestionItemProps> = ({
   question,
   answer,
   options = [],
+  index,
 }) => {
-  const [isVisible, setIsVisible] = useState(false);
-
   return (
-    <li className="bg-white rounded-lg p-4 border border-gray-200">
-      <div className="flex flex-col space-y-2">
-        <strong className="text-gray-900">{question}</strong>
-        {options.length > 0 && (
-          <ul className="ml-4 list-disc space-y-2 text-gray-700">
-            {options.map((option, i) => (
-              <li key={i}>{option}</li>
-            ))}
-          </ul>
-        )}
-        <button
-          onClick={() => setIsVisible(!isVisible)}
-          className="w-32 px-2 py-2 bg-blue-500 text-white text-sm rounded-lg hover:bg-blue-600 transition"
-        >
-          {isVisible ? "Hide Answer" : "Reveal Answer"}
-        </button>
-        {isVisible && (
-          <p className="text-green-700 mt-2 font-medium">{answer}</p>
-        )}
-      </div>
-    </li>
+    <AccordionItem value={question}>
+      <AccordionTrigger className="text-lg font-semibold">
+        {index !== undefined ? `${index + 1}. ` : ""} {question}
+      </AccordionTrigger>
+
+      {/* Options are always visible */}
+      {options.length > 0 && (
+        <ul className="ml-4 list-disc space-y-2 text-gray-700 font-normal text-lg">
+          {options.map((option, i) => (
+            <li key={i}>{option}</li>
+          ))}
+        </ul>
+      )}
+
+      {/* Answer is inside AccordionContent, only visible on toggle */}
+      <AccordionContent className="text-base leading-relaxed">
+        <p className="text-gray-700 mt-2 font-medium text-lg">{answer}</p>
+      </AccordionContent>
+    </AccordionItem>
   );
 };
 
 interface AssessmentQuestionsProps {
-  questions: QuestionItemProps[];
+  questions: Omit<QuestionItemProps, "index">[];
 }
 
 const AssessmentQuestions: React.FC<AssessmentQuestionsProps> = ({
   questions,
 }) => {
   return (
-    <section className="space-y-8 p-6 border border-gray-100 shadow-md rounded-lg w-full mx-auto ">
-      <div className="prose max-w-none">
-        <ol className="list-decimal ml-6 space-y-8 text-lg">
-          {questions.map((item, index) => (
-            <QuestionItem key={index} {...item} />
-          ))}
-        </ol>
-      </div>
+    <section className="space-y-8 p-6 border border-gray-100 shadow-md rounded-lg w-full mx-auto text-lg">
+      <Accordion type="single" collapsible>
+        {questions.map((item, index) => (
+          <QuestionItem key={index} {...item} index={index} />
+        ))}
+      </Accordion>
     </section>
   );
 };
