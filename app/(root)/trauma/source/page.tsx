@@ -1,4 +1,3 @@
-import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
@@ -11,12 +10,11 @@ export const metadata = {
 export default function TraumaAssetsPage() {
   const navLinks: NavLink[] = [
     { href: "#planner", label: "Weekly Planner" },
-    { href: "#course", label: "Course Reader" },
+    { href: "#course-pack", label: "Course Pack" },
   ];
 
   return (
     <main className="min-h-screen bg-white">
-      <Header />
       <div className="max-w-7xl mx-auto px-4 py-4">
         {/* For medium screens and up: show Navigation on the left and PageTitle centered */}
         <div className="hidden md:flex items-center justify-between">
@@ -39,6 +37,7 @@ export default function TraumaAssetsPage() {
       </div>
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
+        {/* Weekly Planner */}
         <section id="planner" className="space-y-8">
           <h2 className="text-2xl font-semibold">Weekly Planner</h2>
           <div className="w-full min-h-screen bg-gray-100">
@@ -50,9 +49,9 @@ export default function TraumaAssetsPage() {
             ></iframe>
           </div>
         </section>
-
-        <section id="reader" className="space-y-8">
-          <h2 className="text-2xl font-semibold">Course Reader</h2>
+        {/* Course Pack */}
+        <section id="course-pack" className="space-y-8">
+          <h2 className="text-2xl font-semibold">Course Pack</h2>
           <div className="w-full min-h-screen bg-gray-100">
             <iframe
               src="https://drive.google.com/file/d/1-H3xB-6WAVdc_Zwd90ShiMyKkBzuT4tH/preview"

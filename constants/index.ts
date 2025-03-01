@@ -168,6 +168,14 @@ export const subjects = [
         link: "/trauma/facing-it",
       },
       {
+        title: "Rage",
+        link: "/trauma/rage",
+      },
+      {
+        title: "Wild Geese",
+        link: "/trauma/wild-geese",
+      },
+      {
         title: "What is Intergenerational Trauma?",
         link: "/trauma/intergenerational-trauma",
       },

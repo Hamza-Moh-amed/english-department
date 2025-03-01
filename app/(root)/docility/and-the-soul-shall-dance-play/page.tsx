@@ -1,8 +1,7 @@
 import { NavLink } from "@/components/DesktopNavigation";
-import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { PageTitle } from "@/components/PageTitle";
-import PlayText from "@/components/PlayText";
+import PlayText from "@/components/addons/PlayText";
 
 export default function AndTheSoulShallDancePlay() {
   const navLinks: NavLink[] = [
@@ -20,7 +19,6 @@ export default function AndTheSoulShallDancePlay() {
 
   return (
     <main className="min-h-screen bg-white">
-      <Header />
       <div className="max-w-7xl mx-auto px-4 py-4">
         {/* For medium screens and up: show Navigation on the left and PageTitle centered */}
         <div className="hidden md:flex items-center justify-between">

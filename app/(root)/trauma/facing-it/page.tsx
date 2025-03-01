@@ -1,4 +1,3 @@
-import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
@@ -16,11 +15,11 @@ export default function MyBlackFaceFades() {
     { href: "#return", label: "Return from Chaos" },
     { href: "#author", label: "Author Background" },
     { href: "#analysis", label: "Analysis" },
+    { href: "#qna", label: "Q&A" },
   ];
 
   return (
     <main className="min-h-screen bg-white">
-      <Header />
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="hidden md:flex items-center justify-between">
           <div className="flex-none">
@@ -258,6 +257,212 @@ export default function MyBlackFaceFades() {
               passive observer of their trauma, a glass separating their
               internal experience from the external world.
             </p>
+          </div>
+        </section>
+
+        {/* Q&A Section */}
+        <section id="qna" className="space-y-8">
+          <h2 className="text-2xl font-semibold">Questions & Answers</h2>
+          <div className="prose max-w-none">
+            <ol className="list-decimal ml-6 space-y-4 text-lg">
+              <li>
+                <strong>
+                  What is the significance of the speaker's "black face fades"
+                  in the poem?
+                </strong>
+                <p>
+                  The phrase "black face fades" symbolizes the speaker’s feeling
+                  of being erased or hidden by the trauma of war and the act of
+                  confronting the Vietnam Veterans Memorial. It reflects how
+                  trauma alters the perception of self and one's identity,
+                  making them feel less visible or distorted.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How does the poem explore the theme of identity?
+                </strong>
+                <p>
+                  The poem explores the theme of identity through the speaker's
+                  internal conflict and reflection at the Vietnam Veterans
+                  Memorial. The imagery of fading and stone conveys the struggle
+                  between the speaker's humanity and the emotional scars of war,
+                  questioning who they are beyond the trauma.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the significance of the "black granite" in the poem?
+                </strong>
+                <p>
+                  The "black granite" symbolizes permanence and the inescapable
+                  nature of the speaker's trauma. It represents both the Vietnam
+                  Veterans Memorial and the emotional and psychological scars
+                  left by war, showing how trauma is embedded in the speaker's
+                  identity.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What does the speaker's interaction with the "58,022 names"
+                  symbolize?
+                </strong>
+                <p>
+                  The "58,022 names" symbolize the vast loss of life in the
+                  Vietnam War. As the speaker searches through the names, the
+                  poem underscores the lasting impact of war, showing the
+                  constant presence of loss and the speaker's internal battle
+                  with survival and guilt.
+                </p>
+              </li>
+
+              <li>
+                <strong>How does the poem convey the speaker's PTSD?</strong>
+                <p>
+                  The poem conveys PTSD through vivid imagery and fragmented
+                  reflections. The speaker's encounter with the names on the
+                  wall, the flash of a booby trap, and the unsettling presence
+                  of a white veteran evoke the recurring, intrusive memories of
+                  war that continue to haunt the speaker's mind.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the significance of the "woman’s trying to erase
+                  names" in the poem?
+                </strong>
+                <p>
+                  The image of the woman "trying to erase names" reflects the
+                  futile attempt to forget or erase trauma. It highlights the
+                  permanence of the emotional scars and how the speaker’s past
+                  cannot be erased, much like the etched names on the memorial
+                  wall.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How does Komunyakaa use the "clouded reflection" to represent
+                  the speaker's state of mind?
+                </strong>
+                <p>
+                  The "clouded reflection" symbolizes the distorted perception
+                  of self caused by trauma. It represents the speaker’s struggle
+                  to see themselves clearly due to the psychological effects of
+                  war, showing how their sense of identity is obscured by past
+                  experiences.
+                </p>
+              </li>
+
+              <li>
+                <strong>What role does light play in the poem?</strong>
+                <p>
+                  Light in the poem symbolizes hope, change, and the potential
+                  for understanding. The speaker’s reliance on the light to make
+                  a difference at the memorial suggests that their perception of
+                  the past and their identity is dependent on how they see it,
+                  with light representing clarity or truth.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the metaphorical significance of the speaker as a
+                  "window"?
+                </strong>
+                <p>
+                  The metaphor of being a "window" suggests that the speaker is
+                  passive in their experience, merely observing their trauma
+                  rather than actively engaging with it. It emphasizes the
+                  separation between the speaker's internal emotional state and
+                  the external world.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What does the image of the "red bird's wings" symbolize?
+                </strong>
+                <p>
+                  The "red bird's wings" symbolize the fleeting nature of life
+                  and the disruptive impact of war. The bird cuts across the
+                  speaker’s gaze, suggesting that moments of clarity or peace
+                  are interrupted by traumatic memories, representing the
+                  tension between the present and the past.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How does the poem depict the relationship between the speaker
+                  and other veterans?
+                </strong>
+                <p>
+                  The poem depicts a shared, silent understanding between the
+                  speaker and the other veterans. The image of the white veteran
+                  with "pale eyes" highlights the mutual recognition of
+                  suffering, while also showing how war leaves an indelible mark
+                  on all those involved, regardless of race.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the significance of the speaker's interaction with
+                  "Andrew Johnson" on the wall?
+                </strong>
+                <p>
+                  The speaker’s interaction with "Andrew Johnson" symbolizes the
+                  deep personal connection veterans feel to those lost in the
+                  war. The mention of a booby trap’s flash represents how the
+                  memories of violence and death continue to invade the
+                  speaker’s mind, linking past experiences to the present.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What does the "booby trap's white flash" symbolize?
+                </strong>
+                <p>
+                  The "booby trap's white flash" symbolizes the sudden, violent
+                  nature of war and its traumatic impact. It represents the
+                  momentary but intense memories of combat that continue to
+                  haunt the speaker, highlighting the persistent presence of war
+                  in their psyche.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  How does the poem address the theme of memory and loss?
+                </strong>
+                <p>
+                  The poem addresses memory and loss through the speaker’s
+                  interaction with the names on the wall, the red bird’s wings,
+                  and the faded reflection. It emphasizes how memories of loss
+                  are constantly revisited and how the past remains present in
+                  the speaker's life, despite attempts to move forward.
+                </p>
+              </li>
+
+              <li>
+                <strong>
+                  What is the significance of the poem's use of free verse?
+                </strong>
+                <p>
+                  The use of free verse in the poem reflects the fragmented and
+                  unstructured nature of the speaker’s experience with trauma.
+                  It allows for emotional freedom and mirrors the chaotic and
+                  disjointed feelings that arise when confronting the scars of
+                  war.
+                </p>
+              </li>
+            </ol>
           </div>
         </section>
       </div>

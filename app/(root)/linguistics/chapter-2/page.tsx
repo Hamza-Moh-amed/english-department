@@ -1,5 +1,3 @@
-// app/chapter2.tsx
-import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
@@ -24,7 +22,6 @@ export default function ChapterTwo() {
 
   return (
     <main className="min-h-screen bg-white">
-      <Header />
       <div className="max-w-7xl mx-auto px-4 py-4">
         {/* For medium screens and up: Navigation left, PageTitle centered */}
         <div className="hidden md:flex items-center justify-between">

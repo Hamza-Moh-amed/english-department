@@ -1,8 +1,6 @@
-import { Header } from "@/components/Header";
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
-import Link from "next/link";
 
 export const metadata = {
   title: "Trauma and Recovery Analysis",
@@ -20,7 +18,6 @@ export default function TraumaAndRecoveryAnalysis() {
 
   return (
     <main className="min-h-screen bg-white">
-      <Header />
       <div className="max-w-7xl mx-auto px-4 py-4">
         {/* For medium screens and up: show Navigation on the left and PageTitle centered */}
         <div className="hidden md:flex items-center justify-between">

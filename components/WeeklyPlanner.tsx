@@ -8,9 +8,9 @@ const planner = [
   {
     day: "Monday",
     events: [
-      "Linguistics 12-2 pm - room 65 - (03 Mar - Moved Online on Tuesaday)",
-      "Comparative 2-4 pm - room 65",
-      "Docility 4-6 pm - room 13",
+      "Linguistics 10:40-12 pm - room 65 - (03 Mar - Moved Online on Tuesday)",
+      "Comparative 12-1:20 pm - room 65",
+      "Docility 1:20-2:40 pm - room 13",
     ],
   },
   {
@@ -23,24 +23,21 @@ const planner = [
   {
     day: "Wednesday",
     events: [
-      "Translation 12-2 pm - room 65",
-      "American 2-4 pm - room 62",
-      "Trauma 4-6 pm - room 62",
+      "Translation 10:40-12 pm - room 65",
+      "American 12-1:20 pm - room 62",
+      "Trauma 1:20-2:40 pm - room 62",
     ],
   },
   {
     day: "Thursday",
-    events: [
-      "Trauma 10 am - online",
-      "Comparative 1-3 pm - online (27 Feb 5-7 pm - online )",
-    ],
+    events: ["Trauma 10 am - online", "Comparative 1-3 pm - online"],
   },
 ];
 
 export const WeeklyPlanner: React.FC = () => {
   return (
     <section className="my-8">
-      <h2 className="text-3xl font-bold text-black mb-4">Section B</h2>
+      <h2 className="text-2xl font-bold text-black mb-4">Section B</h2>
       <div className="border p-4 rounded shadow-sm">
         {planner.map((day, index) => (
           <div
