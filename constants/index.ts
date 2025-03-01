@@ -36,6 +36,10 @@ export const subjects = [
         link: "/american/passing-analysis",
       },
       {
+        title: "How the García Girls",
+        link: "/american/garcia-girls",
+      },
+      {
         title: "Source PDF Files",
         link: "/american/source",
       },
