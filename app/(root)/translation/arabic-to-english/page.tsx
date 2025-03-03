@@ -9,9 +9,10 @@ export const metadata = {
 
 export default function SelectedPassages() {
   const navLinks: NavLink[] = [
-    { href: "#al-azhar-visit", label: "Sheikh of Al-Azhar Arrives" },
+    { href: "#al-azhar-visit", label: "Sheikh of Al-Azhar" },
     { href: "#king-abdulaziz", label: "King Abdulaziz" },
     { href: "#tawakkol-karman", label: "Tawakkol Karman" },
+    { href: "#storm-of-resolve", label: "Storm of Resolve" },
   ];
 
   return (
@@ -39,7 +40,6 @@ export default function SelectedPassages() {
   Section: Sheikh of Al-Azhar's Visit to Saudi Arabia
   Optimized TailwindCSS structure with Arabic & English inside the same box.
 */}
-
         <section id="al-azhar-visit" className="space-y-8">
           {/* Arabic & English in the Same Box */}
           <div className="flex flex-col justify-center">
@@ -192,7 +192,6 @@ export default function SelectedPassages() {
   Section: King Abdullah bin Abdulaziz Passes Away
   Optimized TailwindCSS structure with Arabic & English inside the same box.
 */}
-
         <section id="king-abdulaziz" className="space-y-8">
           {/* Arabic & English in the Same Box */}
           <div className="flex flex-col justify-center">
@@ -341,12 +340,10 @@ export default function SelectedPassages() {
             </div>
           </div>
         </section>
-
         {/* 
   Section: Tawakkol Karman's Statement on the January Revolution
   Optimized TailwindCSS structure with Arabic & English inside the same box.
 */}
-
         <section id="tawakkol-karman" className="space-y-8">
           {/* Arabic & English in the Same Box */}
           <div className="flex flex-col justify-center">
@@ -496,6 +493,157 @@ export default function SelectedPassages() {
                     <em>"meet violence with similar violence"</em> instead of
                     "fight violence with violence" to ensure accuracy in
                     meaning.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section: Storm of Resolve Military Operation Optimized TailwindCSS
+        structure with Arabic & English inside the same box. */}
+        <section id="storm-of-resolve" className="space-y-8">
+          {/* Arabic & English in the Same Box */}
+          <div className="flex flex-col justify-center">
+            <article className="bg-white p-8 rounded-lg shadow-md border border-gray-200 w-full md:w-4/5 lg:w-11/12 xl:w-full">
+              <div dir="rtl">
+                <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+                  عسيري: عاصفة الحزم بلغت مرحلة "الأهداف المنتقاة"
+                </h2>
+                <p className="text-lg leading-relaxed text-gray-900 text-right">
+                  قال المتحدث باسم عملية عاصفة الحزم، العميد أحمد عسيري، إن
+                  العاصفة بلغت مرحلة "الأهداف المنتقاة"، وذلك عبر استهداف مناطق
+                  تجمعات جماعة الحوثي ومخازن أسلحتها. وأكد أن قوات التحالف ليست
+                  مستعجلة في تحقيق أهدافها، وقال إن التحالف يملك الوقت الكافي
+                  والإمكانات اللازمة لتحقيق تلك الأهداف.
+                </p>
+                <p className="text-lg leading-relaxed text-gray-900 text-right">
+                  وذكر عسيري عدداً من الأهداف التي طالتها غارات التحالف في
+                  الساعات الأربع والعشرين الماضية. وأردف عسيري "إن خطة العمليات
+                  المشتركة تتكون من مراحل متسلسلة، كل مرحلة تحقق أهدافاً، وتنتهي
+                  بمؤشرات تشير إلى بدء المرحلة الثانية، وتبدأ من انتشار القوات
+                  إلى عودتها إلى مواقع معسكراتها. أي حملة عسكرية تبدأ بحملة جوية
+                  لتحقيق أهداف، منها تحييد الدفاعات الجوية الأرضية، ومنع العدو
+                  من استخدام قواته الجوية، والتحكم في المجال الجوي". وأكد على
+                  وجود تنسيق على مدار الساعة بين قوات التحالف مع الحكومة اليمنية
+                  الشرعية، في جميع العمليات الإنسانية والاستخباراتية والعسكرية.
+                </p>
+              </div>
+
+              {/* Divider */}
+              <div className="w-full border-t border-gray-300 my-6"></div>
+
+              <div dir="ltr">
+                <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
+                  Asiri: "Storm of Resolve" Reaches "Selected Targets" Phase
+                </h2>
+                <p className="text-lg leading-relaxed text-gray-900 text-left">
+                  The spokesperson for the "Storm of Resolve" operation,
+                  Brigadier General Ahmed Asiri, stated that the operation has
+                  reached the "Selected Targets" phase by striking Houthi
+                  gathering areas and their arsenals. He emphasized that the
+                  coalition forces are not in a hurry to achieve their
+                  objectives, adding that they have sufficient time and
+                  necessary resources to accomplish their goals.
+                  <br />
+                  Asiri mentioned several targets that coalition air raids hit
+                  in the past twenty-four hours. He added that "the Joint
+                  Operations Plan consists of sequential phases, where each
+                  phase accomplishes specific objectives and concludes with
+                  indicators signaling the start of the next phase. The process
+                  begins with the deployment of forces and ends with their
+                  return to their base camps. Any military campaign begins with
+                  an air offensive to achieve key goals, such as neutralizing
+                  ground air defenses, preventing the enemy from utilizing its
+                  air forces, and controlling the airspace." He emphasized that
+                  continuous coordination exists between the Coalition Forces
+                  and the Legitimate Yemeni Government across all humanitarian,
+                  intelligence, and military operations.
+                </p>
+              </div>
+            </article>
+
+            {/* Keywords & Translation Notes in the Same Section */}
+            <div className="p-6 space-y-8">
+              <h2 className="text-3xl font-semibold text-center text-gray-800">
+                Keywords &amp; Translation Notes
+              </h2>
+
+              {/* Keywords Table */}
+              <div className="overflow-x-auto">
+                <table className="min-w-full border border-gray-300 text-lg bg-white shadow-md">
+                  <thead>
+                    <tr className="bg-gray-200">
+                      <th className="px-6 py-3 border border-gray-300 text-left">
+                        English
+                      </th>
+                      <th
+                        className="px-6 py-3 border border-gray-300 text-right"
+                        dir="rtl"
+                      >
+                        العربية
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      { en: "Storm of Resolve", ar: "عاصفة الحزم" },
+                      { en: "air raids", ar: "غارات" },
+                      { en: "selected targets", ar: "الأهداف المنتقاة" },
+                      { en: "spokesperson", ar: "المتحدث" },
+                      { en: "arsenals/armouries", ar: "مخازن أسلحتها" },
+                      { en: "coalition forces", ar: "قوات التحالف" },
+                      {
+                        en: "joint operations plan",
+                        ar: "خطة العمليات المشتركة",
+                      },
+                      {
+                        en: "neutralizing air defenses",
+                        ar: "تحييد الدفاعات الجوية",
+                      },
+                      { en: "air forces", ar: "قواته الجوية" },
+                      { en: "airspace", ar: "المجال الجوي" },
+                    ].map((word, index) => (
+                      <tr key={index} className="border-t">
+                        <td className="px-6 py-3 border border-gray-300">
+                          {word.en}
+                        </td>
+                        <td
+                          className="px-6 py-3 border border-gray-300 text-right"
+                          dir="rtl"
+                        >
+                          {word.ar}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              {/* Translation Notes */}
+              <div className="space-y-4">
+                <ul className="list-disc space-y-2 pl-6 text-lg text-gray-900">
+                  <li>
+                    <strong>Headline Structure:</strong> The Arabic headline
+                    uses a<em> noun-based sentence</em> (جملة اسمية) to maintain
+                    clarity and impact, while the English translation ensures
+                    journalistic readability.
+                  </li>
+                  <li>
+                    <strong>Spokesperson Translation:</strong> The Arabic term{" "}
+                    <em>المتحدث</em> (literally "the one who speaks") is
+                    translated as "spokesperson" to align with formal English
+                    terminology.
+                  </li>
+                  <li>
+                    <strong>Military Terminology:</strong> "الأهداف المنتقاة"
+                    was translated as "selected targets" to convey precision in
+                    targeting, a crucial term in military strategy.
+                  </li>
+                  <li>
+                    <strong>Arsenals Translation:</strong> "مخازن أسلحتها"
+                    refers to storage locations for weapons, best translated as
+                    "arsenals" or "armouries" to maintain specificity.
                   </li>
                 </ul>
               </div>
