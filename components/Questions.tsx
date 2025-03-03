@@ -36,7 +36,7 @@ const QuestionItem: React.FC<QuestionItemProps> = ({
 
       {/* Answer is inside AccordionContent, only visible on toggle */}
       <AccordionContent className="text-base leading-relaxed">
-        <p className="text-gray-700 mt-2 font-medium text-lg">{answer}</p>
+        <p className="text-green-600 mt-2 font-medium text-lg">{answer}</p>
       </AccordionContent>
     </AccordionItem>
   );

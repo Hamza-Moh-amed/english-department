@@ -203,6 +203,10 @@ export const subjects = [
         link: "/translation/arabic-to-english",
       },
       {
+        title: "Questions and Answers",
+        link: "/translation/questions-and-answers",
+      },
+      {
         title: "Source PDF Files",
         link: "/translation/source",
       },

@@ -1,6 +1,6 @@
 import { QuestionItemProps } from "@/components/Questions";
 
-export const questions: QuestionItemProps[] = [
+export const linguisticsQuestions: QuestionItemProps[] = [
   // New first five questions
   {
     question:
