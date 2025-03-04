@@ -1,8 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
-import AssessmentQuestions from "@/components/Questions";
 import { translationQuestions } from "@/constants/translation";
+import GradedQuestions from "@/components/GradedQuestions";
 
 export const metadata = {
   title: "Translation Questions and Answers",
@@ -37,7 +37,7 @@ export default function TranslationNotes() {
       <div className="container mx-auto px-4 py-8 space-y-8 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
         {/* Keywords & Translation Notes in the Same Section */}
         <section id="qna">
-          <AssessmentQuestions questions={translationQuestions} />
+          <GradedQuestions questions={translationQuestions} />
         </section>
       </div>
     </main>

@@ -152,7 +152,7 @@ export default function ChapterFour() {
               scoring. Machine scored
             </li>
           </ul>
-          <p className="text-lg">**Disadvantages of Standardized Tests**</p>
+          <p className="text-lg">Disadvantages of Standardized Tests</p>
           <ul className="list-disc ml-6 text-lg">
             <li>
               Artificiality: Test tasks may not accurately reflect real-world
@@ -240,8 +240,8 @@ export default function ChapterFour() {
             Developing a standardized test- questions to consider
           </h2>
           <p className="text-lg">
-            **Developing a standardized test is a rigorous process that involves
-            six key steps**
+            Developing a standardized test is a rigorous process that involves
+            six key steps
           </p>
           <ol className="list-decimal ml-6 text-lg">
             <li>
@@ -279,7 +279,7 @@ export default function ChapterFour() {
             <li>
               Conduct ongoing validation studies: Continuously monitor the
               test's validity by gathering evidence to support its intended
-              interpretations and uses1. This ongoing process helps ensure that
+              interpretations and uses. This ongoing process helps ensure that
               the test remains a reliable and valid measure of the targeted
               constructs.
             </li>
@@ -291,7 +291,7 @@ export default function ChapterFour() {
           <h2 className="text-2xl font-semibold">
             Important aspects while designing STD tests
           </h2>
-          <p className="text-lg">**Objectives of STD tests- e.g., TOFEL**</p>
+          <p className="text-lg">Objectives of STD tests- e.g., TOFEL</p>
           <ul className="list-disc ml-6 text-lg">
             <li> Practicality + validity</li>
             <li>

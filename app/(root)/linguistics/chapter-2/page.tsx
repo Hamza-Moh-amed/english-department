@@ -112,7 +112,7 @@ export default function ChapterTwo() {
           </p>
         </section>
 
-        <section id="language-assessment" className="space-y-4">
+        <section id="vwrap" className="space-y-4">
           <h2 className="text-2xl font-semibold text-gray-900">
             Key Principles in Language Assessment (VWRAP)
           </h2>

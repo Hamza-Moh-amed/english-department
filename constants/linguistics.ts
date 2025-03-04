@@ -117,11 +117,12 @@ export const linguisticsQuestions: QuestionItemProps[] = [
   {
     question: "Name one advantage and one disadvantage of standardized tests.",
     answer:
-      "Advantage: Comparability. Disadvantage: May not reflect real-world skills.",
+      "Advantage: Comparability: Enables comparisons of individual performance across different groups and time periods. --- Disadvantage: Artificiality: Test tasks may not accurately reflect real-world language use.",
   },
   {
     question: "Why is washback important in language assessment?",
-    answer: "It affects teaching and learning positively or negatively.",
+    answer:
+      "It affects teaching and learning positively or negatively. Positive Washback: Tests that encourage beneficial teaching practices and enhance student learning. --- Negative Washback: Occurs when tests narrow the curriculum and increase student anxiety, detracting from a holistic learning experience.",
   },
   {
     question:
@@ -152,13 +153,13 @@ export const linguisticsQuestions: QuestionItemProps[] = [
       "SAT",
       "Teacher-designed reading test",
     ],
-    answer: "SAT",
+    answer: "SAT (Scholastic Assessment Test)",
   },
   {
     question:
       "Which test is commonly used for university admissions in English-speaking countries?",
     options: ["CASAS", "TOEIC", "TOEFL", "SCANS"],
-    answer: "TOEFL",
+    answer: "TOEFL (Test of English as a Foreign Language)",
   },
   {
     question: "What does SCANS assess?",
@@ -168,7 +169,8 @@ export const linguisticsQuestions: QuestionItemProps[] = [
       "Language needed for workplace success",
       "Teaching proficiency",
     ],
-    answer: "Language needed for workplace success",
+    answer:
+      "Language needed for workplace success (SCANS: Secretary's Commission on Achieving Necessary Skills)",
   },
   {
     question: "What is a key disadvantage of standardized testing?",
@@ -178,6 +180,6 @@ export const linguisticsQuestions: QuestionItemProps[] = [
       "It may not reflect real-world language skills",
       "It is widely recognized internationally",
     ],
-    answer: "It may not reflect real-world language skills",
+    answer: "Artificiality: It may not reflect real-world language skills",
   },
 ];

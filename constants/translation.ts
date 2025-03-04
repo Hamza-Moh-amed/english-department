@@ -1,224 +1,264 @@
 import { QuestionItemProps } from "@/components/Questions";
 
 export const translationQuestions: QuestionItemProps[] = [
-  // Mixed questions
   {
-    question: "What does the Arabic phrase 'النيابة العامة' refer to?",
-    options: [
-      "Public defense",
-      "Public prosecution",
-      "Private defense",
-      "Court proceedings",
-    ],
-    answer: "Public prosecution",
+    question:
+      "The Arabic phrase 'وقف إطلاق النار' translates to ____________ in English.",
+    options: ["Surrender", "Truce", "Ceasefire", "Armistice"],
+    answer: "Ceasefire",
   },
   {
     question:
-      "The Arabic phrase 'الحرية للجدعان' translates to ____________ in English.",
+      "The phrase 'تحييد الدفاعات الجوية' refers to ____________ in English.",
     options: [
-      "Freedom for the People",
-      "Freedom to the Brave",
-      "Freedom for All",
-      "Freedom for the Weak",
+      "Neutralizing air defenses",
+      "Destroying air facilities",
+      "Launching air strikes",
+      "Strengthening air security",
     ],
-    answer: "Freedom to the Brave",
+    answer: "Neutralizing air defenses",
+  },
+  {
+    question: "The term 'المساعدات الإنسانية' means ____________ in English.",
+    options: [
+      "Humanitarian aid",
+      "Foreign donations",
+      "Medical assistance",
+      "Emergency response",
+    ],
+    answer: "Humanitarian aid",
+  },
+  {
+    question: "What is the Arabic translation of 'Coalition forces'?",
+    options: [
+      "قوات التحالف",
+      "الوحدات العسكرية",
+      "القوات المشتركة",
+      "قوات الردع",
+    ],
+    answer: "قوات التحالف",
   },
   {
     question:
-      "When someone has been ____________, they have been legally cleared of accusations or charges.",
-    options: ["Charged", "Prosecuted", "Cleared of the charges", "Imprisoned"],
-    answer: "Cleared of the charges",
-  },
-  {
-    question:
-      "The Arabic phrase 'أمرت بالإفراج' translates to ____________ in English.",
+      "The Arabic phrase 'اشتباكات داخل الحرم الجامعي' translates to ____________ in English.",
     options: [
-      "Ordered the release",
-      "Denied the release",
-      "Released the detainees",
-      "Cleared of charges",
-    ],
-    answer: "Ordered the release",
-  },
-  {
-    question: "The word 'محتجزين' translates to ____________ in English.",
-    options: ["Freed", "Released", "Detained", "Arrested"],
-    answer: "Detained",
-  },
-  {
-    question: "The term 'تورط' translates to ____________ in English.",
-    options: ["Involvement", "Denial", "Release", "Exoneration"],
-    answer: "Involvement",
-  },
-  {
-    question: "What is the Arabic translation of 'On-campus clashes'?",
-    options: [
-      "اشتباكات في الحرم الجامعي",
-      "مناظرات أكاديمية",
-      "مظاهرات حرم الجامعي",
-      "مناقشات في الجامعة",
-    ],
-    answer: "اشتباكات في الحرم الجامعي",
-  },
-  {
-    question:
-      "The term 'period detention' translates to ____________ in Arabic.",
-    options: ["حبس مؤقت", "حبس احتياطي", "إفراج مؤقت", "حبس جزئي"],
-    answer: "حبس احتياطي",
-  },
-  {
-    question:
-      "The Arabic word 'تخريب ممتلكات' refers to ____________ in English.",
-    options: ["Vandalizing", "Stealing", "Preserving", "Repairing"],
-    answer: "Vandalizing",
-  },
-  {
-    question:
-      "The English phrase 'Freedom for the Brave' translates to ____________ in Arabic.",
-    options: [
-      "الحرية للأبطال",
-      "الحرية للشجعان",
-      "الحرية للضعفاء",
-      "الحرية للجدعان",
-    ],
-    answer: "الحرية للجدعان",
-  },
-  {
-    question: "What is the Arabic translation of 'Vandalizing'?",
-    options: [
-      "تخريب ممتلكات",
-      "إصلاح ممتلكات",
-      "حماية الممتلكات",
-      "إعادة التدوير",
-    ],
-    answer: "تخريب ممتلكات",
-  },
-  {
-    question: "What does 'الحرية للجدعان' mean in English?",
-    options: [
-      "Freedom for the People",
-      "Freedom to the Brave",
-      "Freedom for All",
-      "Freedom for the Weak",
-    ],
-    answer: "Freedom to the Brave",
-  },
-  {
-    question: "The phrase 'تمت تبرئتهم من التهم' means they were ____________.",
-    options: [
-      "Acquitted of charges",
-      "Found guilty",
-      "Sentenced",
-      "Held in custody",
-    ],
-    answer: "Acquitted of charges",
-  },
-  {
-    question: "What does 'فترة الحبس الاحتياطي' refer to in English?",
-    options: [
-      "Pretrial detention",
-      "Court hearings",
-      "Sentencing",
-      "Legal freedom",
-    ],
-    answer: "Pretrial detention",
-  },
-  {
-    question:
-      "The phrase 'اشتباكات داخل الحرم الجامعي' translates to ____________ in English.",
-    options: [
-      "On-campus protests",
-      "Academic debates",
-      "Campus discussions",
+      "Student protests",
+      "Academic disputes",
       "On-campus clashes",
+      "University conflicts",
     ],
     answer: "On-campus clashes",
   },
   {
     question:
-      "When someone is held in custody, it means they are ____________ in Arabic.",
-    options: ["محتجزين", "مفرج عنهم", "أحرار", "متهمين"],
-    answer: "محتجزين",
-  },
-  {
-    question: "What is the Arabic term for 'Public prosecution'?",
-    options: ["الشرطة", "القضاء", "النيابة العامة", "الدفاع"],
-    answer: "النيابة العامة",
-  },
-  {
-    question:
-      "True or False: 'الحرية للجدعان' translates to 'Freedom for the Weak'.",
-    options: ["True", "False"],
-    answer: "False (It translates to 'Freedom to the Brave')",
-  },
-  {
-    question:
-      "True or False: 'فترة الحبس الاحتياطي' refers to a legal period of time when someone is held in custody before trial.",
-    options: ["True", "False"],
-    answer: "True",
-  },
-  {
-    question:
-      "True or False: The term 'تورط' translates to 'Involvement' in English.",
-    options: ["True", "False"],
-    answer: "True",
-  },
-  {
-    question:
-      "True or False: 'محتجزين' refers to someone who has been cleared of charges.",
-    options: ["True", "False"],
-    answer: "False (It means detained or held in custody)",
-  },
-  {
-    question:
-      "True or False: 'اشتباكات داخل الحرم الجامعي' refers to clashes that happen on university grounds.",
-    options: ["True", "False"],
-    answer: "True",
-  },
-  {
-    question: "What does the Arabic phrase 'النيابة العامة' refer to?",
+      "What does the Arabic phrase 'تمت تبرئتهم من التهم' mean in English?",
     options: [
-      "Public defense",
-      "Public prosecution",
-      "Private defense",
-      "Court proceedings",
+      "Held in custody",
+      "Found guilty",
+      "Sentenced to prison",
+      "Acquitted of charges",
     ],
-    answer: "Public prosecution",
+    answer: "Acquitted of charges",
   },
   {
-    question: "What is the English translation of 'محتجزين'?",
-    options: ["Detained", "Released", "Accused", "Exonerated"],
-    answer: "Detained",
+    question:
+      "The Arabic term 'تخريب ممتلكات' refers to ____________ in English.",
+    options: ["Property management", "Confiscation", "Vandalizing", "Robbery"],
+    answer: "Vandalizing",
+  },
+  {
+    question: "What is the Arabic translation of 'Crown Prince'?",
+    options: ["ولي العهد", "الخليفة", "الأمير الحاكم", "رئيس الوزراء"],
+    answer: "ولي العهد",
+  },
+  {
+    question: "The phrase 'عاصفة الحزم' translates to ____________ in English.",
+    options: [
+      "Determination Strike",
+      "Operation Thunder",
+      "Storm of Resolve",
+      "Desert Storm",
+    ],
+    answer: "Storm of Resolve",
+  },
+  {
+    question: "What does 'الحبس الاحتياطي' mean in English?",
+    options: [
+      "Pretrial detention",
+      "Temporary sentence",
+      "House arrest",
+      "Life imprisonment",
+    ],
+    answer: "Pretrial detention",
+  },
+  {
+    question: "The Arabic phrase 'سفك الدماء' means ____________ in English.",
+    options: ["Mass violence", "Fatal injury", "Bloodshed", "Legal execution"],
+    answer: "Bloodshed",
   },
   {
     question: "What is the Arabic translation of 'Ordered the release'?",
-    options: ["أمرت بالإفراج", "أمرت بالحبس", "أمرت بالحكم", "أمرت بالإعتقال"],
+    options: ["أمرت بالإفراج", "أمرت بالعفو", "أمرت بالسجن", "أمرت بالاحتجاز"],
     answer: "أمرت بالإفراج",
   },
   {
-    question: "What does 'الحرية للجدعان' mean in English?",
-    options: [
-      "Freedom for the Weak",
-      "Freedom to the Brave",
-      "Freedom for the Poor",
-      "Freedom for All",
-    ],
-    answer: "Freedom to the Brave",
+    question: "The term 'ولي العهد' refers to ____________ in English.",
+    options: ["Royal Heir", "Crown Prince", "Prime Minister", "Head of State"],
+    answer: "Crown Prince",
+  },
+  {
+    question: "What is the Arabic translation of 'Public prosecution'?",
+    options: ["القضاء", "النيابة العامة", "الدفاع المدني", "الشرطة الجنائية"],
+    answer: "النيابة العامة",
+  },
+  {
+    question: "The Arabic phrase 'تورط' translates to ____________ in English.",
+    options: ["Escalation", "Involvement", "Conspiracy", "Compensation"],
+    answer: "Involvement",
+  },
+  {
+    question: "What does 'محتجزين' mean in English?",
+    options: ["Exiled", "Convicted", "Detained", "Freed"],
+    answer: "Detained",
   },
   {
     question:
-      "The phrase 'تمت تبرئتهم من التهم' translates to ____________ in English.",
+      "The Arabic term 'الملك الراحل' translates to ____________ in English.",
     options: [
-      "Acquitted of the charges",
-      "Cleared of charges",
-      "Convicted",
-      "Sentenced",
+      "The elected leader",
+      "The ruling monarch",
+      "The late king",
+      "The former ruler",
     ],
-    answer: "Cleared of charges",
+    answer: "The late king",
   },
   {
-    question: "What does the Arabic term 'تخريب ممتلكات' mean in English?",
-    options: ["Property maintenance", "Vandalizing", "Stealing", "Protecting"],
-    answer: "Vandalizing",
+    question: "What is the Arabic translation of 'Selected targets'?",
+    options: [
+      "الأهداف المنتقاة",
+      "الأهداف المحتملة",
+      "الأهداف العشوائية",
+      "الأهداف التكتيكية",
+    ],
+    answer: "الأهداف المنتقاة",
+  },
+  {
+    question: "What is the English meaning of 'إلى واحدة من أهم'?",
+    options: [
+      "A crucial decision",
+      "A major contributor",
+      "One of the most important",
+      "A significant part",
+    ],
+    answer: "One of the most important",
+  },
+  {
+    question:
+      "The Arabic phrase 'النشاط السياسي' refers to ____________ in English.",
+    options: [
+      "Political activism",
+      "Legislative affairs",
+      "Revolutionary acts",
+      "Diplomatic missions",
+    ],
+    answer: "Political activism",
+  },
+  {
+    question:
+      "The Arabic term 'احتجاجات عنيفة' translates to ____________ in English.",
+    options: [
+      "Military coup",
+      "Armed rebellion",
+      "Civil disobedience",
+      "Violent protests",
+    ],
+    answer: "Violent protests",
+  },
+  {
+    question: "What does 'الاعتصامات السلمية' mean in English?",
+    options: [
+      "Peaceful sit-ins",
+      "Protest movements",
+      "Mass riots",
+      "Armed demonstrations",
+    ],
+    answer: "Peaceful sit-ins",
+  },
+  {
+    question: "What is the Arabic translation of 'Humanitarian aid'?",
+    options: [
+      "المساعدات الإنسانية",
+      "الإغاثة الطارئة",
+      "المعونات الطبية",
+      "التمويل الدولي",
+    ],
+    answer: "المساعدات الإنسانية",
+  },
+  {
+    question: "The Arabic phrase 'وفاة' translates to ____________ in English.",
+    options: ["Burial", "Death", "Collapse", "Injury"],
+    answer: "Death",
+  },
+  {
+    question: "What is the Arabic translation of 'Pretrial detention'?",
+    options: [
+      "الحبس الاحتياطي",
+      "التوقيف الإداري",
+      "الإقامة الجبرية",
+      "الحكم المؤقت",
+    ],
+    answer: "الحبس الاحتياطي",
+  },
+  {
+    question: "The phrase 'عن عمر يناهز' means ____________ in English.",
+    options: [
+      "At the age of",
+      "Over the course of",
+      "Beyond the limits",
+      "For a long period",
+    ],
+    answer: "At the age of",
+  },
+  {
+    question: "What does the Arabic phrase 'يلتقي خلالها' mean in English?",
+    options: [
+      "During which he meets",
+      "Upon his invitation",
+      "After his arrival",
+      "During his absence",
+    ],
+    answer: "During which he meets",
+  },
+  {
+    question:
+      "The Arabic term 'العواصم العالمية' refers to ____________ in English.",
+    options: [
+      "World capitals",
+      "Tourist destinations",
+      "Diplomatic headquarters",
+      "Major cities",
+    ],
+    answer: "World capitals",
+  },
+  {
+    question: "What does 'حصلت على جائزة نوبل للسلام' mean in English?",
+    options: [
+      "Won the Nobel Peace Prize",
+      "Gained international recognition",
+      "Was nominated for a global award",
+      "Received a national honor",
+    ],
+    answer: "Won the Nobel Peace Prize",
+  },
+  {
+    question:
+      "The Arabic phrase 'الأغلبية النيابية' refers to ____________ in English.",
+    options: [
+      "Constitutional amendments",
+      "Government leadership",
+      "Parliamentary majority",
+      "Electoral system",
+    ],
+    answer: "Parliamentary majority",
   },
 ];
