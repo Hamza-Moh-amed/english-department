@@ -34,7 +34,7 @@ const QuestionItem: React.FC<
       value={question}
       className="border border-gray-200 p-4 rounded-lg"
     >
-      <AccordionTrigger className="text-lg font-semibold">
+      <AccordionTrigger className="text-lg font-semibold [&>svg]:hidden cursor-default">
         {index !== undefined ? `${index + 1}. ` : ""} {question}
       </AccordionTrigger>
 
@@ -46,7 +46,7 @@ const QuestionItem: React.FC<
 
           return (
             <li key={i}>
-              <label className="flex items-center space-x-3">
+              <label className="flex items-center space-x-3 cursor-pointer">
                 <input
                   type="radio"
                   name={`question-${index}`}
@@ -138,6 +138,16 @@ const GradedQuestions: React.FC<AssessmentQuestionsProps> = ({ questions }) => {
 
   return (
     <section className="space-y-8 p-6 border border-gray-100 shadow-md rounded-lg w-full mx-auto text-lg">
+      {/* Graded Quiz Header */}
+      <div className="flex flex-col gap-2">
+        <h2 className="text-2xl font-bold text-center text-blue-700">
+          Graded Quiz
+        </h2>
+        <p className="text-center text-gray-600">
+          30 Multiple-Choice Questions
+        </p>
+      </div>
+
       <Accordion type="multiple">
         {questions.map((item, index) => (
           <QuestionItem

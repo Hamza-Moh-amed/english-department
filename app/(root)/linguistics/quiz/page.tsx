@@ -1,18 +1,19 @@
 import { NavLink } from "@/components/DesktopNavigation";
+import GradedQuestions from "@/components/GradedQuestions";
+
 import { Navigation } from "@/components/Navigation";
 import { PageTitle } from "@/components/PageTitle";
-import AssessmentQuestions from "@/components/Questions";
-import { linguisticsQuestions } from "@/constants/linguistics";
+import { linguisticsQuizz } from "@/constants/linguistics";
 
 export const metadata = {
-  title: "Linguistics Questions and Answers",
-  description: "Linguistics Questions and Answers",
+  title: "Linguistics Quiz",
+  description: "Linguistics Quiz",
 };
 
-export default function LinguisticsQuestions() {
-  const navLinks: NavLink[] = [{ href: "#qna", label: "Q&A" }];
+export default function LinguisticsQuiz() {
+  const navLinks: NavLink[] = [{ href: "#quiz", label: "Quiz" }];
 
-  const q = linguisticsQuestions;
+  const questions = linguisticsQuizz;
 
   return (
     <main className="min-h-screen bg-white">
@@ -25,7 +26,7 @@ export default function LinguisticsQuestions() {
           </div>
           {/* Center: PageTitle */}
           <div className="flex-grow text-center">
-            <PageTitle title="Linguistics Questions" />
+            <PageTitle title="Linguistics Quiz" />
           </div>
           {/* Right: Empty div to balance the left column */}
           <div className="flex-none w-24" />
@@ -33,13 +34,13 @@ export default function LinguisticsQuestions() {
         {/* For mobile: stack Navigation and PageTitle */}
         <div className="md:hidden space-y-4">
           <Navigation links={navLinks} />
-          <PageTitle title="Linguistics Questions" />
+          <PageTitle title="Linguistics Quiz" />
         </div>
       </div>
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
-        <section id="qna">
-          <AssessmentQuestions questions={linguisticsQuestions} />
+        <section id="quiz">
+          <GradedQuestions questions={linguisticsQuizz} />
         </section>
       </div>
     </main>

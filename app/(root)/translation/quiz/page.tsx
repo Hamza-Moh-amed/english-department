@@ -5,12 +5,12 @@ import { translationQuestions } from "@/constants/translation";
 import GradedQuestions from "@/components/GradedQuestions";
 
 export const metadata = {
-  title: "Translation Questions and Answers",
-  description: "Translation Questions and Answers",
+  title: "Translation Quiz",
+  description: "Translation Quiz",
 };
 
 export default function TranslationNotes() {
-  const navLinks: NavLink[] = [{ href: "#qna", label: "Q&A" }];
+  const navLinks: NavLink[] = [{ href: "#quiz", label: "Quiz" }];
 
   const q = translationQuestions;
 
@@ -23,20 +23,20 @@ export default function TranslationNotes() {
             <Navigation links={navLinks} />
           </div>
           <div className="flex-grow text-center">
-            <PageTitle title="Translation Questions" />
+            <PageTitle title="Translation Quiz" />
           </div>
           <div className="flex-none w-24" />
         </div>
         {/* For mobile: stack Navigation and PageTitle */}
         <div className="md:hidden space-y-4">
           <Navigation links={navLinks} />
-          <PageTitle title="Translation Questions" />
+          <PageTitle title="Translation Quiz" />
         </div>
       </div>
       {/* Body Content */}
       <div className="container mx-auto px-4 py-8 space-y-8 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
         {/* Keywords & Translation Notes in the Same Section */}
-        <section id="qna">
+        <section id="quiz">
           <GradedQuestions questions={translationQuestions} />
         </section>
       </div>

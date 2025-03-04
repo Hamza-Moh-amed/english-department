@@ -126,6 +126,10 @@ export const subjects = [
         link: "/linguistics/questions-and-answers",
       },
       {
+        title: "Quiz",
+        link: "/linguistics/quiz",
+      },
+      {
         title: "Source PDF Files",
         link: "/linguistics/source",
       },
@@ -203,8 +207,8 @@ export const subjects = [
         link: "/translation/arabic-to-english",
       },
       {
-        title: "Questions and Answers",
-        link: "/translation/questions-and-answers",
+        title: "Quiz",
+        link: "/translation/quiz",
       },
       {
         title: "Source PDF Files",
