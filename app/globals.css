@@ -144,7 +144,7 @@ p {
   }
 
   .video-container-2 {
-    @apply h-[360px] lg:h-[400px] w-full shadow-md shadow-gray-600;
+    @apply h-[280px] lg:h-[400px] w-full shadow-md shadow-gray-600;
   }
 
   .video-frame {
