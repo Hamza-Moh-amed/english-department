@@ -15,7 +15,7 @@ export const Navigation: React.FC<NavigationProps> = ({ links }) => {
 
   return (
     <>
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 flex items-center justify-between">
         <DesktopNavigation links={links} />
         <button className="md:hidden focus:outline-none" onClick={toggleMobile}>
           <svg

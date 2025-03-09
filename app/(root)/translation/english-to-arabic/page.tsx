@@ -95,10 +95,10 @@ export default function EnglishToArabic() {
                   الفلسطيني، ووقف سفك الدماء، وإعادة الهدوء إلى المنطقة. في
                   الوقت نفسه، أكد الزعيمان ضرورة تكثيف الجهود الدولية لإقامة
                   الدولة الفلسطينية على حدود 4 يونيو عام 1967 وعاصمتها القدس
-                  الشرقية. شددوا على أن هذا الهدف هو الضمان الوحيد لتحقيق سلام
-                  دائم في المنطقة وضمان الاستقرار والازدهار لشعوبها. تشهد غزة
-                  حاليًا هدوءًا نسبيًا تحت وقف إطلاق النار الذي تم التوسط فيه من
-                  قبل مصر وقطر والولايات المتحدة.
+                  الشرقية. كما شددا على أن هذا الهدف هو الضمان الوحيد لتحقيق
+                  سلام دائم في المنطقة وضمان الاستقرار والازدهار لشعوبها. وتشهد
+                  غزة حاليًا هدوءًا نسبيًا تحت وقف إطلاق النار الذي تم التوسط
+                  فيه من قبل مصر وقطر والولايات المتحدة.
                 </p>
               </div>
             </article>
@@ -199,21 +199,16 @@ export default function EnglishToArabic() {
                   University students held in custody for the past eight months
                   on suspicion of involvement in on-campus clashes with security
                   forces, the Freedom to the Brave campaign said in a statement
-                  issued Thursday.
-                  <br />
-                  The students were reportedly cleared of the charges after the
-                  prosecution’s investigations showed they had no relationship
-                  to the violent events that occurred on January 16, according
-                  to the campaign’s statement.
-                  <br />
-                  The detained students faced murder charges for the death of
-                  fellow student Sherif al-Sawy and the attempted murder of 27
-                  others, as well as protesting without permission and
-                  vandalizing university property.
-                  <br />
-                  Since their arrest eight months ago, the students’ detention
-                  period was repeatedly extended, and their case was never
-                  referred to trial.
+                  issued Thursday. The students were reportedly cleared of the
+                  charges after the prosecution’s investigations showed they had
+                  no relationship to the violent events that occurred on January
+                  16, according to the campaign’s statement. The detained
+                  students faced murder charges for the death of fellow student
+                  Sherif al-Sawy and the attempted murder of 27 others, as well
+                  as protesting without permission and vandalizing university
+                  property. Since their arrest eight months ago, the students’
+                  detention period was repeatedly extended, and their case was
+                  never referred to trial.
                 </p>
               </div>
 
@@ -222,25 +217,21 @@ export default function EnglishToArabic() {
 
               <div dir="rtl">
                 <h2 className="text-3xl font-semibold text-gray-800 mb-6 text-center">
-                  النيابة العامة تأمر بالإفراج عن 40 طالباً من جامعة القاهرة
-                  معتقلين منذ ثمانية أشهر
+                  النيابة العامة تفرج عن 40 طالباً من جامعة القاهرة معتقلين منذ
+                  ثمانية أشهر
                 </h2>
                 <p className="text-lg leading-relaxed text-gray-900 text-right">
                   أصدرت النيابة العامة قراراً بالإفراج عن 40 طالباً من جامعة
                   القاهرة كانوا قيد الاحتجاز لمدة ثمانية أشهر، وذلك بتهمة تورطهم
                   في اشتباكات داخل الحرم الجامعي مع قوات الأمن، وفقاً لبيان صادر
-                  عن حملة "الحرية للجدعان" يوم الخميس.
-                  <br />
-                  ووفقاً للبيان، فقد تم تبرئة الطلاب من التهم بعد أن كشفت
-                  تحقيقات النيابة عدم ارتباطهم بالأحداث العنيفة التي وقعت في 16
-                  يناير.
-                  <br />
-                  وُجهت إلى الطلاب المحتجزين اتهامات تتعلق بالقتل في واقعة وفاة
-                  زميلهم شريف الصاوي، بالإضافة إلى محاولة قتل 27 شخصاً آخرين،
-                  والاحتجاج دون تصريح، والتسبب في أضرار بممتلكات الجامعة.
-                  <br />
-                  وخلال فترة احتجازهم التي امتدت لثمانية أشهر، تم تمديد احتجازهم
-                  بشكل متكرر دون إحالة قضيتهم إلى المحكمة.
+                  عن حملة "الحرية للجدعان" يوم الخميس. ووفقاً للبيان، فقد تم
+                  تبرئة الطلاب من التهم بعد أن كشفت تحقيقات النيابة عدم ارتباطهم
+                  بالأحداث العنيفة التي وقعت في 16 يناير. وُجهت إلى الطلاب
+                  المحتجزين اتهامات تتعلق بالقتل في واقعة وفاة زميلهم شريف
+                  الصاوي، بالإضافة إلى محاولة قتل 27 شخصاً آخرين، والاحتجاج دون
+                  تصريح، وتخريب ممتلكات الجامعة. وخلال فترة احتجازهم التي امتدت
+                  لثمانية أشهر، تم تمديد احتجازهم بشكل متكرر دون إحالة قضيتهم
+                  إلى المحكمة.
                 </p>
               </div>
             </article>
