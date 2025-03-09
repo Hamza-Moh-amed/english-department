@@ -144,14 +144,14 @@ p {
   }
 
   .video-container-2 {
-    @apply h-[280px] lg:h-[400px] w-full shadow-md shadow-gray-600;
+    @apply h-[260px] lg:h-[400px] w-full shadow-md shadow-gray-600;
   }
 
   .video-frame {
     @apply w-full h-full;
   }
   .pdf-container {
-    @apply w-full h-[480px] lg:h-screen bg-gray-100;
+    @apply w-full h-[480px] lg:h-screen border border-gray-200;
   }
   .pdf-frame {
     @apply w-full h-full;
