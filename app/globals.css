@@ -76,7 +76,7 @@ p {
   }
 
   .content-layout {
-    @apply flex flex-col md:flex-row w-full max-w-full overflow-hidden gap-y-4 mt-6 mb-6;
+    @apply flex flex-col md:flex-row w-full max-w-full overflow-hidden mt-6 mb-6;
   }
 
   .sidebar,
@@ -91,10 +91,10 @@ p {
   /* Section Styles */
 
   .section-content {
-    @apply space-y-6 lg:space-y-8;
+    @apply flex flex-col space-y-4 lg:space-y-6;
   }
   .section-block {
-    @apply prose max-w-none text-left text-lg md:text-justify;
+    @apply grid grid-cols-1 space-y-4 prose max-w-none text-left text-lg md:text-justify;
   }
   .section-title {
     @apply text-xl md:text-2xl font-bold;
@@ -112,7 +112,7 @@ p {
     @apply text-lg font-normal selection:bg-yellow-300 selection:text-black;
   }
   .section-list {
-    @apply list-decimal px-4 space-y-6 lg:space-y-8 text-lg;
+    @apply list-decimal px-4 space-y-4 lg:space-y-6 text-lg;
   }
   .section-question {
     @apply text-lg font-semibold;
@@ -124,7 +124,7 @@ p {
   /* Article Styles */
 
   .article-block {
-    @apply prose max-w-none text-left text-lg md:text-justify;
+    @apply grid grid-cols-1 space-y-4 prose max-w-none text-left text-lg md:text-justify;
   }
   .article-subtitle {
     @apply text-lg font-semibold;
@@ -151,7 +151,7 @@ p {
     @apply w-full h-full;
   }
   .pdf-container {
-    @apply w-full h-[480px] lg:h-screen border border-gray-200;
+    @apply w-full h-[460px] lg:h-screen border border-gray-300;
   }
   .pdf-frame {
     @apply w-full h-full;

@@ -5,6 +5,7 @@ import PlayText from "@/components/addons/PlayText";
 
 export default function AndTheSoulShallDancePlay() {
   const navLinks: NavLink[] = [
+    { href: "#pdf", label: "PDF" },
     { href: "#act1-scene1", label: "Act 1, Scene 1" },
     { href: "#act1-scene2", label: "Act 1, Scene 2" },
     { href: "#act1-scene3", label: "Act 1, Scene 3" },
@@ -18,39 +19,37 @@ export default function AndTheSoulShallDancePlay() {
   ];
 
   return (
-    <main className="min-h-screen bg-white">
-      <div className="max-w-7xl mx-auto px-4 py-4">
-        {/* For medium screens and up: show Navigation on the left and PageTitle centered */}
-        <div className="hidden md:flex items-center justify-between">
-          {/* Left: Navigation */}
-          <div className="flex-none">
-            <Navigation links={navLinks} />
-          </div>
-          {/* Center: PageTitle */}
-          <div className="flex-grow text-center">
-            <PageTitle
-              title="And the Soul Shall Dance: Play"
-              author="Wakako Yamauchi"
-            />
-          </div>
-          {/* Right: Empty div to balance the left column */}
-          <div className="flex-none w-24" />
-        </div>
-        {/* For mobile: stack Navigation and PageTitle */}
-        <div className="md:hidden space-y-4">
+    <main className="page-container">
+      <div className="content-layout">
+        <aside className="sidebar">
           <Navigation links={navLinks} />
+        </aside>
+        {/* Body Content */}
+        <div className="main-content">
+          {/* Title */}
           <PageTitle
             title="And the Soul Shall Dance: Play"
             author="Wakako Yamauchi"
           />
+          {/* And The Soul Shall Dance Pdf */}
+          <section id="pdf" className="section-content">
+            <h2 className="section-title">And The Soul Shall Dance</h2>
+            <div className="pdf-container">
+              <iframe
+                src="https://drive.google.com/file/d/1Wxznu6arIpJ9Mq_S80EHPwmj_TKAfxDb/preview"
+                frameBorder="0"
+                allow="autoplay"
+                className="pdf-frame"
+              ></iframe>
+            </div>
+          </section>
+          {/* Play Section */}
+          <section id="article" className="section-content">
+            <h2 className="section-title">Play</h2>
+            <PlayText navLinks={navLinks} />
+          </section>
         </div>
-      </div>
-      {/* Body Content */}
-      <div className="container mx-auto px-4 py-8 space-y-4 md:space-y-12 max-w-full sm:max-w-[600px] md:max-w-[800px]">
-        {/* Text of the Play Section */}
-        <section id="play-text" className="space-y-8">
-          <PlayText navLinks={navLinks} />
-        </section>
+        <aside className="right-sidebar"></aside>
       </div>
     </main>
   );
