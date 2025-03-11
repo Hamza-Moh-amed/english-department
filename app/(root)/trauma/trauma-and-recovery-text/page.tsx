@@ -31,8 +31,8 @@ export default function TraumaAndRecoveryText() {
           />
 
           {/* Article Section */}
-          <section id="introduction" className="space-y-8">
-            <article className="prose max-w-none text-left md:text-justify">
+          <section id="introduction" className="section-content">
+            <article className="article-block">
               <p className="section-subtitle">INTRODUCTION</p>
               <p className="section-paragraph">
                 THE ORDINARY RESPONSE TO ATROCITIES is to banish them from

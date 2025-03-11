@@ -35,36 +35,63 @@ export default function DulceEtDecorumEst() {
             <h2 className="section-title">Poem</h2>
             <article className="article-block">
               <p className="article-paragraph">
-                Bent double, like old beggars under sacks,{"\n"}
-                Knock-kneed, coughing like hags, we cursed through sludge,{"\n"}
-                Till on the haunting flares we turned our backs,{"\n"}
-                And towards our distant rest began to trudge.{"\n"}
-                Men marched asleep. Many had lost their boots,{"\n"}
-                But limped on, blood-shod. All went lame; all blind;{"\n"}
-                Drunk with fatigue; deaf even to the hoots{"\n"}
-                Of gas-shells dropping softly behind.{"\n"}
-                {"\n"}
-                Gas! GAS! Quick, boys!—An ecstasy of fumbling{"\n"}
-                Fitting the clumsy helmets just in time,{"\n"}
-                But someone still was yelling out and stumbling{"\n"}
-                And flound’ring like a man in fire or lime.—{"\n"}
-                Dim through the misty panes and thick green light,{"\n"}
-                As under a green sea, I saw him drowning.{"\n"}
-                {"\n"}
-                In all my dreams before my helpless sight,{"\n"}
-                He plunges at me, guttering, choking, drowning.{"\n"}
-                {"\n"}
-                If in some smothering dreams, you too could pace{"\n"}
-                Behind the wagon that we flung him in,{"\n"}
-                And watch the white eyes writhing in his face,{"\n"}
-                His hanging face, like a devil’s sick of sin;{"\n"}
-                If you could hear, at every jolt, the blood{"\n"}
-                Come gargling from the froth-corrupted lungs,{"\n"}
-                Obscene as cancer, bitter as the cud{"\n"}
-                Of vile, incurable sores on innocent tongues,—{"\n"}
-                My friend, you would not tell with such high zest{"\n"}
-                To children ardent for some desperate glory,{"\n"}
-                The old Lie: Dulce et decorum est{"\n"}
+                Bent double, like old beggars under sacks,
+                <br />
+                Knock-kneed, coughing like hags, we cursed through sludge,
+                <br />
+                Till on the haunting flares we turned our backs,
+                <br />
+                And towards our distant rest began to trudge.
+                <br />
+                Men marched asleep. Many had lost their boots,
+                <br />
+                But limped on, blood-shod. All went lame; all blind;
+                <br />
+                Drunk with fatigue; deaf even to the hoots
+                <br />
+                Of gas-shells dropping softly behind.
+                <br />
+                <br />
+                Gas! GAS! Quick, boys!—An ecstasy of fumbling
+                <br />
+                Fitting the clumsy helmets just in time,
+                <br />
+                But someone still was yelling out and stumbling
+                <br />
+                And flound’ring like a man in fire or lime.—
+                <br />
+                Dim through the misty panes and thick green light,
+                <br />
+                As under a green sea, I saw him drowning.
+                <br />
+                <br />
+                In all my dreams before my helpless sight,
+                <br />
+                He plunges at me, guttering, choking, drowning.
+                <br />
+                <br />
+                If in some smothering dreams, you too could pace
+                <br />
+                Behind the wagon that we flung him in,
+                <br />
+                And watch the white eyes writhing in his face,
+                <br />
+                His hanging face, like a devil’s sick of sin;
+                <br />
+                If you could hear, at every jolt, the blood
+                <br />
+                Come gargling from the froth-corrupted lungs,
+                <br />
+                Obscene as cancer, bitter as the cud
+                <br />
+                Of vile, incurable sores on innocent tongues,—
+                <br />
+                My friend, you would not tell with such high zest
+                <br />
+                To children ardent for some desperate glory,
+                <br />
+                The old Lie: Dulce et decorum est
+                <br />
                 Pro patria mori.
               </p>
             </article>
