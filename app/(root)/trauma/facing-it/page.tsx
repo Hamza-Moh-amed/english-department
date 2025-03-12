@@ -3,9 +3,9 @@ import { NavLink } from "@/components/DesktopNavigation";
 import { PageTitle } from "@/components/PageTitle";
 
 export const metadata = {
-  title: "My Black Face Fades",
+  title: "Facing It",
   description:
-    "A page dedicated to the poem 'My Black Face Fades' by Yusef Komunyakaa, exploring its themes, literary analysis, and a detailed exploration of trauma and PTSD.",
+    "A page dedicated to the poem 'Facing It' by Yusef Komunyakaa, exploring its themes, literary analysis, and a detailed exploration of trauma and PTSD.",
 };
 
 export default function MyBlackFaceFades() {
@@ -27,7 +27,7 @@ export default function MyBlackFaceFades() {
         {/* Body Content */}
         <div className="main-content">
           {/* Title */}
-          <PageTitle title="My Black Face Fades" author="Yusef Komunyakaa" />
+          <PageTitle title="Facing It" author="Yusef Komunyakaa" />
 
           {/* Poem Section */}
           <section id="poem" className="section-content">

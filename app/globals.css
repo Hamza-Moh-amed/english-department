@@ -76,7 +76,7 @@ p {
   }
 
   .content-layout {
-    @apply flex flex-col md:flex-row w-full max-w-full overflow-hidden mt-6 mb-6;
+    @apply flex flex-col space-y-6 md:space-y-0 md:flex-row w-full max-w-full overflow-hidden mt-6 mb-6;
   }
 
   .sidebar,

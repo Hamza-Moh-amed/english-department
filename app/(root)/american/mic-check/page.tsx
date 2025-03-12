@@ -12,6 +12,7 @@ export default function MicCheck() {
   const navLinks: NavLink[] = [
     { href: "#poem", label: "Poem" },
     { href: "#youtube", label: "Video" },
+    { href: "#author", label: "Author Background" },
     { href: "#analysis", label: "Analysis" },
     { href: "#qna", label: "Q&A" },
   ];
@@ -141,6 +142,41 @@ export default function MicCheck() {
                   className="video-frame"
                 ></iframe>
               </div>
+            </div>
+          </section>
+
+          {/* Author Background Section */}
+          <section id="author" className="section-content">
+            <h2 className="section-title">Author Background</h2>
+            <div className="section-block">
+              <p className="section-paragraph">
+                Suheir Hammad (born 1973) is a Palestinian-American poet,
+                author, and activist known for her powerful spoken word
+                performances and socially conscious poetry. Born in Jordan to
+                Palestinian refugee parents and raised in Brooklyn, New York,
+                Hammad's work explores themes of identity, displacement, war,
+                and resistance.
+              </p>
+              <p className="section-paragraph">
+                Hammad gained widespread recognition after appearing in Russell
+                Simmons’ *Def Poetry Jam*, where her gripping performances
+                highlighted issues of racism, immigration, and gender
+                inequality. She has published multiple poetry collections,
+                including *Born Palestinian, Born Black*, which examines her
+                dual identity and the struggles of marginalized communities. Her
+                poetry is deeply influenced by hip-hop, feminism, and her
+                Palestinian heritage, making her a unique voice in contemporary
+                poetry.
+              </p>
+              <p className="section-paragraph">
+                *Mic Check* is a striking piece that draws upon the structure of
+                a sound check as a metaphor for raising suppressed voices and
+                demanding to be heard. The poem critiques systemic oppression,
+                colonialism, and the silencing of dissent while calling for
+                empowerment and solidarity among oppressed people. Hammad’s work
+                continues to inspire audiences globally, blending personal
+                narrative with political activism in a deeply compelling way.
+              </p>
             </div>
           </section>
 

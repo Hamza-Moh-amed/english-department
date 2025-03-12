@@ -11,6 +11,7 @@ export const metadata = {
 export default function LetAmericaBeAmericaAgain() {
   const navLinks: NavLink[] = [
     { href: "#poem", label: "Poem" },
+    { href: "#author", label: "Author Background" },
     { href: "#analysis", label: "Analysis" },
     { href: "#qna", label: "Q&A" },
   ];
@@ -223,6 +224,42 @@ export default function LetAmericaBeAmericaAgain() {
                 And make America again!
               </p>
             </article>
+          </section>
+
+          {/* Author Background Section */}
+          <section id="author" className="section-content">
+            <h2 className="section-title">Author Background</h2>
+            <div className="section-block">
+              <p className="section-paragraph">
+                Langston Hughes (1902–1967) was an American poet, social
+                activist, novelist, and playwright, and a leading figure of the
+                Harlem Renaissance. His work celebrated African American culture
+                and life while also addressing issues of racial injustice,
+                economic inequality, and the American Dream. Hughes often used
+                jazz and blues influences in his poetry, creating a rhythmic,
+                accessible style that resonated with a wide audience.
+              </p>
+              <p className="section-paragraph">
+                Born in Joplin, Missouri, Hughes spent much of his early life
+                traveling, which influenced his perspective on race and social
+                issues. He attended Columbia University but left due to racial
+                discrimination, later completing his education at Lincoln
+                University. His experiences working various jobs, including as a
+                ship steward and busboy, exposed him to the struggles of
+                working-class Americans, themes that frequently appeared in his
+                works.
+              </p>
+              <p className="section-paragraph">
+                *Let America Be America Again* is one of his most famous works,
+                offering a critique of the American Dream, highlighting the
+                struggles of marginalized groups, and expressing hope for a more
+                just and equitable society. The poem is known for its
+                conversational tone, alternating between hopeful ideals and
+                harsh realities, and it serves as both a critique and a call for
+                change, emphasizing the resilience and aspirations of those left
+                behind by systemic oppression.
+              </p>
+            </div>
           </section>
 
           {/* Analysis Section */}

@@ -13,7 +13,7 @@ export default function DiscordInChildhood() {
   const navLinks: NavLink[] = [
     { href: "#poem", label: "Poem" },
     { href: "#analysis-video", label: "Analysis Video" },
-    { href: "#broke-silence", label: "I Broke Silence" },
+    { href: "#author", label: "Author Background" },
     { href: "#analysis", label: "Analysis" },
     { href: "#qna", label: "Q&A" },
   ];
