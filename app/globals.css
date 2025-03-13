@@ -97,28 +97,28 @@ p {
     @apply grid grid-cols-1 space-y-4 prose max-w-none text-left text-lg md:text-justify;
   }
   .section-title {
-    @apply text-xl md:text-2xl font-bold;
+    @apply text-xl lg:text-2xl font-bold mb-4 lg:mb-6;
   }
   .section-subtitle {
-    @apply text-lg font-semibold;
+    @apply text-lg lg:text-xl font-semibold;
   }
   .section-paragraph {
-    @apply text-lg  selection:bg-yellow-300 selection:text-black text-gray-900;
+    @apply text-lg lg:text-xl font-normal selection:bg-yellow-300 selection:text-black text-gray-900 lg:text-gray-700;
   }
   .section-quote {
-    @apply text-lg font-semibold;
+    @apply text-lg lg:text-xl font-semibold;
   }
   .section-quote-em {
-    @apply text-lg font-normal selection:bg-yellow-300 selection:text-black text-gray-900;
+    @apply text-lg lg:text-xl font-normal selection:bg-yellow-300 selection:text-black text-gray-900 lg:text-gray-700;
   }
   .section-list {
-    @apply list-decimal px-4 space-y-4 lg:space-y-6 text-lg;
+    @apply list-decimal px-4 space-y-4 lg:space-y-6  text-lg lg:text-xl;
   }
   .section-question {
-    @apply text-lg font-semibold;
+    @apply text-lg lg:text-xl font-semibold;
   }
   .section-answer {
-    @apply font-normal mt-2 selection:bg-yellow-300 selection:text-black text-gray-900;
+    @apply text-lg lg:text-xl font-normal mt-2 selection:bg-yellow-300 selection:text-black text-gray-900 lg:text-gray-700;
   }
 
   /* Article Styles */
@@ -127,10 +127,10 @@ p {
     @apply grid grid-cols-1 space-y-4 prose max-w-none text-left text-lg md:text-justify;
   }
   .article-subtitle {
-    @apply text-lg font-semibold;
+    @apply text-lg lg:text-xl font-semibold;
   }
   .article-paragraph {
-    @apply text-lg selection:bg-yellow-300 selection:text-black text-gray-900;
+    @apply text-lg lg:text-xl font-normal selection:bg-yellow-300 selection:text-black text-gray-900 lg:text-gray-700;
   }
 
   /* youtube Styles */

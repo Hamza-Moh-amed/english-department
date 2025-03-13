@@ -325,19 +325,32 @@ export default function Race2007() {
           <section id="analysis" className="section-content">
             <h2 className="section-title">Analysis</h2>
             <div className="section-block">
-              {/* Analysis Point 1: Race as a Social Construct */}
-              <p className="section-subtitle">1. Race as a Social Construct</p>
+              {/* Introduction */}
               <p className="section-paragraph">
-                Roderick A. Ferguson’s *Race (2007)* fundamentally challenges
-                the notion of race as a biological category, instead framing it
-                as a dynamic social construct deeply embedded in systems of
-                power, freedom, and identity. Ferguson argues that race has
-                historically been used to shape notions of citizenship, labor,
-                and corporeality, rendering the body a site of historical and
-                political inscription. For example, he highlights how race has
-                been instrumental in determining who is included or excluded
-                from modern institutions, influencing who gets to be a citizen,
-                who is employable, and who is marginalized.
+                Roderick A. Ferguson’s Race (2007) offers a critical analysis of
+                race, arguing that it is not merely a biological category, but a
+                social, political, and economic construct that has shaped
+                history, identity, power, and morality. His essay examines how
+                race has been central to the development of institutions,
+                citizenship, labor, and cultural identity, while also critiquing
+                the limitations of many anti-racist and anti-colonial movements.
+                Ferguson highlights how gender and sexuality have often been
+                excluded from these movements, calling for a more inclusive and
+                intersectional approach to racial justice.
+              </p>
+
+              {/* Analysis Point 1: Race and Its Connection to Freedom and Power */}
+              <p className="section-subtitle">
+                1. Race and Its Connection to Freedom and Power
+              </p>
+              <p className="section-paragraph">
+                Ferguson starts by explaining that race is not just about skin
+                color but a system of power that influences knowledge, identity,
+                and social structures. He discusses how racial differences have
+                been used to define citizenship and labor, marking some bodies
+                as deserving of rights while others face exclusion and violence.
+                Race has played a crucial role in shaping how people see
+                themselves and how societies function.
               </p>
               <p className="section-quote">
                 Quote:
@@ -348,30 +361,26 @@ export default function Race2007() {
                 </em>
               </p>
               <p className="section-paragraph">
-                This perspective underscores the fluidity of race as a concept,
-                revealing how it is continually reshaped by political, economic,
-                and cultural forces. Ferguson’s analysis invites readers to
-                reconsider race not as a fixed category but as a tool for both
-                liberation and oppression, depending on its deployment within
-                specific historical and institutional contexts.
+                This analysis highlights the fluidity of race as a concept and
+                how it is continually reshaped by political, economic, and
+                cultural forces. Ferguson’s work urges us to view race as a tool
+                for both liberation and oppression, depending on its use within
+                specific contexts.
               </p>
 
-              {/* Analysis Point 2: Antiracist Movements and the Redefinition of Race */}
+              {/* Analysis Point 2: Anti-Racist Struggles and the Challenge to Biological Racism */}
               <p className="section-subtitle">
-                2. Antiracist Movements and the Redefinition of Race
+                2. Anti-Racist Struggles and the Challenge to Biological Racism
               </p>
               <p className="section-paragraph">
                 Ferguson traces the intellectual and political roots of
-                contemporary race studies to the antiracist movements of the
-                1950s and 1960s, particularly the civil rights and national
-                liberation struggles. These movements, he argues, fundamentally
-                reshaped how racial minorities understood their identities and
-                cultures, displacing the notion of race as a biological
-                inheritance and reframing it as a category with political and
-                economic implications. For instance, the mobilization of
-                linguistic, historical, and artistic elements of minority
-                cultures during this period served as a powerful tool for
-                challenging racial oppression.
+                contemporary race studies to the civil rights and national
+                liberation movements of the 20th century. These movements not
+                only fought for legal rights but also pushed for cultural
+                recognition. They challenged traditional racial hierarchies and
+                rejected the notion of race as a biological category,
+                emphasizing that racial inequality is perpetuated by social and
+                economic structures.
               </p>
               <p className="section-quote">
                 Quote:
@@ -382,31 +391,49 @@ export default function Race2007() {
                 </em>
               </p>
               <p className="section-paragraph">
-                Ferguson highlights how these movements led to the emergence of
-                ethnic studies programs, such as the Division of Ethnic Studies
-                at San Francisco State University, which sought to challenge
-                race as a mode of exploitation within US society. This
-                redefinition of race as a form of cultural and political agency
-                marked a significant shift in how race was understood and
-                studied, paving the way for more nuanced analyses of
-                racialization.
+                These movements reshaped the understanding of race, laying the
+                foundation for ethnic studies programs and a more nuanced
+                examination of racialization in academia.
               </p>
 
-              {/* Analysis Point 3: Feminist and Queer Critiques of Race */}
+              {/* Analysis Point 3: Race as a Cultural and Political Identity */}
               <p className="section-subtitle">
-                3. Feminist and Queer Critiques of Race
+                3. Race as a Cultural and Political Identity
               </p>
               <p className="section-paragraph">
-                Feminist and queer critiques play a central role in Ferguson’s
-                analysis, complicating the understanding of race by highlighting
-                its intersections with gender, sexuality, and class. Women of
-                color and third world feminists, in particular, have argued that
-                antiracist movements often shared unexamined affiliations with
-                the very racist regimes they opposed, particularly in their
-                investment in heterosexual and patriarchal forms of power. For
-                example, Ferguson cites the Combahee River Collective’s
-                statement, which emphasizes the interconnectedness of racial,
-                sexual, and class oppression.
+                Ferguson explains that racial identity became more than just a
+                category of oppression—it became a source of political power and
+                cultural pride. Movements like Black Power, Chicano activism,
+                and Asian American activism used race as a tool for organizing
+                and asserting agency. This shift influenced the creation of
+                ethnic studies programs in the 1960s and 70s, challenging
+                dominant racial narratives in academia.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Racial identity became a source of political power and
+                  cultural pride."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This shift in perspective helped reframe race as a tool for
+                organizing and asserting agency, influencing how racialized
+                communities viewed their place in the world.
+              </p>
+
+              {/* Analysis Point 4: The Role of Gender and Sexuality in Racial Politics */}
+              <p className="section-subtitle">
+                4. The Role of Gender and Sexuality in Racial Politics
+              </p>
+              <p className="section-paragraph">
+                Ferguson critiques civil rights and national liberation
+                movements for often neglecting issues of gender and sexual
+                oppression. Feminist and queer scholars of color have pointed
+                out that these movements, while challenging racism, still upheld
+                patriarchal and heterosexual norms. For example, the Combahee
+                River Collective emphasized that fighting racism alone wasn’t
+                enough—gender and sexual oppression also had to be addressed.
               </p>
               <p className="section-quote">
                 Quote:
@@ -418,29 +445,23 @@ export default function Race2007() {
                 </em>
               </p>
               <p className="section-paragraph">
-                These critiques reveal how racial ideologies are deeply embedded
-                in gendered and sexualized infrastructures, challenging the
-                notion that race can be understood in isolation from other axes
-                of oppression. Ferguson’s analysis underscores the importance of
-                intersectionality in understanding the complexities of
-                racialization.
+                This intersectional perspective shows that gender and sexuality
+                cannot be separated from discussions of race. Ferguson
+                highlights the ongoing marginalization of women and LGBTQ+
+                individuals within racial justice movements.
               </p>
 
-              {/* Analysis Point 4: Race and the Moral Genealogy of Modernity */}
+              {/* Analysis Point 5: Race, Morality, and the Foundations of Modernity */}
               <p className="section-subtitle">
-                4. Race and the Moral Genealogy of Modernity
+                5. Race, Morality, and the Foundations of Modernity
               </p>
               <p className="section-paragraph">
-                Ferguson situates race within the moral genealogy of Western
-                modernity, arguing that racialization is tied to the moral and
-                epistemological foundations of modern institutions. He draws on
-                theorists like David Theo Goldberg and Jean-Jacques Rousseau to
-                illustrate how race has been used to define personal and social
-                identity, often linking emancipation to forms of subjection and
-                regulation. For instance, Rousseau’s *The Social Contract*
-                posits that the transition from the state of nature to civil
-                society involves a moral transformation, which Ferguson
-                interprets as a racialized process.
+                Ferguson connects race to the moral foundations of Western
+                society, showing how modern ideas of freedom were built on
+                racial exclusion. He references theorists like Jean-Jacques
+                Rousseau, whose ideas about the transition from a "natural"
+                state to a "civilized" state often excluded marginalized racial
+                groups from being considered moral or fit for citizenship.
               </p>
               <p className="section-quote">
                 Quote:
@@ -451,28 +472,49 @@ export default function Race2007() {
                 </em>
               </p>
               <p className="section-paragraph">
-                This moral genealogy, Ferguson argues, reveals the paradoxical
-                nature of racial modernity, where the promise of freedom is
-                often qualified through regulation. By examining the moral
-                underpinnings of racial projects, Ferguson provides a framework
-                for understanding how race operates as a social formation.
+                This moral genealogy of race highlights the contradictions
+                within modernity, where the promise of freedom often came with
+                the exclusion and subjugation of racialized bodies.
               </p>
 
-              {/* Analysis Point 5: The Gendered and Sexual Legacies of Civil Rights */}
+              {/* Analysis Point 6: Race and the Discipline of Sociology */}
               <p className="section-subtitle">
-                5. The Gendered and Sexual Legacies of Civil Rights
+                6. Race and the Discipline of Sociology
               </p>
               <p className="section-paragraph">
-                Ferguson critiques the gendered and sexual legacies of the civil
-                rights movement, arguing that rights-based projects often
-                extended regimes of gender and sexual normativity. He points out
-                that the liberatory ideals of the civil rights and Black Power
-                movements were often constituted on unexamined heterosexual and
-                patriarchal norms, which reproduced forms of gender and sexual
-                oppression. For example, Angela Davis’s work highlights how
-                these movements, while challenging racial hierarchies, often
-                failed to address the ways in which their own practices
-                reinforced other forms of inequality.
+                Ferguson critiques the field of sociology, which has often
+                reinforced racial norms. While early sociologists like W.E.B. Du
+                Bois sought to uplift Black communities, Ferguson points out
+                that sociology often promoted patriarchal and heterosexual
+                norms, reinforcing systems of oppression. For example,
+                sociologists like Gunnar Myrdal argued that African Americans
+                needed to conform to idealized family structures to gain
+                citizenship, which also reinforced gendered and sexual
+                subjugation.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Sociology often promoted heterosexual, patriarchal norms."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Ferguson’s critique of sociology shows how racial liberation was
+                often tied to gendered and sexual subjection, reinforcing
+                systems of oppression even in movements for social change.
+              </p>
+
+              {/* Analysis Point 7: The Limitations of Anti-Colonial and Civil Rights Movements */}
+              <p className="section-subtitle">
+                7. The Limitations of Anti-Colonial and Civil Rights Movements
+              </p>
+              <p className="section-paragraph">
+                Ferguson critiques nationalist and civil rights movements for
+                not fully addressing gender and sexuality. Many movements framed
+                liberation as a struggle for men's rights, while women and queer
+                people remained marginalized. He cites feminist theorist Cynthia
+                Enloe, who argues that nationalism often ignores women’s and
+                queer people’s experiences in the struggle for liberation.
               </p>
               <p className="section-quote">
                 Quote:
@@ -482,69 +524,70 @@ export default function Race2007() {
                 </em>
               </p>
               <p className="section-paragraph">
-                Ferguson’s analysis underscores the limitations of these
-                movements, revealing how their moral commitment to liberation
-                and rights did not necessarily entail a commitment to
-                dismantling gender and sexual hierarchies.
+                Ferguson’s critique emphasizes the need to address these
+                limitations and adopt a more inclusive, intersectional approach
+                to liberation.
               </p>
 
-              {/* Analysis Point 6: Race, Modernity, and the Global Context */}
+              {/* Analysis Point 8: Intersectionality: A More Holistic Approach to Race */}
               <p className="section-subtitle">
-                6. Race, Modernity, and the Global Context
+                8. Intersectionality: A More Holistic Approach to Race
               </p>
               <p className="section-paragraph">
-                Ferguson extends his analysis of race to the global context,
-                examining how racialized modernity shapes the experiences of
-                diaspora and contemporary globalization. He argues that the
-                study of race must account for the ways in which nationalist and
-                normative formations have expanded in these contexts, continuing
-                to shape social formations according to freedom’s relationship
-                to unfreedom. For example, Ferguson highlights how entire
-                nations and regions, such as sub-Saharan Africa, are often
-                labeled as “marginalized” within the global economy.
+                Women of color and Third World feminists introduced
+                intersectionality, which explores how race, gender, and
+                sexuality intersect to shape oppression. Ferguson highlights
+                post-colonial critiques, showing that even newly independent
+                nations continued to enforce colonial-era gender and sexual
+                norms, demonstrating how these struggles are interconnected.
               </p>
               <p className="section-quote">
                 Quote:
                 <em className="section-quote-em">
-                  "Today, as it has for at least three centuries, the study of
-                  race names the different permutations of morality that
-                  continue to shape social formations according to freedom’s
-                  relationship to unfreedom."
+                  "Racial, gender, and economic struggles are interconnected."
                 </em>
               </p>
               <p className="section-paragraph">
-                This global perspective underscores the pervasive nature of
-                racialization, revealing how it operates not only at the local
-                and national levels but also within the global economy.
+                This framework urges us to view oppression as a multifaceted
+                issue and to understand how various systems of power work
+                together to shape people's lives.
               </p>
 
-              {/* Analysis Point 7: Intersectionality and the Future of Racial Justice */}
+              {/* Analysis Point 9: The Role of Race in Contemporary LGBTQ+ Movements */}
               <p className="section-subtitle">
-                7. Intersectionality and the Future of Racial Justice
+                9. The Role of Race in Contemporary LGBTQ+ Movements
               </p>
               <p className="section-paragraph">
-                Ferguson’s work emphasizes the importance of intersectionality
-                in understanding race, gender, sexuality, and class as
-                interconnected systems of oppression. He argues that a
-                comprehensive critique of racialization must address these
-                intersections, challenging the limitations of earlier antiracist
-                movements. For example, the work of women of color and third
-                world feminists provides a framework for understanding how
-                racial projects are implicated in broader systems of power.
+                Ferguson connects racial struggles to modern queer politics,
+                critiquing mainstream LGBTQ+ movements for focusing on issues
+                that primarily benefit white, middle-class gay individuals. He
+                argues that queer movements need to focus more on race, gender,
+                and class struggles, as not all LGBTQ+ people benefit equally
+                from the movement’s victories.
               </p>
               <p className="section-quote">
                 Quote:
                 <em className="section-quote-em">
-                  "We need to articulate the real class situation of persons who
-                  are not merely raceless, sexless workers, but for whom racial
-                  and sexual oppression are significant determinants in their
-                  working/economic lives."
+                  "The 'coming out' narrative is shaped by race and class."
                 </em>
               </p>
               <p className="section-paragraph">
-                Ferguson’s analysis calls for a more inclusive and
-                intersectional approach to racial justice, one that addresses
-                the complexities of racialization in contemporary society.
+                Ferguson’s work calls for a more inclusive queer politics that
+                recognizes how race, class, and sexuality intersect to shape
+                people's experiences.
+              </p>
+
+              {/* Conclusion */}
+              <p className="section-paragraph">
+                Ferguson’s essay challenges conventional views of race, arguing
+                that it is not simply about skin color, but a complex social
+                system that shapes history, identity, power, and morality. He
+                emphasizes the importance of intersectionality in understanding
+                racial oppression and calls for a more inclusive approach to
+                activism that incorporates gender, sexuality, and class
+                struggles. His work is a crucial step in rethinking how
+                movements for racial justice can be more inclusive and effective
+                in achieving true liberation for all people.
               </p>
             </div>
           </section>
@@ -555,8 +598,8 @@ export default function Race2007() {
             <ol className="section-list">
               {/* Question 1 */}
               <li className="section-question">
-                What is the central argument of Roderick A. Ferguson’s *Race
-                (2007)*, and how does it challenge traditional understandings of
+                What is the central argument of Roderick A. Ferguson’s Race
+                (2007), and how does it challenge traditional understandings of
                 race?
                 <p className="section-answer">
                   Ferguson’s central argument is that race is not a fixed

@@ -13,6 +13,7 @@ export default function LetAmericaBeAmericaAgain() {
     { href: "#poem", label: "Poem" },
     { href: "#author", label: "Author Background" },
     { href: "#analysis", label: "Analysis" },
+    { href: "#poetic-elements", label: "Poetic Elements" },
     { href: "#qna", label: "Q&A" },
   ];
 
@@ -471,6 +472,163 @@ export default function LetAmericaBeAmericaAgain() {
                 promise worth fighting for. Hughes’ vision of a just and
                 equitable society continues to inspire readers to work toward a
                 better future.
+              </p>
+            </div>
+          </section>
+
+          {/* Poetic Elements Section */}
+          <section id="poetic-elements" className="section-content">
+            <h2 className="section-title">Poetic Elements</h2>
+            <div className="section-block">
+              {/* Imagery */}
+              <p className="section-subtitle">1. Imagery</p>
+              <p className="section-paragraph">
+                Hughes employs powerful imagery to illustrate both the promise
+                of America and the harsh realities of marginalized communities.
+                Phrases like "sweat and blood," "plow in the rain," and "rack
+                and ruin of our gangster death" vividly depict struggle, labor,
+                and oppression.
+              </p>
+
+              {/* Repetition */}
+              <p className="section-subtitle">2. Repetition</p>
+              <p className="section-paragraph">
+                The poem frequently repeats key phrases to reinforce its themes.
+                The phrase "Let America be America again" is repeated
+                throughout, emphasizing the speaker's longing for an ideal
+                America that has never existed for the oppressed. Similarly, "I
+                am the..." is repeated to highlight the diverse voices of
+                workers, immigrants, and marginalized groups.
+              </p>
+
+              {/* Metaphor */}
+              <p className="section-subtitle">3. Metaphor</p>
+              <p className="section-paragraph">
+                Hughes uses metaphors to critique capitalism and systemic
+                oppression. For example, he describes exploiters as "leeches on
+                the people’s lives," symbolizing how the wealthy and powerful
+                drain the resources of the working class.
+              </p>
+
+              {/* Personification */}
+              <p className="section-subtitle">4. Personification</p>
+              <p className="section-paragraph">
+                America is personified as something that can be redeemed or
+                reclaimed. The dream of America is treated as a living
+                entity—one that has been betrayed but still holds potential for
+                the future.
+              </p>
+
+              {/* Symbolism */}
+              <p className="section-subtitle">5. Symbolism</p>
+              <p className="section-paragraph">
+                The "plow," "foundry," and "mountains" symbolize the labor and
+                natural wealth that form the backbone of America. The "flag"
+                represents patriotism but also serves as an ironic reminder that
+                the country has not lived up to its promises.
+              </p>
+
+              {/* Tone and Diction */}
+              <p className="section-subtitle">6. Tone and Diction</p>
+              <p className="section-paragraph">
+                Hughes’s tone shifts between despair, anger, and hope. The
+                diction is deliberately plain yet evocative, ensuring
+                accessibility to a broad audience while maintaining poetic
+                depth.
+              </p>
+
+              {/* Contrast & Juxtaposition */}
+              <p className="section-subtitle">7. Contrast & Juxtaposition</p>
+              <p className="section-paragraph">
+                Hughes contrasts the ideal America (the dream) with the real
+                America (the oppression of the working class and marginalized
+                communities). This stark contrast drives home his central
+                message: the American Dream has never been accessible to all,
+                but it can still be reclaimed.
+              </p>
+            </div>
+
+            {/* Poetic Structure */}
+            <h2 className="section-title">Poetic Structure</h2>
+            <div className="section-block">
+              {/* Free Verse */}
+              <p className="section-subtitle">1. Free Verse</p>
+              <p className="section-paragraph">
+                The poem is written in free verse, meaning it lacks a strict
+                rhyme scheme or meter. This allows Hughes to shift between
+                different voices and emotions fluidly.
+              </p>
+
+              {/* Stanza Structure */}
+              <p className="section-subtitle">2. Stanza Structure</p>
+              <p className="section-paragraph">
+                The poem features varying stanza lengths, creating a sense of
+                movement and urgency. The shorter lines add emphasis to key
+                statements, while the longer stanzas allow for deeper
+                exploration of ideas.
+              </p>
+
+              {/* Enjambment */}
+              <p className="section-subtitle">3. Enjambment</p>
+              <p className="section-paragraph">
+                Many lines flow into the next without a pause, enhancing the
+                poem’s conversational tone. This technique mirrors the
+                continuous struggle Hughes describes, making the poem feel like
+                an unbroken plea for justice.
+              </p>
+
+              {/* Anaphora */}
+              <p className="section-subtitle">
+                4. Anaphora (Repetitive Phrasing)
+              </p>
+              <p className="section-paragraph">
+                Hughes employs anaphora, the repetition of a word or phrase at
+                the beginning of successive lines. Examples include:
+              </p>
+              <ul className="section-list">
+                <li>
+                  "I am the…" to emphasize the experiences of different
+                  marginalized groups.
+                </li>
+                <li>
+                  "The free? Who said the free? Not me? Surely not me?" to
+                  stress the disconnect between America’s ideals and its
+                  reality.
+                </li>
+              </ul>
+
+              {/* Parallelism */}
+              <p className="section-subtitle">5. Parallelism</p>
+              <p className="section-paragraph">
+                The structure of the poem reflects parallelism, where similar
+                sentence structures are used to create rhythm and emphasize
+                points. This is seen in the repeated "I am…" statements, which
+                list the different people who have contributed to America’s
+                foundation.
+              </p>
+
+              {/* Shift in Perspective */}
+              <p className="section-subtitle">6. Shift in Perspective</p>
+              <p className="section-paragraph">The poem alternates between:</p>
+              <ul className="section-list">
+                <li>
+                  First-person singular ("I am the Negro," "I am the
+                  farmer")—giving voice to individuals who have suffered.
+                </li>
+                <li>
+                  First-person plural ("We, the people, must redeem")—a call to
+                  collective action, emphasizing that change must come from the
+                  masses.
+                </li>
+              </ul>
+
+              {/* Call to Action */}
+              <p className="section-subtitle">7. Call to Action</p>
+              <p className="section-paragraph">
+                The final stanzas shift from critique to hopeful resolution,
+                with Hughes declaring that America "must be" a land where every
+                person is free. The last line, "And make America again!", serves
+                as both a plea and a demand for change.
               </p>
             </div>
           </section>

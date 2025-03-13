@@ -184,99 +184,19 @@ export default function MicCheck() {
           <section id="analysis" className="section-content">
             <h2 className="section-title">Analysis</h2>
             <div className="section-block">
-              {/* Analysis Point 1: Structure and Form: The Poetic "Mic Check" */}
+              {/* Analysis Point 1: Themes */}
               <p className="section-subtitle">
-                1. Structure and Form: The Poetic "Mic Check"
+                1. Themes: Identity, Resistance, and Systemic Oppression
               </p>
               <p className="section-paragraph">
-                Suheir Hammad’s *"Mic Check"* is a free-verse poem that mimics
-                the structure of a microphone check, a performative act often
-                used in spoken word poetry and public speaking. The repetition
-                of the phrase “mic check one two” serves as both a structural
-                anchor and a thematic device. It creates a rhythmic cadence that
-                mirrors the act of testing a microphone, while also symbolizing
-                the speaker’s attempt to assert their voice in a world that
-                often silences marginalized perspectives.
-              </p>
-              <p className="section-quote">
-                Quote:
-                <em className="section-quote-em">
-                  "Mic check one two / One two, can you hear me?"
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This repetition not only establishes the poem’s rhythm but also
-                underscores the speaker’s insistence on being heard. The
-                fragmented lines and enjambment (line breaks in the middle of
-                sentences) reflect the disjointed nature of the speaker’s
-                experience, particularly in the context of racial profiling and
-                surveillance.
-              </p>
-
-              {/* Analysis Point 2: Tone: Empathy and Critique */}
-              <p className="section-subtitle">2. Tone: Empathy and Critique</p>
-              <p className="section-paragraph">
-                The tone of the poem is a complex blend of empathy and critique.
-                The speaker addresses “Mike,” a TSA agent, with a mix of
-                understanding and defiance. While acknowledging Mike’s fear and
-                the societal conditioning that shapes his actions, the speaker
-                also critiques the systemic structures that perpetuate racial
-                profiling and Islamophobia.
-              </p>
-              <p className="section-quote">
-                Quote:
-                <em className="section-quote-em">
-                  "I understand, Mike, I do / you too were altered / that day
-                  and most days / most folks operate on / fear often hate this
-                  is / mic check your / job and i am / always random."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This passage reveals the speaker’s ability to empathize with
-                Mike, recognizing that he too is a product of a fear-driven
-                society. However, the tone shifts subtly as the speaker
-                challenges the dehumanizing effects of racial profiling,
-                asserting their own humanity and individuality.
-              </p>
-
-              {/* Analysis Point 3: Imagery: Surveillance and Historical Injustice */}
-              <p className="section-subtitle">
-                3. Imagery: Surveillance and Historical Injustice
-              </p>
-              <p className="section-paragraph">
-                Hammad uses vivid imagery to connect contemporary racial
-                profiling with historical injustices, particularly colonialism.
-                The reference to “folks who looked like / you stank so bad the /
-                Indians smelled them / mic check before they landed” evokes the
-                violence and dehumanization inflicted upon Indigenous peoples by
-                European colonizers.
-              </p>
-              <p className="section-quote">
-                Quote:
-                <em className="section-quote-em">
-                  "they murdered one two / one two as they prayed / spread small
-                  pox as alms."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This imagery is both visceral and symbolic, highlighting the
-                brutality of colonialism and its ongoing legacy. The
-                juxtaposition of past and present injustices deepens the poem’s
-                critique of systemic oppression, drawing a direct connection
-                between historical violence and contemporary racial profiling.
-              </p>
-
-              {/* Analysis Point 4: Themes: Identity, Resistance, and Accountability */}
-              <p className="section-subtitle">
-                4. Themes: Identity, Resistance, and Accountability
-              </p>
-              <p className="section-paragraph">
-                The poem explores the complexities of identity in a society that
-                marginalizes and stereotypes. The speaker asserts their agency
-                and humanity, resisting the dehumanizing effects of surveillance
-                and racial profiling. The final lines, “A-yo mike / who's gonna
-                / check you?” turn the tables on Mike, questioning the systems
-                of power that enable his actions.
+                Suheir Hammad's *"Mic Check"* explores themes of identity,
+                resistance, and systemic oppression. The speaker grapples with
+                the struggle of being marginalized and scrutinized by society,
+                particularly in the context of racial profiling and
+                Islamophobia. The poem underscores the resilience required to
+                assert one's identity and challenge oppressive systems,
+                symbolized by the repetition of "mic check," a call for
+                visibility and acknowledgment.
               </p>
               <p className="section-quote">
                 Quote:
@@ -285,24 +205,50 @@ export default function MicCheck() {
                 </em>
               </p>
               <p className="section-paragraph">
-                This closing question challenges the reader to reflect on
-                accountability and the structures of power that perpetuate
-                inequality. It also underscores the speaker’s resilience and
-                refusal to be silenced, turning the tables on Mike and the
-                reader.
+                This pivotal line questions the systems of power that enable
+                racial profiling, urging accountability and reflecting the
+                speaker's defiance against societal forces. The question asks,
+                "who will hold the oppressors accountable?" in a powerful
+                reversal of roles.
               </p>
 
-              {/* Analysis Point 5: Literary Devices: Repetition, Enjambment, and Metaphor */}
+              {/* Analysis Point 2: Symbols */}
               <p className="section-subtitle">
-                5. Literary Devices: Repetition, Enjambment, and Metaphor
+                2. Symbols: The Mic Check as a Symbol of Resistance
               </p>
               <p className="section-paragraph">
-                Hammad employs several literary devices to enhance the poem’s
-                impact. The repetition of “mic check one two” creates a rhythmic
-                structure that emphasizes the speaker’s insistence on being
-                heard. Enjambment is used to reflect the disjointed nature of
-                the speaker’s experience, particularly in the context of racial
-                profiling and surveillance.
+                The "mic check" serves as a powerful symbol throughout the poem,
+                representing the speaker's attempt to assert their voice in a
+                world that silences marginalized communities. A "mic check" is
+                typically a performative action used to ensure a microphone
+                works before speaking, but here, it metaphorically represents
+                the speaker's need to make themselves heard and to reclaim
+                agency over their narrative.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Mic check one two / One two, can you hear me?"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This repetitive phrase creates a rhythmic structure, reinforcing
+                the idea of constantly needing to be heard and asserting one’s
+                existence in a system that often disregards marginalized voices.
+              </p>
+
+              {/* Analysis Point 3: Structure and Form */}
+              <p className="section-subtitle">
+                3. Structure and Form: Free Verse and Repetition
+              </p>
+              <p className="section-paragraph">
+                The poem follows a free-verse structure, emphasizing the
+                fluidity of spoken word poetry. The lack of a set rhyme or meter
+                mirrors the disjointedness of the speaker's experiences in a
+                racially discriminatory society. Repetition, particularly of the
+                "mic check" phrase, serves both a structural and thematic
+                function, anchoring the poem and reinforcing the speaker’s
+                demand for attention and recognition.
               </p>
               <p className="section-quote">
                 Quote:
@@ -311,24 +257,102 @@ export default function MicCheck() {
                 </em>
               </p>
               <p className="section-paragraph">
-                The metaphor of the microphone check serves as a powerful symbol
-                for the speaker’s attempt to assert their voice in a world that
-                often silences marginalized perspectives. This metaphor is woven
-                throughout the poem, reinforcing its themes of resistance and
-                resilience.
+                The repeated "one two" rhythmically mimics the heartbeat,
+                reinforcing the idea of life and struggle, while also invoking
+                the mechanical act of checking a microphone, signaling that the
+                speaker's presence is just as valid as any other voice.
               </p>
 
-              {/* Analysis Point 6: Historical and Social Context */}
-              <p className="section-subtitle">
-                6. Historical and Social Context
+              {/* Analysis Point 4: Tone */}
+              <p className="section-subtitle">4. Tone: Empathy and Defiance</p>
+              <p className="section-paragraph">
+                The tone of the poem alternates between empathy and defiance.
+                The speaker expresses understanding towards Mike, the TSA agent,
+                recognizing that he too is shaped by societal fears and
+                prejudices. However, the tone shifts toward defiance when the
+                speaker challenges the very systems that perpetuate these
+                racialized actions.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "I understand, Mike, I do / you too were altered / that day
+                  and most days"
+                </em>
               </p>
               <p className="section-paragraph">
-                Written in the post-9/11 era, *"Mic Check"* reflects the
-                heightened surveillance and racial profiling faced by Muslim and
-                Arab communities in the United States. The poem’s critique of
-                systemic oppression is deeply rooted in this historical context,
-                but its themes of identity, resistance, and accountability
-                remain relevant today.
+                Here, the speaker acknowledges Mike’s humanity, but also draws
+                attention to the ways in which fear and racial profiling have
+                corrupted his actions. The defiance emerges as the speaker
+                emphasizes their own autonomy in the face of this
+                dehumanization.
+              </p>
+
+              {/* Analysis Point 5: Imagery */}
+              <p className="section-subtitle">
+                5. Imagery: Surveillance and Colonial History
+              </p>
+              <p className="section-paragraph">
+                The poem uses vivid imagery to draw connections between
+                contemporary racial profiling and historical injustices,
+                particularly the colonial violence experienced by Indigenous
+                people. Through these references, the poem critiques how
+                colonial oppression continues to reverberate in modern society,
+                manifested in the systemic profiling of marginalized groups.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "they murdered one two / one two as they prayed / spread small
+                  pox as alms"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This reference to colonial violence connects the past to the
+                present, using visceral imagery to critique the continuing
+                legacy of oppression and how it informs modern practices of
+                racial profiling.
+              </p>
+
+              {/* Analysis Point 6: Literary Devices */}
+              <p className="section-subtitle">
+                6. Literary Devices: Repetition, Enjambment, and Metaphor
+              </p>
+              <p className="section-paragraph">
+                Hammad employs several literary devices to enhance the poem’s
+                emotional and thematic depth. The repetition of "mic check"
+                throughout the poem creates a rhythmic pulse, while enjambment
+                reflects the fragmented and disjointed nature of the speaker's
+                experience in a world that marginalizes them. Additionally, the
+                metaphor of the "mic check" symbolizes the speaker’s attempt to
+                reclaim their voice and assert their identity.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "mic check one two / One two, can you hear me?"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The metaphorical "mic check" not only serves as an act of
+                self-assertion but also signals the speaker’s ongoing resistance
+                against systemic silencing. The enjambment creates a sense of
+                urgency, showing how the speaker’s thoughts and frustrations
+                cannot be contained within the limitations of traditional
+                structures.
+              </p>
+
+              {/* Analysis Point 7: Historical and Social Context */}
+              <p className="section-subtitle">
+                7. Historical and Social Context
+              </p>
+              <p className="section-paragraph">
+                Written in the aftermath of the 9/11 attacks, *"Mic Check"*
+                reflects the heightened surveillance and racial profiling faced
+                by Muslim and Arab communities in the U.S. The poem critiques
+                these practices and highlights their dehumanizing effects,
+                calling attention to the way society has normalized racial
+                injustice in the name of security.
               </p>
               <p className="section-quote">
                 Quote:
@@ -338,21 +362,23 @@ export default function MicCheck() {
                 </em>
               </p>
               <p className="section-paragraph">
-                This historical grounding adds depth to the poem’s critique of
-                contemporary injustices.
+                This line is a poignant commentary on how the speaker is
+                unjustly categorized due to their appearance and faith,
+                illustrating the social context of racial profiling in the
+                post-9/11 era.
               </p>
 
-              {/* Analysis Point 7: The Speaker’s Voice: Resilience and Defiance */}
+              {/* Analysis Point 8: The Speaker’s Voice */}
               <p className="section-subtitle">
-                7. The Speaker’s Voice: Resilience and Defiance
+                8. The Speaker’s Voice: Resilience and Defiance
               </p>
               <p className="section-paragraph">
-                The speaker’s voice is one of resilience and defiance. Despite
-                the dehumanizing effects of racial profiling, the speaker
-                asserts their humanity and individuality. The final lines, “A-yo
-                mike / who's gonna / check you?” challenge the systems of power
-                that enable Mike’s actions, turning the tables on him and the
-                reader.
+                The speaker's voice is one of resilience and defiance. Despite
+                the oppressive systems at play, the speaker refuses to be
+                silenced, asserting their humanity and demanding accountability
+                from those in power. The final lines of the poem embody this
+                defiance, as the speaker turns the tables on the oppressor,
+                asking "who's gonna check you?".
               </p>
               <p className="section-quote">
                 Quote:
@@ -361,10 +387,10 @@ export default function MicCheck() {
                 </em>
               </p>
               <p className="section-paragraph">
-                This closing question serves as a powerful reminder of the need
-                for accountability and the importance of challenging systemic
-                oppression. It also underscores the speaker’s resilience and
-                refusal to be silenced.
+                This final question serves as both a challenge and a
+                declaration. It underscores the speaker’s refusal to accept
+                their marginalization and demands that those in power be held
+                accountable for their actions.
               </p>
             </div>
           </section>
