@@ -109,304 +109,610 @@ export default function PassingAnalysis() {
           {/* Characters Section */}
           <section id="characters" className="section-content">
             <h2 className="section-title">Characters</h2>
+
+            {/* Character 1: Clare Kendry */}
             <div className="section-block">
-              <p className="section-subtitle">1- Irene Redfield</p>
+              <p className="section-subtitle">1. Clare Kendry</p>
               <p className="section-paragraph">
-                Irene serves as the moral and emotional core of the novel,
-                embodying the tension between the desire for security and the
-                burden of conformity. Raised within the African American
-                community, she is acutely aware of the social, racial, and
-                gendered expectations imposed on her. Her internal
-                struggles—ranging from self-doubt to a fear of losing her
-                cultural roots—reveal a character deeply conflicted by the lure
-                of transgression versus the safety of her known world. Her
-                narrative is punctuated by reflective introspection and a
-                constant assessment of her identity in relation to the rigid
-                structures surrounding her.
+                Clare Kendry is the novel’s most enigmatic character, a
+                mixed-race woman who chooses to "pass" as white to gain social
+                and economic advantages. She is charismatic, ambitious, and
+                deeply aware of the risks of her deception.
               </p>
-              <p className="section-subtitle">2- Clare Kendry</p>
-              <p className="section-paragraph">
-                In stark contrast, Clare Kendry is a study in rebellion and
-                ambiguity. Her deliberate choice to pass as white is portrayed
-                as both a means of liberation and a source of perpetual inner
-                turmoil. Clare’s magnetic charm and audacious defiance of
-                societal norms render her a compelling figure whose life
-                oscillates between the privileges of whiteness and the inherent
-                vulnerabilities of abandoning her past. Her actions not only
-                disrupt the stability of those around her—particularly Irene—but
-                also expose the profound isolation that accompanies her double
-                life.
-              </p>
-              <p className="section-subtitle">3- Supporting Characters</p>
-              <p className="section-paragraph">
-                The ensemble of secondary characters in <em>Passing</em> plays a
-                critical role in contextualizing the protagonists’ experiences.
-                Family members, friends, and acquaintances from both the African
-                American and white communities provide a backdrop against which
-                the central themes of race and identity are vividly illustrated.
-                These characters, though not as deeply explored as Irene or
-                Clare, represent the societal expectations and prejudices that
-                influence every interaction. Their varying degrees of
-                acceptance, judgment, and misunderstanding amplify the personal
-                conflicts faced by the main characters.
-              </p>
-              <p className="section-subtitle">
-                4- Duality and the Conflict of Identity
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “I’ve lived a life of lies, but I’ve always known it. I’ve
+                  never even fooled myself.”
+                </em>
               </p>
               <p className="section-paragraph">
-                A unifying thread in the character portrayals is the theme of
-                duality. Both Irene and Clare are emblematic of the struggle to
-                reconcile internal truth with external perception. Irene’s
-                cautious self-monitoring and internal debates about loyalty and
-                betrayal contrast with Clare’s bold, sometimes reckless,
-                assertions of freedom. This duality is further accentuated by
-                their interpersonal dynamics, as the tension between their
-                differing approaches to identity not only propels the narrative
-                forward but also serves as a powerful metaphor for the divided
-                self experienced by many in a racially stratified society.
+                Clare’s awareness of her own deception makes her both
+                fascinating and tragic. The phrase “never even fooled myself”
+                highlights her self-awareness, setting her apart from characters
+                like Irene, who suppress their true desires.
               </p>
-              <p className="section-subtitle">5- Psychological Complexity</p>
+            </div>
+
+            {/* Character 2: Irene Redfield */}
+            <div className="section-block">
+              <p className="section-subtitle">2. Irene Redfield</p>
               <p className="section-paragraph">
-                Larsen’s nuanced portrayal of psychological conflict is evident
-                in the inner monologues and subtle behaviors of her characters.
-                Irene’s constant internal questioning and emotional volatility
-                highlight the mental toll of living in a society where every
-                action is scrutinized. Meanwhile, Clare’s enigmatic
-                presence—marked by a blend of bravado and melancholy—invites
-                readers to consider the hidden costs of defying social norms.
-                The interplay of these psychological elements underscores the
-                narrative’s broader exploration of identity and the human
-                condition.
+                Irene Redfield, the novel’s protagonist, represents the opposite
+                of Clare. She chooses to embrace her Black identity but is
+                deeply conflicted about her emotions, desires, and social
+                stability. Irene is both drawn to and repelled by Clare, which
+                fuels the novel’s psychological tension.
               </p>
-              <p className="section-subtitle">6- Interpersonal Dynamics</p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “It was the truth. She was aware of a faint feeling of
+                  repulsion, which, every time she encountered Clare Kendry,
+                  tinged her feeling of admiration and longing.”
+                </em>
+              </p>
               <p className="section-paragraph">
-                The evolving relationship between Irene and Clare is central to
-                the thematic fabric of the novel. Their friendship, fraught with
-                admiration, envy, and mutual apprehension, acts as a microcosm
-                for the broader societal conflicts of race and class. The subtle
-                power struggles and unspoken tensions between them mirror the
-                external pressures of a segregated society, forcing both
-                characters—and the reader—to confront the painful ambiguities of
-                belonging and identity.
+                This quote reveals Irene’s complex feelings about Clare. The
+                juxtaposition of "repulsion" and "longing" suggests Irene’s
+                internal conflict regarding race, attraction, and identity.
+              </p>
+            </div>
+
+            {/* Character 3: Brian Redfield */}
+            <div className="section-block">
+              <p className="section-subtitle">3. Brian Redfield</p>
+              <p className="section-paragraph">
+                Brian, Irene’s husband, is a doctor who expresses
+                dissatisfaction with their upper-middle-class life. He dreams of
+                moving to Brazil, believing that racial issues in America make
+                happiness impossible for Black people.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “I’d like to get away from this damned country. I’d like to be
+                  where no white people were.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Brian’s frustration reflects the novel’s critique of racial
+                injustice. His desire to escape suggests that he sees race as an
+                inescapable burden in America, reinforcing *Passing*'s themes of
+                racial oppression and dissatisfaction.
+              </p>
+            </div>
+
+            {/* Character 4: John "Jack" Bellew */}
+            <div className="section-block">
+              <p className="section-subtitle">4. John "Jack" Bellew</p>
+              <p className="section-paragraph">
+                John Bellew is Clare’s racist white husband who remains unaware
+                that she is Black. His casual use of racial slurs and his hatred
+                of Black people create a dangerous tension throughout the novel.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Nig! My God! But I hate them! They’re black, and they smell,
+                  and they make a person sick.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Bellew’s blatant racism adds an element of suspense, as his
+                eventual discovery of Clare’s racial identity could lead to
+                devastating consequences. His hatred embodies the external
+                threats that make Clare’s deception so perilous.
+              </p>
+            </div>
+
+            {/* Character 5: Hugh Wentworth */}
+            <div className="section-block">
+              <p className="section-subtitle">5. Hugh Wentworth</p>
+              <p className="section-paragraph">
+                Hugh Wentworth is a white writer and socialite who is interested
+                in racial dynamics. Though not explicitly racist, his detached
+                curiosity about race highlights his privilege and the limited
+                understanding white people have of the experiences of Black
+                individuals.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Funny thing, this business about passing. Tell me, have you
+                  ever thought of passing yourself?”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                His question to Irene about passing reveals his lack of
+                comprehension of its stakes. To him, passing is a theoretical
+                concept, while for Clare, it is a matter of survival. This
+                contrast emphasizes *Passing*'s exploration of racial privilege.
+              </p>
+            </div>
+
+            {/* Character 6: Gertrude Martin */}
+            <div className="section-block">
+              <p className="section-subtitle">6. Gertrude Martin</p>
+              <p className="section-paragraph">
+                Gertrude is a minor but significant character who, like Clare,
+                has married a white man but does not completely sever ties with
+                her Black identity. Her acceptance of passing contrasts with
+                Irene’s discomfort, showing the different ways characters
+                navigate racial identity.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “It’s funny about ‘passing.’ We disapprove of it and at the
+                  same time condone it. It excites our contempt and yet we
+                  rather admire it.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This statement encapsulates the novel’s central conflict. The
+                paradox of disapproving yet admiring passing reflects the
+                complex attitudes toward race and survival in *Passing*.
+              </p>
+            </div>
+
+            {/* Character 7: Zulena (The Redfield's Maid) */}
+            <div className="section-block">
+              <p className="section-subtitle">7. Zulena</p>
+              <p className="section-paragraph">
+                Zulena, the Redfields’ Black maid, represents class divisions
+                within the Black community. She serves as a silent reminder of
+                Irene’s privilege and her reliance on racial and social
+                hierarchies to maintain her status.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Zulena had the appearance of knowing her place, and that was
+                  exactly what Irene liked.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Irene’s approval of Zulena’s deference highlights her own
+                complicity in social stratification. This moment exposes her
+                hypocrisy—she resents racial oppression but benefits from class
+                privilege.
               </p>
             </div>
           </section>
 
           {/* Themes Section */}
+
           <section id="themes" className="section-content">
-            <h2 className="section-title">Themes</h2>
+            <h2 className="section-title">Analysis</h2>
+
+            {/* Analysis Point 1: Theme of Racial Identity and Passing */}
             <div className="section-block">
-              <p className="section-subtitle">
-                1- Racial Identity and the Art of Passing
+              <p className="section-subtitle">1. Racial Identity and Passing</p>
+              <p className="section-paragraph">
+                One of the central themes of *Passing* is racial identity and
+                the complex social dynamics surrounding racial "passing." Clare
+                Kendry and Irene Redfield navigate their identities in vastly
+                different ways, highlighting the privileges and dangers of
+                racial ambiguity in 1920s America.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “She was caught between two allegiances, different yet the
+                  same. Herself. Her race. Race! The thing that bound and
+                  suffocated her.”
+                </em>
               </p>
               <p className="section-paragraph">
-                At the heart of <em>Passing</em> lies a probing exploration of
-                racial identity and the practice of "passing" as white. Larsen
-                challenges the reader to consider race as a mutable social
-                construct rather than a fixed biological reality. The
-                characters' decisions to conceal or reveal their racial heritage
-                serve not only as survival mechanisms but also as acts of
-                defiance against the rigid racial hierarchies of 1920s America.
+                This passage underscores Irene’s internal conflict regarding
+                racial identity. The paradox of race being both a source of
+                belonging and a constraint is central to her struggle. The
+                repetition of "herself" emphasizes the tension between personal
+                identity and societal labels.
               </p>
-              <p className="section-subtitle">2- The Duality of Self</p>
+            </div>
+
+            {/* Analysis Point 2: Theme of Jealousy and Desire */}
+            <div className="section-block">
+              <p className="section-subtitle">2. Jealousy and Desire</p>
               <p className="section-paragraph">
-                Larsen masterfully portrays the inner conflict of living a
-                double life. The protagonists, especially Clare Kendry and Irene
-                Redfield, embody the tension between their true selves and the
-                personas they present to the world. This duality is emblematic
-                of the broader human struggle to reconcile inner identity with
-                external expectations, revealing how the desire for acceptance
-                can force individuals into a continuous state of self-deception.
+                Throughout the novel, Irene exhibits an ambiguous mixture of
+                admiration, envy, and attraction toward Clare. This theme is
+                heightened through Larsen’s use of interior monologue and
+                indirect narration, suggesting an underlying psychological
+                complexity in Irene’s feelings.
               </p>
-              <p className="section-subtitle">
-                3- Social Conformity versus Individual Freedom
-              </p>
-              <p className="section-paragraph">
-                Social Conformity versus Individual Freedom: A recurring motif
-                in the novel is the tension between conforming to societal norms
-                and the pursuit of personal authenticity. The pressure to adhere
-                to prescribed roles—whether in the African American community or
-                the white society that Clare temporarily inhabits—illustrates
-                the often oppressive nature of social expectations. This
-                conflict underscores the price of social mobility and the
-                sacrifices made in the quest for personal liberation.
-              </p>
-              <p className="section-subtitle">
-                4- Gender and the Construction of Identity
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “It was the truth. She was aware of a faint feeling of
+                  repulsion, which, every time she encountered Clare Kendry,
+                  tinged her feeling of admiration and longing.”
+                </em>
               </p>
               <p className="section-paragraph">
-                Beyond race, <em>Passing</em> also examines the intersections of
-                gender and identity. Larsen highlights how the roles and
-                expectations imposed on women further complicate the process of
-                self-definition. The delicate balance between femininity and
-                strength, vulnerability and resilience, adds an additional layer
-                of complexity to the characters' struggles, making their
-                personal journeys emblematic of broader societal challenges.
+                Here, Larsen uses contrasting emotions—repulsion and longing—to
+                illustrate Irene’s conflicted attraction to Clare. The phrase
+                "tinged her feeling" subtly suggests that Irene cannot fully
+                acknowledge or process her own emotions, reinforcing the theme
+                of repressed desire.
               </p>
-              <p className="section-subtitle">
-                5- Psychological Tension and Internal Conflict
+            </div>
+
+            {/* Analysis Point 3: Theme of Social Perception and Class */}
+            <div className="section-block">
+              <p className="section-subtitle">3. Social Perception and Class</p>
+              <p className="section-paragraph">
+                Larsen explores how race intersects with class and social
+                status. Clare's ability to pass allows her to access privileges
+                unavailable to Irene, creating a stark contrast between their
+                lives and illuminating the rigid social stratifications of the
+                time.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Security. Was it just a word? If not, then was it only an
+                  illusion? Irene Redfield, on that August afternoon, wondered.”
+                </em>
               </p>
               <p className="section-paragraph">
-                The psychological undercurrents of the narrative are as potent
-                as its social commentary. The characters' internal
-                battles—between desire and duty, authenticity and
-                performance—reflect the deep-seated anxiety that comes with
-                living a divided life. This internal conflict is portrayed with
-                subtlety, capturing the emotional toll of maintaining two
-                disparate identities in a society that demands conformity.
+                This moment captures Irene’s growing anxiety about her own
+                stability in the face of Clare’s presence. The rhetorical
+                questions highlight her uncertainty about whether societal
+                structures truly offer security or merely the illusion of it.
               </p>
-              <p className="section-subtitle">
-                6- The Illusion of the American Dream
+            </div>
+
+            {/* Analysis Point 4: Theme of Fear and Anxiety */}
+            <div className="section-block">
+              <p className="section-subtitle">4. Fear and Anxiety</p>
+              <p className="section-paragraph">
+                Fear pervades the novel, particularly Irene’s fear of disruption
+                in her carefully constructed life. Larsen’s use of psychological
+                realism immerses readers in Irene’s paranoia, heightening the
+                tension as the novel progresses.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Strange, that she had never thought of it before. Never had
+                  even wondered if Clare’s husband knew that she was a Negro.”
+                </em>
               </p>
               <p className="section-paragraph">
-                Through the lives of Irene and Clare, the novel critiques the
-                promise of the American Dream. The allure of freedom and upward
-                mobility is revealed to be a mirage, attainable only through the
-                risky act of denying one's heritage. This disillusionment with
-                the ideal of American success speaks volumes about the systemic
-                barriers that persist despite the nation’s celebrated values of
-                equality and opportunity.
+                The repetition of "never" reinforces Irene’s realization that
+                she has overlooked a crucial danger. The italicized emphasis on
+                "Negro" reflects how race, though often unspoken, underlies
+                every aspect of their interactions.
               </p>
-              <p className="section-subtitle">
-                7- Memory, History, and the Unresolved Past
+            </div>
+
+            {/* Analysis Point 5: Theme of Betrayal and Trust */}
+            <div className="section-block">
+              <p className="section-subtitle">5. Betrayal and Trust</p>
+              <p className="section-paragraph">
+                The novel’s climax hinges on themes of betrayal, whether real or
+                perceived. Irene’s suspicions about her husband’s possible
+                infidelity with Clare, as well as Clare’s deception of her own
+                husband, form the emotional crux of the narrative.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “She wanted to be free of Clare Kendry. Free! Rid of her! The
+                  thought, as soon as it had come, brought her up sharply.”
+                </em>
               </p>
               <p className="section-paragraph">
-                <em>Passing</em> is as much about the past as it is about the
-                present. The characters' interactions with their personal
-                histories and the broader historical context of racial
-                oppression suggest that the past is an inescapable force shaping
-                their identities. This theme invites readers to reflect on how
-                history continually informs the present and how the scars of
-                racial injustice are never fully healed.
+                The repetition of "free" and the exclamation points emphasize
+                Irene’s desperation. The abruptness of the final sentence
+                reflects the sudden realization of her own dark thoughts,
+                raising questions about her role in Clare’s ultimate fate.
               </p>
-              <p className="section-subtitle">
-                8- Ambiguity and the Search for Meaning:
+            </div>
+
+            {/* Analysis Point 6: Theme of Tragedy and Ambiguity */}
+            <div className="section-block">
+              <p className="section-subtitle">6. Tragedy and Ambiguity</p>
+              <p className="section-paragraph">
+                The novel ends in a moment of ambiguity—did Irene push Clare, or
+                did she fall? This lack of resolution mirrors the novel’s
+                broader themes of racial and personal instability, leaving the
+                reader to question the boundaries between agency and fate.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “It was only a moment. A moment of strange, mixed joy and
+                  horror, of inarticulate triumph and despair. Then she was
+                  gone.”
+                </em>
               </p>
               <p className="section-paragraph">
-                The open-ended nature of the novel mirrors the ambiguity
-                inherent in the search for self-understanding. Larsen leaves
-                many questions unanswered, forcing both the characters and the
-                readers to grapple with the elusive nature of truth and
-                identity. This ambiguity serves as a powerful reminder that in a
-                world defined by shifting social boundaries, clear-cut answers
-                are often an illusion.
+                The phrase "mixed joy and horror" encapsulates the novel’s
+                central tensions—identity, desire, and destruction. The contrast
+                between "triumph and despair" suggests that Clare’s death is
+                both an escape and a loss, reinforcing the novel’s tragic
+                ambiguity.
               </p>
             </div>
           </section>
 
-          {/* Symbols Section */}
+          {/* Symbolism Section */}
           <section id="symbols" className="section-content">
-            <h2 className="section-title">Symbols</h2>
+            <h2 className="section-title">Symbolism</h2>
+
+            {/* Symbol 1: The Color White */}
             <div className="section-block">
-              <p className="section-subtitle">1- Passing as a Symbol</p>
+              <p className="section-subtitle">1. The Color White</p>
               <p className="section-paragraph">
-                The very act of "passing" is imbued with symbolic resonance
-                throughout the novel. It represents not only the characters’
-                physical ability to appear as white but also the broader, more
-                complex themes of identity, secrecy, and survival. Passing
-                becomes a double-edged sword: a means of liberation from
-                oppressive social constraints while simultaneously acting as a
-                constant reminder of the inescapable ties to one’s original
-                cultural identity.
+                The color white appears repeatedly throughout the novel,
+                symbolizing privilege, erasure, and deception. Clare’s ability
+                to "pass" into whiteness allows her to access societal
+                advantages while simultaneously severing her ties to her Black
+                heritage.
               </p>
-              <p className="section-subtitle">2- The Color White</p>
-              <p className="section-paragraph">
-                White is laden with multiple connotations in <em>Passing</em>.
-                It signifies societal privilege, acceptance, and the often
-                illusory promise of the American Dream. However, for characters
-                who pass as white, it also carries the burden of erasing one’s
-                true heritage, symbolizing the painful trade-offs between
-                societal gain and personal authenticity.
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “She was dressed in white, and at the moment that she turned a
+                  little and caught sight of them, she smiled.”
+                </em>
               </p>
-              <p className="section-subtitle">3- Mirrors and Reflections</p>
               <p className="section-paragraph">
-                Mirrors in the novel are a recurring motif, serving as powerful
-                symbols for self-examination and the duality of identity. The
-                act of reflecting—both literally and metaphorically—forces
-                characters like Irene and Clare to confront the discrepancies
-                between their outward appearances and inner realities,
-                highlighting the tension between public persona and private
-                truth.
+                Clare’s white dress symbolizes both her successful deception and
+                her precarious position between two racial identities. The act
+                of smiling while dressed in white reinforces the idea that she
+                must maintain an illusion of happiness and security in her
+                chosen life.
               </p>
-              <p className="section-subtitle">4- Windows and Thresholds</p>
+            </div>
+
+            {/* Symbol 2: The Window */}
+            <div className="section-block">
+              <p className="section-subtitle">2. The Window</p>
               <p className="section-paragraph">
-                Windows and other transitional spaces in the narrative symbolize
-                the porous boundaries between different social realms. They
-                represent both opportunity and confinement, illustrating the
-                fine line characters must navigate between the safe confines of
-                their known worlds and the perilous, often unpredictable,
-                outside.
+                The window serves as a recurring motif symbolizing both freedom
+                and danger. It represents Clare’s longing for the Black
+                community she left behind, as well as the vulnerability of her
+                position as someone who passes for white.
               </p>
-              <p className="section-subtitle">5- Fashion and Adornment</p>
-              <p className="section-paragraph">
-                In <em>Passing</em>, clothing and style are not mere aesthetics
-                but serve as deliberate markers of identity. The ways in which
-                characters dress and present themselves underscore the
-                performative aspects of race and class, reinforcing how external
-                appearances can be manipulated to conform to or resist societal
-                expectations.
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “There was a gasp, a hurling outward, and then a long
+                  silence.”
+                </em>
               </p>
-              <p className="section-subtitle">6- The Social Setting</p>
               <p className="section-paragraph">
-                The urban landscapes and social environments depicted in the
-                novel function as symbolic arenas where the dramas of race and
-                identity are played out. These settings encapsulate both the
-                promise of upward mobility and the rigid limitations imposed by
-                societal prejudices, emphasizing the ongoing struggle for
-                recognition and equality.
+                This passage describes Clare’s fall from the window in the
+                novel’s climactic moment. The sudden, ambiguous nature of her
+                fall reflects the fragile boundaries between safety and
+                destruction in her life. The "long silence" emphasizes the
+                unresolved nature of Clare’s existence and death.
+              </p>
+            </div>
+
+            {/* Symbol 3: Tea and Hospitality */}
+            <div className="section-block">
+              <p className="section-subtitle">3. Tea and Hospitality</p>
+              <p className="section-paragraph">
+                Social gatherings, especially tea parties, symbolize the
+                performance of identity and the thin veneer of social stability.
+                These gatherings highlight the tension between truth and
+                deception, as characters navigate their racial and social
+                positions.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “The tea was as exquisite as everything else in Irene
+                  Redfield’s life—perfect and unimportant.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Irene’s dismissive view of the tea reflects the emptiness of her
+                carefully curated social life. The word “perfect” suggests a
+                controlled, outward appearance, while “unimportant” hints at her
+                deeper dissatisfaction and the fragility of the life she has
+                built.
+              </p>
+            </div>
+
+            {/* Symbol 4: The Letter */}
+            <div className="section-block">
+              <p className="section-subtitle">4. The Letter</p>
+              <p className="section-paragraph">
+                The letter Clare sends to Irene symbolizes both a plea for
+                connection and a disruption of Irene’s carefully maintained
+                life. Clare’s return threatens Irene’s sense of security,
+                forcing her to confront her own suppressed emotions.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Irene Redfield took up the letter and stared at it with a
+                  kind of fascinated horror.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The phrase “fascinated horror” captures Irene’s conflicting
+                feelings about Clare’s reappearance. The letter represents an
+                intrusion—both literal and emotional—into Irene’s life,
+                embodying the novel’s themes of disruption and the
+                inescapability of racial identity.
+              </p>
+            </div>
+
+            {/* Symbol 5: Clare’s Smile */}
+            <div className="section-block">
+              <p className="section-subtitle">5. Clare’s Smile</p>
+              <p className="section-paragraph">
+                Clare’s enigmatic smile is one of the most potent symbols in the
+                novel, representing her duality, deception, and defiance. It
+                functions as both a mask and a weapon, allowing her to maintain
+                control over her identity.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Clare smiled quickly, a smile that was like a promise of some
+                  still more amazing thing to come.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The ambiguity of Clare’s smile suggests that she remains an
+                enigma even to the people closest to her. The phrase "a promise
+                of some still more amazing thing" hints at her allure and the
+                unpredictability of her actions, reinforcing her role as a
+                figure of both fascination and danger.
               </p>
             </div>
           </section>
 
           {/* Additional Literary Elements Section */}
+
           <section id="literary-elements" className="section-content">
-            <h2 className="section-title">Additional Literary Elements</h2>
+            <h2 className="section-title">Literary Elements</h2>
+
+            {/* Element 1: Plot Structure */}
             <div className="section-block">
-              <p className="section-subtitle">
-                1- Narrative Structure and Perspective
+              <p className="section-subtitle">1. Plot Structure</p>
+              <p className="section-paragraph">
+                *Passing* follows a three-part structure: “Encounter,”
+                “Re-Encounter,” and “Finale.” This structure mirrors the
+                increasing tension between Clare and Irene, culminating in
+                Clare’s ambiguous death.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “It was the last time she was ever to see Clare Kendry.”
+                </em>
               </p>
               <p className="section-paragraph">
-                Nella Larsen’s narrative technique in <em>Passing</em> is
-                characterized by a third-person limited perspective that
-                primarily follows Irene Redfield. This approach allows readers
-                to experience the inner turmoil, doubts, and conflicting
-                emotions of the protagonist, effectively conveying the complex
-                interplay between her inner life and the external pressures of a
-                racially segregated society.
+                This line foreshadows Clare’s death while maintaining an air of
+                uncertainty, a key characteristic of the novel’s structure. The
+                progression from reunion to destruction reflects the novel’s
+                exploration of racial and personal instability.
               </p>
-              <p className="section-subtitle">
-                2- Ambiguity and Unreliable Narration
+            </div>
+
+            {/* Element 2: Narration and Perspective */}
+            <div className="section-block">
+              <p className="section-subtitle">2. Narration and Perspective</p>
+              <p className="section-paragraph">
+                The novel is told from a third-person limited perspective,
+                primarily filtered through Irene’s consciousness. This
+                unreliable perspective creates ambiguity, particularly regarding
+                Clare’s death.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “She never quite knew whether it was by accident or design
+                  that she never answered that letter.”
+                </em>
               </p>
               <p className="section-paragraph">
-                One of the most compelling literary elements in the novel is its
-                pervasive ambiguity. Larsen deliberately leaves gaps in the
-                narrative, particularly regarding the true motivations and inner
-                life of Clare Kendry. This ambiguity not only mirrors the
-                elusive nature of identity but also challenges the reader to
-                question the reliability of appearances and the narratives
-                constructed around race and belonging.
+                This moment highlights Irene’s own uncertainties, reflecting how
+                the novel’s limited narration prevents readers from fully
+                understanding her thoughts and motivations.
               </p>
-              <p className="section-subtitle">3- Subtext and Tension</p>
+            </div>
+
+            {/* Element 3: Irony */}
+            <div className="section-block">
+              <p className="section-subtitle">3. Irony</p>
               <p className="section-paragraph">
-                The dialogue and inner monologues are laden with subtext,
-                reflecting the unspoken tensions that underpin social
-                interactions in the novel. Through subtle cues and nuanced
-                language, Larsen communicates the hidden struggles of her
-                characters, inviting readers to interpret the unsaid as much as
-                the explicit. This element enhances the psychological depth of
-                the narrative and reinforces the theme of internal conflict.
+                *Passing* is filled with irony, particularly in how characters
+                perceive themselves versus how they actually behave. Irene
+                criticizes Clare’s life choices, yet she is fascinated by Clare
+                and possibly even desires her.
               </p>
-              <p className="section-subtitle">
-                4- Foreshadowing and Symbolic Imagery
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “It was, she told herself, that she was upset by the idea of
+                  Clare Kendry’s being in danger. It was that which had made her
+                  so furious and so resentful.”
+                </em>
               </p>
               <p className="section-paragraph">
-                Larsen employs foreshadowing to build suspense and hint at the
-                inevitable collision between the characters’ dual identities.
-                Coupled with recurring symbols—such as mirrors, windows, and the
-                very act of passing—the narrative is imbued with layers of
-                meaning that compel readers to engage in a deeper, more
-                reflective analysis of both the text and the social constructs
-                it critiques.
+                The irony here lies in Irene’s self-deception—her supposed
+                concern for Clare’s safety is entangled with jealousy and
+                personal insecurities.
+              </p>
+            </div>
+
+            {/* Element 4: Motifs */}
+            <div className="section-block">
+              <p className="section-subtitle">4. Motifs</p>
+              <p className="section-paragraph">
+                The novel frequently returns to motifs of concealment and
+                visibility, particularly in how characters navigate their racial
+                identities. The contrast between light and darkness is used to
+                emphasize the tension between exposure and secrecy.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Clare had been looking at her with that mysterious, secret
+                  smile that was so like the woman herself.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Clare’s “mysterious” nature becomes a recurring motif throughout
+                the novel. Her smile acts as a symbol of both her allure and the
+                unknowability of her true feelings.
+              </p>
+            </div>
+
+            {/* Element 5: Ambiguity */}
+            <div className="section-block">
+              <p className="section-subtitle">5. Ambiguity</p>
+              <p className="section-paragraph">
+                Larsen deliberately leaves several key moments open to
+                interpretation, most notably Clare’s fall from the window. The
+                novel’s refusal to provide clear answers reinforces its themes
+                of instability and social uncertainty.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “There was a gasp, a hurling outward, and then a long
+                  silence.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The vague description of Clare’s fall forces readers to question
+                whether it was an accident, suicide, or even murder. This
+                ambiguity is central to the novel’s narrative technique.
+              </p>
+            </div>
+
+            {/* Element 6: Symbolic Use of Setting */}
+            <div className="section-block">
+              <p className="section-subtitle">6. Symbolic Use of Setting</p>
+              <p className="section-paragraph">
+                The contrast between Harlem and Clare’s white world represents
+                the divide between racial identities. Irene finds comfort in
+                Harlem’s Black community, while Clare is drawn to it as
+                something she can never fully reclaim.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  “Harlem, teeming with life, stirred in her a sense of almost
+                  frightening satisfaction.”
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Harlem symbolizes authenticity and racial pride, but Irene’s
+                “frightening satisfaction” suggests that even within this space,
+                she harbors fears and contradictions.
               </p>
             </div>
           </section>
