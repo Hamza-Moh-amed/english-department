@@ -40,6 +40,10 @@ export const subjects = [
         link: "/american/garcia-girls",
       },
       {
+        title: "Roar",
+        link: "/american/roar",
+      },
+      {
         title: "Source PDF Files",
         link: "/american/source",
       },

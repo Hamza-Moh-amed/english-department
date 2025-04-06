@@ -10,8 +10,7 @@ export const metadata = {
 
 export default function DocilityAndDisciplinaryPower() {
   const navLinks: NavLink[] = [
-    { href: "#overview", label: "Overview" },
-    { href: "#analysis", label: "Analysis" },
+    { href: "#docile", label: "Docile Body" },
     { href: "#qna", label: "Q&A" },
   ];
 
@@ -29,61 +28,172 @@ export default function DocilityAndDisciplinaryPower() {
             author="Michel Foucault"
           />
 
-          {/* Overview Section */}
-          <section id="overview" className="section-content">
-            <h2 className="section-title">Overview</h2>
-            <article className="article-block">
-              <p className="article-paragraph">
-                The concept of the docile body was introduced by Michel Foucault
-                in his seminal work, *Discipline and Punish* (1977). Foucault
-                argues that the human body has historically been treated as
-                malleable clay, capable of being shaped, transformed, and
-                improved through disciplinary practices. The term "docile"
-                refers to a body that is submissive, obedient, and easily
-                managed. Foucault contends that power structures—such as
-                schools, the military, hospitals, and prisons—use discipline to
-                mold individuals into productive, conforming, and easily
-                controlled subjects.
-              </p>
-              <p className="article-paragraph">
-                Unlike traditional forms of power, which rely on force or
-                violence, disciplinary power operates through surveillance,
-                normalization, and routine. It does not merely punish; it trains
-                individuals to regulate their own behavior. Foucault emphasizes
-                that disciplinary power operates directly on the body, shaping
-                how people move, sit, speak, and function in different spaces.
-                This makes individuals efficient and useful for institutional
-                goals, such as soldiers in the military, workers in factories,
-                or students in schools.
-              </p>
-              <p className="article-paragraph">
-                Foucault identifies several techniques of discipline, including
-                surveillance, normalization, examination, partitioning of time
-                and space, training and repetition, and the internalization of
-                discipline. These techniques work together to create docile
-                bodies that are both productive and submissive to authority.
-              </p>
-            </article>
-          </section>
-
-          {/* Analysis Section */}
-          <section id="analysis" className="section-content">
-            <h2 className="section-title">Analysis</h2>
+          {/* Docile Body Section */}
+          <section id="docile" className="section-content">
+            <h2 className="section-title">Docile Body</h2>
             <div className="section-block">
-              {/* Analysis Point 1: The Concept of the Docile Body */}
-              <p className="section-subtitle">
-                1. The Concept of the Docile Body
+              <p className="section-subtitle">1. Introduction</p>
+              <p className="section-paragraph">
+                The human body has always been regarded as a shapeless clay that
+                can be used, transformed, and improved. In order to make the
+                body docile (trained to be obedient, productive, and conforming)
+                it must be exposed to forces of discipline and control. The term
+                docile body was first introduced by Michel Foucault in his book
+                *Discipline and Punish* (1977).
               </p>
               <p className="section-paragraph">
-                Foucault’s concept of the docile body is central to his analysis
-                of disciplinary power. He argues that the human body is not a
-                fixed entity but rather a malleable object that can be shaped
-                and controlled through disciplinary practices. These practices
-                are designed to make the body obedient, productive, and
-                conforming to institutional norms. Foucault’s analysis
-                challenges traditional notions of power, which focus on overt
-                coercion or violence, by emphasizing the subtle and pervasive
-                ways in which power operates through discipline.
+                The term *docile* means submissive or easily managed. Foucault
+                argues that power structures (such as schools, military,
+                hospitals, and prisons) shape people’s bodies and behaviors to
+                become obedient, productive, and easily controlled through
+                discipline.
+              </p>
+
+              <p className="section-subtitle">2. Disciplinary Power</p>
+              <p className="section-paragraph">
+                Discipline is different from force or violence because it is a
+                way of controlling the operations and positions of the body.
+                Unlike traditional power, which is exercised through force or
+                violence, it operates through surveillance, normalization, and
+                routine. It does not just punish; it trains individuals to
+                regulate their own behavior.
+              </p>
+
+              <p className="section-subtitle">3. The Body as a Site of Power</p>
+              <p className="section-paragraph">
+                Foucault emphasizes that disciplinary power operates directly on
+                the body, shaping how people move, sit, speak, and function in
+                different spaces. This makes them efficient and useful for
+                institutional goals (e.g., soldiers in the military, workers in
+                factories, students in schools).
+              </p>
+
+              <p className="section-subtitle">4. Techniques of Discipline</p>
+              <p className="section-subtitle">
+                4.1. Surveillance and Hierarchical Observation
+              </p>
+              <p className="section-paragraph">
+                Foucault argues that constant observation is a key method of
+                discipline. People modify their behavior when they know they are
+                being watched, even if no direct punishment is involved. He
+                refers to the *Panopticon*, a prison design where prisoners are
+                always visible to guards but never know when they are being
+                watched. Over time, this leads to self-discipline, where
+                individuals regulate their own actions to avoid punishment.
+              </p>
+
+              <p className="section-subtitle">
+                4.2. Normalization: Establishing Standards of Behavior
+              </p>
+              <p className="section-paragraph">
+                Institutions set norms for what is considered "correct"
+                behavior. For example:
+              </p>
+              <ul className="section-list !list-disc !mb-6 !lg:mb-8">
+                <li className="section-paragraph">
+                  Schools teach students how to sit, walk, speak, and respond to
+                  authority.
+                </li>
+                <li className="section-paragraph">
+                  The military trains soldiers to move and act in precise,
+                  standardized ways.
+                </li>
+                <li className="section-paragraph">
+                  Workplaces enforce dress codes, schedules, and expected
+                  conduct.
+                </li>
+                <li className="section-paragraph">
+                  Those who deviate from these norms face correction,
+                  punishment, or exclusion.
+                </li>
+              </ul>
+
+              <p className="section-subtitle">4.3. Examination</p>
+              <p className="section-paragraph">
+                Examinations serve as tools of discipline by assessing,
+                categorizing, and ranking individuals. Examples include:
+              </p>
+              <ul className="section-list !list-disc !mb-6 !lg:mb-8">
+                <li className="section-paragraph">
+                  School tests evaluate students based on their grades and
+                  performance.
+                </li>
+                <li className="section-paragraph">
+                  Workplace evaluations rank employees by productivity.
+                </li>
+                <li className="section-paragraph">
+                  Medical check-ups that classify bodies as healthy or
+                  unhealthy.
+                </li>
+              </ul>
+
+              <p className="section-subtitle">
+                4.4. Partitioning of Time and Space (Disciplinary Mechanisms)
+              </p>
+              <p className="section-paragraph">
+                Discipline is imposed by structuring time and space in a way
+                that optimizes control:
+              </p>
+              <ul className="section-list !list-disc !mb-6 !lg:mb-8">
+                <li className="section-paragraph">
+                  <strong>Timetables and Schedules:</strong> Institutions impose
+                  strict routines, such as school bells, work shifts, and
+                  military drills.
+                </li>
+                <li className="section-paragraph">
+                  <strong>Spatial Organization:</strong> Individuals are placed
+                  in controlled environments, such as desks in classrooms,
+                  workstations in factories, or hospital beds in hospitals.
+                </li>
+                <li className="section-paragraph">
+                  By regulating when and where people move, these structures
+                  shape behavior and make individuals more predictable and
+                  controllable.
+                </li>
+              </ul>
+
+              <p className="section-subtitle">
+                4.5. Training and Repetition: The Body as a Machine
+              </p>
+              <p className="section-paragraph">
+                Foucault describes how institutions train the body to perform
+                specific functions efficiently. This is done through repetitive
+                exercises and routines that make actions automatic. For example:
+              </p>
+              <ul className="section-list !list-disc !mb-6 !lg:mb-8">
+                <li className="section-paragraph">
+                  A worker in a factory performs repetitive tasks to maximize
+                  efficiency.
+                </li>
+                <li className="section-paragraph">
+                  This training makes the body useful while ensuring it remains
+                  submissive to authority.
+                </li>
+              </ul>
+
+              <p className="section-subtitle">
+                4.6. Internalization of Discipline: The Ultimate Goal
+              </p>
+              <p className="section-paragraph">
+                The final stage of creating a docile body is
+                **internalization**. Over time, individuals no longer need
+                external enforcement because they begin to discipline
+                themselves. They police their own actions, thoughts, and
+                behaviors based on the norms imposed by institutions. For
+                example:
+              </p>
+              <ul className="section-list !list-disc !mb-6 !lg:mb-8">
+                <li className="section-paragraph">
+                  A citizen follows societal norms (e.g., dressing
+                  appropriately, speaking in a certain way) without needing
+                  constant enforcement.
+                </li>
+              </ul>
+
+              <p className="section-paragraph">
+                The purpose of disciplinary practices is to optimize the body's
+                capacities, skills, and productivity and to foster its
+                usefulness and docility.
               </p>
               <p className="section-quote">
                 Quote:
@@ -91,229 +201,100 @@ export default function DocilityAndDisciplinaryPower() {
                   "What was then being formed was a policy of coercions that act
                   on the body, a calculated manipulation of its elements, its
                   gestures, its behavior. The human body was entering a
-                  machinery of power that explores it, breaks it down and
-                  rearranges it."
+                  machinery of power that explores it, breaks it down, and
+                  rearranges it . . . . Thus, discipline produces subjected and
+                  practiced docile bodies." (138-9)
                 </em>
               </p>
+
               <p className="section-paragraph">
-                This quote highlights Foucault’s view that disciplinary power is
-                not merely about controlling the body but also about
-                transforming it into a useful and efficient tool for
-                institutional goals. The docile body is both a product and a
-                target of disciplinary power.
+                Foucault also adds that these disciplinary practices not only
+                target the human body but the mind as well. In other words, the
+                disciplinary power which is directed toward disciplining the
+                body takes hold of the mind to induce a psychological state of
+                **"conscious and permanent visibility"** (*Foucault 1977:201*).
+                This means that people are aware that they are being watched
+                continuously, and this creates **self-discipline**.
               </p>
 
-              {/* Analysis Point 2: Techniques of Discipline */}
-              <p className="section-subtitle">2. Techniques of Discipline</p>
               <p className="section-paragraph">
-                Foucault identifies several key techniques of discipline,
-                including surveillance, normalization, examination, partitioning
-                of time and space, training and repetition, and the
-                internalization of discipline. These techniques work together to
-                create docile bodies that are both productive and submissive to
-                authority.
-              </p>
-              <p className="section-quote">
-                Quote:
-                <em className="section-quote-em">
-                  "Discipline produces subjected and practiced bodies, 'docile'
-                  bodies."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This quote underscores Foucault’s argument that disciplinary
-                power is not just about external control but also about shaping
-                individuals’ internal sense of self-regulation. Over time,
-                individuals begin to police their own behavior, making external
-                enforcement unnecessary.
+                Foucault states that these disciplinary practices that were used
+                in prisons, military establishments, hospitals, factories, and
+                schools, were gradually applied more broadly as techniques of
+                social regulation and control.
               </p>
 
-              {/* Analysis Point 3: Surveillance and the Panopticon */}
               <p className="section-subtitle">
-                3. Surveillance and the Panopticon
+                5. Positive and Negative Docility
               </p>
+              <p className="section-subtitle">5.1. Positive Docility</p>
               <p className="section-paragraph">
-                One of Foucault’s most famous examples of disciplinary power is
-                the Panopticon, a prison design where prisoners are constantly
-                visible to guards but never know when they are being watched.
-                This creates a state of "conscious and permanent visibility,"
-                leading individuals to regulate their own behavior out of fear
-                of being observed. Foucault argues that this form of
-                surveillance is a key method of discipline, as it encourages
-                self-regulation and conformity.
-              </p>
-              <p className="section-quote">
-                Quote:
-                <em className="section-quote-em">
-                  "He who is subjected to a field of visibility, and who knows
-                  it, assumes responsibility for the constraints of power; he
-                  makes them play spontaneously upon himself; he inscribes in
-                  himself the power relation in which he simultaneously plays
-                  both roles; he becomes the principle of his own subjection."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This quote illustrates how surveillance creates a psychological
-                state of self-discipline, where individuals internalize the gaze
-                of authority and regulate their own behavior.
+                Discipline and training lead to personal growth, skill
+                development, and social order. In these cases, docility enables
+                individuals to function effectively within institutions and
+                contribute productively to society.
               </p>
 
-              {/* Analysis Point 4: Normalization and Standards of Behavior */}
+              <p className="section-subtitle">Examples of Positive Docility</p>
+              <ul className="section-list !list-disc !mb-6 !lg:mb-8">
+                <li className="section-paragraph">
+                  Students follow structured learning routines (e.g., attending
+                  classes, completing assignments, respecting teachers), which
+                  help them acquire knowledge and develop intellectual
+                  discipline.
+                </li>
+                <li className="section-paragraph">
+                  Employees learn workplace ethics, time management, and
+                  teamwork through structured rules and expectations.
+                </li>
+                <li className="section-paragraph">
+                  Soldiers and police officers are trained to act with
+                  discipline in high-pressure situations, ensuring national
+                  security and public order.
+                </li>
+              </ul>
+
               <p className="section-subtitle">
-                4. Normalization and Standards of Behavior
+                5.2. Negative Docility (Oppressive and Dehumanizing Control)
               </p>
               <p className="section-paragraph">
-                Foucault argues that institutions establish norms for what is
-                considered "correct" behavior, and those who deviate from these
-                norms face correction, punishment, or exclusion. This process of
-                normalization ensures that individuals conform to institutional
-                expectations, making them more predictable and controllable.
-              </p>
-              <p className="section-quote">
-                Quote:
-                <em className="section-quote-em">
-                  "The norm establishes a homogeneity of behavior, but it also
-                  individualizes by making it possible to measure gaps, to
-                  determine levels, to fix specialties, and to render
-                  differences useful."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This quote highlights how normalization not only enforces
-                conformity but also creates hierarchies and distinctions among
-                individuals, further reinforcing disciplinary power.
+                Docility can become a tool of **oppression** when individuals
+                are excessively controlled, manipulated, or made passive by
+                systems of power. In such cases, people lose autonomy and
+                critical thinking.
               </p>
 
-              {/* Analysis Point 5: Examination as a Tool of Discipline */}
-              <p className="section-subtitle">
-                5. Examination as a Tool of Discipline
-              </p>
-              <p className="section-paragraph">
-                Examinations serve as tools of discipline by assessing,
-                categorizing, and ranking individuals. Examples include school
-                tests, workplace evaluations, and medical check-ups. These
-                examinations not only measure performance but also reinforce
-                norms and hierarchies, further entrenching disciplinary power.
-              </p>
-              <p className="section-quote">
-                Example:
-                <em className="section-quote-em">
-                  "School tests evaluate students based on their grades and
-                  performance, workplace evaluations rank employees by
-                  productivity, and medical check-ups classify bodies as healthy
-                  or unhealthy."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This process of examination ensures that individuals are
-                constantly measured against institutional standards, reinforcing
-                the need for conformity and self-regulation.
-              </p>
+              <p className="section-subtitle">Examples of Negative Docility</p>
+              <ul className="section-list !list-disc !mb-6 !lg:mb-8">
+                <li className="section-paragraph">
+                  Employees who are conditioned to accept long working hours,
+                  low wages, and unfair treatment without questioning authority.
+                </li>
+                <li className="section-paragraph">
+                  Schools that focus only on obedience and rote learning,
+                  discouraging creativity and critical thinking.
+                </li>
+                <li className="section-paragraph">
+                  Citizens in an authoritarian regime avoid speaking freely,
+                  fearing punishment.
+                </li>
+                <li className="section-paragraph">
+                  Societal expectations that force individuals (especially women
+                  and marginalized groups) to conform to restrictive roles.
+                </li>
+                <li className="section-paragraph">
+                  A woman is expected to dress and behave in a certain way to be
+                  socially accepted, limiting her freedom of expression.
+                </li>
+              </ul>
 
-              {/* Analysis Point 6: Partitioning of Time and Space */}
-              <p className="section-subtitle">
-                6. Partitioning of Time and Space
-              </p>
               <p className="section-paragraph">
-                Discipline is imposed by structuring time and space in a way
-                that optimizes control. Timetables, schedules, and spatial
-                organization (e.g., desks in classrooms or workstations in
-                factories) regulate when and where people move, shaping their
-                behavior and making them more predictable and controllable.
-              </p>
-              <p className="section-quote">
-                Example:
-                <em className="section-quote-em">
-                  "Institutions impose strict routines, such as school bells,
-                  work shifts, and military drills, to regulate behavior."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This structuring of time and space ensures that individuals are
-                constantly under the influence of institutional control, even in
-                the absence of direct supervision.
-              </p>
-
-              {/* Analysis Point 7: Training and Repetition */}
-              <p className="section-subtitle">7. Training and Repetition</p>
-              <p className="section-paragraph">
-                Foucault describes how institutions train the body to perform
-                specific functions efficiently through repetitive exercises and
-                routines. This training makes actions automatic and ensures that
-                the body remains useful while being submissive to authority.
-              </p>
-              <p className="section-quote">
-                Example:
-                <em className="section-quote-em">
-                  "A worker in a factory performs repetitive tasks to maximize
-                  efficiency, while a soldier is trained to act with precision
-                  in high-pressure situations."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This process of training and repetition ensures that individuals
-                become efficient tools for institutional goals, while also
-                internalizing the norms of discipline.
-              </p>
-
-              {/* Analysis Point 8: Internalization of Discipline */}
-              <p className="section-subtitle">
-                8. Internalization of Discipline
-              </p>
-              <p className="section-paragraph">
-                The ultimate goal of disciplinary power is the internalization
-                of discipline, where individuals begin to regulate their own
-                behavior without needing external enforcement. Over time,
-                individuals internalize the norms and expectations imposed by
-                institutions, policing their own actions, thoughts, and
-                behaviors.
-              </p>
-              <p className="section-quote">
-                Example:
-                <em className="section-quote-em">
-                  "A citizen follows societal norms, such as dressing
-                  appropriately or speaking in a certain way, without needing
-                  constant enforcement."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This internalization ensures that individuals remain docile and
-                conforming, even in the absence of direct supervision.
-              </p>
-
-              {/* Analysis Point 9: Positive and Negative Docility */}
-              <p className="section-subtitle">
-                9. Positive and Negative Docility
-              </p>
-              <p className="section-paragraph">
-                Foucault’s concept of docility can have both positive and
-                negative implications. On the one hand, discipline and training
-                can lead to personal growth, skill development, and social
-                order. On the other hand, docility can become a tool of
-                oppression when individuals are excessively controlled,
-                manipulated, or made passive by systems of power.
-              </p>
-              <p className="section-quote">
-                Example of Positive Docility:
-                <em className="section-quote-em">
-                  "Students follow structured learning routines, which help them
-                  acquire knowledge and develop intellectual discipline."
-                </em>
-              </p>
-              <p className="section-quote">
-                Example of Negative Docility:
-                <em className="section-quote-em">
-                  "Employees who are conditioned to accept long working hours
-                  and low wages without questioning authority."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This duality highlights the potential benefits and dangers of
-                disciplinary power, depending on how it is applied.
+                In these cases, docility leads to **oppression**, preventing
+                individuals from questioning authority, resisting unfair
+                systems, or thinking independently.
               </p>
             </div>
           </section>
-
           {/* Q&A Section */}
           <section id="qna" className="section-content">
             <h2 className="section-title">Questions & Answers</h2>

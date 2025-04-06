@@ -7,7 +7,7 @@ export default function Home() {
     <main className="max-w-4xl lg:max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-8 ">
       <Subjects />
       <WeeklyPlanner />
-      <MidtermExamPlanner />
+      {/* <MidtermExamPlanner /> */}
     </main>
   );
 }
