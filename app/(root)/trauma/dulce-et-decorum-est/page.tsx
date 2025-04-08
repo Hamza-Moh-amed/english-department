@@ -175,158 +175,207 @@ export default function DulceEtDecorumEst() {
           <section id="analysis" className="section-content">
             <h2 className="section-title">Analysis</h2>
             <div className="section-block">
-              {/* Analysis Point 1: Trauma-Informed Perspective */}
-              <p className="section-subtitle">1. Trauma-Informed Perspective</p>
+              {/* Analysis Point 1: Themes */}
+              <p className="section-subtitle">
+                1. Themes: War, Trauma, and the Myth of Glory
+              </p>
               <p className="section-paragraph">
-                Wilfred Owen's <em>Dulce et Decorum Est</em> is a visceral
-                portrayal of the physical and psychological horrors of war. The
-                poem dismantles the romanticized notion of heroic sacrifice by
-                exposing the brutal reality of combat, where soldiers are
-                reduced to images of suffering and dehumanization. In this work,
-                Owen's depictions mirror the dissociative states and intrusive
-                memories described in trauma studies. Judith Herman, in{" "}
-                <em>Trauma and Recovery</em>, argues that trauma fragments one’s
-                experience, leading to disjointed memories and overwhelming
-                feelings of despair—an effect that Owen captures through his
-                abrupt tonal shifts and fragmented narrative style.
+                Wilfred Owen’s *"Dulce et Decorum Est"* explores the horrific
+                realities of war, dismantling the romanticized narrative of
+                dying for one’s country. The poem focuses on the physical and
+                psychological toll on soldiers, revealing the brutal truth
+                behind patriotic propaganda. The Latin phrase “Dulce et decorum
+                est pro patria mori” (“It is sweet and fitting to die for one’s
+                country”) is used ironically to expose the tragic lie sold to
+                the youth.
               </p>
               <p className="section-quote">
                 Quote:
                 <em className="section-quote-em">
-                  "Bent double, like old beggars under sacks, / Knock-kneed,
-                  coughing like hags"
+                  "My friend, you would not tell with such high zest / To
+                  children ardent for some desperate glory, / The old Lie: Dulce
+                  et decorum est / Pro patria mori."
                 </em>
               </p>
               <p className="section-paragraph">
-                This imagery ties physical violence to emotional disturbance,
-                suggesting that the consequences of such abuse can leave deep
-                psychological scars. The “silence of blood” implies a lasting
-                internalized silence, where trauma becomes part of the
-                individual's existence, muted but persistent.
+                These closing lines denounce the glorification of war, calling
+                out those who perpetuate false ideals to impressionable young
+                men, who often pay the ultimate price.
               </p>
 
-              {/* Analysis Point 2: Literary Devices & Imagery */}
-              <p className="section-subtitle">2. Literary Devices & Imagery</p>
+              {/* Analysis Point 2: Imagery */}
+              <p className="section-subtitle">
+                2. Imagery: Vivid, Graphic, and Nightmarish
+              </p>
               <p className="section-paragraph">
-                Owen employs stark imagery and striking similes to evoke the
-                grotesque realities of war. For example, the opening lines,{" "}
-                <em>
-                  "Bent double, like old beggars under sacks, / Knock-kneed,
-                  coughing like hags"
+                Owen uses grotesque and visceral imagery to depict the horrors
+                of trench warfare. From men “bent double, like old beggars” to
+                the haunting image of a soldier dying in a gas attack, the poem
+                plunges the reader into the physical suffering and sensory
+                overload of war. These stark visuals make the reader feel the
+                exhaustion, confusion, and helplessness of the soldiers.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "He plunges at me, guttering, choking, drowning."
                 </em>
-                , immediately strip away any romanticism and lay bare the
-                physical deterioration and dehumanization of soldiers. Such
-                vivid comparisons resonate with Bessel van der Kolk’s ideas in{" "}
-                <em>The Body Keeps the Score</em>, which emphasize that the body
-                holds onto trauma in very concrete, physical ways. The imagery
-                of soldiers as “blood-shod” or “limped on” creates a sensory
-                record of pain that echoes the persistent somatic memories of
-                trauma survivors.
+              </p>
+              <p className="section-paragraph">
+                This harrowing line captures the speaker’s traumatic memory of a
+                comrade dying before his eyes—an experience that continues to
+                haunt him in his dreams.
               </p>
 
-              {/* Analysis Point 3: Structural Elements and Repetition */}
+              {/* Analysis Point 3: Tone */}
               <p className="section-subtitle">
-                3. Structural Elements and Repetition
+                3. Tone: Bitter, Condemning, and Mournful
               </p>
               <p className="section-paragraph">
-                The poem’s structure—with its fragmented lines, abrupt breaks,
-                and rhythmic repetitions—mirrors the disjointed nature of
-                traumatic memory. The repeated call,{" "}
-                <em>"Gas! GAS! Quick, boys!"</em>, not only functions as an
-                auditory jolt, reminiscent of flashbacks described in trauma
-                research, but also reinforces the cyclical nature of trauma as
-                memories and sensations recur involuntarily. This fragmented
-                narrative structure aligns with Herman’s perspective on how
-                trauma disrupts the continuity of experience, leaving survivors
-                with a series of unintegrated, haunting snapshots.
+                The poem’s tone is marked by anger and deep sorrow. Owen is
+                bitter toward those who glorify war without understanding its
+                consequences. His description of the gas attack and the
+                suffering of soldiers is not just recounting events, but a
+                passionate indictment of the systems that allow young men to be
+                sacrificed in the name of patriotism.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Obscene as cancer, bitter as the cud / Of vile, incurable
+                  sores on innocent tongues."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This simile-laden passage is steeped in revulsion, emphasizing
+                the physical deformities and agony inflicted by war—contrasting
+                sharply with the sanitized notions of honor and sacrifice.
               </p>
 
-              {/* Analysis Point 4: Quotations and Sensory Detail */}
+              {/* Analysis Point 4: Symbols */}
               <p className="section-subtitle">
-                4. Quotations and Sensory Detail
+                4. Symbols: The Gas Attack and the “Old Lie”
               </p>
               <p className="section-paragraph">
-                Owen's use of intense, disturbing details—such as{" "}
-                <em>"As under a green sea, I saw him drowning"</em>—creates a
-                sensory overload that transports the reader into the midst of
-                chaos. The vivid depiction of a soldier drowning in a “green
-                sea” of gas fumes illustrates how trauma overwhelms both the
-                senses and the mind. Van der Kolk highlights in{" "}
-                <em>The Body Keeps the Score</em> how sensory memories are
-                central to traumatic experiences, suggesting that such vivid
-                images are a way for the body to encode and re-experience
-                overwhelming stress.
+                The gas attack becomes a symbol of the unpredictable and
+                senseless violence of war. The “Old Lie” symbolizes the
+                patriotic rhetoric used to manipulate young men into enlisting.
+                Through these symbols, Owen challenges nationalistic ideologies
+                and questions their ethical and moral foundations.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Gas! GAS! Quick, boys!—An ecstasy of fumbling"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The frantic reaction to the gas attack symbolizes the constant
+                danger and dehumanizing panic that defined life in the
+                trenches—completely at odds with the idea of war as noble.
               </p>
 
-              {/* Analysis Point 5: Author Background & Personal Experience */}
+              {/* Analysis Point 5: Structure and Form */}
               <p className="section-subtitle">
-                5. Author Background & Personal Experience
+                5. Structure and Form: Narrative Progression and Disruption
               </p>
               <p className="section-paragraph">
-                Owen’s firsthand experience on the front lines lends a profound
-                authenticity to his work. His intimate knowledge of the physical
-                and psychological toll of war allows him to document not only
-                the visible wounds but also the invisible scars left on the
-                psyche. This direct exposure to trauma is a key factor in his
-                ability to critique the glorified narratives of war. In both{" "}
-                <em>Trauma and Recovery</em> and{" "}
-                <em>The Body Keeps the Score</em>, the authors stress that
-                personal experience is crucial for understanding trauma. Owen’s
-                reflections, filled with raw emotion and vivid detail, serve as
-                a testament to the enduring impact of war on both the body and
-                mind.
+                The poem is written in a loosely structured iambic pentameter
+                with irregular rhyme and rhythm, mirroring the chaos of war. It
+                follows a clear narrative arc: from exhaustion, to crisis, to
+                trauma, and then to a moral reckoning. The sudden shift in tempo
+                during the gas attack disrupts the poem’s flow, pulling the
+                reader into the chaos and urgency experienced by the soldiers.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Men marched asleep. Many had lost their boots, / But limped
+                  on, blood-shod."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The repetitive, almost trudging rhythm of this line mimics the
+                soldiers’ weary footsteps, contributing to the immersive
+                structure of the poem.
               </p>
 
-              {/* Analysis Point 6: Contextual and Cultural Critique */}
+              {/* Analysis Point 6: Literary Devices */}
               <p className="section-subtitle">
-                6. Contextual and Cultural Critique
+                6. Literary Devices: Simile, Alliteration, and Enjambment
               </p>
               <p className="section-paragraph">
-                The final lines of the poem—
-                <em>"The old Lie: Dulce et decorum est / Pro patria mori"</em>
-                —deliver a powerful critique of the cultural myth that glorifies
-                war as noble and honorable. This bitter irony challenges the
-                societal narratives that valorize sacrifice while ignoring the
-                traumatic costs borne by soldiers. From a trauma-informed
-                perspective, such a critique is essential; it underscores the
-                need to re-examine cultural values that contribute to the
-                perpetuation of violence and neglect the long-term psychological
-                damage inflicted on individuals.
+                Owen utilizes similes ("like old beggars"), alliteration
+                ("knock-kneed, coughing"), and enjambment to heighten the poem's
+                impact. These devices reinforce the disorientation and horror of
+                war. The enjambment also accelerates the pace, especially in
+                moments of crisis, mirroring the breathlessness of soldiers
+                reacting under threat.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "And watch the white eyes writhing in his face, / His hanging
+                  face, like a devil’s sick of sin;"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This disturbing simile not only dehumanizes the dying man but
+                suggests the depth of the psychological trauma inflicted by the
+                horrors witnessed—both on the dying and the observer.
               </p>
 
-              {/* Analysis Point 7: Integration of Trauma Theories */}
+              {/* Analysis Point 7: Historical and Social Context */}
               <p className="section-subtitle">
-                7. Integration of Trauma Theories
+                7. Historical and Social Context
               </p>
               <p className="section-paragraph">
-                Both Judith Herman and Bessel van der Kolk provide frameworks
-                that illuminate the lingering effects of trauma. Herman's work
-                emphasizes the disruption of memory and identity following
-                traumatic events, while van der Kolk focuses on the body’s
-                somatic response to trauma. Owen’s poem encapsulates these
-                ideas: the disjointed, repetitive structure evokes the
-                fragmented nature of traumatic memory, and the relentless
-                sensory detail mirrors the physical manifestations of trauma
-                stored in the body. Through these lenses,{" "}
-                <em>Dulce et Decorum Est</em> becomes not just a war poem but a
-                profound exploration of how extreme experiences shatter the
-                human spirit.
+                Written during World War I by a soldier who experienced its
+                horrors firsthand, *"Dulce et Decorum Est"* stands as one of the
+                most powerful anti-war poems in literature. Owen wrote it in
+                response to the jingoistic poetry and propaganda of his time,
+                particularly addressing writers like Jessie Pope who encouraged
+                men to enlist. His poem aimed to confront and correct these
+                dangerously idealized representations of war.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "If in some smothering dreams, you too could pace / Behind the
+                  wagon that we flung him in"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                By inviting the reader to witness the aftermath of war
+                firsthand, Owen underscores the emotional burden soldiers carry
+                and challenges society's detachment from the realities of
+                combat.
               </p>
 
-              {/* Analysis Point 8: Overall Interpretation */}
-              <p className="section-subtitle">8. Overall Interpretation</p>
+              {/* Analysis Point 8: The Speaker’s Voice */}
+              <p className="section-subtitle">
+                8. The Speaker’s Voice: Witness and Moral Authority
+              </p>
               <p className="section-paragraph">
-                In sum, <em>Dulce et Decorum Est</em> offers a comprehensive
-                critique of war that is deeply informed by trauma. Owen’s vivid
-                imagery, structural fragmentation, and personal insight
-                collectively create a powerful narrative that challenges the
-                romanticized portrayals of combat. By integrating perspectives
-                from <em>Trauma and Recovery</em> and{" "}
-                <em>The Body Keeps the Score</em>, we gain a deeper
-                understanding of how the poem reflects the enduring impact of
-                trauma on both individuals and society. This analysis not only
-                unpacks the literary techniques used by Owen but also situates
-                the poem within a broader discourse on trauma and recovery.
+                The speaker’s voice is that of a disillusioned soldier, who
+                speaks not only from experience but also from a place of moral
+                urgency. His voice is at once weary and furious, acting as a
+                witness to the suffering endured and an accuser of those who
+                perpetuate the myth of noble war. By sharing his trauma, the
+                speaker demands that others see the truth he can never unsee.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "In all my dreams before my helpless sight, / He plunges at
+                  me, guttering, choking, drowning."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                These lines reveal the psychological scars of war, presenting
+                the speaker not as a hero, but as a haunted survivor whose
+                nightmares serve as a warning to those who glorify war from a
+                safe distance.
               </p>
             </div>
           </section>

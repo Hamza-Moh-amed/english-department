@@ -156,208 +156,142 @@ export default function Rage() {
           <section id="analysis" className="section-content">
             <h2 className="section-title">Analysis</h2>
             <div className="section-block">
-              {/* Analysis Point 1: Poem Structure and Form */}
-              <p className="section-subtitle">1. Poem Structure and Form</p>
-              <p className="section-paragraph">
-                "Rage" is a free verse poem that does not adhere to a strict
-                meter or rhyme scheme. The fluidity of its structure mirrors the
-                chaotic and disruptive nature of trauma, with lines that seem to
-                spiral in on themselves. This lack of structure reflects the
-                unpredictability and uncontrollability of the emotional turmoil
-                the speaker faces. Free verse allows the poem to flow freely,
-                not confined to traditional forms, symbolizing how trauma does
-                not conform to expectations or order. The fragmentation of the
-                lines conveys the speaker’s fragmented psyche, disrupted by
-                painful memories.
-              </p>
-              <p className="section-paragraph">
-                The irregularity in the poem’s form mirrors the disjointedness
-                of the speaker’s thoughts, as they jump between time and space.
-                This reflects the experience of PTSD, where the mind struggles
-                to maintain a cohesive narrative due to the trauma. The
-                emotional weight of the speaker’s words is heightened by the use
-                of enjambment, where sentences spill over into the next line
-                without punctuation. This creates a sense of urgency and flow,
-                reflecting the overwhelming and incessant nature of trauma.
-              </p>
-
-              {/* Analysis Point 2: Trauma and PTSD in the Poem */}
-              <p className="section-subtitle">2. Trauma and PTSD in the Poem</p>
-              <p className="section-paragraph">
-                The poem is a powerful exploration of trauma, particularly the
-                emotional scars left by a difficult past. The speaker’s
-                description of “the red song in the night” hints at memories of
-                violence or emotional turmoil that resurface during the night,
-                the most vulnerable time for the mind. This imagery evokes an
-                intense sense of pain, suggesting that trauma often rears its
-                head in the quiet moments when the speaker is left alone with
-                their thoughts.
-              </p>
-              <p className="section-paragraph">
-                The child in the poem serves as a powerful symbol of innocence
-                and vulnerability, affected by the trauma experienced by the
-                speaker. The line, "when the child’s mother smiles / you see on
-                her cheekbones / a truth you will never confess," speaks to the
-                hidden nature of the trauma, a truth that the speaker cannot
-                confront or admit. The smile, which seems like a symbol of
-                normalcy and peace, is contrasted with the underlying pain,
-                represented by the "truth" that remains unspoken. This suggests
-                how trauma can affect not only the individual but also their
-                relationships with others, as the pain is often carried in
-                silence.
-              </p>
-              <p className="section-paragraph">
-                The line, "in your dreams she’s a tree / that will never come to
-                leaf," symbolizes the stunted emotional growth resulting from
-                trauma. The imagery of a tree unable to leaf suggests a state of
-                arrested development, where the individual cannot move forward
-                or grow because of unresolved pain. The inability of the tree to
-                leaf is also symbolic of the speaker’s inability to heal, as the
-                trauma continues to shape their emotional and psychological
-                state.
-              </p>
-              <p className="section-paragraph">
-                The repeated imagery of the night—"the red song in the night"
-                and "the damp rose of her body"—further emphasizes how trauma is
-                often most present in the dark moments of life, when the speaker
-                cannot escape their thoughts. The night is portrayed as a time
-                of introspection and emotional vulnerability, where the speaker
-                is forced to confront their own guilt, pain, and unresolved
-                trauma.
-              </p>
-
-              {/* Analysis Point 3: The Role of Memory */}
-              <p className="section-subtitle">3. The Role of Memory</p>
-              <p className="section-paragraph">
-                Memory plays a central role in the poem, with the speaker
-                reflecting on moments of damage and pain. The phrase "dreams do
-                not lie" emphasizes how the past continues to haunt the present.
-                This indicates how traumatic memories shape the present,
-                altering perceptions and actions. The repetition of these
-                memories reflects the nature of PTSD, where trauma can replay in
-                the mind uncontrollably, regardless of whether the individual is
-                awake or asleep.
-              </p>
-              <p className="section-paragraph">
-                The dreams in the poem serve as a means of processing past
-                trauma. In the dream, the child is described as "a tree that
-                will never come to leaf," a metaphor for the stagnation and
-                emotional paralysis the speaker experiences. This suggests that
-                the trauma has prevented emotional growth and healing, as the
-                speaker cannot move past the painful memories.
-              </p>
-              <p className="section-paragraph">
-                The constant presence of these memories, portrayed in the line
-                "dreams do not lie," highlights the inescapable nature of
-                trauma. The speaker's dreams reveal a distorted reality in which
-                they are haunted by their past, unable to escape the emotional
-                scars that continue to shape their actions and interactions with
-                others.
-              </p>
-
-              {/* Analysis Point 4: Guilt and Self-Blame */}
-              <p className="section-subtitle">4. Guilt and Self-Blame</p>
-              <p className="section-paragraph">
-                The speaker’s guilt and self-blame are central to the emotional
-                landscape of the poem. In the line "in your dreams you have
-                sullied and murdered," the speaker confronts the guilt of their
-                past actions or perceived failures. The words "sullied" and
-                "murdered" imply that the speaker believes they have irreparably
-                harmed the child, further deepening the emotional burden they
-                carry. This may reflect feelings of responsibility for the
-                trauma the child experiences, even if the trauma was not
-                directly caused by the speaker’s actions.
-              </p>
-              <p className="section-paragraph">
-                The poem’s constant interplay between the speaker's actions and
-                their emotional repercussions suggests that trauma is not only
-                about what has been done to the individual but also about how
-                they perceive their role in causing harm to others. The
-                speaker’s self-judgment, as seen in the metaphor of "dreams do
-                not lie," reveals how trauma can distort the individual’s
-                perception of themselves, often leading to feelings of shame and
-                self-recrimination.
-              </p>
-              <p className="section-paragraph">
-                The repeated line "you have sullied and murdered" emphasizes the
-                enduring nature of guilt and the inability to escape from the
-                trauma. The poem portrays how guilt is internalized and often
-                becomes a part of the individual’s identity, making it difficult
-                to move forward.
-              </p>
-
-              {/* Analysis Point 5: The Interruption of Healing */}
-              <p className="section-subtitle">5. The Interruption of Healing</p>
-              <p className="section-paragraph">
-                Healing is portrayed as an interrupted process in "Rage." The
-                line "when the child’s mother smiles / you see on her cheekbones
-                / a truth you will never confess" implies that healing cannot
-                occur because of the constant awareness of the truth that the
-                speaker cannot face. The smile, which might normally represent a
-                moment of peace or joy, instead becomes a symbol of the ongoing
-                emotional burden the speaker carries.
-              </p>
-              <p className="section-paragraph">
-                The idea of the tree that "will never come to leaf" represents
-                the speaker’s emotional paralysis. Trauma has prevented growth
-                and healing, leaving the speaker stuck in a state of emotional
-                stagnation. This image underscores the difficulty of moving
-                forward when the past continues to exert such a powerful grip on
-                the individual.
-              </p>
-              <p className="section-paragraph">
-                The poem’s imagery, including the "red bird’s wings" and "a
-                watch you dropped on the dark stones," suggests that healing is
-                constantly interrupted by the harsh reality of trauma. These
-                images reflect moments of clarity and hope that are short-lived,
-                as they are often quickly overtaken by the pain of the past.
-              </p>
-
-              {/* Analysis Point 6: The Impact of Silence */}
-              <p className="section-subtitle">6. The Impact of Silence</p>
-              <p className="section-paragraph">
-                Silence plays a significant role in the poem, especially when it
-                comes to unspoken truths. The line, "a truth you will never
-                confess," suggests that the speaker is burdened by something
-                they cannot or will not speak. This silence is not a peaceful
-                one, but rather one that reflects the inability to confront the
-                trauma fully.
-              </p>
-              <p className="section-paragraph">
-                The silence around the trauma suggests a pervasive,
-                unacknowledged pain that the speaker is unable to express,
-                either to others or even to themselves. This emotional
-                suppression contributes to the cyclical nature of trauma, where
-                the speaker’s silence only deepens the wound.
-              </p>
-              <p className="section-paragraph">
-                In this sense, the poem explores the damaging effects of silence
-                on mental health. The refusal or inability to acknowledge
-                trauma, represented by the "truth you will never confess,"
-                prevents healing and keeps the speaker trapped in their
-                emotional pain.
-              </p>
-
-              {/* Analysis Point 7: The Connection Between Past and Present */}
+              {/* Analysis Point 1: Themes */}
               <p className="section-subtitle">
-                7. The Connection Between Past and Present
+                1. Themes: Abuse, Duality, Guilt, and Irreparable Damage
               </p>
               <p className="section-paragraph">
-                The poem also examines the blurred line between past and
-                present. The line "in your dreams you have sullied and murdered"
-                suggests that the trauma experienced in the past continues to
-                influence the speaker’s present thoughts and actions. The past
-                is not something the speaker can escape from; rather, it
-                infiltrates their waking life, particularly through dreams.
+                Mary Oliver's *Rage* confronts the devastating impact of
+                domestic abuse from the perspective of the abuser. The poem
+                delves into the contrast between public virtue and private
+                violence, examining the long-term consequences of trauma on a
+                child and the haunting guilt that follows the abuser into dreams
+                and memory.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "And forever those nights snarl / the delicate machinery of
+                  the days."
+                </em>
               </p>
               <p className="section-paragraph">
-                The use of dreams as a motif in the poem serves as a powerful
-                reminder that trauma cannot be easily compartmentalized. The
-                dreams, as "truths that do not lie," reveal the depth of the
-                speaker's inner conflict, where the past is constantly intruding
-                upon the present. This perpetual return to the past reflects the
-                cyclical nature of trauma, where one cannot move forward until
-                the past is confronted and healed.
+                This line encapsulates the poem’s central idea: violence, though
+                often hidden, disrupts the flow of life indefinitely. The
+                emotional and psychological wreckage is not confined to the
+                moment—it seeps into every future interaction and day.
+              </p>
+
+              {/* Analysis Point 2: Tone */}
+              <p className="section-subtitle">
+                2. Tone: Condemning, Haunting, Lyrical
+              </p>
+              <p className="section-paragraph">
+                The tone of the poem is deeply condemning and filled with quiet
+                fury. Although the language is lyrical and restrained, there is
+                an undercurrent of emotional devastation and moral reckoning.
+                The tone sharpens in the later stanzas as guilt manifests into
+                nightmare imagery.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "In your dreams you have sullied and murdered, / and dreams do
+                  not lie."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This stark ending delivers a final, undeniable truth: the
+                subconscious cannot be fooled by public appearances or
+                self-deception. The guilt lives on.
+              </p>
+
+              {/* Analysis Point 3: Structure and Point of View */}
+              <p className="section-subtitle">
+                3. Structure and Point of View: Second Person Address
+              </p>
+              <p className="section-paragraph">
+                The poem is told in the second person, directly addressing the
+                abuser. This technique intensifies the emotional impact, forcing
+                an unflinching confrontation. There’s a subtle shift between
+                external observation and internal psychological dissection.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "You are the dark song / of the morning"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Using second person creates an accusatory tone while also
+                implicating the reader, making the abuse and its echoes more
+                visceral and harder to distance from.
+              </p>
+
+              {/* Analysis Point 4: Imagery and Symbolism */}
+              <p className="section-subtitle">
+                4. Imagery and Symbolism: Night vs. Day, Tree, Watch
+              </p>
+              <p className="section-paragraph">
+                Night and day represent the abuser’s dual life—respectable in
+                public, monstrous in private. Oliver also uses potent metaphors
+                to symbolize the lasting damage of abuse: the child becomes a
+                "tree / that will never come to leaf" and a "watch / you dropped
+                on the dark stones." These images reflect stunted growth and
+                irreversible emotional shattering.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "In your dreams she’s a watch / you dropped on the dark stones
+                  / till no one could gather the fragments—"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The metaphor of the watch suggests both the destruction of
+                innocence and time—it cannot be undone or rewound. The damage is
+                permanent.
+              </p>
+
+              {/* Analysis Point 5: Psychological Consequences */}
+              <p className="section-subtitle">
+                5. Psychological Consequences: Repression and Haunting Memory
+              </p>
+              <p className="section-paragraph">
+                The poem deals as much with memory as it does with action. The
+                abuser continues to be haunted—not only by what was done, but by
+                the visible effects on the child and mother. The speaker
+                acknowledges that some truths can never be spoken, but they
+                linger on the face of the survivor.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "When the child’s mother smiles / you see on her cheekbones /
+                  a truth you will never confess;"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                These lines portray how trauma leaves its mark—not only on the
+                body but on expression, gesture, and emotional presence. Even
+                silence speaks.
+              </p>
+
+              {/* Analysis Point 6: Duality and Self-Deception */}
+              <p className="section-subtitle">6. Duality and Self-Deception</p>
+              <p className="section-paragraph">
+                The poem explores the disturbing duality of the abuser’s
+                identity: a respectable figure by day and a violent presence by
+                night. This duality is key to understanding how abuse is hidden
+                and rationalized, both by society and within the abuser’s mind.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "you become / the wise and powerful one / who makes all the
+                  days / possible in the world."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The irony is piercing—this public role of stability contrasts
+                sharply with the chaos wrought in private. Oliver confronts the
+                reader with this hypocrisy head-on.
               </p>
             </div>
           </section>

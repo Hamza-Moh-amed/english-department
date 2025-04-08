@@ -302,68 +302,201 @@ export default function WithNoImmediateCause() {
           <section id="analysis" className="section-content">
             <h2 className="section-title">Analysis</h2>
             <div className="section-block">
-              {/* Analysis Point 1: Trauma and PTSD in the Poem */}
-              <p className="section-subtitle">1. Trauma and PTSD in the Poem</p>
-              <p className="section-paragraph">
-                Ntozake Shange's poem vividly portrays the pervasive trauma
-                inflicted by systemic violence against women and children. The
-                repetition of time intervals—"every 3 minutes," "every 5
-                minutes," "every 10 minutes"—acts as a haunting reminder of the
-                relentless frequency of these acts. This repetition mirrors the
-                intrusive thoughts and flashbacks experienced by survivors of
-                trauma, particularly those with PTSD. The poem's graphic
-                imagery, such as "hot water or boiling sperm decorate her body,"
-                forces readers to confront the physical and emotional scars left
-                by such violence, emphasizing the lasting psychological impact
-                on survivors.
-              </p>
-
-              {/* Analysis Point 2: Structure and Narrative Voice */}
+              {/* Analysis Point 1: Themes */}
               <p className="section-subtitle">
-                2. Structure and Narrative Voice
+                1. Themes: Gender-Based Violence and Societal Complicity
               </p>
               <p className="section-paragraph">
-                The poem's free-verse structure and fragmented lines reflect the
-                disjointed nature of traumatic memory. Shange's narrative voice
-                shifts between personal reflection and collective experience,
-                creating a sense of shared suffering. The speaker's inability to
-                distinguish between potential perpetrators—"an old man who may
-                have beaten his old wife" or "an east Indian man who might have
-                held his old lady onto a hot pressing iron"—highlights the
-                pervasive fear and hypervigilance common in PTSD. This
-                uncertainty underscores the constant state of alertness that
-                trauma survivors often endure.
+                *With No Immediate Cause* confronts the pervasive epidemic of
+                violence against women and girls, highlighting not only the
+                frequency of abuse but the social apathy that allows it to
+                continue. Shange’s raw and unflinching tone insists that we
+                cannot afford to ignore this reality. The poem is both an
+                indictment and a cry of anguish—demanding awareness,
+                accountability, and change.
               </p>
-
-              {/* Analysis Point 3: Thematic Analysis */}
-              <p className="section-subtitle">3. Thematic Analysis</p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "every 3 minutes a woman is beaten / every five minutes a /
+                  woman is raped"
+                </em>
+              </p>
               <p className="section-paragraph">
-                Shange's poem delves into the systemic nature of gender-based
-                violence and its devastating psychological consequences. The
-                recurring imagery of broken bodies—"the woman's bloated body in
-                the river floating," "the child bleeding in the 59th street
-                corridor"—serves as a metaphor for the fragmentation of the self
-                caused by trauma. The poem also critiques societal indifference,
-                as seen in the speaker's search for an "announcement" of these
-                crimes, only to find a dismissive statement about "alleged
-                battered women." This reflects the gaslighting and invalidation
-                often faced by trauma survivors, exacerbating their PTSD.
+                By opening with stark statistics, Shange sets the stage for a
+                brutal truth: violence is a routine occurrence, not an anomaly.
+                This reality is not distant—it's woven into the fabric of
+                everyday life.
               </p>
 
-              {/* Analysis Point 4: Emotional Resonance and Call to Action */}
+              {/* Analysis Point 2: Structure and Form */}
               <p className="section-subtitle">
-                4. Emotional Resonance and Call to Action
+                2. Structure and Form: Free Verse and Repetition
               </p>
               <p className="section-paragraph">
-                The poem's raw emotional intensity—"I spit up I vomit I am
-                screaming"—captures the visceral reaction to trauma and the
-                urgency of addressing it. Shange's use of rhetorical
-                questions—"have you hurt a woman today," "did you beat a woman
-                today"—forces readers to confront their complicity in a culture
-                that perpetuates violence. By ending with the phrase "immediate
-                cause," Shange challenges the notion that violence against women
-                is ever without cause, urging society to acknowledge and address
-                the deep-rooted trauma it inflicts.
+                The poem uses free verse to mirror the chaotic, uncontrolled
+                nature of the violence it describes. Shange rejects traditional
+                poetic structure to allow the rawness of her message to
+                dominate. Repetition of time intervals ("every 3 minutes...
+                every 5 minutes... every 10 minutes") drives home the constant,
+                numbing frequency of abuse.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "every three minutes / every five minutes / every ten minutes
+                  / every day"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The repetition transforms into a drumbeat of horror, emphasizing
+                how normalized violence has become—and how easily it’s ignored.
+              </p>
+
+              {/* Analysis Point 3: Tone */}
+              <p className="section-subtitle">
+                3. Tone: Accusatory, Desperate, and Furious
+              </p>
+              <p className="section-paragraph">
+                Shange’s tone is furious and unrelenting, filled with justified
+                paranoia and anguish. The speaker interrogates the men she
+                encounters, unable to trust even routine acts like buying coffee
+                or riding the subway. There is no relief, only suspicion—because
+                violence has made safety impossible.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "have you hurt a woman today / did you beat a woman today"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                These repeated, explicit questions express both personal fear
+                and societal indictment. The poem demands that men confront
+                their actions—or complicity.
+              </p>
+
+              {/* Analysis Point 4: Imagery */}
+              <p className="section-subtitle">
+                4. Imagery: Graphic Violence and Everyday Horror
+              </p>
+              <p className="section-paragraph">
+                Shange employs disturbing and graphic imagery to make the reader
+                experience the horror women endure. References to burning with
+                irons, steel rods, and boiling coffee jar the reader out of
+                complacency. The juxtaposition of these atrocities with ordinary
+                tasks like buying a newspaper or drinking coffee deepens the
+                emotional impact.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "hot water or / boiling sperm decorate her body"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The violence is so extreme it feels surreal—yet the poem insists
+                it is real and happening constantly. The imagery forces the
+                reader to witness what is too often hidden.
+              </p>
+
+              {/* Analysis Point 5: Irony and Sarcasm */}
+              <p className="section-subtitle">
+                5. Irony and Sarcasm: Critique of Legal Systems
+              </p>
+              <p className="section-paragraph">
+                The title and final stanza wield biting irony. The phrase *“with
+                no immediate cause”* reflects how legal systems often demand
+                justifications from battered women, even when their trauma is
+                longstanding and ongoing. Shange flips this phrase on its head,
+                showing that there is *every* cause for women to fight back—if
+                they do.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "there is some concern / that alleged battered women / might
+                  start to murder their / husbands and lovers with no /
+                  immediate cause"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This bitter sarcasm reveals how the justice system fails to
+                recognize cumulative abuse as valid reason for retaliation,
+                privileging abusers while silencing survivors.
+              </p>
+
+              {/* Analysis Point 6: The Speaker’s Voice */}
+              <p className="section-subtitle">
+                6. The Speaker’s Voice: Personal and Collective
+              </p>
+              <p className="section-paragraph">
+                The speaker is not just one woman, but all women. She carries
+                both her own fear and the voices of every abused woman and girl.
+                Shange uses the first person to collapse the space between
+                individual and collective trauma, showing how universal this
+                threat is.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "I spit up I vomit I am screaming / we all have immediate
+                  cause"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The poem becomes a scream—raw, unedited, and necessary. It
+                refuses to be calm in the face of horror, choosing instead to
+                erupt.
+              </p>
+
+              {/* Analysis Point 7: Intersectionality and Racial Identity */}
+              <p className="section-subtitle">
+                7. Intersectionality and Racial Identity
+              </p>
+              <p className="section-paragraph">
+                Though not overtly about race, the speaker’s interaction with
+                “an east Indian man” and other unnamed men subtly invokes
+                questions of racial dynamics in power, trust, and violence.
+                Shange, a Black feminist, challenges readers to consider how
+                women of color, in particular, are at greater risk and often
+                less protected or believed.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "I bought a paper from an / east Indian man who might / have
+                  held his old lady onto / a hot pressing iron"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                These lines interrogate every man’s capacity for harm while also
+                reflecting the social distrust bred by a system that protects
+                abusers. It's a complex, intersectional fear grounded in real
+                trauma.
+              </p>
+
+              {/* Analysis Point 8: Social Commentary */}
+              <p className="section-subtitle">
+                8. Social Commentary: Silence and Denial
+              </p>
+              <p className="section-paragraph">
+                The poem critiques how society has normalized gender violence.
+                From newspapers that bury the stories, to casual encounters with
+                men who may be abusers, Shange demands that we stop pretending
+                we don’t see what’s happening.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "I looked for the announcement / the discovery of the
+                  dismembered / woman's body"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The speaker’s frantic search for official acknowledgment is
+                symbolic of a wider societal failure to recognize or report the
+                truth. The silence of the media mirrors the silence of victims,
+                reinforcing the cycle of violence.
               </p>
             </div>
           </section>

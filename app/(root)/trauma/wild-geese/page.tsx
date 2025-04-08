@@ -123,92 +123,117 @@ export default function WildGeese() {
           <section id="analysis" className="section-content">
             <h2 className="section-title">Analysis</h2>
             <div className="section-block">
-              {/* Analysis Point 1: Poem Structure and Form */}
-              <p className="section-subtitle">1. Poem Structure and Form</p>
-              <p className="section-paragraph">
-                "Wild Geese" is a free verse poem, structured to allow a natural
-                flow without the constraints of rhyme or meter. This mirrors the
-                theme of the poem itself: the freedom of being true to oneself,
-                without the need for external validation. The lack of a fixed
-                structure emphasizes the idea that life—and our place in the
-                world—does not follow rigid rules or expectations. The openness
-                of the form mirrors the speaker's invitation for
-                self-acceptance, embracing both the messiness and beauty of
-                life.
-              </p>
-
-              {/* Analysis Point 2: Acceptance and Self-Love */}
-              <p className="section-subtitle">2. Acceptance and Self-Love</p>
-              <p className="section-paragraph">
-                A central theme of *Wild Geese* is self-acceptance, and this is
-                most clearly expressed in the opening lines:
-                <br />
-                "You do not have to be good. / You do not have to walk on your
-                knees / for a hundred miles through the desert repenting."
-                <br />
-                Here, the speaker challenges the notion that one must prove
-                their worth through suffering or penance. The reference to
-                walking "on your knees" evokes the image of extreme submission
-                or humility, a common act of contrition. However, the speaker
-                rejects this notion, encouraging a form of spirituality that is
-                grounded in authenticity rather than external sacrifice.
-              </p>
-
-              {/* Analysis Point 3: The Power of Nature */}
-              <p className="section-subtitle">3. The Power of Nature</p>
-              <p className="section-paragraph">
-                Nature plays a crucial role in the poem, serving both as a
-                backdrop and as a metaphor for the cyclical, uncontrollable
-                forces of life. The line "Meanwhile the world goes on. /
-                Meanwhile the sun and the clear pebbles of the rain / are moving
-                across the landscapes..." suggests that nature continues on its
-                course, unaffected by individual turmoil. It reminds the reader
-                that, in the grand scheme of things, personal despair is a small
-                part of a much larger, ongoing process. Nature’s consistency
-                offers comfort, implying that our struggles are part of the vast
-                continuum of life.
-              </p>
-
-              {/* Analysis Point 4: Imagination and Belonging */}
-              <p className="section-subtitle">4. Imagination and Belonging</p>
-              <p className="section-paragraph">
-                Imagination serves as a bridge between the self and the world in
-                *Wild Geese*. The line "the world offers itself to your
-                imagination, / calls to you like the wild geese, harsh and
-                exciting" highlights the power of imagination in helping the
-                individual connect with the world around them. The world itself
-                becomes an open field of possibilities, where the speaker
-                encourages the reader to find their place through the lens of
-                their imagination.
-              </p>
-
-              {/* Analysis Point 5: The Role of Loneliness and Solitude */}
+              {/* Analysis Point 1: Themes */}
               <p className="section-subtitle">
-                5. The Role of Loneliness and Solitude
+                1. Themes: Self-Acceptance, Connection to Nature, Belonging
               </p>
               <p className="section-paragraph">
-                While the poem speaks to the power of connection and belonging,
-                it also acknowledges the existence of loneliness. The line
-                "Whoever you are, no matter how lonely" speaks to the deep
-                isolation that many feel, but it immediately offers a solution:
-                "the world offers itself to your imagination." In this way, the
-                poem provides a remedy for loneliness through the power of
-                self-reflection and imagination. Instead of remaining trapped in
-                loneliness, the speaker suggests that we can find solace in the
-                natural world and the limitless possibilities of our own minds.
+                *Wild Geese* is a gentle yet radical invitation to
+                self-compassion. Mary Oliver challenges the weight of guilt and
+                penance, suggesting instead a return to instinct, truth, and
+                nature. The poem is about belonging—not to human standards, but
+                to the natural world, which accepts us as we are.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "You do not have to be good. / You do not have to walk on your
+                  knees / for a hundred miles through the desert repenting."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                These opening lines dismantle the idea that moral worth is
+                earned through suffering. Instead, the poem offers a path
+                through authenticity and personal truth.
               </p>
 
-              {/* Analysis Point 6: The Freedom to Be */}
-              <p className="section-subtitle">6. The Freedom to Be</p>
+              {/* Analysis Point 2: Tone */}
+              <p className="section-subtitle">
+                2. Tone: Reassuring, Liberating, Meditative
+              </p>
               <p className="section-paragraph">
-                Ultimately, *Wild Geese* is a celebration of the freedom to be
-                oneself. The speaker encourages the reader to let go of societal
-                pressures and to embrace life as it is, with all its joys and
-                struggles. The wild geese, in their flight across the sky,
-                embody the liberation that comes with accepting oneself fully
-                and without reservation. They are free to go where they are
-                called, just as we are encouraged to live authentically, free
-                from shame or guilt.
+                The tone of *Wild Geese* is calm and accepting. It feels like a
+                voice from the earth itself—patient, nonjudgmental, and wise.
+                The poem speaks softly but powerfully, freeing the reader from
+                guilt and isolation.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Tell me about despair, yours, and I will tell you mine. /
+                  Meanwhile the world goes on."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This moment connects human suffering with shared experience and
+                the ongoing motion of life. It acknowledges pain without letting
+                it consume the entire view.
+              </p>
+
+              {/* Analysis Point 3: Nature as Healing */}
+              <p className="section-subtitle">
+                3. Nature as Healing and Grounding Force
+              </p>
+              <p className="section-paragraph">
+                Oliver centers nature as a constant, welcoming presence that
+                helps reorient us to what matters. Rain, trees, rivers, and
+                geese are not just background—they're teachers, guides, and
+                reminders that life continues and we have a place in it.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "Meanwhile the wild geese, high in the clean blue air, / are
+                  heading home again."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The geese become a metaphor for instinctual belonging—no shame,
+                no effort, just a return to what’s true. Their call is both
+                literal and symbolic: nature reminding us we’re part of a bigger
+                story.
+              </p>
+
+              {/* Analysis Point 4: Form and Voice */}
+              <p className="section-subtitle">
+                4. Form and Voice: Free Verse, Second Person
+              </p>
+              <p className="section-paragraph">
+                The poem is written in free verse with a gentle, fluid rhythm.
+                The use of second person directly addresses the reader, creating
+                intimacy and immediacy. It feels like a private conversation or
+                quiet guidance.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "Whoever you are, no matter how lonely, / the world offers
+                  itself to your imagination,"
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This direct reach toward the reader affirms that healing and
+                connection are not conditional. The world welcomes everyone,
+                even (especially) those who feel alone.
+              </p>
+
+              {/* Analysis Point 5: Hope and Belonging */}
+              <p className="section-subtitle">5. Hope and Belonging</p>
+              <p className="section-paragraph">
+                The final message of the poem is one of hope—that no matter
+                where we are emotionally, spiritually, or physically, we are not
+                separate from the world. It reminds the reader that there is a
+                "place in the family of things" just waiting to be recognized.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "over and over announcing your place / in the family of
+                  things."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This closing line offers a sacred kind of reassurance: we belong
+                not because we’ve earned it, but because we exist. And the wild
+                geese, in their freedom and clarity, become the symbol of that
+                truth.
               </p>
             </div>
           </section>

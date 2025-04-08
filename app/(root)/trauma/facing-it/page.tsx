@@ -176,76 +176,158 @@ export default function MyBlackFaceFades() {
           <section id="analysis" className="section-content">
             <h2 className="section-title">Analysis</h2>
             <div className="section-block">
-              {/* Analysis Point 1: Poem Structure and Form */}
-              <p className="section-subtitle">1. Poem Structure and Form</p>
+              {/* Analysis Point 1: Themes */}
+              <p className="section-subtitle">
+                1. Themes: Memory, Trauma, Race, and Healing
+              </p>
               <p className="section-paragraph">
-                Komunyakaa’s "My Black Face Fades" is a vivid, free verse poem
-                that uses the speaker's internal conflict to explore trauma and
-                identity. The fragmented lines reflect the speaker’s emotional
-                fragmentation due to the experience of trauma, particularly from
-                the Vietnam War. The lines "My black face fades, / hiding inside
-                the black granite" symbolize how trauma has both obscured and
-                encapsulated the speaker's identity.
+                *Facing It* explores the lasting trauma of war, the complexities
+                of racial identity, and the power of remembrance. The poem is
+                set at the Vietnam Veterans Memorial, where the speaker
+                confronts both his past and his emotions, navigating the
+                difficult terrain between survivor’s guilt and the need to heal.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">"I'm stone. I'm flesh."</em>
+              </p>
+              <p className="section-paragraph">
+                This paradox captures the poem’s emotional core: the speaker
+                must be strong like the stone wall, but he cannot deny his human
+                vulnerability. The war has hardened him, yet it still bleeds
+                into his present.
               </p>
 
-              {/* Analysis Point 2: Trauma and PTSD in the Poem */}
-              <p className="section-subtitle">2. Trauma and PTSD in the Poem</p>
+              {/* Analysis Point 2: Structure and Form */}
+              <p className="section-subtitle">
+                2. Structure and Form: Free Verse and Shifting Imagery
+              </p>
               <p className="section-paragraph">
-                The central theme of the poem is trauma, specifically PTSD,
-                experienced by veterans. The speaker’s experience at the Vietnam
-                Veterans Memorial evokes memories of violence and loss. Phrases
-                like "I see the booby trap's white flash" and "half-expecting to
-                find / my own in letters like smoke" express the ongoing
-                emotional and psychological scars left by war.
+                The poem is written in free verse, allowing for fluid shifts
+                between memory, observation, and reflection. The enjambment and
+                lack of punctuation in places mirror the stream-of-consciousness
+                experience of trauma—past and present collapsing into one
+                moment.
               </p>
               <p className="section-quote">
                 Quote:
                 <em className="section-quote-em">
-                  "I go down the 58,022 names, / half-expecting to find / my own
-                  in letters like smoke."
+                  "I turn that way—I'm inside / the Vietnam Veterans Memorial"
                 </em>
               </p>
               <p className="section-paragraph">
-                This passage symbolizes the fear and mental scars of the war,
-                where the speaker feels as if they are still in the battlefield,
-                constantly searching for their own death among the names. This
-                speaks to the continued trauma and fear of the inevitable,
-                underscoring the lasting impact of PTSD.
+                Komunyakaa captures how memory can engulf a person, and how a
+                physical space (like the Memorial) can become a living conduit
+                to the past.
               </p>
 
-              {/* Analysis Point 3: Imagery and Symbolism */}
-              <p className="section-subtitle">3. Imagery and Symbolism</p>
-              <p className="section-paragraph">
-                Komunyakaa employs powerful imagery to convey the inner turmoil
-                of the speaker. The "black granite" symbolizes the permanent and
-                unchangeable nature of trauma, while the "clouded reflection"
-                suggests the speaker's distorted sense of self. The recurring
-                motif of names on the wall, and the "woman’s trying to erase
-                names," suggests that these traumatic memories cannot be erased,
-                as they remain etched into the speaker's psyche.
+              {/* Analysis Point 3: Tone */}
+              <p className="section-subtitle">
+                3. Tone: Reflective, Tense, Vulnerable
               </p>
-
-              {/* Analysis Point 4: Connection to PTSD */}
-              <p className="section-subtitle">4. Connection to PTSD</p>
               <p className="section-paragraph">
-                The poem emphasizes how trauma manifests in everyday life. The
-                reflective imagery, the flight of the red bird, and the
-                encounter with the white vet reflect moments where the speaker
-                is brought face to face with their memories. PTSD isn't just
-                about the war but also about how it continues to influence
-                interactions and perceptions in civilian life.
+                The tone fluctuates between restraint and emotional release.
+                There is a deliberate attempt to suppress tears—yet the poem
+                itself is an unraveling. The speaker is haunted, but he is also
+                trying to process and confront those ghosts.
               </p>
               <p className="section-quote">
                 Quote:
                 <em className="section-quote-em">
-                  "A white vet's image floats / closer to me, then his pale eyes
-                  / look through mine. I'm a window."
+                  "I said I wouldn't / dammit: No tears."
                 </em>
               </p>
               <p className="section-paragraph">
-                The metaphor of being a "window" suggests that the speaker is a
-                passive observer of their trauma, a glass separating their
-                internal experience from the external world.
+                This moment of internal struggle highlights the stigma around
+                vulnerability, especially among men and veterans. His suppressed
+                grief makes the emotional weight even heavier.
+              </p>
+
+              {/* Analysis Point 4: Imagery and Symbolism */}
+              <p className="section-subtitle">
+                4. Imagery and Symbolism: Mirrors, Light, and Ghosts
+              </p>
+              <p className="section-paragraph">
+                The black granite of the Memorial acts like a mirror, reflecting
+                both literal images and the speaker’s internal emotional world.
+                Reflections blend with hallucinations and memory. Light and
+                shadow represent the thin veil between past and present, life
+                and death.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "In the black mirror / a woman’s trying to erase names: / No,
+                  she’s brushing a boy’s hair."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This visual misreading shows how trauma distorts perception. The
+                image of erasing names echoes a desire to undo the past, while
+                the truth—a woman brushing her son's hair—suggests continuity
+                and life.
+              </p>
+
+              {/* Analysis Point 5: Race and Identity */}
+              <p className="section-subtitle">
+                5. Race and Identity: Black Veteran’s Perspective
+              </p>
+              <p className="section-paragraph">
+                As a Black man and a veteran, Komunyakaa's speaker occupies a
+                unique space. The line between being invisible and hyper-visible
+                runs throughout the poem, as does the complex relationship
+                between patriotism, sacrifice, and racial inequality.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "My black face fades, / hiding inside the black granite."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                His face literally fades into the wall, evoking a sense of
+                erasure, anonymity, and merging with the dead. It reflects how
+                Black soldiers have often been overlooked in historical
+                narratives, even as they served and died alongside others.
+              </p>
+
+              {/* Analysis Point 6: Juxtaposition of Reality and Memory */}
+              <p className="section-subtitle">
+                6. Juxtaposition of Reality and Memory
+              </p>
+              <p className="section-paragraph">
+                Komunyakaa masterfully blends real-time observation with
+                intrusive flashbacks. Ordinary sights—names, a blouse, a
+                reflection—trigger vivid, painful memories. This merging of
+                timelines is a hallmark of PTSD and emotional reckoning.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">
+                  "I touch the name Andrew Johnson; / I see the booby trap’s
+                  white flash."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                A simple act of remembrance becomes a gateway into trauma. The
+                speaker cannot escape the war; it is etched into the names, and
+                into him.
+              </p>
+
+              {/* Analysis Point 7: Duality and Transformation */}
+              <p className="section-subtitle">7. Duality and Transformation</p>
+              <p className="section-paragraph">
+                Throughout the poem, there’s a constant tension between opposing
+                states: stone vs. flesh, visibility vs. erasure, death vs. life.
+                The speaker is both observer and participant, ghost and
+                survivor. This duality captures the fractured self that trauma
+                often creates.
+              </p>
+              <p className="section-quote">
+                <em className="section-quote-em">"I'm a window."</em>
+              </p>
+              <p className="section-paragraph">
+                This metaphor suggests transparency and vulnerability—he is no
+                longer just a man, but a vessel through which memory, grief, and
+                history flow.
               </p>
             </div>
           </section>

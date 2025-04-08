@@ -87,101 +87,199 @@ export default function DiscordInChildhood() {
           <section id="analysis" className="section-content">
             <h2 className="section-title">Analysis</h2>
             <div className="section-block">
-              {/* Analysis Point 1: Theme of Trauma and PTSD */}
-              <p className="section-subtitle">1. Theme of Trauma and PTSD</p>
-              <p className="section-paragraph">
-                The poem "Discord In Childhood" explores the theme of trauma,
-                particularly the lasting impact of abuse. The imagery of the
-                “lash of the tree” and “the dreadful sound / Of a thick lash
-                booming and bruising” suggests a violent and oppressive
-                environment that scars the children involved. The idea of trauma
-                here is not only physical but also psychological, affecting the
-                emotional state of the individual.
-              </p>
-              <p className="section-quote">
-                Quote:
-                <em className="section-quote-em">
-                  "Within the house two voices arose in anger, a slender lash /
-                  Whistling delirious rage, and the dreadful sound / Of a thick
-                  lash booming and bruising."
-                </em>
-              </p>
-              <p className="section-paragraph">
-                This imagery ties physical violence to emotional disturbance,
-                suggesting that the consequences of such abuse can leave deep
-                psychological scars. The “silence of blood” implies a lasting
-                internalized silence, where trauma becomes part of the
-                individual's existence, muted but persistent.
-              </p>
-
-              {/* Analysis Point 2: Abuse and its Psychological Effects */}
+              {/* Analysis Point 1: Themes */}
               <p className="section-subtitle">
-                2. Abuse and its Psychological Effects
+                1. Themes: Domestic Violence and Childhood Trauma
               </p>
               <p className="section-paragraph">
-                Lawrence uses the contrast between the external storm (the ash
-                tree) and the domestic violence within the house to illustrate
-                the relationship between the external environment and internal
-                suffering. The brutal sounds of the lash and the storm are
-                parallel metaphors for the destructive nature of the trauma the
-                children experience. The domestic space is not a sanctuary but a
-                place of fear and violence, amplifying the emotional chaos
-                within.
+                D.H. Lawrence’s *"Discord in Childhood"* explores the harrowing
+                impact of domestic conflict on a child. The poem captures the
+                emotional scars inflicted by hearing and witnessing parental
+                violence. The title itself highlights the disharmony that
+                corrupts the sanctity of a child’s early life, leaving behind
+                psychological trauma that echoes well into adulthood.
               </p>
               <p className="section-quote">
                 Quote:
                 <em className="section-quote-em">
-                  "Until it drowned / The other voice in a silence of blood,
-                  ’neath the noise of the ash."
+                  "Within the house two voices arose in anger..."
                 </em>
               </p>
               <p className="section-paragraph">
-                The line “silence of blood” poignantly suggests that the
-                violence within the house is not only audible but is also
-                internalized, with no room for expression or escape. The
-                psychological ramifications of the abuse are suffocating,
-                drowning the victim’s ability to speak or voice their pain.
+                The line emphasizes the source of discord as internal and
+                intimate, making the trauma more personal and inescapable. This
+                conflict is not abstract—it occurs in the supposed safety of
+                home, underscoring the child’s vulnerability.
               </p>
 
-              {/* Analysis Point 3: Symbolism of Nature and Violence */}
+              {/* Analysis Point 2: Symbols */}
               <p className="section-subtitle">
-                3. Symbolism of Nature and Violence
+                2. Symbols: The Ash Tree and The Whip
               </p>
               <p className="section-paragraph">
-                The ash-tree, with its “terrible whips,” acts as a dual symbol.
-                On one hand, it represents the natural world and the violence of
-                the storm, but it also mirrors the abusive situation within the
-                home. The “lash” of the tree becomes a metaphor for the physical
-                and emotional abuse the children experience. The violence of
-                nature, like the violence in the home, is uncontrollable and
-                destructive, perpetuating a cycle of pain and suffering.
+                The ash tree becomes a dominant symbol of externalized violence
+                and fear. Its “terrible whips” evoke the image of corporal
+                punishment or symbolic lashing, directly tying nature to the
+                chaos within the household. It acts as a haunting echo of the
+                domestic abuse transpiring indoors.
               </p>
               <p className="section-quote">
                 Quote:
                 <em className="section-quote-em">
-                  "Outside the house an ash-tree hung its terrible whips."
+                  "Outside the house an ash-tree hung its terrible whips..."
                 </em>
               </p>
               <p className="section-paragraph">
-                This personification of the tree as violent and threatening
-                reflects how the natural world echoes the oppressive forces at
-                play within the home. The connection between the tree's lashes
-                and the sounds of abuse suggests that both the external
-                environment and the home contribute to the trauma experienced by
-                the child.
+                The tree's branches become metaphors for the violence and
+                emotional turmoil that encircle the child, turning the entire
+                setting—both inside and out—into a storm of anxiety and dread.
               </p>
 
-              {/* Analysis Point 4: The Cycle of Abuse */}
-              <p className="section-subtitle">4. The Cycle of Abuse</p>
+              {/* Analysis Point 3: Structure and Form */}
+              <p className="section-subtitle">
+                3. Structure and Form: Quatrain with Enjambment
+              </p>
               <p className="section-paragraph">
-                The poem presents a vision of childhood dominated by violence
-                and fear, where every interaction is marked by anger and
-                brutality. The recurrence of the lash in both the external and
-                internal spaces suggests that trauma perpetuates itself, with no
-                clear end. The cycle of abuse continues as the voices within the
-                house clash and the lash of the tree continues to “shriek and
-                slash.” The implication is that trauma is generational, passed
-                down from one experience to the next.
+                The poem is composed of a single, enjambed quatrain, which gives
+                it a breathless, uninterrupted intensity. The lack of stanza
+                breaks reflects the overwhelming and continuous nature of the
+                conflict. The enjambment blurs the lines between the exterior
+                storm and the interior violence, effectively merging the natural
+                and domestic worlds.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Shrieked and slashed the wind, as a ship’s / Weird rigging in
+                  a storm shrieks hideously."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The enjambment mimics a stormy flow of emotions, with the lines
+                bleeding into each other like the chaos of a violent episode
+                that cannot be neatly contained.
+              </p>
+
+              {/* Analysis Point 4: Tone */}
+              <p className="section-subtitle">
+                4. Tone: Fearful and Oppressive
+              </p>
+              <p className="section-paragraph">
+                The tone of the poem is ominous and oppressive. Lawrence
+                captures the helpless terror of a child caught in the middle of
+                violence. The natural elements mirror the emotional disturbance,
+                reinforcing the overwhelming sense of entrapment and fear.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "The dreadful sound / Of a thick lash booming and bruising..."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                Words like "dreadful," "booming," and "bruising" imbue the tone
+                with menace, and suggest the inescapability of the trauma being
+                experienced by the child.
+              </p>
+
+              {/* Analysis Point 5: Imagery */}
+              <p className="section-subtitle">
+                5. Imagery: Storm, Whipping, and Blood
+              </p>
+              <p className="section-paragraph">
+                Vivid auditory and visual imagery intensifies the reader’s
+                experience of the emotional and physical violence. The
+                metaphorical “lash of the tree” and the “silence of blood”
+                conjure disturbing sensory details that place the reader in the
+                child’s fearful perspective.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Until it drowned / The other voice in a silence of blood..."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This final image implies not just domination but injury and
+                perhaps even death—literal or emotional. The "silence of blood"
+                becomes a chilling metaphor for a trauma that renders its victim
+                speechless.
+              </p>
+
+              {/* Analysis Point 6: Literary Devices */}
+              <p className="section-subtitle">
+                6. Literary Devices: Metaphor, Personification, and Alliteration
+              </p>
+              <p className="section-paragraph">
+                Lawrence employs metaphor and personification to intertwine
+                nature with violence. The ash tree is personified as a violent
+                force, and the conflict inside is described using the metaphor
+                of lashes—intensifying the emotional violence with imagery
+                typically associated with physical punishment. Alliteration in
+                phrases like “shrieked and slashed” adds to the poem’s sonic
+                violence.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "The lash of the tree / Shrieked and slashed the wind..."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                These literary devices serve to fuse the natural world with
+                domestic conflict, making it clear that for the child, violence
+                has become part of the very fabric of their reality.
+              </p>
+
+              {/* Analysis Point 7: Psychological and Social Context */}
+              <p className="section-subtitle">
+                7. Psychological and Social Context
+              </p>
+              <p className="section-paragraph">
+                The poem reflects D.H. Lawrence’s personal experiences with a
+                turbulent childhood and an abusive father. It comments on the
+                emotional devastation that can result from domestic violence and
+                the long-lasting impact it can have on a child's mental health.
+                Lawrence uses poetry as a form of catharsis, giving voice to the
+                psychological scars of familial discord.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "Two voices arose in anger, a slender lash / Whistling
+                  delirious rage..."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                The detail suggests both the presence of a more vulnerable party
+                and the imbalance of power within the relationship. It
+                highlights not only physical abuse but emotional cruelty that
+                defines the environment the child is forced to grow up in.
+              </p>
+
+              {/* Analysis Point 8: The Speaker’s Voice */}
+              <p className="section-subtitle">
+                8. The Speaker’s Voice: Observational and Traumatized
+              </p>
+              <p className="section-paragraph">
+                The speaker adopts an observational yet haunted tone—almost
+                dispassionate in its delivery, as if recounting events too
+                painful to fully process. This emotional distance suggests the
+                lingering effects of trauma, where memory becomes blurred by
+                pain and fear.
+              </p>
+              <p className="section-quote">
+                Quote:
+                <em className="section-quote-em">
+                  "’Neath the noise of the ash."
+                </em>
+              </p>
+              <p className="section-paragraph">
+                This final line subtly returns to the ash tree, suggesting the
+                inescapability of violence and its lasting psychological echo.
+                The speaker is not just recounting past events, but conveying
+                how these memories remain ever-present, cloaked in the imagery
+                of nature and noise.
               </p>
             </div>
           </section>
