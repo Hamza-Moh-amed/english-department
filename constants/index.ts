@@ -44,6 +44,10 @@ export const subjects = [
         link: "/american/roar",
       },
       {
+        title: "Interpreter of Maladies",
+        link: "/american/interpreter-of-maladies",
+      },
+      {
         title: "Source PDF Files",
         link: "/american/source",
       },
