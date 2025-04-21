@@ -5,7 +5,7 @@ import { PageTitle } from "@/components/PageTitle";
 export const metadata = {
   title: "American Born Chinese",
   description:
-    "An educational analysis of Gene Luen Yang's award-winning graphic novel 'American Born Chinese' including summary, characters, themes, symbols, and Q&A.",
+    "An in-depth literary analysis of Gene Luen Yang's 'American Born Chinese', including summary, author context, character studies, themes, symbolism, visual storytelling, and interactive Q&A.",
 };
 
 export default function AmericanBornChinese() {
@@ -15,7 +15,9 @@ export default function AmericanBornChinese() {
     { href: "#characters", label: "Characters" },
     { href: "#themes", label: "Themes" },
     { href: "#symbols", label: "Symbols" },
-    { href: "#literary-elements", label: "Literary Elements" },
+    { href: "#visual", label: "Visual Storytelling" },
+    { href: "#literary", label: "Literary Devices" },
+    { href: "#impact", label: "Cultural Impact" },
     { href: "#qna", label: "Q&A" },
   ];
 
@@ -28,20 +30,26 @@ export default function AmericanBornChinese() {
         <div className="main-content">
           <PageTitle title="American Born Chinese" author="Gene Luen Yang" />
 
-          {/* Summary Section */}
+          {/* Summary */}
           <section id="summary" className="section-content">
             <h2 className="section-title">Summary</h2>
             <div className="section-block">
               <p className="section-paragraph">
-                _American Born Chinese_ is a groundbreaking graphic novel that
-                weaves together three seemingly unrelated storylines: the
-                classic Chinese tale of the Monkey King, the story of Jin Wang,
-                a Chinese-American teenager struggling with identity in a mostly
-                white school, and a sitcom-style narrative about Danny, a white
-                teenager embarrassed by his Chinese cousin Chin-Kee. As the
-                novel progresses, these storylines converge in unexpected ways,
-                delivering a powerful message about race, assimilation, and
-                self-acceptance.
+                Gene Luen Yang's *American Born Chinese* merges three distinct
+                narratives: the tale of the Monkey King from Chinese legend; the
+                modern coming-of-age story of Jin Wang, a Chinese-American
+                student trying to fit into a white-dominated environment; and a
+                sitcom-style parody featuring Danny and his embarrassing cousin
+                Chin-Kee. These stories, initially disparate, eventually
+                converge into a powerful commentary on race, identity, and
+                cultural acceptance.
+              </p>
+              <p className="section-paragraph">
+                The novel challenges readers to question the boundaries of self
+                and society, drawing sharp attention to stereotypes and the
+                internal struggles of marginalized identities. Its innovative
+                use of the graphic novel format allows for rich symbolism and
+                multi-layered storytelling.
               </p>
             </div>
           </section>
@@ -51,263 +59,262 @@ export default function AmericanBornChinese() {
             <h2 className="section-title">Author Background</h2>
             <div className="section-block">
               <p className="section-paragraph">
-                Gene Luen Yang is a Chinese-American graphic novelist,
-                cartoonist, and educator. Born in California, Yang began drawing
-                comics in the fifth grade. He is best known for _American Born
-                Chinese_, which became the first graphic novel to be nominated
-                for a National Book Award and won the Printz Award for
-                excellence in young adult literature. Yang uses visual
-                storytelling to explore themes of identity, faith, and culture,
-                often blending traditional narrative techniques with graphic
-                artistry. He served as the National Ambassador for Young
-                People's Literature from 2016 to 2017.
+                Gene Luen Yang is a Chinese-American cartoonist, educator, and
+                graphic novelist. Born in 1973 in California to immigrant
+                parents from Taiwan and Hong Kong, Yang began drawing comics in
+                fifth grade. His storytelling blends Eastern and Western
+                traditions, and he uses visual media to address themes of faith,
+                identity, and cultural tension.
+              </p>
+              <p className="section-paragraph">
+                *American Born Chinese* was a breakthrough work—it was the first
+                graphic novel to be nominated for a National Book Award and won
+                the Michael L. Printz Award. Yang has served as the National
+                Ambassador for Young People's Literature and remains a leading
+                voice in contemporary American literature and comics.
               </p>
             </div>
           </section>
 
-          {/* Characters Section */}
+          {/* Characters */}
           <section id="characters" className="section-content">
             <h2 className="section-title">Characters</h2>
             <div className="section-block">
               <p className="section-subtitle">Jin Wang</p>
               <p className="section-paragraph">
-                The protagonist of the novel, Jin is a Chinese-American teenager
-                who struggles with cultural identity and acceptance. His desire
-                to fit in leads him to reject his heritage.
+                A young Chinese-American boy who struggles with identity and
+                acceptance. Jin’s desire to fit in causes him to distance
+                himself from his cultural background, and he undergoes a
+                significant transformation—literally and metaphorically.
               </p>
 
               <p className="section-subtitle">The Monkey King</p>
               <p className="section-paragraph">
-                Based on the legendary figure from Chinese folklore, the Monkey
-                King is a powerful being who wants to be seen as equal to the
-                gods. His journey reflects themes of pride, transformation, and
-                humility.
+                Adapted from the classic Chinese novel *Journey to the West*,
+                the Monkey King represents pride, power, and eventual humility.
+                His struggle to be accepted among the gods parallels Jin's own
+                identity crisis.
               </p>
 
               <p className="section-subtitle">Danny</p>
               <p className="section-paragraph">
-                A seemingly separate character, Danny is a white teenager whose
-                life is disrupted by his embarrassing Chinese cousin Chin-Kee.
-                Danny's identity is later revealed to be more complex.
+                Danny is the American alter ego of Jin—a persona he adopts to
+                escape his Asian identity. Danny's life is disrupted by
+                Chin-Kee, embodying the internal shame Jin feels.
               </p>
 
               <p className="section-subtitle">Chin-Kee</p>
               <p className="section-paragraph">
-                A caricature of offensive Chinese stereotypes, Chin-Kee’s
-                exaggerated behavior and speech represent internalized racism
-                and cultural shame. His presence forces the other characters
-                (and the reader) to confront stereotypes.
+                A painfully exaggerated stereotype of Chinese culture,
+                Chin-Kee’s offensive portrayal is intentionally shocking. He
+                forces readers to confront the racism embedded in pop culture
+                and within themselves.
+              </p>
+
+              <p className="section-subtitle">Wei-Chen Sun</p>
+              <p className="section-paragraph">
+                Jin’s Taiwanese friend who maintains his cultural pride. His
+                eventual transformation into a rebel contrasts with Jin’s own
+                denial and later rediscovery of identity.
               </p>
             </div>
           </section>
 
-          {/* Themes Section */}
+          {/* Themes */}
           <section id="themes" className="section-content">
             <h2 className="section-title">Themes</h2>
             <div className="section-block">
               <p className="section-subtitle">
-                Cultural Identity and Assimilation
+                Cultural Identity & Assimilation
               </p>
               <p className="section-paragraph">
-                The novel explores the conflict between maintaining cultural
-                heritage and the pressure to assimilate into mainstream (white)
-                American culture.
-              </p>
-
-              <p className="section-subtitle">Stereotypes and Racism</p>
-              <p className="section-paragraph">
-                Through the character of Chin-Kee and the experiences of Jin,
-                Yang critiques harmful stereotypes and exposes how racism
-                operates both externally and internally.
+                The novel delves into the internal battle of embracing heritage
+                versus blending in. Jin’s journey mirrors the experience of many
+                immigrants who feel torn between cultures.
               </p>
 
-              <p className="section-subtitle">Self-Acceptance</p>
+              <p className="section-subtitle">Racism and Stereotyping</p>
               <p className="section-paragraph">
-                Each character’s arc emphasizes the importance of embracing
-                one’s true identity. The novel suggests that self-denial leads
-                to harm, while self-acceptance leads to growth.
+                Chin-Kee functions as a visual and narrative critique of the
+                harmful portrayals of Asians in Western media. Yang doesn’t shy
+                away from exposing how stereotypes dehumanize.
+              </p>
+
+              <p className="section-subtitle">
+                Self-Acceptance and Transformation
+              </p>
+              <p className="section-paragraph">
+                Both Jin and the Monkey King must confront and accept their true
+                selves. Their transformations symbolize internal growth and
+                spiritual reconciliation.
               </p>
             </div>
           </section>
 
-          {/* Symbols Section */}
+          {/* Symbols */}
           <section id="symbols" className="section-content">
             <h2 className="section-title">Symbols</h2>
             <div className="section-block">
-              <p className="section-subtitle">
-                The Monkey King’s Transformation
-              </p>
-              <p className="section-paragraph">
-                Symbolizes pride, denial, and ultimately, self-realization. His
-                refusal to accept his form parallels Jin’s denial of his
-                heritage.
-              </p>
-
-              <p className="section-subtitle">
-                Chin-Kee’s Exaggerated Appearance
-              </p>
-              <p className="section-paragraph">
-                A visual embodiment of racial stereotypes. Chin-Kee is
-                intentionally uncomfortable and exaggerated to provoke
-                reflection.
-              </p>
-
               <p className="section-subtitle">Hair Transformation</p>
               <p className="section-paragraph">
-                Jin's decision to perm his hair reflects his desire to change
-                himself to fit in and be accepted, signaling his inner conflict
-                and rejection of self.
+                Jin’s perm symbolizes his rejection of his Asian identity and
+                his yearning to assimilate. The act of changing his appearance
+                illustrates internalized racism.
+              </p>
+
+              <p className="section-subtitle">The Monkey King’s Disguise</p>
+              <p className="section-paragraph">
+                His transformations throughout the story reflect the burden of
+                ego and the need to accept oneself as they are.
+              </p>
+
+              <p className="section-subtitle">The Transformer Toy</p>
+              <p className="section-paragraph">
+                A subtle but recurring object symbolizing change, identity
+                fluidity, and duality. Just as Transformers change shape, so too
+                do the characters’ self-perceptions.
               </p>
             </div>
           </section>
 
-          {/* Literary Elements Section */}
-          <section id="literary-elements" className="section-content">
-            <h2 className="section-title">Literary Elements</h2>
+          {/* Visual Storytelling */}
+          <section id="visual" className="section-content">
+            <h2 className="section-title">Visual Storytelling</h2>
             <div className="section-block">
-              <p className="section-subtitle">Graphic Novel Structure</p>
               <p className="section-paragraph">
-                The medium allows Yang to show visual metaphors and contrast
-                parallel narratives. Panel transitions and visual cues help
-                merge the three plotlines into one cohesive message.
+                Yang uses the graphic novel form to show—not just tell—emotion,
+                symbolism, and satire. Panel transitions, exaggerated
+                expressions, and cultural markers (e.g., clothing, school
+                scenes) work in tandem with the narrative.
               </p>
-
-              <p className="section-subtitle">Irony and Satire</p>
               <p className="section-paragraph">
-                The Chin-Kee scenes use heavy satire to critique how media and
-                culture perpetuate Asian stereotypes.
-              </p>
-
-              <p className="section-subtitle">Intertwining Storylines</p>
-              <p className="section-paragraph">
-                The eventual merging of the Monkey King, Jin, and Danny’s
-                stories symbolizes the multifaceted nature of identity and how
-                cultural, personal, and social elements are deeply intertwined.
+                For instance, Chin-Kee’s sitcom appearance is rendered with
+                laugh tracks and visual gags that parody racist media tropes,
+                while Jin’s emotional evolution is captured through shifts in
+                color palettes and layout density.
               </p>
             </div>
           </section>
 
-          {/* Q&A Section */}
+          {/* Literary Devices */}
+          <section id="literary" className="section-content">
+            <h2 className="section-title">Literary Devices</h2>
+            <div className="section-block">
+              <p className="section-subtitle">Satire</p>
+              <p className="section-paragraph">
+                The character of Chin-Kee satirizes racist tropes by amplifying
+                them to absurd levels. This use of satire is meant to provoke
+                reflection rather than laughter.
+              </p>
+
+              <p className="section-subtitle">Parallel Narratives</p>
+              <p className="section-paragraph">
+                The novel’s three interwoven storylines echo and build on each
+                other thematically. Their eventual convergence highlights
+                identity’s complexity.
+              </p>
+
+              <p className="section-subtitle">Irony</p>
+              <p className="section-paragraph">
+                Many moments in the novel are laced with irony, especially in
+                how characters who want to be someone else end up confronting
+                themselves.
+              </p>
+            </div>
+          </section>
+
+          {/* Cultural Impact */}
+          <section id="impact" className="section-content">
+            <h2 className="section-title">Cultural Impact</h2>
+            <div className="section-block">
+              <p className="section-paragraph">
+                *American Born Chinese* broke ground as one of the first graphic
+                novels to explore Asian-American identity through such a layered
+                and literary lens. Its success helped legitimize the graphic
+                novel as a serious medium in educational spaces and inspired a
+                new generation of diverse creators.
+              </p>
+              <p className="section-paragraph">
+                The novel has been adapted into other media, including a Disney+
+                series, further expanding its reach and cultural relevance.
+              </p>
+            </div>
+          </section>
+
+          {/* Q&A */}
           <section id="qna" className="section-content">
             <h2 className="section-title">Questions & Answers</h2>
             <ol className="section-list">
               <li className="section-question">
-                What are the three main storylines in the novel?
+                Why does Yang use three storylines instead of one?
               </li>
               <p className="section-answer">
-                Jin’s story, the Monkey King’s journey, and Danny’s interactions
-                with Chin-Kee.
+                To emphasize the multifaceted nature of identity and to explore
+                the same theme from different cultural, historical, and personal
+                angles.
               </p>
-
               <li className="section-question">
-                How does Jin struggle with his identity?
+                What does the Monkey King symbolize?
               </li>
               <p className="section-answer">
-                Jin tries to assimilate by distancing himself from his Chinese
-                identity, including rejecting a Chinese friend and altering his
-                appearance.
+                Pride, transformation, and the journey to self-acceptance.
               </p>
-
               <li className="section-question">
-                What is the significance of Chin-Kee?
+                How is Chin-Kee’s character both offensive and effective?
               </li>
               <p className="section-answer">
-                Chin-Kee represents harmful racial stereotypes and Jin's
-                internalized racism. His exaggerated traits confront the reader
-                with their discomfort.
+                He intentionally embodies stereotypes to force readers to
+                reflect on the discomfort and reality of racist portrayals.
               </p>
-
               <li className="section-question">
-                How do the storylines connect by the end?
+                What role does visual design play in storytelling?
               </li>
               <p className="section-answer">
-                It is revealed that the Monkey King is guiding Jin's spiritual
-                journey, and Danny is actually Jin himself in disguise.
+                It enhances emotion, directs pacing, and provides subtext—e.g.,
+                Chin-Kee’s sitcom style mocks pop culture stereotypes.
               </p>
-
               <li className="section-question">
-                What does the Monkey King learn?
+                How does Jin’s relationship with Wei-Chen evolve?
               </li>
               <p className="section-answer">
-                He learns that embracing his true form is more powerful than
-                changing to gain acceptance.
+                It starts with bonding over shared background but breaks due to
+                Jin’s internalized shame. The reconnection at the end symbolizes
+                Jin’s acceptance.
               </p>
-
-              <li className="section-question">Why does Jin get a perm?</li>
-              <p className="section-answer">
-                To look like his white classmates and attract Amelia, reflecting
-                his insecurity and desire to assimilate.
-              </p>
-
               <li className="section-question">
-                How is racism depicted in the novel?
+                Why does Jin transform into Danny?
               </li>
               <p className="section-answer">
-                Through microaggressions at school, stereotypes in media
-                (Chin-Kee), and Jin’s own prejudices.
+                As a metaphor for self-erasure—he tries to reject his cultural
+                identity to gain acceptance.
               </p>
-
               <li className="section-question">
-                What is the message about self-acceptance?
+                How is the theme of transformation reflected visually?
               </li>
               <p className="section-answer">
-                True happiness and growth only come when characters accept who
-                they are instead of pretending to be something else.
+                Through literal character shifts (Jin → Danny, Monkey King’s
+                disguises) and metaphorical visual motifs.
               </p>
-
               <li className="section-question">
-                How does Yang use visual storytelling?
+                How does the novel handle internalized racism?
               </li>
               <p className="section-answer">
-                He uses panel layouts, facial expressions, and symbolic imagery
-                to enhance emotion and narrative twists.
+                Through Jin’s attempts to deny his identity, including rejecting
+                friends and changing his appearance.
               </p>
-
               <li className="section-question">
-                What role does Wei-Chen play?
+                What is the purpose of humor in the novel?
               </li>
               <p className="section-answer">
-                Wei-Chen is Jin's Taiwanese friend who represents loyalty and
-                acceptance. His eventual departure signifies the cost of Jin's
-                rejection of self.
+                To disarm the reader and deliver serious messages about identity
+                and prejudice through satire and absurdity.
               </p>
-
               <li className="section-question">
-                What is the significance of the Transformer toy?
+                What lesson does the Monkey King learn?
               </li>
               <p className="section-answer">
-                It symbolizes change and identity—both Jin and the Monkey King
-                struggle with transformation and who they truly are.
-              </p>
-
-              <li className="section-question">
-                Why is this novel important for young readers?
-              </li>
-              <p className="section-answer">
-                It gives voice to immigrant experiences, addresses racism, and
-                promotes empathy and cultural understanding.
-              </p>
-
-              <li className="section-question">
-                How does Yang subvert expectations with format?
-              </li>
-              <p className="section-answer">
-                He uses comic tropes like sitcoms and legends, but ties them
-                together in a profound exploration of identity.
-              </p>
-
-              <li className="section-question">
-                What does Danny's shame reveal?
-              </li>
-              <p className="section-answer">
-                Danny’s shame toward Chin-Kee reflects Jin’s own shame about
-                being Chinese—until he reconciles these feelings.
-              </p>
-
-              <li className="section-question">How does the novel end?</li>
-              <p className="section-answer">
-                Jin reconnects with Wei-Chen and begins to embrace his identity,
-                closing his arc with hope and renewed self-worth.
+                That humility and self-acceptance are more powerful than trying
+                to conform to others’ expectations.
               </p>
             </ol>
           </section>
