@@ -48,6 +48,10 @@ export const subjects = [
         link: "/american/interpreter-of-maladies",
       },
       {
+        title: "American Born Chinese",
+        link: "/american/american-born-chinese",
+      },
+      {
         title: "Source PDF Files",
         link: "/american/source",
       },
@@ -72,6 +76,30 @@ export const subjects = [
       {
         title: "Beans and Meat",
         link: "/comparative/beans-and-meat",
+      },
+      {
+        title: "I Rigoberta Menchu",
+        link: "/comparative/i-rigoberta-menchu",
+      },
+      {
+        title: "The Cloak Of Dawn",
+        link: "/comparative/the-cloak-of-dawn",
+      },
+      {
+        title: "Unpopular Gals",
+        link: "/comparative/Unpopular-gals",
+      },
+      {
+        title: "Cartoons on Palestine",
+        link: "/comparative/cartoons-on-palestine",
+      },
+      {
+        title: "Space of My Heart",
+        link: "/comparative/space-of-my-heart",
+      },
+      {
+        title: "Shades of Anger",
+        link: "/comparative/shades-of-anger",
       },
       {
         title: "Source PDF Files",
@@ -194,6 +222,14 @@ export const subjects = [
       {
         title: "What is Intergenerational Trauma?",
         link: "/trauma/intergenerational-trauma",
+      },
+      {
+        title: "Water",
+        link: "/trauma/water",
+      },
+      {
+        title: "What Do We Do During Genocide",
+        link: "/trauma/What-Do-We-Do-during-genocide",
       },
       {
         title: "Source PDF Files",
