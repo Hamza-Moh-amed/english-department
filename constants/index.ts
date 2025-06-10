@@ -85,10 +85,10 @@ export const subjects = [
       //   title: "The Cloak Of Dawn",
       //   link: "/comparative/the-cloak-of-dawn",
       // },
-      {
-        title: "Unpopular Gals",
-        link: "/comparative/unpopular-gals",
-      },
+      // {
+      //   title: "Unpopular Gals",
+      //   link: "/comparative/unpopular-gals",
+      // },
       {
         title: "Cartoons on Palestine",
         link: "/comparative/cartoons-on-palestine",
