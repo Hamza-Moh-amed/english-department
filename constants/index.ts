@@ -81,13 +81,13 @@ export const subjects = [
         title: "I Rigoberta Menchu",
         link: "/comparative/i-rigoberta-menchu",
       },
-      {
-        title: "The Cloak Of Dawn",
-        link: "/comparative/the-cloak-of-dawn",
-      },
+      // {
+      //   title: "The Cloak Of Dawn",
+      //   link: "/comparative/the-cloak-of-dawn",
+      // },
       {
         title: "Unpopular Gals",
-        link: "/comparative/Unpopular-gals",
+        link: "/comparative/unpopular-gals",
       },
       {
         title: "Cartoons on Palestine",
@@ -229,7 +229,7 @@ export const subjects = [
       },
       {
         title: "What Do We Do During Genocide",
-        link: "/trauma/What-Do-We-Do-during-genocide",
+        link: "/trauma/what-do-we-do-during-genocide",
       },
       {
         title: "Source PDF Files",

@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function TheCloakOfDawn() {
   const navLinks: NavLink[] = [
-    { href: "#text", label: "Story Text" },
+    // { href: "#text", label: "Story Text" },
     { href: "#author", label: "Author Background" },
     { href: "#analysis", label: "Analysis" },
     { href: "#qna", label: "Q&A" },
@@ -26,7 +26,7 @@ export default function TheCloakOfDawn() {
           <PageTitle title="The Cloak of Dawn" author="Sahar Al-Mougy" />
 
           {/* Story Section */}
-          <section id="text" className="section-content">
+          {/* <section id="text" className="section-content">
             <h2 className="section-title">Short Story Text</h2>
             <article className="article-block">
               <p className="article-paragraph" dir="rtl" lang="ar">
@@ -61,7 +61,7 @@ export default function TheCloakOfDawn() {
                 عباءة الفجر كانت لي... ولأول مرة شعرت أنني مستحقة.
               </p>
             </article>
-          </section>
+          </section> */}
 
           {/* Author Section */}
           <section id="author" className="section-content">
