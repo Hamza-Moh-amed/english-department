@@ -89,14 +89,14 @@ export const subjects = [
       //   title: "Unpopular Gals",
       //   link: "/comparative/unpopular-gals",
       // },
-      {
-        title: "Cartoons on Palestine",
-        link: "/comparative/cartoons-on-palestine",
-      },
-      {
-        title: "Space of My Heart",
-        link: "/comparative/space-of-my-heart",
-      },
+      // {
+      //   title: "Cartoons on Palestine",
+      //   link: "/comparative/cartoons-on-palestine",
+      // },
+      // {
+      //   title: "Space of My Heart",
+      //   link: "/comparative/space-of-my-heart",
+      // },
       {
         title: "Shades of Anger",
         link: "/comparative/shades-of-anger",
