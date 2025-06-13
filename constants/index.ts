@@ -77,10 +77,10 @@ export const subjects = [
         title: "Beans and Meat",
         link: "/comparative/beans-and-meat",
       },
-      {
-        title: "I Rigoberta Menchu",
-        link: "/comparative/i-rigoberta-menchu",
-      },
+      // {
+      //   title: "I Rigoberta Menchu",
+      //   link: "/comparative/i-rigoberta-menchu",
+      // },
       // {
       //   title: "The Cloak Of Dawn",
       //   link: "/comparative/the-cloak-of-dawn",
